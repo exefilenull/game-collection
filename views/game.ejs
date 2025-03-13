@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲームコレクション収集率</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #fffacd; margin: 20px; }
+        //.container { max-width: 100%; margin: auto; }
+        .category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #fafafa; border-radius: 5px; }
+        .chart-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: center; width: 100%; }
+        //.chart-box { width: 20vw; height: 20vw; max-width: 250px; max-height: 250px; position: relative; background: #f0fff0; padding: 10px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+        //.chart-box canvas { width: 100% !important; height: 100% !important; }
+        .container {
+            max-width: 100%;
+            margin: auto;
+            //display: flex; /* 中央配置にするために追加 */
+            justify-content: center; /* 中央配置にするために追加 */
+            align-items: center; /* 中央配置にするために追加 */
+            height: 100vh; /* 縦方向の中央配置を確保 */
+        }
+
+        .chart-box {
+            width: 10vw;
+            height: 10vw;
+            max-width: 250px; /* 最大幅を調整 */
+            max-height: 250px; /* 最大高さを調整 */
+            position: relative;
+            background: #f0fff0;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex; /* 中央配置にするために追加 */
+            justify-content: center; /* 中央配置にするために追加 */
+            align-items: center; /* 中央配置にするために追加 */
+        }
+
+        .chart-box canvas {
+            width: 70% !important; /* サイズを半分に設定 */
+            height: 70% !important; /* サイズを半分に設定 */
+        }
+        .chart-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: min(5vw, 20px); font-weight: bold; text-align: center; pointer-events: none; }
+        /* ハイライト用のスタイル */
+        .highlight {
+          background-color: #ffccff; /* 薄い黄色でハイライト */
+        }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; } /* テーブルをブラウザ全体に広げる */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id="platform-title"></h2>
+        <p id="collection-rate-new">新品データ: 読み込み中...</p>
+        <p id="collection-rate-old">中古データ: 読み込み中...</p>
+        <canvas id="collectionChart"></canvas>
+    </div>
+    <script>
+        async function fetchCollectionData() {
+            try {
+                const response = await fetch('/api/collection-data');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('データ取得エラー:', error);
+                return {};
+            }
+        }
+
+        window.onload = async () => {
+            const platform = "<%= platform %>";  // URLから取得したプラットフォーム名
+            const data = await fetchCollectionData();
+
+            let collectionRate = 0;
+            let category = "";
+
+            // どの大分類に属するかを検索
+            for (const [cat, platforms] of Object.entries(data)) {
+                if (platforms[platform]) {
+                    category = cat;
+                    collectionRate = platforms[platform].rateNew;  // 収集率（新品）
+                    break;
+                }
+            }
+
+            // グラフ毎に設定する色を定義
+            const graphColors = {
+                "全体": ['#000000', '#ccc'],
+                "任天堂": ['#ff0000', '#ccc'],
+                "SNK": ['#FF8C00', '#ccc'],
+                "NEC": ['#ffff00', '#ccc'],
+                "エポック": ['#ADFF2F', '#ccc'],
+                "Microsoft": ['#00CC00 ', '#ccc'],
+                "BANDAI": ['#06FECF', '#ccc'],
+                "SEGA": ['#00BFFF', '#ccc'],
+                "SIE": ['#0033FF', '#ccc'],
+                "Panasonic": ['#9900FF', '#ccc'],
+                "その他": ['#FF3399', '#ccc'],
+            };
+
+            const [collectedColor, uncollectedColor] = graphColors[category] || ["#FFFFFF", "#ccc"];
+            
+            const total = data[category][platform]['total'];
+            const collectedNew = data[category][platform]['collectedNew'];
+            const collectedOld = data[category][platform]['collectedOld'];
+            const uncollectedNew = total - collectedNew;
+            const uncollectedOld = total - collectedOld;
+            
+            // 収集率を反映
+            document.getElementById("platform-title").textContent = `${platform}の収集率`;
+            document.getElementById("collection-rate-new").textContent = `新品: ${data[category][platform]['rateNew']}%　（${collectedNew} / ${total}）`;
+            document.getElementById("collection-rate-old").textContent = `中古: ${data[category][platform]['rateOld']}%　（${collectedOld} / ${total}）`;
+
+            // ドーナツグラフの描画
+            const ctx = document.getElementById("collectionChart").getContext("2d");
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: [], // グローバルラベルは空に設定
+                    datasets: [{
+                        label: '新品データ',
+                        data: [collectedNew, uncollectedNew],
+                        backgroundColor: [collectedColor, uncollectedColor],
+                        hoverOffset: 4,
+                        cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
+                        datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
+                        animation: {
+                            duration: 3000
+                        }
+                    }, {
+                        label: '中古データ',
+                        data: [collectedOld, uncollectedOld],
+                        backgroundColor: ["#f0fff0", collectedColor],
+                        hoverOffset: 4,
+                        cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
+                        datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
+                        animation: {
+                            duration: 4000
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const dataset = context.dataset;
+                                    const index = context.dataIndex;
+                                    const label = dataset.datalabels[index];
+                                    const value = context.raw;
+                                    return `${label}: ${value}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        };
+    </script>
+
+    <h3>ゲーム一覧（<%= platform %>）</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>タイトル</th>
+                <th>プラットフォーム</th>
+                <th>発売日</th>
+                <th>ジャンル</th>
+                <th>新品</th>
+                <th>中古</th>
+                <th>クリア済み</th>
+                <th>更新</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% games
+                .filter(game => game.hard_title === platform) // プラットフォームでフィルタ
+                .sort((a, b) => new Date(a.release_day) - new Date(b.release_day)) // 発売日昇順
+                .forEach(game => { %>
+                    <tr class="<%= game.collected_new == 'true' ? 'highlight' : '' %>">
+                        <td><%= game.soft_title %></td>
+                        <td><%= game.hard_title %></td>
+                        <td><%= game.release_day %></td>
+                        <td><%= game.game_category %></td>
+                        <td>
+                            <input type="checkbox" name="collected_new" <%= game.collected_new == "true" ? 'checked' : '' %> >
+                        </td>
+                        <td>
+                            <input type="checkbox" name="collected_old" value="false" <%= game.collected_old ? '' : 'checked' %> >
+                        </td>
+                        <td>
+                            <input type="checkbox" name="game_cleared" value="false" <%= game.game_cleared ? '' : 'checked' %> >
+                        </td>
+                        <td>
+                            <form action="/game/<%= game._id %>" method="POST">
+                                <button type="submit">更新</button>
+                            </form>
+                        </td>
+                    </tr>
+                <% }); %>
+        </tbody>
+    </table>
+
+    <a href="/">戻る</a>
+</body>
+</html>

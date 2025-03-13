@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲームコレクション収集率</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #fffacd; margin: 20px; }
+        .container { max-width: 100%; margin: auto; }
+        .category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
+        .chart-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: center; width: 100%; }
+        .chart-box { width: 20vw; height: 20vw; max-width: 1000px; max-height: 1000px; position: relative; background: #f0fff0; padding: 10px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+        .chart-box canvas { width: 100% !important; height: 100% !important; }
+        .chart-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: min(5vw, 20px); font-weight: bold; text-align: center; }
+        .chart-box {
+            width: 20vw;
+            height: 20vw;
+            max-width: 1000px;  /* 最大幅（大きすぎないように） */
+            max-height: 1000px; /* 最大高さ */
+            position: relative;
+            background: #f0fff0;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .chart-link {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            pointer-events: auto; /* リンクを有効にする */
+        }
+        .chart-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ゲームコレクション収集率</h1>
+        <div id="charts"></div>
+    </div>
+    <script>
+        async function fetchCollectionData() {
+            try {
+                const response = await fetch('/api/collection-data');
+                const data = await response.json();
+                console.log(data);
+                return data;
+            } catch (error) {
+                console.error('データ取得エラー:', error);
+                return {};
+            }
+        }
+        
+        // グラフ毎に設定する色を定義
+        const graphColors = {
+            "全体": ['#000000', '#ccc'],        // 全体の色
+            "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
+            "SNK": ['#FF8C00', '#ccc'],        // SNKの色
+            "NEC": ['#ffff00', '#ccc'],        // NECの色
+            "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
+            "Microsoft": ['#00CC00 ', '#ccc'],  // Microsoftの色
+            "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
+            "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
+            "SIE": ['#0033FF', '#ccc'],        // SIEの色
+            "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
+            "その他": ['#FF3399', '#ccc'],        // その他の色
+        };
+        
+        document.addEventListener("DOMContentLoaded", async function() {
+            const data = await fetchCollectionData();
+            const container = document.getElementById("charts");
+            
+            Object.keys(data).forEach(category => {
+                const section = document.createElement("div");
+                section.innerHTML = `<div class='category'>${category}</div>`;
+                const chartContainer = document.createElement("div");
+                chartContainer.classList.add("chart-container");
+
+                Object.keys(data[category]).forEach((platform, index) => {
+                    const chartBox = document.createElement("div");
+                    chartBox.classList.add("chart-box");
+                    const canvasId = `chart-${category}-${index}`;
+                    //chartBox.innerHTML = `<canvas id="${canvasId}"></canvas><div class="chart-center">${platform}<br>収集率<br>新品：${data[category][platform]['rateNew']}%<br>中古：${data[category][platform]['rateOld']}%</div>`;
+                    chartBox.innerHTML = `
+                      <canvas id="${canvasId}"></canvas>
+                      <div class="chart-center">
+                        <a href="/game/${encodeURIComponent(platform)}">
+                          ${platform}
+                        </a>
+                        <br>収集率<br>
+                        新品：${data[category][platform]['rateNew']}%<br>
+                        中古：${data[category][platform]['rateOld']}%
+                      </div>
+                    `;
+                    chartContainer.appendChild(chartBox);
+
+                    setTimeout(() => {
+                        const total = data[category][platform]['total'];
+                        const collectedNew = data[category][platform]['collectedNew'];
+                        const collectedOld = data[category][platform]['collectedOld'];
+                        const uncollectedNew = total - collectedNew;
+                        const uncollectedOld = total - collectedOld;
+                        
+                        // 対応する色を取得
+                        const [collectedColor, uncollectedColor] = graphColors[category] || ["#FFFFFF", "#ccc"];
+                        //new Chart(document.getElementById(canvasId), {
+                        //    type: 'doughnut',
+                        //    data: {
+                        //        labels: [],
+                        //        //labels: ['収集済み(新品)', '未収集(新品)', '収集済み(中古)', '未収集(中古)'],
+                        //        datasets: [{
+                        //            label: ['新品データ'],
+                        //            datalabels: ['収集済み', '未収集'],
+                        //            animation: {
+                        //                duration: 3000
+                        //            },
+                        //            data: [collectedNew, uncollectedNew],
+                        //            backgroundColor: [collectedColor, uncollectedColor],
+                        //            hoverOffset: 4,
+                        //            cutout: '50%'
+                        //        }, {
+                        //            label: ['中古データ'],
+                        //            datalabels: ['収集済み', '未収集'],
+                        //            animation: {
+                        //                duration: 4000
+                        //            },
+                        //            data: [collectedOld, uncollectedOld],
+                        //            backgroundColor: [uncollectedColor, collectedColor],
+                        //            hoverOffset: 4,
+                        //            cutout: '50%'
+                        //        }]
+                        //    },
+                        //    options: {
+                        //        responsive: true,
+                        //        plugins: {
+                        //            legend: { display: false },
+                        //            tooltip: {
+                        //                callbacks: {
+                        //                    label: function(context) {
+                        //                        const label = context.dataset.datalabels[context, dataIndex];
+                        //                        return `${labal}: ${context.raw}`;
+                        //                    }
+                        //                }
+                        //            }
+                        //        }
+                        //    }
+                        //});
+                        new Chart(document.getElementById(canvasId), {
+                            type: 'doughnut',
+                            data: {
+                                labels: [], // グローバルラベルは空に設定
+                                datasets: [{
+                                    label: '新品データ',
+                                    data: [collectedNew, uncollectedNew],
+                                    backgroundColor: [collectedColor, uncollectedColor],
+                                    hoverOffset: 4,
+                                    cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
+                                    datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
+                                    animation: {
+                                        duration: 3000
+                                    }
+                                }, {
+                                    label: '中古データ',
+                                    data: [collectedOld, uncollectedOld],
+                                    backgroundColor: ["#f0fff0", collectedColor],
+                                    hoverOffset: 4,
+                                    cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
+                                    datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
+                                    animation: {
+                                        duration: 4000
+                                    }
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                plugins: {
+                                    legend: { display: false },
+                                    tooltip: {
+                                        callbacks: {
+                                            label: function(context) {
+                                                const dataset = context.dataset;
+                                                const index = context.dataIndex;
+                                                const label = dataset.datalabels[index];
+                                                const value = context.raw;
+                                                return `${label}: ${value}`;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+
+                    }, 100);
+                });
+                section.appendChild(chartContainer);
+                container.appendChild(section);
+            });
+        });
+    </script>
+</body>
+</html>
