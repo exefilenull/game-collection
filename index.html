@@ -8,6 +8,8 @@
     <style>
         .category {
             margin-bottom: 40px;
+            padding: 10px;
+            color: #cccccc;
         }
 
         .chart-container {
@@ -36,8 +38,33 @@
     <div id="charts"></div>
 
     <script>
+        // グラフ毎に設定する色を定義
+        const graphColors = {
+            "全体": ['#000000', '#ccc'],        // 全体の色
+            "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
+            "SNK": ['#FF8C00', '#ccc'],        // SNKの色
+            "NEC": ['#ffff00', '#ccc'],        // NECの色
+            "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
+            "Microsoft": ['#00CC00 ', '#ccc'],  // Microsoftの色
+            "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
+            "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
+            "SIE": ['#0033FF', '#ccc'],        // SIEの色
+            "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
+            "その他": ['#FF3399', '#ccc'],        // その他の色
+        };
+
         document.addEventListener("DOMContentLoaded", () => {
-            const jsonFiles = ['1_nintendo.json', '2_snk.json', '3_nec.json'];
+            const jsonFiles = [
+                '1_nintendo.json', 
+                '2_snk.json', 
+                '3_nec.json', 
+                '4_epoch.json', 
+                '5_microsoft.json', 
+                '6_bandai.json', 
+                '7_sega.json', 
+                '8_sie.json',
+                '9_panansonic.json'
+            ];
 
             // JSONを読み込んで処理
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
@@ -78,6 +105,10 @@
             data.forEach(categoryData => {
                 const categoryDiv = document.createElement('div');
                 categoryDiv.className = 'category';
+                
+                //カテゴリ毎に設定する色を定義
+                const categoryColor = graphColors[categoryData.category] || ["#000000", "#ccc"];
+                categoryDiv.style.backgroundColor = categoryColor[0];
 
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = categoryData.category;
@@ -109,7 +140,7 @@
                             datasets: [{
                                 label: '新品データ',
                                 data: [collectedCountNew, totalCount - collectedCountNew],
-                                backgroundColor: ['#4CAF50', '#FFC107'],
+                                backgroundColor: [categoryColor[0], categoryColor[1]],
                                 hoverOffset: 4,
                                 cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
                                 animation: {
@@ -117,8 +148,7 @@
                                 }
                             }, {
                                 label: '中古データ',
-                                data: [collectedCountOld, totalCount - collectedCountOld],
-                                backgroundColor: ["#FFC107", '#4CAF50'],
+                                data: [collectedCocategoryColor[1], categoryColor[0]],
                                 hoverOffset: 4,
                                 cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
                                 animation: {
