@@ -131,11 +131,20 @@
                             responsive: true,
                             plugins: {
                                 legend: { display: false },
-                                title: { display: true, text: `${hardTitle} (${collectedRate}%)` }
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            const dataset = context.dataset;
+                                            const index = context.dataIndex;
+                                            const label = dataset.datalabels[index];
+                                            const value = context.raw;
+                                            return `${label}: ${value}`;
+                                        }
+                                    }
+                                }
                             }
                         }
                     });
-                });
 
                 categoryDiv.appendChild(chartContainer);
                 chartsContainer.appendChild(categoryDiv);
