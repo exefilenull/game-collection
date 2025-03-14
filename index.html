@@ -32,7 +32,97 @@
 <body>
     <h1>ゲームコレクション</h1>
 
-    
+    <div id="charts"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const jsonFiles = ['1_nintendo.json', '2_snk.json', '3_nec.json'];
+
+            // JSONを読み込んで処理
+            Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
+                .then(jsonDataArray => {
+                    const combinedData = mergeData(jsonDataArray);
+                    displayCharts(combinedData);
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        });
+
+        // JSONデータを結合する関数
+        function mergeData(jsonDataArray) {
+            const combined = {};
+
+            jsonDataArray.forEach(data => {
+                if (!combined[data.category]) {
+                    combined[data.category] = {};
+                }
+
+                Object.entries(data.hardware_name).forEach(([hardTitle, games]) => {
+                    if (!combined[data.category][hardTitle]) {
+                        combined[data.category][hardTitle] = [];
+                    }
+                    combined[data.category][hardTitle].push(...games);
+                });
+            });
+
+            return Object.entries(combined).map(([category, hardwares]) => ({
+                category,
+                hardwares
+            }));
+        }
+
+        // グラフを表示する関数
+        function displayCharts(data) {
+            const chartsContainer = document.getElementById('charts');
+
+            data.forEach(categoryData => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'category';
+
+                const categoryTitle = document.createElement('h2');
+                categoryTitle.textContent = categoryData.category;
+                categoryDiv.appendChild(categoryTitle);
+
+                const chartContainer = document.createElement('div');
+                chartContainer.className = 'chart-container';
+
+                Object.entries(categoryData.hardwares).forEach(([hardTitle, games]) => {
+                    const chartItem = document.createElement('div');
+                    chartItem.className = 'chart-item';
+
+                    const canvas = document.createElement('canvas');
+                    chartItem.appendChild(canvas);
+                    chartContainer.appendChild(chartItem);
+
+                    // 収集済みのゲーム数をカウント
+                    const collectedCount = games.filter(game => game.collected_new).length;
+                    const totalCount = games.length;
+                    const collectedRate = ((collectedCount / totalCount) * 100).toFixed(1);
+
+                    // Chart.jsでドーナツグラフを生成
+                    new Chart(canvas, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['収集済み', '未収集'],
+                            datasets: [{
+                                data: [collectedCount, totalCount - collectedCount],
+                                backgroundColor: ['#4CAF50', '#FFC107'],
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { display: false },
+                                title: { display: true, text: `${hardTitle} (${collectedRate}%)` }
+                            }
+                        }
+                    });
+                });
+
+                categoryDiv.appendChild(chartContainer);
+                chartsContainer.appendChild(categoryDiv);
+            });
+        }
+    </script>
 </body>
 
 </html>
