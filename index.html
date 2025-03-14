@@ -6,16 +6,22 @@
     <title>ゲームコレクション</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        .category {
-            margin-bottom: 40px;
-            padding: 10px;
-            color: #cccccc;
-        }
+        //.category {
+        //    margin-bottom: 40px;
+        //    padding: 10px;
+        //    color: #ffffff;
+        //    backgroundColor: 
+        //}
+        category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
 
         .chart-container {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+        }
+        
+        .canvas {
+            backgroundColor: "f0fff0f"
         }
 
         .chart-item {
@@ -108,11 +114,11 @@
                 
                 //カテゴリ毎に設定する色を定義
                 const categoryColor = graphColors[categoryData.category] || ["#000000", "#ccc"];
-                categoryDiv.style.backgroundColor = categoryColor[0];
 
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = categoryData.category;
                 categoryDiv.appendChild(categoryTitle);
+                categoryTitle.style.backgroundColor = categoryColor[0];
 
                 const chartContainer = document.createElement('div');
                 chartContainer.className = 'chart-container';
