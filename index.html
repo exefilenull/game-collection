@@ -42,30 +42,58 @@
     </div>
     <script>
         async function fetchCollectionData() {
-            try {
-                const response = await fetch('/api/collection-data');
-                const data = await response.json();
-                console.log(data);
-                return data;
-            } catch (error) {
-                console.error('データ取得エラー:', error);
-                return {};
+            const categories = [
+                "1_nintendo",
+                "2_snk",
+                "3_nec",
+                "4_epoch",
+                "5_microsoft",
+                "6_bandai",
+                "7_sega",
+                "8_sie",
+                "9_panasonic"
+            ];
+
+            const result = {};
+
+            for (const category of categories) {
+                const response = await fetch(`./data/${category}.json`);
+                const games = await response.json();
+                result[category] = {};
+
+                const platforms = [...new Set(games.map(game => game.platform))];
+
+                for (const platform of platforms) {
+                    const platformGames = games.filter(game => game.platform === platform && game.dont_collect === "false");
+                    const totalGames = platformGames.length;
+                    const collectedGamesNew = platformGames.filter(game => game.collected_new === "true").length;
+                    const collectedGamesOld = platformGames.filter(game => game.collected_old === "true").length;
+
+                    result[category][platform] = {
+                        collection: category,
+                        rateNew: Math.round((collectedGamesNew / totalGames) * 10000) / 100 || 0,
+                        rateOld: Math.round((collectedGamesOld / totalGames) * 10000) / 100 || 0,
+                        total: totalGames,
+                        collectedNew: collectedGamesNew,
+                        collectedOld: collectedGamesOld
+                    };
+                }
             }
+
+            return result;
         }
-        
+
         // グラフ毎に設定する色を定義
         const graphColors = {
-            "全体": ['#000000', '#ccc'],        // 全体の色
-            "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
-            "SNK": ['#FF8C00', '#ccc'],        // SNKの色
-            "NEC": ['#ffff00', '#ccc'],        // NECの色
-            "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
-            "Microsoft": ['#00CC00 ', '#ccc'],  // Microsoftの色
-            "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
-            "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
-            "SIE": ['#0033FF', '#ccc'],        // SIEの色
-            "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
-            "その他": ['#FF3399', '#ccc'],        // その他の色
+            "1_nintendo": ['#ff0000', '#ccc'],
+            "2_snk": ['#FF8C00', '#ccc'],
+            "3_nec": ['#ffff00', '#ccc'],
+            "4_epoch": ['#ADFF2F', '#ccc'],
+            "5_microsoft": ['#00CC00 ', '#ccc'],
+            "6_bandai": ['#06FECF', '#ccc'],
+            "7_sega": ['#00BFFF', '#ccc'],
+            "8_sie": ['#0033FF', '#ccc'],
+            "9_panasonic": ['#9900FF', '#ccc']
         };
         
         document.addEventListener("DOMContentLoaded", async function() {
@@ -82,11 +110,10 @@
                     const chartBox = document.createElement("div");
                     chartBox.classList.add("chart-box");
                     const canvasId = `chart-${category}-${index}`;
-                    //chartBox.innerHTML = `<canvas id="${canvasId}"></canvas><div class="chart-center">${platform}<br>収集率<br>新品：${data[category][platform]['rateNew']}%<br>中古：${data[category][platform]['rateOld']}%</div>`;
                     chartBox.innerHTML = `
                       <canvas id="${canvasId}"></canvas>
                       <div class="chart-center">
-                        <a href="/game/${encodeURIComponent(platform)}">
+                        <a href="#${encodeURIComponent(platform)}">
                           ${platform}
                         </a>
                         <br>収集率<br>
@@ -105,48 +132,6 @@
                         
                         // 対応する色を取得
                         const [collectedColor, uncollectedColor] = graphColors[category] || ["#FFFFFF", "#ccc"];
-                        //new Chart(document.getElementById(canvasId), {
-                        //    type: 'doughnut',
-                        //    data: {
-                        //        labels: [],
-                        //        //labels: ['収集済み(新品)', '未収集(新品)', '収集済み(中古)', '未収集(中古)'],
-                        //        datasets: [{
-                        //            label: ['新品データ'],
-                        //            datalabels: ['収集済み', '未収集'],
-                        //            animation: {
-                        //                duration: 3000
-                        //            },
-                        //            data: [collectedNew, uncollectedNew],
-                        //            backgroundColor: [collectedColor, uncollectedColor],
-                        //            hoverOffset: 4,
-                        //            cutout: '50%'
-                        //        }, {
-                        //            label: ['中古データ'],
-                        //            datalabels: ['収集済み', '未収集'],
-                        //            animation: {
-                        //                duration: 4000
-                        //            },
-                        //            data: [collectedOld, uncollectedOld],
-                        //            backgroundColor: [uncollectedColor, collectedColor],
-                        //            hoverOffset: 4,
-                        //            cutout: '50%'
-                        //        }]
-                        //    },
-                        //    options: {
-                        //        responsive: true,
-                        //        plugins: {
-                        //            legend: { display: false },
-                        //            tooltip: {
-                        //                callbacks: {
-                        //                    label: function(context) {
-                        //                        const label = context.dataset.datalabels[context, dataIndex];
-                        //                        return `${labal}: ${context.raw}`;
-                        //                    }
-                        //                }
-                        //            }
-                        //        }
-                        //    }
-                        //});
                         new Chart(document.getElementById(canvasId), {
                             type: 'doughnut',
                             data: {

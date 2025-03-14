@@ -105,48 +105,6 @@
                         
                         // 対応する色を取得
                         const [collectedColor, uncollectedColor] = graphColors[category] || ["#FFFFFF", "#ccc"];
-                        //new Chart(document.getElementById(canvasId), {
-                        //    type: 'doughnut',
-                        //    data: {
-                        //        labels: [],
-                        //        //labels: ['収集済み(新品)', '未収集(新品)', '収集済み(中古)', '未収集(中古)'],
-                        //        datasets: [{
-                        //            label: ['新品データ'],
-                        //            datalabels: ['収集済み', '未収集'],
-                        //            animation: {
-                        //                duration: 3000
-                        //            },
-                        //            data: [collectedNew, uncollectedNew],
-                        //            backgroundColor: [collectedColor, uncollectedColor],
-                        //            hoverOffset: 4,
-                        //            cutout: '50%'
-                        //        }, {
-                        //            label: ['中古データ'],
-                        //            datalabels: ['収集済み', '未収集'],
-                        //            animation: {
-                        //                duration: 4000
-                        //            },
-                        //            data: [collectedOld, uncollectedOld],
-                        //            backgroundColor: [uncollectedColor, collectedColor],
-                        //            hoverOffset: 4,
-                        //            cutout: '50%'
-                        //        }]
-                        //    },
-                        //    options: {
-                        //        responsive: true,
-                        //        plugins: {
-                        //            legend: { display: false },
-                        //            tooltip: {
-                        //                callbacks: {
-                        //                    label: function(context) {
-                        //                        const label = context.dataset.datalabels[context, dataIndex];
-                        //                        return `${labal}: ${context.raw}`;
-                        //                    }
-                        //                }
-                        //            }
-                        //        }
-                        //    }
-                        //});
                         new Chart(document.getElementById(canvasId), {
                             type: 'doughnut',
                             data: {
