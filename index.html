@@ -94,18 +94,37 @@
                     chartContainer.appendChild(chartItem);
 
                     // 収集済みのゲーム数をカウント
-                    const collectedCount = games.filter(game => game.collected_new).length;
+                    const collectedCountNew = games.filter(game => game.collected_new).length;
+                    const collectedCountOld = games.filter(game => game.collected_old).length;
+                    
                     const totalCount = games.length;
-                    const collectedRate = ((collectedCount / totalCount) * 100).toFixed(1);
+                    const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
+                    const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
                         type: 'doughnut',
                         data: {
-                            labels: ['収集済み', '未収集'],
+                            label: '新品データ'
                             datasets: [{
-                                data: [collectedCount, totalCount - collectedCount],
+                                data: [collectedCountNew, totalCount - collectedCountNew],
                                 backgroundColor: ['#4CAF50', '#FFC107'],
+                                hoverOffset: 4,
+                                cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
+                                datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
+                                animation: {
+                                    duration: 3000
+                                }
+                            }, {
+                                label: '中古データ',
+                                data: [collectedCountOld, totalCount - collectedCountOld],
+                                backgroundColor: ["#FFC107", '#4CAF50'],
+                                hoverOffset: 4,
+                                cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
+                                datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
+                                animation: {
+                                    duration: 4000
+                                }
                             }]
                         },
                         options: {
