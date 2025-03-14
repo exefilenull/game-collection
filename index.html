@@ -135,8 +135,8 @@
                                     callbacks: {
                                         label: function(context) {
                                             const dataset = context.dataset;
-                                            const index = context.dataIndex;
-                                            //const label = dataset.datalabels[index];
+                                            //const index = context.dataIndex;
+                                            const label = dataset.label;
                                             const value = context.raw;
                                             return `${label}: ${value}`;
                                         }
