@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>ゲームコレクション</title>
@@ -8,17 +9,20 @@
         .category {
             margin-bottom: 40px;
         }
+
         .chart-container {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
         }
+
         .chart-item {
             flex: 1 1 calc(25% - 20px);
             max-width: calc(25% - 20px);
         }
     </style>
 </head>
+
 <body>
     <h1>ゲームコレクション</h1>
 
@@ -28,6 +32,7 @@
         document.addEventListener("DOMContentLoaded", () => {
             const jsonFiles = ['1_nintendo.json', '2_snk.json', '3_nec.json'];
 
+            // JSONを読み込んで処理
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
                 .then(jsonDataArray => {
                     const combinedData = mergeData(jsonDataArray);
@@ -36,21 +41,20 @@
                 .catch(error => console.error('Error loading JSON:', error));
         });
 
+        // JSONデータを結合する関数
         function mergeData(jsonDataArray) {
             const combined = {};
 
             jsonDataArray.forEach(data => {
-                data.forEach(categoryData => {
-                    if (!combined[categoryData.category]) {
-                        combined[categoryData.category] = {};
-                    }
+                if (!combined[data.category]) {
+                    combined[data.category] = {};
+                }
 
-                    Object.entries(categoryData.hardwares).forEach(([hardTitle, games]) => {
-                        if (!combined[categoryData.category][hardTitle]) {
-                            combined[categoryData.category][hardTitle] = [];
-                        }
-                        combined[categoryData.category][hardTitle].push(...games);
-                    });
+                Object.entries(data.hardware_name).forEach(([hardTitle, games]) => {
+                    if (!combined[data.category][hardTitle]) {
+                        combined[data.category][hardTitle] = [];
+                    }
+                    combined[data.category][hardTitle].push(...games);
                 });
             });
 
@@ -60,6 +64,7 @@
             }));
         }
 
+        // グラフを表示する関数
         function displayCharts(data) {
             const chartsContainer = document.getElementById('charts');
 
@@ -80,13 +85,14 @@
 
                     const canvas = document.createElement('canvas');
                     chartItem.appendChild(canvas);
-
                     chartContainer.appendChild(chartItem);
 
+                    // 収集済みのゲーム数をカウント
                     const collectedCount = games.filter(game => game.collected_new).length;
                     const totalCount = games.length;
                     const collectedRate = ((collectedCount / totalCount) * 100).toFixed(1);
 
+                    // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
                         type: 'doughnut',
                         data: {
@@ -111,5 +117,7 @@
             });
         }
     </script>
+
 </body>
+
 </html>
