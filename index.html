@@ -20,12 +20,12 @@
             flex: 1 1 calc(25% - 20px);
             max-width: calc(25% - 20px);
         }
-        //@media (max-width: 600px) {
-        //    .chart-item {
-        //        flex: 1 1 100%; /* 600px以下では1列表示に */
-        //        max-width: 100%;
-        //    }
-        //}
+        @media (max-width: 600px) {
+            .chart-item {
+                flex: 1 1 100%; /* 600px以下では1列表示に */
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 
@@ -123,6 +123,7 @@
             });
         }
     </script>
+
 </body>
 
 </html>
