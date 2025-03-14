@@ -12,8 +12,15 @@
         //    color: #ffffff;
         //    backgroundColor: 
         //}
-        .category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
+        //.category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
 
+        .category {
+            margin-bottom: 40px;
+            padding: 10px;
+            color: white;
+        }
+
+        
         .chart-container {
             display: flex;
             flex-wrap: wrap;
@@ -160,7 +167,7 @@
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
-                    label.innerHTML = `${hardTitle}<br>${collectedRateNew}%<br>${collectedRateOld}%`;
+                    label.innerHTML = `${hardTitle}<br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
@@ -178,7 +185,7 @@
                             }, {
                                 label: '中古データ',
                                 data: [collectedCountOld, totalCount - collectedCountOld],
-                                data: [categoryColor[1], categoryColor[0]],
+                                backgroundColor: [categoryColor[1], categoryColor[0]],
                                 hoverOffset: 4,
                                 cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
                                 animation: {
