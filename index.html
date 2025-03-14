@@ -111,7 +111,7 @@
                                 backgroundColor: ['#4CAF50', '#FFC107'],
                                 hoverOffset: 4,
                                 cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
-                                datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
+                                //datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
                                 animation: {
                                     duration: 3000
                                 }
@@ -121,7 +121,7 @@
                                 backgroundColor: ["#FFC107", '#4CAF50'],
                                 hoverOffset: 4,
                                 cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
-                                datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
+                                //datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
                                 animation: {
                                     duration: 4000
                                 }
@@ -136,7 +136,7 @@
                                         label: function(context) {
                                             const dataset = context.dataset;
                                             const index = context.dataIndex;
-                                            const label = dataset.datalabels[index];
+                                            //const label = dataset.datalabels[index];
                                             const value = context.raw;
                                             return `${label}: ${value}`;
                                         }
