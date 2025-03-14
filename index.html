@@ -20,13 +20,31 @@
             gap: 20px;
         }
         
-        .canvas {
-            backgroundColor: "f0fff0f"
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
         }
+        
+        //.canvas {
+        //    backgroundColor: "f0fff0f"
+        //}
 
         .chart-item {
             flex: 1 1 calc(25% - 20px);
             max-width: calc(25% - 20px);
+            position: relative;
+        }
+        
+        .chart-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            pointer-events: none;
         }
 
         @media (max-width: 600px) {
@@ -51,7 +69,7 @@
             "SNK": ['#FF8C00', '#ccc'],        // SNKの色
             "NEC": ['#ffff00', '#ccc'],        // NECの色
             "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
-            "Microsoft": ['#00CC00 ', '#ccc'],  // Microsoftの色
+            "Microsoft": ['#00CC00', '#ccc'],  // Microsoftの色
             "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
             "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
             "SIE": ['#0033FF', '#ccc'],        // SIEの色
@@ -69,7 +87,7 @@
                 '6_bandai.json', 
                 '7_sega.json', 
                 '8_sie.json',
-                '9_panansonic.json'
+                '9_panasonic.json'
             ];
 
             // JSONを読み込んで処理
@@ -118,7 +136,7 @@
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = categoryData.category;
                 categoryDiv.appendChild(categoryTitle);
-                categoryTitle.style.backgroundColor = categoryColor[0];
+                //categoryTitle.style.backgroundColor = categoryColor[0];
 
                 const chartContainer = document.createElement('div');
                 chartContainer.className = 'chart-container';
@@ -129,6 +147,9 @@
 
                     const canvas = document.createElement('canvas');
                     chartItem.appendChild(canvas);
+                    const label = document.createElement('div');
+                    label.className = 'chart-label';
+                    chartItem.appendChild(label);
                     chartContainer.appendChild(chartItem);
 
                     // 収集済みのゲーム数をカウント
@@ -138,6 +159,8 @@
                     const totalCount = games.length;
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
+                    
+                    label.innerHTML = `${hardTitle}<br>${collectionRateNew}%<br>${collectionRateOld}%`;
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
