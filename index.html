@@ -160,7 +160,7 @@
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
-                    label.innerHTML = `${hardTitle}<br>${collectionRateNew}%<br>${collectionRateOld}%`;
+                    label.innerHTML = `${hardTitle}<br>${collectedRateNew}%<br>${collectedRateOld}%`;
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
