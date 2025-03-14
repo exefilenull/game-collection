@@ -2,182 +2,114 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ゲームコレクション収集率</title>
+    <title>ゲームコレクション</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #fffacd; margin: 20px; }
-        .container { max-width: 100%; margin: auto; }
-        .category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
-        .chart-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: center; width: 100%; }
-        .chart-box { width: 20vw; height: 20vw; max-width: 1000px; max-height: 1000px; position: relative; background: #f0fff0; padding: 10px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
-        .chart-box canvas { width: 100% !important; height: 100% !important; }
-        .chart-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: min(5vw, 20px); font-weight: bold; text-align: center; }
+        .category {
+            margin-bottom: 40px;
+        }
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .chart-item {
+            flex: 1 1 calc(25% - 20px);
+            max-width: calc(25% - 20px);
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>ゲームコレクション収集率</h1>
-        <div id="charts"></div>
-    </div>
+    <h1>ゲームコレクション</h1>
+
+    <div id="charts"></div>
+
     <script>
-        function loadJSON(file, callback) {
-            var xhr = new XMLHttpRequest();
-            xhr.overrideMimeType("application/json");
-            xhr.open('GET', file, true);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    callback(JSON.parse(xhr.responseText));
-                }
-            };
-            xhr.send(null);
-        }
+        document.addEventListener("DOMContentLoaded", () => {
+            const jsonFiles = ['1_nintendo.json', '2_snk.json', '3_nec.json'];
 
-        function fetchCollectionData(callback) {
-            const categories = [
-                "1_nintendo.json",
-                "2_snk.json",
-                "3_nec.json",
-                "4_epoch.json",
-                "5_microsoft.json",
-                "6_bandai.json",
-                "7_sega.json",
-                "8_sie.json",
-                "9_panasonic.json"
-            ];
-
-            let result = {};
-            let loadCount = 0;
-
-            categories.forEach(category => {
-                loadJSON(`./data/${category}`, function(data) {
-                    const categoryName = data.category;
-                    const platforms = Object.keys(data).filter(key => key !== 'category');
-                    result[categoryName] = result[categoryName] || {};
-
-                    platforms.forEach(platform => {
-                        const platformGames = data[platform].filter(game => !game.dont_collect);
-                        const totalGames = platformGames.length;
-                        const collectedGamesNew = platformGames.filter(game => game.collected_new).length;
-                        const collectedGamesOld = platformGames.filter(game => game.collected_old).length;
-
-                        result[categoryName][platform] = {
-                            collection: categoryName,
-                            rateNew: Math.round((collectedGamesNew / totalGames) * 10000) / 100 || 0,
-                            rateOld: Math.round((collectedGamesOld / totalGames) * 10000) / 100 || 0,
-                            total: totalGames,
-                            collectedNew: collectedGamesNew,
-                            collectedOld: collectedGamesOld
-                        };
-                    });
-
-                    loadCount++;
-                    if (loadCount === categories.length) {
-                        callback(result);
-                    }
-                });
-            });
-        }
-
-        // グラフ毎に設定する色を定義
-        const graphColors = {
-            "任天堂": ['#ff0000', '#ccc'],
-            "SNK": ['#FF8C00', '#ccc'],
-            "NEC": ['#ffff00', '#ccc'],
-            "エポック": ['#ADFF2F', '#ccc'],
-            "Microsoft": ['#00CC00 ', '#ccc'],
-            "BANDAI": ['#06FECF', '#ccc'],
-            "SEGA": ['#00BFFF', '#ccc'],
-            "SIE": ['#0033FF', '#ccc'],
-            "Panasonic": ['#9900FF', '#ccc']
-        };
-
-        document.addEventListener("DOMContentLoaded", function() {
-            fetchCollectionData(function(data) {
-                const container = document.getElementById("charts");
-
-                Object.keys(data).forEach(category => {
-                    const section = document.createElement("div");
-                    section.innerHTML = `<div class='category'>${category}</div>`;
-                    const chartContainer = document.createElement("div");
-                    chartContainer.classList.add("chart-container");
-
-                    Object.keys(data[category]).forEach((platform, index) => {
-                        const chartBox = document.createElement("div");
-                        chartBox.classList.add("chart-box");
-                        const canvasId = `chart-${category}-${index}`;
-                        chartBox.innerHTML = `
-                          <canvas id="${canvasId}"></canvas>
-                          <div class="chart-center">
-                            <a href="#${encodeURIComponent(platform)}">
-                              ${platform}
-                            </a>
-                            <br>収集率<br>
-                            新品：${data[category][platform].rateNew}%<br>
-                            中古：${data[category][platform].rateOld}%
-                          </div>
-                        `;
-                        chartContainer.appendChild(chartBox);
-
-                        setTimeout(() => {
-                            const total = data[category][platform].total;
-                            const collectedNew = data[category][platform].collectedNew;
-                            const collectedOld = data[category][platform].collectedOld;
-                            const uncollectedNew = total - collectedNew;
-                            const uncollectedOld = total - collectedOld;
-
-                            const [collectedColor, uncollectedColor] = graphColors[category] || ["#FFFFFF", "#ccc"];
-                            new Chart(document.getElementById(canvasId), {
-                                type: 'doughnut',
-                                data: {
-                                    labels: [], // グローバルラベルは空に設定
-                                    datasets: [{
-                                        label: '新品データ',
-                                        data: [collectedNew, uncollectedNew],
-                                        backgroundColor: [collectedColor, uncollectedColor],
-                                        hoverOffset: 4,
-                                        cutout: '50%', // 外側ドーナツの内側のカットアウトサイズを調整
-                                        datalabels: ['収集済み(新品)', '未収集(新品)'], // 新品データのラベルを設定
-                                        animation: {
-                                            duration: 3000
-                                        }
-                                    }, {
-                                        label: '中古データ',
-                                        data: [collectedOld, uncollectedOld],
-                                        backgroundColor: ["#f0fff0", collectedColor],
-                                        hoverOffset: 4,
-                                        cutout: '50%', // 内側ドーナツの内側のカットアウトサイズを調整
-                                        datalabels: ['収集済み(中古)', '未収集(中古)'], // 中古データのラベルを設定
-                                        animation: {
-                                            duration: 4000
-                                        }
-                                    }]
-                                },
-                                options: {
-                                    responsive: true,
-                                    plugins: {
-                                        legend: { display: false },
-                                        tooltip: {
-                                            callbacks: {
-                                                label: function(context) {
-                                                    const dataset = context.dataset;
-                                                    const index = context.dataIndex;
-                                                    const label = dataset.datalabels[index];
-                                                    const value = context.raw;
-                                                    return `${label}: ${value}`;
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            });
-                        }, 100);
-                    });
-                    section.appendChild(chartContainer);
-                    container.appendChild(section);
-                });
-            });
+            Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
+                .then(jsonDataArray => {
+                    const combinedData = mergeData(jsonDataArray);
+                    displayCharts(combinedData);
+                })
+                .catch(error => console.error('Error loading JSON:', error));
         });
+
+        function mergeData(jsonDataArray) {
+            const combined = {};
+
+            jsonDataArray.forEach(data => {
+                data.forEach(categoryData => {
+                    if (!combined[categoryData.category]) {
+                        combined[categoryData.category] = {};
+                    }
+
+                    Object.entries(categoryData.hardwares).forEach(([hardTitle, games]) => {
+                        if (!combined[categoryData.category][hardTitle]) {
+                            combined[categoryData.category][hardTitle] = [];
+                        }
+                        combined[categoryData.category][hardTitle].push(...games);
+                    });
+                });
+            });
+
+            return Object.entries(combined).map(([category, hardwares]) => ({
+                category,
+                hardwares
+            }));
+        }
+
+        function displayCharts(data) {
+            const chartsContainer = document.getElementById('charts');
+
+            data.forEach(categoryData => {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'category';
+
+                const categoryTitle = document.createElement('h2');
+                categoryTitle.textContent = categoryData.category;
+                categoryDiv.appendChild(categoryTitle);
+
+                const chartContainer = document.createElement('div');
+                chartContainer.className = 'chart-container';
+
+                Object.entries(categoryData.hardwares).forEach(([hardTitle, games]) => {
+                    const chartItem = document.createElement('div');
+                    chartItem.className = 'chart-item';
+
+                    const canvas = document.createElement('canvas');
+                    chartItem.appendChild(canvas);
+
+                    chartContainer.appendChild(chartItem);
+
+                    const collectedCount = games.filter(game => game.collected_new).length;
+                    const totalCount = games.length;
+                    const collectedRate = ((collectedCount / totalCount) * 100).toFixed(1);
+
+                    new Chart(canvas, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['収集済み', '未収集'],
+                            datasets: [{
+                                data: [collectedCount, totalCount - collectedCount],
+                                backgroundColor: ['#4CAF50', '#FFC107'],
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { display: false },
+                                title: { display: true, text: `${hardTitle} (${collectedRate}%)` }
+                            }
+                        }
+                    });
+                });
+
+                categoryDiv.appendChild(chartContainer);
+                chartsContainer.appendChild(categoryDiv);
+            });
+        }
     </script>
 </body>
 </html>
