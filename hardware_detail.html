@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ハードウェア詳細</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .chart-container {
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="hardware-title">ハードウェア詳細</h1>
+    <div class="chart-container">
+        <canvas id="hardwareChart"></canvas>
+    </div>
+
+    <table id="game-table">
+        <thead>
+            <tr>
+                <th>タイトル</th>
+                <th>発売日</th>
+                <th>収集状況</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const hardwareName = urlParams.get('hardware');
+
+            if (!hardwareName) {
+                alert('ハードウェア名が指定されていません。');
+                return;
+            }
+
+            document.getElementById('hardware-title').textContent = `${hardwareName} の詳細`;
+
+            const jsonFiles = [
+                '1_nintendo.json', '2_snk.json', '3_nec.json', '4_epoch.json',
+                '5_microsoft.json', '6_bandai.json', '7_sega.json', '8_sie.json', '9_panasonic.json'
+            ];
+
+            Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
+                .then(jsonDataArray => {
+                    const games = extractHardwareData(jsonDataArray, hardwareName);
+                    displayChart(games);
+                    displayTable(games);
+                })
+                .catch(error => console.error('JSONの読み込みエラー:', error));
+        });
+
+        function extractHardwareData(jsonDataArray, hardwareName) {
+            for (const data of jsonDataArray) {
+                for (const [hardTitle, games] of Object.entries(data.hardware_name)) {
+                    if (hardTitle === hardwareName) {
+                        return games;
+                    }
+                }
+            }
+            return [];
+        }
+
+        function displayChart(games) {
+            const collectedCount = games.filter(game => game.collected_new).length;
+            const totalCount = games.length;
+
+            new Chart(document.getElementById('hardwareChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['収集済み', '未収集'],
+                    datasets: [{
+                        data: [collectedCount, totalCount - collectedCount],
+                        backgroundColor: ['#4CAF50', '#FF6347'],
+                        hoverOffset: 4,
+                        cutout: '50%'
+                    }]
+                },
+                options: {
+                    animation: {
+                        duration: 2000
+                    }
+                }
+            });
+        }
+
+        function displayTable(games) {
+            const tbody = document.querySelector('#game-table tbody');
+            tbody.innerHTML = '';
+
+            games.sort((a, b) => new Date(a.release_day) - new Date(b.release_day));
+
+            games.forEach(game => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${game.soft_title}</td>
+                    <td>${game.release_day || '不明'}</td>
+                    <td>${game.collected_new ? '収集済み' : '未収集'}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+    </script>
+
+</body>
+
+</html>
