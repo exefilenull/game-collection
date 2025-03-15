@@ -178,7 +178,7 @@
                     
                     //label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
                     label.innerHTML = `
-                      <a href="hardware_detail.html?hardware=${encodeURIComponent(hardTitle)}">${hardTitle}</a>
+                      <a href="hardware_detail.html?category=${encodeURIComponent(categoryData.category)}&hardware=${encodeURIComponent(hardTitle)}">${hardTitle}</a>
                       <br>
                       新品：${collectedRateNew}%
                       <br>

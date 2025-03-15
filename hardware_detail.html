@@ -74,6 +74,8 @@
 
         const urlParams = new URLSearchParams(window.location.search);
         const hardwareName = urlParams.get('hardware');
+        const categoryName = urlParams.get('category');
+        
         console.log(hardwareName);
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -110,12 +112,11 @@
         }
 
         function displayChart(games) {
-            console.log(games);
             const collectedCountNew = games.filter(game => game.collected_new).length;
             const collectedCountOld = games.filter(game => game.collected_old).length;
             
             const totalCount = games.length;
-            const categoryColor = graphColors[hardwareName] || ["#000000", "#ccc"]
+            const categoryColor = graphColors[categoryName] || ["#000000", "#ccc"]
 
             new Chart(document.getElementById('hardwareChart'), {
                 type: 'doughnut',
