@@ -75,8 +75,6 @@
         const urlParams = new URLSearchParams(window.location.search);
         const hardwareName = urlParams.get('hardware');
         const categoryName = urlParams.get('category');
-        
-        console.log(categoryName);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -116,7 +114,9 @@
             const collectedCountOld = games.filter(game => game.collected_old).length;
             
             const totalCount = games.length;
+            console.log('カテゴリ名：', categoryName);
             const categoryColor = graphColors[categoryName] || ["#000000", "#ccc"]
+            console.log('色設定：', categoryColor);
 
             new Chart(document.getElementById('hardwareChart'), {
                 type: 'doughnut',
