@@ -72,8 +72,8 @@
             "その他": ['#FF3399', '#ccc'],        // その他の色
         };
 
-        const hardwareName = urlParams.get('hardware');
         const urlParams = new URLSearchParams(window.location.search);
+        const hardwareName = urlParams.get('hardware');
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
