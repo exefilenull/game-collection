@@ -177,6 +177,7 @@
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
                     //label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
+                    console.log(encodeURIComponent(categoryData.category));
                     label.innerHTML = `
                       <a href="hardware_detail.html?category=${encodeURIComponent(categoryData.category)}&hardware=${encodeURIComponent(hardTitle)}">${hardTitle}</a>
                       <br>
