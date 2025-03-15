@@ -176,7 +176,14 @@
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
-                    label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
+                    //label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
+                    label.innerHTML = `
+                      <a href="detail.html?hardware=${encodeURIComponent(hardTitle)}">${hardTitle}</a>
+                      <br>
+                      新品：${collectedRateNew}%
+                      <br>
+                      中古：${collectedRateOld}%
+                    `;
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
