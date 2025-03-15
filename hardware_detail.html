@@ -114,9 +114,7 @@
             const collectedCountOld = games.filter(game => game.collected_old).length;
             
             const totalCount = games.length;
-            console.log('カテゴリ名：', categoryName);
             const categoryColor = graphColors[categoryName] || ["#000000", "#ccc"]
-            console.log('色設定：', categoryColor);
 
             new Chart(document.getElementById('hardwareChart'), {
                 type: 'doughnut',
@@ -134,7 +132,7 @@
                     }, {
                         label: '中古データ',
                         data: [collectedCountOld, totalCount - collectedCountOld],
-                        backgroundColor: [categoryColor[1], categoryColor[1]],
+                        backgroundColor: [categoryColor[1], categoryColor[0]],
                         hoverOffset: 4,
                         cutout: '50%',
                         animation: {
