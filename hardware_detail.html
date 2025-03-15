@@ -74,6 +74,7 @@
 
         const urlParams = new URLSearchParams(window.location.search);
         const hardwareName = urlParams.get('hardware');
+        console.log(hardwareName);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
