@@ -110,6 +110,7 @@
         }
 
         function displayChart(games) {
+            console.log(games);
             const collectedCountNew = games.filter(game => game.collected_new).length;
             const collectedCountOld = games.filter(game => game.collected_old).length;
             
