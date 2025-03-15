@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background-color: #fffacd;
             padding: 20px;
         }
 
@@ -50,8 +50,10 @@
         <thead>
             <tr>
                 <th>タイトル</th>
+                <th>収集状況(新品)</th>
+                <th>収集状況(中古)</th>
                 <th>発売日</th>
-                <th>収集状況</th>
+                <th>クリア済み</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -160,6 +162,9 @@
                     <td>${game.soft_title}</td>
                     <td>${game.release_day || '不明'}</td>
                     <td>${game.collected_new ? '収集済み' : '未収集'}</td>
+                    <td>${game.collected_old ? '収集済み' : '未収集'}</td>
+                    <td>${game.release_day || '不明'}</td>
+                    <td>${game.dont_collect ? 'クリア済み' : '未クリア'}</td>
                 `;
                 tbody.appendChild(row);
             });
