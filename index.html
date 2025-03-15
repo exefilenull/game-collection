@@ -55,6 +55,12 @@
             font-size: 14px;
             font-weight: bold;
             color: #000000;
+            pointer-events: auto;
+        }
+        
+        .chart-label a {
+            color: black;
+            text-decoration: none;
         }
 
         @media (max-width: 600px) {
@@ -141,7 +147,7 @@
                 categoryDiv.className = 'category';
                 
                 //カテゴリ毎に設定する色を定義
-                const categoryColor = graphColors[categoryData.category] || ["#9900FF", "#ccc"];
+                const categoryColor = graphColors[categoryData.category] || ["#000000", "#ccc"];
 
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = categoryData.category;
@@ -170,7 +176,7 @@
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
-                    label.innerHTML = `${hardTitle}<br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
+                    label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
 
                     // Chart.jsでドーナツグラフを生成
                     new Chart(canvas, {
