@@ -58,9 +58,24 @@
     </table>
 
     <script>
+        const graphColors = {
+            "全体": ['#000000', '#ccc'],        // 全体の色
+            "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
+            "SNK": ['#FF8C00', '#ccc'],        // SNKの色
+            "NEC": ['#ffff00', '#ccc'],        // NECの色
+            "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
+            "Microsoft": ['#00CC00', '#ccc'],  // Microsoftの色
+            "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
+            "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
+            "SIE": ['#0033FF', '#ccc'],        // SIEの色
+            "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
+            "その他": ['#FF3399', '#ccc'],        // その他の色
+        };
+
+        const hardwareName = urlParams.get('hardware');
+
         document.addEventListener("DOMContentLoaded", () => {
             const urlParams = new URLSearchParams(window.location.search);
-            const hardwareName = urlParams.get('hardware');
 
             if (!hardwareName) {
                 alert('ハードウェア名が指定されていません。');
@@ -95,18 +110,34 @@
         }
 
         function displayChart(games) {
-            const collectedCount = games.filter(game => game.collected_new).length;
+            const collectedCountNew = games.filter(game => game.collected_new).length;
+            const collectedCountOld = games.filter(game => game.collected_old).length;
+            
             const totalCount = games.length;
+            const categoryColor = graphColors[hardwareName] || ["#000000", "#ccc"]
 
             new Chart(document.getElementById('hardwareChart'), {
                 type: 'doughnut',
                 data: {
                     labels: ['収集済み', '未収集'],
                     datasets: [{
-                        data: [collectedCount, totalCount - collectedCount],
-                        backgroundColor: ['#4CAF50', '#FF6347'],
+                        label: '新品データ',
+                        data: [collectedCountNew, totalCount - collectedCountNew],
+                        backgroundColor: [categoryColor[0], categoryColor[1]],
                         hoverOffset: 4,
-                        cutout: '50%'
+                        cutout: '50%',
+                        animation: {
+                            duration: 3000
+                        }
+                    }, {
+                        label: '中古データ',
+                        data: [collectedCountOld, totalCount - collectedCountOld],
+                        backgroundColor: [categoryColor[1], categoryColor[1]],
+                        hoverOffset: 4,
+                        cutout: '50%',
+                        animation: {
+                            duration: 4000
+                        }
                     }]
                 },
                 options: {
