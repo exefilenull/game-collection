@@ -88,8 +88,15 @@
             document.getElementById('hardware-title').textContent = `${hardwareName} の詳細`;
 
             const jsonFiles = [
-                '1_nintendo.json', '2_snk.json', '3_nec.json', '4_epoch.json',
-                '5_microsoft.json', '6_bandai.json', '7_sega.json', '8_sie.json', '9_panasonic.json'
+                'data/1_nintendo.json', 
+                'data/2_snk.json', 
+                'data/3_nec.json', 
+                'data/4_epoch.json', 
+                'data/5_microsoft.json', 
+                'data/6_bandai.json', 
+                'data/7_sega.json', 
+                'data/8_sie.json', 
+                'data/9_panasonic.json'
             ];
 
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
