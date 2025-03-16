@@ -170,7 +170,7 @@
 
             games.forEach(game => {
                 const row = document.createElement('tr');
-                if (game.collected_new || game.collected_old) {
+                if (game.collected_new == '収集済み' || game.collected_old == '収集済み') {
                     row.classList.add('highlight');
                 }
                 row.innerHTML = `
