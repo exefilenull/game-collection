@@ -38,6 +38,10 @@
             background-color: #333;
             color: white;
         }
+        
+        .highlight {
+            background-color #ffff99;
+        }
     </style>
 </head>
 
@@ -166,6 +170,9 @@
 
             games.forEach(game => {
                 const row = document.createElement('tr');
+                if (game.collected_new || game.collected_old) {
+                    row.classList.add('highlight');
+                }
                 row.innerHTML = `
                     <td>${game.soft_title}</td>
                     <td>${game.collected_new ? '収集済み' : '未収集'}</td>
