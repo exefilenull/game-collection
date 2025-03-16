@@ -170,7 +170,7 @@
 
             games.forEach(game => {
                 const row = document.createElement('tr');
-                if (game.collected_new == 'true' || game.collected_old == 'true') {
+                if (game.collected_new || game.collected_old) {
                     row.classList.add('highlight');
                 }
                 row.innerHTML = `
