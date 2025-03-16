@@ -2118,15 +2118,6 @@
         "release_day": "1991-12-06"
       },
       {
-        "soft_title": "ドラえもん のび太のドラビアンナイト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": true,
-        "game_category": "ACT",
-        "release_day": "1991-12-06"
-      },
-      {
         "soft_title": "バブルガムクラッシュ",
         "collected_new": false,
         "collected_old": false,
@@ -2582,6 +2573,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1988-12-23"
       },
       {
@@ -2628,15 +2620,6 @@
         "dont_collect": false,
         "game_category": "SPT",
         "release_day": "1989-09-14"
-      },
-      {
-        "soft_title": "獣王記",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": true,
-        "game_category": "ACT",
-        "release_day": "1989-09-22"
       },
       {
         "soft_title": "鏡の国のレジェンド",
@@ -2869,6 +2852,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1990-06-15"
       },
       {
@@ -2958,6 +2942,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1990-09-28"
       },
       {
@@ -3029,6 +3014,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1990-12-28"
       },
       {
@@ -3190,6 +3176,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1991-05-24"
       },
       {
@@ -3306,6 +3293,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1991-09-27"
       },
       {
@@ -3476,6 +3464,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1992-01-31"
       },
       {
@@ -4348,6 +4337,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
+        "game_category:": "",
         "release_day": "1993-02-12"
       },
       {
