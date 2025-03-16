@@ -55,6 +55,7 @@
         <thead>
             <tr>
                 <th>タイトル</th>
+                <th>ジャンル</th>
                 <th>収集状況(新品)</th>
                 <th>収集状況(中古)</th>
                 <th>発売日</th>
@@ -175,6 +176,7 @@
                 }
                 row.innerHTML = `
                     <td>${game.soft_title}</td>
+                    <td>${game.game_category}</td>
                     <td>${game.collected_new ? '収集済み' : '未収集'}</td>
                     <td>${game.collected_old ? '収集済み' : '未収集'}</td>
                     <td>${game.release_day || '不明'}</td>
