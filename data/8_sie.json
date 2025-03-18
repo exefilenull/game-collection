@@ -65214,15 +65214,6 @@
         "release_day": "2014-12-18"
       },
       {
-        "soft_title": "Minecraft",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-25"
-      },
-      {
         "soft_title": "シャドウ・オブ・モルドール",
         "collected_new": false,
         "collected_old": false,
@@ -72315,15 +72306,6 @@
         "release_day": "2020-05-14"
       },
       {
-        "soft_title": "Minecraft Dungeons",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-05-26"
-      },
-      {
         "soft_title": "英雄伝説 碧の軌跡:改",
         "collected_new": false,
         "collected_old": false,
@@ -73467,15 +73449,6 @@
         "release_day": "2021-06-22"
       },
       {
-        "soft_title": "SCARLET NEXUS",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-06-24"
-      },
-      {
         "soft_title": "那由多の軌跡:改",
         "collected_new": false,
         "collected_old": false,
@@ -73555,15 +73528,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2021-07-29"
-      },
-      {
-        "soft_title": "DIRT 5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-08-05"
       },
       {
         "soft_title": "夕鬼",
@@ -74628,15 +74592,6 @@
         "release_day": "2022-11-17"
       },
       {
-        "soft_title": "Gungrave G.O.R.E",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-11-22"
-      },
-      {
         "soft_title": "死噛 〜シビトマギレ〜",
         "collected_new": false,
         "collected_old": false,
@@ -75573,15 +75528,6 @@
         "release_day": "2024-10-24"
       },
       {
-        "soft_title": "コール オブ デューティ ブラックオプス 6",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2024-10-25"
-      },
-      {
         "soft_title": "ソニック × シャドウ ジェネレーションズ",
         "collected_new": false,
         "collected_old": false,
@@ -76012,7 +75958,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2021-06-24"
       },
       {
@@ -76075,7 +76021,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2021-08-05"
       },
       {
@@ -76885,7 +76831,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2022-08-23"
       },
       {
@@ -77236,7 +77182,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2022-11-22"
       },
       {
@@ -77598,15 +77544,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2023-04-13"
-      },
-      {
-        "soft_title": "Minecraft Legends",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-19"
       },
       {
         "soft_title": "コーヒートーク エピソード2：ハイビスカス＆バタフライ",
@@ -78856,7 +78793,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2024-10-25"
       },
       {

@@ -8,7 +8,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2002-02-22"
       },
       {
@@ -17,16 +17,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "エアフォースデルタII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-02-22"
       },
       {
@@ -35,25 +26,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "サイレントヒル2 最後の詩",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "幻魔 鬼武者",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2002-02-22"
       },
       {
@@ -62,7 +35,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-02-22"
       },
       {
@@ -71,25 +44,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "ハイパースポーツ2002WINTER",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "ESPN winter XGames Snowboarding2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-02-22"
       },
       {
@@ -98,16 +53,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-02-22"
-      },
-      {
-        "soft_title": "信長の野望・嵐世記",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-02-22"
       },
       {
@@ -116,7 +62,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2002-02-28"
       },
       {
@@ -125,17 +71,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2002-02-28"
-      },
-      {
-        "soft_title": "NBAライブ2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-03-07"
       },
       {
         "soft_title": "式神の城",
@@ -143,7 +80,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-03-14"
       },
       {
@@ -152,53 +89,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-03-21"
-      },
-      {
-        "soft_title": "ESPN NBA2 night 2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-03-28"
-      },
-      {
-        "soft_title": "SSX TRICKY",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-04-04"
-      },
-      {
-        "soft_title": "ノックアウトキング2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-04-04"
-      },
-      {
-        "soft_title": "F1 2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-04-04"
-      },
-      {
-        "soft_title": "アルティメット ファイティング チャンピオンシップ2 タップアウト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-04-18"
       },
       {
         "soft_title": "HALO",
@@ -210,48 +102,12 @@
         "release_day": "2002-04-25"
       },
       {
-        "soft_title": "2002 FIFA ワールドカップ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-05-02"
-      },
-      {
-        "soft_title": "ミストIII エグザイル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-05-02"
-      },
-      {
-        "soft_title": "実況ワールドサッカー2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-05-23"
-      },
-      {
         "soft_title": "マッド ダッシュ レーシング",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-05-30"
-      },
-      {
-        "soft_title": "プチコプター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-05-30"
       },
       {
@@ -260,7 +116,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-06-13"
       },
       {
@@ -269,7 +125,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2002-06-13"
       },
       {
@@ -278,7 +134,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2002-06-13"
       },
       {
@@ -287,7 +143,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2002-06-13"
       },
       {
@@ -296,7 +152,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "恋愛",
         "release_day": "2002-06-13"
       },
       {
@@ -305,7 +161,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2002-06-13"
       },
       {
@@ -314,17 +170,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-06-20"
-      },
-      {
-        "soft_title": "トライアングルアゲイン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-06-27"
       },
       {
         "soft_title": "マジデスファイト!",
@@ -332,17 +179,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-07-04"
-      },
-      {
-        "soft_title": "THE BASEBALL 2002 バトルボールパーク宣言",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-07-11"
       },
       {
         "soft_title": "CRAZY TAXI3 HighRoller",
@@ -350,7 +188,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-07-25"
       },
       {
@@ -359,7 +197,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-07-25"
       },
       {
@@ -368,26 +206,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2002-07-25"
-      },
-      {
-        "soft_title": "オールスターベースボール2003",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-08-08"
-      },
-      {
-        "soft_title": "WTA Tour Tennis Pro Evolution",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-08-29"
       },
       {
         "soft_title": "フライトアカデミー",
@@ -395,7 +215,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2002-08-29"
       },
       {
@@ -404,7 +224,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-09-12"
       },
       {
@@ -413,26 +233,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2002-09-12"
-      },
-      {
-        "soft_title": "MARVEL VS. CAPCOM 2 NEW AGE OF HEROES",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-09-19"
-      },
-      {
-        "soft_title": "真・三國無双2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-09-26"
       },
       {
         "soft_title": "MAXIMUM CHASE",
@@ -440,7 +242,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-09-26"
       },
       {
@@ -449,7 +251,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "恋愛",
         "release_day": "2002-09-26"
       },
       {
@@ -458,16 +260,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-10-03"
-      },
-      {
-        "soft_title": "エッグマニア つかんで!まわして!どっすんぱず〜る!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2002-10-03"
       },
       {
@@ -476,26 +269,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2002-10-10"
-      },
-      {
-        "soft_title": "クラッシュ・バンディクー4 さくれつ!魔神パワー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-10-24"
-      },
-      {
-        "soft_title": "テトリスワールド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-11-14"
       },
       {
         "soft_title": "カンタム レッドシフト 超高速空間バトルレース",
@@ -503,17 +278,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-11-21"
-      },
-      {
-        "soft_title": "デッド トゥ ライツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-11-28"
       },
       {
         "soft_title": "ドリホー",
@@ -521,7 +287,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-11-28"
       },
       {
@@ -530,7 +296,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2002-12-05"
       },
       {
@@ -539,7 +305,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2002-12-05"
       },
       {
@@ -548,7 +314,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-12-05"
       },
       {
@@ -557,7 +323,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-12-12"
       },
       {
@@ -566,7 +332,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-12-12"
       },
       {
@@ -575,7 +341,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2002-12-12"
       },
       {
@@ -584,7 +350,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2002-12-12"
       },
       {
@@ -593,16 +359,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-12-19"
-      },
-      {
-        "soft_title": "トライアングルアゲイン2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-12-19"
       },
       {
@@ -611,7 +368,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-12-19"
       },
       {
@@ -620,7 +377,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-12-19"
       },
       {
@@ -629,7 +386,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2003-01-01"
       },
       {
@@ -638,25 +395,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-16"
-      },
-      {
-        "soft_title": "CAPCOM VS. SNK2 EO",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-16"
-      },
-      {
-        "soft_title": "ファンタシースターオンライン エピソード1&2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-01-16"
       },
       {
@@ -665,26 +404,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2003-01-23"
-      },
-      {
-        "soft_title": "ギャラクシーエンジェル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-23"
-      },
-      {
-        "soft_title": "ザ・ハウス・オブ・ザ・デッド3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-30"
       },
       {
         "soft_title": "Tenerezza",
@@ -692,7 +413,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-01-30"
       },
       {
@@ -701,17 +422,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ホラー",
         "release_day": "2003-02-06"
-      },
-      {
-        "soft_title": "SPIDER-MAN",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-02-13"
       },
       {
         "soft_title": "マズル フラッシュ",
@@ -719,17 +431,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-02-27"
-      },
-      {
-        "soft_title": "エンジェリック・コンサート",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-03-13"
       },
       {
         "soft_title": "バットマン ダークトゥモロー",
@@ -737,7 +440,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-03-20"
       },
       {
@@ -746,17 +449,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2003-03-20"
-      },
-      {
-        "soft_title": "ソウルキャリバーII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-03-27"
       },
       {
         "soft_title": "ザ・ワイルド・リングス",
@@ -764,7 +458,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2003-04-10"
       },
       {
@@ -773,7 +467,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2003-04-24"
       },
       {
@@ -782,7 +476,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2003-04-24"
       },
       {
@@ -791,20 +485,11 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-05-22"
       },
       {
         "soft_title": "カンフーパニック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-05-29"
-      },
-      {
-        "soft_title": "大戦略VII",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -818,17 +503,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-06-12"
-      },
-      {
-        "soft_title": "ENTER THE MATRIX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-06-19"
       },
       {
         "soft_title": "ディノクライシス3",
@@ -836,7 +512,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-06-26"
       },
       {
@@ -845,7 +521,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2003-06-26"
       },
       {
@@ -854,7 +530,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-07-03"
       },
       {
@@ -863,7 +539,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2003-07-17"
       },
       {
@@ -872,7 +548,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2003-07-17"
       },
       {
@@ -881,7 +557,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-07-17"
       },
       {
@@ -890,7 +566,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-08-07"
       },
       {
@@ -899,7 +575,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-08-07"
       },
       {
@@ -908,7 +584,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2003-08-28"
       },
       {
@@ -917,17 +593,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "恋愛",
         "release_day": "2003-08-28"
-      },
-      {
-        "soft_title": "真・三國無双3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-09-04"
       },
       {
         "soft_title": "レンタヒーローNo.1",
@@ -935,7 +602,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-09-04"
       },
       {
@@ -944,17 +611,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-09-18"
-      },
-      {
-        "soft_title": "トム・クランシーシリーズ ゴーストリコン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-09-25"
       },
       {
         "soft_title": "Brute Force",
@@ -962,7 +620,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-10-09"
       },
       {
@@ -971,7 +629,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2003-10-23"
       },
       {
@@ -980,7 +638,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2003-10-23"
       },
       {
@@ -989,7 +647,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2003-10-23"
       },
       {
@@ -998,7 +656,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-10-23"
       },
       {
@@ -1007,7 +665,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2003-10-23"
       },
       {
@@ -1016,7 +674,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2003-11-20"
       },
       {
@@ -1025,7 +683,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-11-20"
       },
       {
@@ -1034,16 +692,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-11-27"
-      },
-      {
-        "soft_title": "R:RACING EVOLUTION",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-11-27"
       },
       {
@@ -1052,7 +701,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-12-18"
       },
       {
@@ -1061,7 +710,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-12-25"
       },
       {
@@ -1070,7 +719,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-12-25"
       },
       {
@@ -1079,7 +728,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-12-25"
       },
       {
@@ -1088,7 +737,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-12-25"
       },
       {
@@ -1097,7 +746,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2003-12-25"
       },
       {
@@ -1106,17 +755,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-12-25"
-      },
-      {
-        "soft_title": "ソニック ヒーローズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-12-30"
       },
       {
         "soft_title": "ぷらすぷらむ2",
@@ -1124,7 +764,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "2004-01-15"
       },
       {
@@ -1133,7 +773,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-01-22"
       },
       {
@@ -1142,7 +782,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-01-22"
       },
       {
@@ -1151,17 +791,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2004-01-22"
-      },
-      {
-        "soft_title": "auto modellista U.S.-tuned",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-01-29"
       },
       {
         "soft_title": "ブレイクダウン",
@@ -1169,7 +800,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2004-01-29"
       },
       {
@@ -1178,7 +809,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2004-02-26"
       },
       {
@@ -1187,7 +818,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2004-02-26"
       },
       {
@@ -1196,7 +827,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2004-02-26"
       },
       {
@@ -1205,16 +836,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-03-11"
-      },
-      {
-        "soft_title": "NINJA GAIDEN",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-03-11"
       },
       {
@@ -1223,7 +845,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2004-03-25"
       },
       {
@@ -1232,7 +854,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-03-25"
       },
       {
@@ -1241,7 +863,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-03-25"
       },
       {
@@ -1259,17 +881,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-04-22"
-      },
-      {
-        "soft_title": "ぷよぷよフィーバー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-04-24"
       },
       {
         "soft_title": "グーリーズ 〜Grabbed by the Ghoulies〜w:Grabbed by the Ghoulies",
@@ -1277,16 +890,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-04-29"
-      },
-      {
-        "soft_title": "GUILTY GEAR XX #RELOAD",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-04-29"
       },
       {
@@ -1295,7 +899,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-05-20"
       },
       {
@@ -1304,7 +908,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2004-05-20"
       },
       {
@@ -1313,7 +917,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-05-20"
       },
       {
@@ -1322,7 +926,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-05-27"
       },
       {
@@ -1331,7 +935,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "恋愛",
         "release_day": "2004-05-27"
       },
       {
@@ -1340,7 +944,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2004-06-10"
       },
       {
@@ -1349,26 +953,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2004-06-17"
-      },
-      {
-        "soft_title": "メタルスラッグ3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-06-24"
-      },
-      {
-        "soft_title": "トム・クランシーシリーズ レインボーシックス3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-08"
       },
       {
         "soft_title": "トップスピン",
@@ -1376,7 +962,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2004-07-15"
       },
       {
@@ -1385,7 +971,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-07-22"
       },
       {
@@ -1394,7 +980,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-07-22"
       },
       {
@@ -1403,44 +989,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2004-07-22"
-      },
-      {
-        "soft_title": "グランドセフトオート ダブルパック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-29"
-      },
-      {
-        "soft_title": "戦国無双",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-29"
-      },
-      {
-        "soft_title": "デジモンバトルクロニクル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-29"
-      },
-      {
-        "soft_title": "XIII 〜大統領を殺した男〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-08-05"
       },
       {
         "soft_title": "スター・ウォーズ ジェダイナイト：ジェダイアカデミー",
@@ -1448,7 +998,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-09-02"
       },
       {
@@ -1457,7 +1007,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-09-02"
       },
       {
@@ -1466,53 +1016,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-09-23"
-      },
-      {
-        "soft_title": "フル スペクトラム ウォリアー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-09-30"
-      },
-      {
-        "soft_title": "スター・ウォーズ バトルフロント",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-10-07"
-      },
-      {
-        "soft_title": "SNK VS. CAPCOM SVC CHAOS",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-10-07"
-      },
-      {
-        "soft_title": "ヒットマン：コントラクト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-10-14"
-      },
-      {
-        "soft_title": "TRUE CRIME：STREETS OF LA",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-10-28"
       },
       {
         "soft_title": "ストリートファイターアニバーサリーコレクション",
@@ -1520,16 +1025,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-10-28"
-      },
-      {
-        "soft_title": "サイヴァリア2 〜Extend Edition〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2004-10-28"
       },
       {
@@ -1538,7 +1034,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2004-11-03"
       },
       {
@@ -1547,7 +1043,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ホラー",
         "release_day": "2004-11-11"
       },
       {
@@ -1556,7 +1052,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-11-11"
       },
       {
@@ -1565,26 +1061,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-11-18"
-      },
-      {
-        "soft_title": "Mr.インクレディブル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-02"
-      },
-      {
-        "soft_title": "ソニック メガコレクション プラス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-09"
       },
       {
         "soft_title": "SWAT：グローバル ストライク チーム",
@@ -1592,16 +1070,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-16"
-      },
-      {
-        "soft_title": "シュレック2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-12-16"
       },
       {
@@ -1610,16 +1079,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-16"
-      },
-      {
-        "soft_title": "GUILTY GEAR ISUKA",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-12-16"
       },
       {
@@ -1628,17 +1088,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2004-12-22"
-      },
-      {
-        "soft_title": "デジモンワールドX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-01-06"
       },
       {
         "soft_title": "メック アサルト2：ローンウルフ",
@@ -1646,7 +1097,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-01-20"
       },
       {
@@ -1655,7 +1106,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-01-27"
       },
       {
@@ -1664,7 +1115,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2005-01-27"
       },
       {
@@ -1673,7 +1124,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-01-27"
       },
       {
@@ -1682,7 +1133,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2005-01-27"
       },
       {
@@ -1691,7 +1142,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "2005-01-27"
       },
       {
@@ -1700,26 +1151,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-02-17"
-      },
-      {
-        "soft_title": "メタルスラッグ4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-02-24"
-      },
-      {
-        "soft_title": "トム・クランシーシリーズ レインボーシックス3 ブラックアロー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-03-10"
       },
       {
         "soft_title": "フェイブル",
@@ -1727,17 +1160,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-03-17"
-      },
-      {
-        "soft_title": "スーパーモンキーボールデラックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-03-24"
       },
       {
         "soft_title": "スパイクアウト バトルストリート",
@@ -1745,35 +1169,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2005-03-24"
-      },
-      {
-        "soft_title": "ザ・キング・オブ・ファイターズ2002",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-03-24"
-      },
-      {
-        "soft_title": "トム・クランシーシリーズ スプリンターセル パンドラトゥモロー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-04-07"
-      },
-      {
-        "soft_title": "コンスタンティン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-04-21"
       },
       {
         "soft_title": "フォルツァ モータースポーツ",
@@ -1781,17 +1178,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2005-05-12"
-      },
-      {
-        "soft_title": "レッド・デッド・リボルバー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-05-26"
       },
       {
         "soft_title": "ジェイド エンパイア 〜翡翠の帝国〜",
@@ -1799,26 +1187,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-06-16"
-      },
-      {
-        "soft_title": "CAPCOM FIGHTING Jam",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-06-16"
-      },
-      {
-        "soft_title": "KOF マキシマムインパクト マニアックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-06-23"
       },
       {
         "soft_title": "コンカー: Live and Reloaded",
@@ -1826,7 +1196,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2005-06-30"
       },
       {
@@ -1835,7 +1205,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2005-07-07"
       },
       {
@@ -1844,17 +1214,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-07-14"
-      },
-      {
-        "soft_title": "メタルスラッグ5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-07-28"
       },
       {
         "soft_title": "Rapala Pro Fishing",
@@ -1862,16 +1223,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-08-04"
-      },
-      {
-        "soft_title": "Atari Anthology",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2005-08-04"
       },
       {
@@ -1880,35 +1232,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2005-08-04"
-      },
-      {
-        "soft_title": "真・三國無双4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-08-25"
-      },
-      {
-        "soft_title": "ザ・キング・オブ・ファイターズ2003",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-08-25"
-      },
-      {
-        "soft_title": "ブラザー イン アームズ ロード トゥ ヒル サーティー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-09-15"
       },
       {
         "soft_title": "トム・クランシーシリーズ レインボーシックス ロックダウン",
@@ -1916,7 +1241,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2005-09-22"
       },
       {
@@ -1925,26 +1250,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-09-29"
-      },
-      {
-        "soft_title": "プリンス・オブ・ペルシャ ケンシノココロ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-10-13"
-      },
-      {
-        "soft_title": "コール オブ デューティー ファイネストアワー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-10-27"
       },
       {
         "soft_title": "テクモクラシックアーケード",
@@ -1952,53 +1259,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2005-10-27"
-      },
-      {
-        "soft_title": "ビートダウン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-11-02"
-      },
-      {
-        "soft_title": "トム・クランシーシリーズ スプリンターセル カオスセオリー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-11-17"
-      },
-      {
-        "soft_title": "シャドウ・ザ・ヘッジホッグ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-12-15"
-      },
-      {
-        "soft_title": "ソニックライダーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2006-02-23"
-      },
-      {
-        "soft_title": "ザ・キング・オブ・ファイターズ ネオウェイブ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2006-03-30"
       }
     ],
     "Xbox360": [
@@ -8535,16 +7797,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "ズー タイクーン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2014-09-04"
       },
       {
@@ -8553,7 +7806,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2014-09-04"
       },
       {
@@ -8562,7 +7815,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2014-09-04"
       },
       {
@@ -8571,52 +7824,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "アサシン クリード IV ブラック フラッグ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "ウォッチドッグス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "Wolfenstein: The New Order",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "コール オブ デューティ ゴースト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "Thief",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2014-09-04"
       },
       {
@@ -8625,70 +7833,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "タイタンフォール",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "トゥームレイダー ディフィニティブエディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "ニード・フォー・スピード ライバルズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "バトルフィールド4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "プラント vs. ゾンビ ガーデンウォーフェア",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "MURDERED 魂の呼ぶ声",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-09-04"
-      },
-      {
-        "soft_title": "無双OROCHI2 Ultimate",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2014-09-04"
       },
       {
@@ -8697,17 +7842,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2014-10-02"
-      },
-      {
-        "soft_title": "FIFA 15",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-10-09"
       },
       {
         "soft_title": "Project Spark",
@@ -8715,17 +7851,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2014-10-09"
-      },
-      {
-        "soft_title": "サイコブレイク",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-10-23"
       },
       {
         "soft_title": "Sunset Overdrive",
@@ -8733,16 +7860,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-10-30"
-      },
-      {
-        "soft_title": "メトロ リダックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2014-10-30"
       },
       {
@@ -8751,7 +7869,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2014-11-06"
       },
       {
@@ -8760,161 +7878,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2014-11-13"
-      },
-      {
-        "soft_title": "コール オブ デューティ アドバンスド・ウォーフェア",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-13"
-      },
-      {
-        "soft_title": "ワールドサッカー ウイニングイレブン 2015",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-13"
-      },
-      {
-        "soft_title": "EA SPORTS UFC",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-20"
-      },
-      {
-        "soft_title": "アサシン クリード ユニティ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-20"
-      },
-      {
-        "soft_title": "真・三國無双7 Empires",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-20"
-      },
-      {
-        "soft_title": "Minecraft",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-27"
-      },
-      {
-        "soft_title": "NBA 2K15",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-27"
-      },
-      {
-        "soft_title": "ドラゴンエイジ:インクイジション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-27"
-      },
-      {
-        "soft_title": "ぷよぷよテトリス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-04"
-      },
-      {
-        "soft_title": "ザ・クルー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-04"
-      },
-      {
-        "soft_title": "グランド・セフト・オートV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-11"
-      },
-      {
-        "soft_title": "CHAOS;CHILD",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-18"
-      },
-      {
-        "soft_title": "シャドウ・オブ・モルドール",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-12-25"
-      },
-      {
-        "soft_title": "ファークライ4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-01-22"
-      },
-      {
-        "soft_title": "BLADESTORM 百年戦争 & ナイトメア",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-01-29"
-      },
-      {
-        "soft_title": "ドラゴンボール ゼノバース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-02-05"
-      },
-      {
-        "soft_title": "DEAD OR ALIVE 5 LAST ROUND",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-02-19"
       },
       {
         "soft_title": "スクリームライド",
@@ -8922,80 +7887,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2015-03-05"
-      },
-      {
-        "soft_title": "EVOLVE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-03-05"
-      },
-      {
-        "soft_title": "ファイナルファンタジー零式 HD",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-03-19"
-      },
-      {
-        "soft_title": "バイオハザード リベレーションズ2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-03-19"
-      },
-      {
-        "soft_title": "バトルフィールド ハードライン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-03-19"
-      },
-      {
-        "soft_title": "ダークソウル2 SCHOLAROFTHEFIRST SIN",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-09"
-      },
-      {
-        "soft_title": "ダイイングライト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-16"
-      },
-      {
-        "soft_title": "セインツロウIV リエレクテッド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-16"
-      },
-      {
-        "soft_title": "ブレイブルー クロノファンタズマ エクステンド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-23"
       },
       {
         "soft_title": "ディズニー ファンタジア：音楽の魔法",
@@ -9003,62 +7896,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2015-04-23"
-      },
-      {
-        "soft_title": "ボーダーランズ ダブルデラックス コレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-05-14"
-      },
-      {
-        "soft_title": "ウィッチャー3 ワイルドハント",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-05-19"
-      },
-      {
-        "soft_title": "PSYCHO-PASS サイコパス 選択なき幸福",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-05-28"
-      },
-      {
-        "soft_title": "ウルフェンシュタイン：ザ オールドブラッド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-05-28"
-      },
-      {
-        "soft_title": "ALIEN ISOLATION -エイリアン アイソレーション-",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-06-11"
-      },
-      {
-        "soft_title": "デビルメイクライ4 スペシャルエディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-06-18"
       },
       {
         "soft_title": "AZITO × タツノコレジェンズ",
@@ -9066,26 +7905,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2015-06-25"
-      },
-      {
-        "soft_title": "RIDE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-06-25"
-      },
-      {
-        "soft_title": "F1 2015",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-07-30"
       },
       {
         "soft_title": "Rare Replay",
@@ -9093,26 +7914,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2015-08-06"
-      },
-      {
-        "soft_title": "ディスオナードHD",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-08-27"
-      },
-      {
-        "soft_title": "メタルギアソリッドV ファントムペイン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-09-02"
       },
       {
         "soft_title": "Forza Motorsport 6",
@@ -9120,44 +7923,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2015-09-17"
-      },
-      {
-        "soft_title": "MotoGP 15",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-10-01"
-      },
-      {
-        "soft_title": "マッドマックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-10-01"
-      },
-      {
-        "soft_title": "FIFA 16",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-10-08"
-      },
-      {
-        "soft_title": "Forza Horizon 2: 10 Year Anniversary Edition",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-10-15"
       },
       {
         "soft_title": "Halo 5: Guardians",
@@ -9165,143 +7932,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2015-10-29"
-      },
-      {
-        "soft_title": "NBA 2K16",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-10-29"
-      },
-      {
-        "soft_title": "コール オブ デューティ ブラックオプス III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-06"
-      },
-      {
-        "soft_title": "ライズ オブ ザ トゥームレイダー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-12"
-      },
-      {
-        "soft_title": "アサシン クリード シンジゲート",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-12"
-      },
-      {
-        "soft_title": "ニード・フォー・スピード",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-12"
-      },
-      {
-        "soft_title": "スター・ウォーズ バトルフロント",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-19"
-      },
-      {
-        "soft_title": "レインボーシックス シージ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-12-10"
-      },
-      {
-        "soft_title": "Fallout 4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-12-17"
-      },
-      {
-        "soft_title": "ジャストコーズ3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-01-21"
-      },
-      {
-        "soft_title": "バイオハザード オリジンズコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-01-21"
-      },
-      {
-        "soft_title": "三國志13",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-01-28"
-      },
-      {
-        "soft_title": "雷電V",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-02-25"
-      },
-      {
-        "soft_title": "ディビジョン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-03-10"
-      },
-      {
-        "soft_title": "DARK SOULS III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-03-24"
-      },
-      {
-        "soft_title": "STRANGER OF SWORD CITY",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-03-24"
       },
       {
         "soft_title": "Quantum Break",
@@ -9309,107 +7941,17 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2016-04-07"
       },
       {
-        "soft_title": "ファークライ プライマル",
+        "soft_title": "Minecraft： Xbox One フェイバリット パック",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-04-07"
-      },
-      {
-        "soft_title": "ダイイングライト：ザ・フォロイング エンハンスト・エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-04-21"
-      },
-      {
-        "soft_title": "DOOM",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-05-19"
-      },
-      {
-        "soft_title": "バトルボーン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-05-19"
-      },
-      {
-        "soft_title": "HOMEFRONT the Revolution",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-05-19"
-      },
-      {
-        "soft_title": "ミラーズエッジ カタリスト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-06-09"
-      },
-      {
-        "soft_title": "Minecraft",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2016-06-16"
-      },
-      {
-        "soft_title": "ウィッチャー3 ワイルドハント",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-01"
-      },
-      {
-        "soft_title": "F1 2016",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-08"
-      },
-      {
-        "soft_title": "ReCore",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-15"
-      },
-      {
-        "soft_title": "FIFA 17",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-29"
       },
       {
         "soft_title": "Forza Horizon 3",
@@ -9417,53 +7959,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2016-09-29"
-      },
-      {
-        "soft_title": "デッドライジング",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-29"
-      },
-      {
-        "soft_title": "デッドライジング2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-09-29"
-      },
-      {
-        "soft_title": "NBA 2K17",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-10-20"
-      },
-      {
-        "soft_title": "バトルフィールド1",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-10-21"
-      },
-      {
-        "soft_title": "マフィア III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-10-27"
       },
       {
         "soft_title": "タイタンフォール2",
@@ -9471,53 +7968,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2016-10-28"
-      },
-      {
-        "soft_title": "Call of Duty: Infinite Warfare",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-11-04"
-      },
-      {
-        "soft_title": "Star Wars バトルフロント Ultimate Edition",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-11-18"
-      },
-      {
-        "soft_title": "FINAL FANTASY XV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-11-29"
-      },
-      {
-        "soft_title": "ウォッチドッグス2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-12-01"
-      },
-      {
-        "soft_title": "Dishonored 2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-12-08"
       },
       {
         "soft_title": "デッドライジング4",
@@ -9525,35 +7977,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2016-12-08"
-      },
-      {
-        "soft_title": "STEEP",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-12-22"
-      },
-      {
-        "soft_title": "バイオハザード7 レジデントイービル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-01-26"
-      },
-      {
-        "soft_title": "フォーオナー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-02-16"
       },
       {
         "soft_title": "Halo Wars 2",
@@ -9561,35 +7986,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2017-02-23"
-      },
-      {
-        "soft_title": "ゴーストリコン ワイルドランズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-03-09"
-      },
-      {
-        "soft_title": "デウスエクス マンカインド・ディバイデッド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-03-23"
-      },
-      {
-        "soft_title": "DARK SOULS III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-04-20"
       },
       {
         "soft_title": "Prey",
@@ -9597,7 +7995,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2017-05-18"
       },
       {
@@ -9606,26 +8004,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2017-05-25"
-      },
-      {
-        "soft_title": "鉄拳7",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-06-01"
-      },
-      {
-        "soft_title": "DiRT 4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-07-26"
       },
       {
         "soft_title": "ReCore Definitive Edition",
@@ -9633,44 +8013,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2017-08-31"
-      },
-      {
-        "soft_title": "F1 2017",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-09-14"
-      },
-      {
-        "soft_title": "ディスオナード: デス・オブ・ザ・アウトサイダー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-09-15"
-      },
-      {
-        "soft_title": "NBA 2K18",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-09-19"
-      },
-      {
-        "soft_title": "FIFA 18",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-09-29"
       },
       {
         "soft_title": "Forza Motorsport 7",
@@ -9678,35 +8022,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2017-10-03"
-      },
-      {
-        "soft_title": "シャドウ・オブ・ウォー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-10-12"
-      },
-      {
-        "soft_title": "サイコブレイク2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-10-19"
-      },
-      {
-        "soft_title": "アサシン クリード オリジンズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-10-26"
       },
       {
         "soft_title": "Zoo Tycoon: Ultimate Animal Collection",
@@ -9714,25 +8031,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-10-30"
-      },
-      {
-        "soft_title": "ディズニーランド: アドベンチャーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-10-30"
-      },
-      {
-        "soft_title": "ラッシュ: ディズニー/ピクサー アドベンチャー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2017-10-30"
       },
       {
@@ -9741,116 +8040,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2017-11-07"
-      },
-      {
-        "soft_title": "オカルティック・ナイン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-11-09"
-      },
-      {
-        "soft_title": "ニード・フォー・スピード ペイバック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-11-10"
-      },
-      {
-        "soft_title": "Star Wars バトルフロント II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-11-17"
-      },
-      {
-        "soft_title": "Wolfenstein II： The New Colossus",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-11-23"
-      },
-      {
-        "soft_title": "STEEP ウインターゲーム /ゴールドエディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-12-05"
-      },
-      {
-        "soft_title": "PlayerUnknown's Battlegrounds",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-12-12"
-      },
-      {
-        "soft_title": "Gears of War 4 （リパッケージ版）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-12-15"
-      },
-      {
-        "soft_title": "ドラゴンボール ファイターズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-02-01"
-      },
-      {
-        "soft_title": "ファークライ5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-03-29"
-      },
-      {
-        "soft_title": "DARK SOULS REMASTERED",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-05-24"
-      },
-      {
-        "soft_title": "PlayerUnknown's Battlegrounds",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-09-04"
-      },
-      {
-        "soft_title": "FIFA 19",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-09-28"
       },
       {
         "soft_title": "Forza Horizon 4",
@@ -9858,89 +8049,8 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2018-10-02"
-      },
-      {
-        "soft_title": "Minecraft スターターコレクションMinecraft マスターコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-10-23"
-      },
-      {
-        "soft_title": "死印",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-10-25"
-      },
-      {
-        "soft_title": "バトルフィールドV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-11-20"
-      },
-      {
-        "soft_title": "エースコンバット7 スカイズ・アンノウン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-01-17"
-      },
-      {
-        "soft_title": "メトロ エクソダス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-02-15"
-      },
-      {
-        "soft_title": "Anthem",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-02-22"
-      },
-      {
-        "soft_title": "デビル メイ クライ 5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-03-08"
-      },
-      {
-        "soft_title": "SEKIRO: SHADOWS DIE TWICE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-03-22"
-      },
-      {
-        "soft_title": "RAGE 2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-06-06"
       },
       {
         "soft_title": "Gears 5",
@@ -9948,116 +8058,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2019-09-10"
-      },
-      {
-        "soft_title": "Ori and the Will of the Wisps",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-08-06"
-      },
-      {
-        "soft_title": "Minecraft Dungeons",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-09-08"
-      },
-      {
-        "soft_title": "Gears Tactics",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-10-10"
-      },
-      {
-        "soft_title": "Chivalry 2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-06-24"
-      },
-      {
-        "soft_title": "SCARLET NEXUS",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-06-24"
-      },
-      {
-        "soft_title": "DiRT 5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-08-05"
-      },
-      {
-        "soft_title": "Minecraft Dungeons Ultimate Edition",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-10-26"
-      },
-      {
-        "soft_title": "Forza Horizon 5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-11-09"
-      },
-      {
-        "soft_title": "Halo Infinite",
-        "collected_new": true,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-12-08"
-      },
-      {
-        "soft_title": "SAINTS ROW（セインツロウ）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-08-23"
-      },
-      {
-        "soft_title": "GUNGRAVE G.O.R.E （ガングレイヴ ゴア）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-11-22"
-      },
-      {
-        "soft_title": "UNDERTALE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-10-26"
       }
     ],
     "XboxSeriesX/S": [
@@ -10067,26 +8069,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2020-11-10"
-      },
-      {
-        "soft_title": "Chivalry 2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-06-24"
-      },
-      {
-        "soft_title": "SCARLET NEXUSスカーレットネクサス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-06-24"
       },
       {
         "soft_title": "マイクロソフト フライトシミュレーター (2020)",
@@ -10094,17 +8078,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2021-07-27"
-      },
-      {
-        "soft_title": "Dirt 5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-08-05"
       },
       {
         "soft_title": "Minecraft Dungeons Ultimate Edition",
@@ -10112,7 +8087,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2021-10-26"
       },
       {
@@ -10121,7 +8096,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2021-11-09"
       },
       {
@@ -10130,26 +8105,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2021-12-08"
-      },
-      {
-        "soft_title": "Saints Row（セインツロウ）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-08-23"
-      },
-      {
-        "soft_title": "GUNGRAVE G.O.R.E （ガングレイヴ ゴア）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-11-22"
       },
       {
         "soft_title": "Minecraft Legends（マインクラフト レジェンズ）",
@@ -10157,7 +8114,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2023-04-19"
       },
       {
@@ -10166,26 +8123,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2023-10-10"
-      },
-      {
-        "soft_title": "UNDERTALE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-10-26"
-      },
-      {
-        "soft_title": "コール オブ デューティ ブラックオプス 6",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2024-10-25"
       },
       {
         "soft_title": "インディ・ジョーンズ/大いなる円環",
@@ -10193,7 +8132,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2024-12-09"
       }
     ]

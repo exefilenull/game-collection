@@ -3,39 +3,30 @@
   "hardware_name": {
     "PCエンジン": [
       {
-        "soft_title": "上海",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1987-10-30"
-      },
-      {
         "soft_title": "ビックリマンワールド",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1987-10-30"
       },
       {
-        "soft_title": "THE 功夫China Warrior",
+        "soft_title": "THE 功夫",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1987-11-21"
       },
       {
-        "soft_title": "カトちゃんケンちゃんJ.J. & Jeff",
+        "soft_title": "カトちゃんケンちゃん",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1987-11-30"
       },
       {
@@ -44,7 +35,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1987-12-28"
       },
       {
@@ -53,26 +44,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1988-01-22"
-      },
-      {
-        "soft_title": "妖怪道中記",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1988-02-05"
-      },
-      {
-        "soft_title": "R-TYPE I",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1988-03-25"
       },
       {
         "soft_title": "遊々人生",
@@ -80,7 +53,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1988-04-22"
       },
       {
@@ -89,25 +62,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1988-05-20"
       },
       {
-        "soft_title": "R-TYPE II",
+        "soft_title": "パワーリーグ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1988-06-03"
-      },
-      {
-        "soft_title": "パワーリーグWorld Class Baseball",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1988-06-24"
       },
       {
@@ -116,16 +80,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1988-07-08"
       },
       {
-        "soft_title": "ギャラガ'88Galaga '90",
+        "soft_title": "ギャラガ'88",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1988-07-15"
       },
       {
@@ -134,16 +98,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1988-08-11"
       },
       {
-        "soft_title": "魔神英雄伝ワタルKeith Courage in Alpha Zones",
+        "soft_title": "魔神英雄伝ワタル",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1988-08-30"
       },
       {
@@ -152,16 +116,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1988-09-14"
       },
       {
-        "soft_title": "魔境伝説The Legendary Axe",
+        "soft_title": "魔境伝説",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1988-09-23"
       },
       {
@@ -170,17 +134,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1988-09-23"
-      },
-      {
-        "soft_title": "ファンタジーゾーン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1988-10-14"
       },
       {
         "soft_title": "定吉七番 秀吉の黄金",
@@ -188,17 +143,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1988-11-18"
-      },
-      {
-        "soft_title": "スペースハリアー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1988-12-09"
       },
       {
         "soft_title": "ドラゴンスピリット",
@@ -206,7 +152,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1988-12-16"
       },
       {
@@ -215,7 +161,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1988-12-22"
       },
       {
@@ -224,7 +170,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-01-14"
       },
       {
@@ -233,17 +179,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-01-27"
-      },
-      {
-        "soft_title": "ネクタリス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1989-02-09"
       },
       {
         "soft_title": "モトローダー",
@@ -251,7 +188,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-02-23"
       },
       {
@@ -260,7 +197,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-03-01"
       },
       {
@@ -269,7 +206,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-03-03"
       },
       {
@@ -278,7 +215,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1989-03-04"
       },
       {
@@ -287,7 +224,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1989-03-17"
       },
       {
@@ -296,7 +233,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-03-18"
       },
       {
@@ -305,7 +242,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-03-20"
       },
       {
@@ -314,7 +251,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-03-23"
       },
       {
@@ -323,7 +260,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1989-03-24"
       },
       {
@@ -332,7 +269,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-03-28"
       },
       {
@@ -341,7 +278,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-03-31"
       },
       {
@@ -350,7 +287,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-03-31"
       },
       {
@@ -359,7 +296,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1989-04-01"
       },
       {
@@ -368,7 +305,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-04-19"
       },
       {
@@ -377,7 +314,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-04-21"
       },
       {
@@ -386,7 +323,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1989-04-27"
       },
       {
@@ -395,7 +332,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-05-25"
       },
       {
@@ -404,17 +341,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-05-30"
-      },
-      {
-        "soft_title": "パックランド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1989-06-01"
       },
       {
         "soft_title": "わいわい麻雀 ゆかいな雀友たち",
@@ -422,7 +350,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1989-06-19"
       },
       {
@@ -431,7 +359,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-06-22"
       },
       {
@@ -440,7 +368,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-06-23"
       },
       {
@@ -449,7 +377,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-06-28"
       },
       {
@@ -458,16 +386,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-06-30"
       },
       {
-        "soft_title": "ガンヘッドBlazing Lazers",
+        "soft_title": "ガンヘッド",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-07-07"
       },
       {
@@ -476,35 +404,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-07-07"
-      },
-      {
-        "soft_title": "サイドアームSide Arms Hyper Dyne",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1989-07-14"
-      },
-      {
-        "soft_title": "武田信玄",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1989-07-28"
-      },
-      {
-        "soft_title": "めぞん一刻",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1989-08-04"
       },
       {
         "soft_title": "パワーリーグII",
@@ -512,7 +413,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-08-08"
       },
       {
@@ -521,7 +422,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1989-08-10"
       },
       {
@@ -530,7 +431,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-08-25"
       },
       {
@@ -539,7 +440,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-08-25"
       },
       {
@@ -548,7 +449,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-09-01"
       },
       {
@@ -557,17 +458,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-09-08"
-      },
-      {
-        "soft_title": "スーパー桃太郎電鉄",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "TBL",
-        "release_day": "1989-09-15"
       },
       {
         "soft_title": "ダブルダンジョン",
@@ -575,7 +467,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1989-09-29"
       },
       {
@@ -588,21 +480,12 @@
         "release_day": "1989-09-29"
       },
       {
-        "soft_title": "獣王記",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1989-09-29"
-      },
-      {
         "soft_title": "デジタルチャンプ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-10-13"
       },
       {
@@ -611,16 +494,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-10-20"
       },
       {
-        "soft_title": "ドラえもん 迷宮大作戦Cratermaze",
+        "soft_title": "ドラえもん 迷宮大作戦",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-10-31"
       },
       {
@@ -629,7 +512,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1989-11-01"
       },
       {
@@ -638,7 +521,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1989-11-17"
       },
       {
@@ -647,16 +530,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1989-11-22"
       },
       {
-        "soft_title": "ジャック・ニクラウス チャンピオンシップゴルフJack Nicklaus' Turbo Golf",
+        "soft_title": "ジャック・ニクラウス チャンピオンシップゴルフ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-11-24"
       },
       {
@@ -665,7 +548,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1989-11-24"
       },
       {
@@ -674,7 +557,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-11-29"
       },
       {
@@ -683,7 +566,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-11-30"
       },
       {
@@ -692,7 +575,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-12-01"
       },
       {
@@ -701,7 +584,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-12-01"
       },
       {
@@ -710,7 +593,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-12-08"
       },
       {
@@ -719,7 +602,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-12-08"
       },
       {
@@ -728,7 +611,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-12-15"
       },
       {
@@ -737,7 +620,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-12-20"
       },
       {
@@ -746,7 +629,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-12-22"
       },
       {
@@ -755,7 +638,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-12-22"
       },
       {
@@ -764,7 +647,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1989-12-22"
       },
       {
@@ -773,7 +656,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1989-12-23"
       },
       {
@@ -782,7 +665,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1989-12-27"
       },
       {
@@ -791,7 +674,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-01-19"
       },
       {
@@ -800,7 +683,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-01-26"
       },
       {
@@ -809,7 +692,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-01-26"
       },
       {
@@ -818,7 +701,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-01-26"
       },
       {
@@ -827,7 +710,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-02-01"
       },
       {
@@ -836,25 +719,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-02-07"
       },
       {
-        "soft_title": "虎への道Tiger Road",
+        "soft_title": "虎への道",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-02-23"
-      },
-      {
-        "soft_title": "ブロディアTimeball",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "アクション",
         "release_day": "1990-02-23"
       },
       {
@@ -863,7 +737,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-02-23"
       },
       {
@@ -872,16 +746,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-02-23"
       },
       {
-        "soft_title": "パラノイアPsychosis",
+        "soft_title": "パラノイア",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-03-01"
       },
       {
@@ -890,7 +764,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-03-02"
       },
       {
@@ -899,7 +773,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-03-02"
       },
       {
@@ -908,7 +782,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-03-03"
       },
       {
@@ -917,16 +791,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-03-09"
       },
       {
-        "soft_title": "倉庫番WORLDBoxyboy",
+        "soft_title": "倉庫番WORLD",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1990-03-16"
       },
       {
@@ -935,7 +809,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-03-16"
       },
       {
@@ -944,7 +818,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-03-23"
       },
       {
@@ -953,7 +827,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-03-27"
       },
       {
@@ -962,34 +836,25 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-03-30"
       },
       {
-        "soft_title": "ドロップロック ほらホラDrop Off",
+        "soft_title": "ドロップロック ほらホラ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1990-03-30"
       },
       {
-        "soft_title": "ビーボールChew Man Fu",
+        "soft_title": "ビーボール",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1990-03-30"
-      },
-      {
-        "soft_title": "熱血高校ドッジボール部 PC番外編",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "パズル",
         "release_day": "1990-03-30"
       },
       {
@@ -998,7 +863,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-04-03"
       },
       {
@@ -1007,7 +872,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-04-06"
       },
       {
@@ -1016,17 +881,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-04-06"
-      },
-      {
-        "soft_title": "パワードリフト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RCG",
-        "release_day": "1990-04-13"
       },
       {
         "soft_title": "ネクロスの要塞",
@@ -1034,7 +890,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-04-20"
       },
       {
@@ -1043,7 +899,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-04-27"
       },
       {
@@ -1052,7 +908,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-04-27"
       },
       {
@@ -1061,7 +917,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-04-27"
       },
       {
@@ -1070,17 +926,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-05-25"
-      },
-      {
-        "soft_title": "ドンドコドン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-05-31"
       },
       {
         "soft_title": "シンドバッド 地底の大魔宮",
@@ -1088,16 +935,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-06-02"
       },
       {
-        "soft_title": "ヴェイグスVeigues Tactical Gladiator",
+        "soft_title": "ヴェイグス",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-06-15"
       },
       {
@@ -1106,7 +953,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-06-22"
       },
       {
@@ -1115,7 +962,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-06-29"
       },
       {
@@ -1124,16 +971,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1990-06-29"
-      },
-      {
-        "soft_title": "パズニック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "シューティング",
         "release_day": "1990-06-29"
       },
       {
@@ -1142,16 +980,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-06-29"
       },
       {
-        "soft_title": "最後の忍道Ninja Spirit",
+        "soft_title": "最後の忍道N",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-07-06"
       },
       {
@@ -1160,34 +998,25 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-07-06"
       },
       {
-        "soft_title": "ラスタンサーガ2",
+        "soft_title": "超絶倫人ベラボーマン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-07-06"
-      },
-      {
-        "soft_title": "超絶倫人ベラボーマンBravoman",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-07-13"
       },
       {
-        "soft_title": "デビルクラッシュDevil's Crush",
+        "soft_title": "デビルクラッシュD",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-07-20"
       },
       {
@@ -1196,16 +1025,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-07-20"
       },
       {
-        "soft_title": "ワールドビーチバレーSonic Spike",
+        "soft_title": "ワールドビーチバレー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-07-27"
       },
       {
@@ -1214,25 +1043,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1990-07-27"
-      },
-      {
-        "soft_title": "大魔界村",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-07-27"
-      },
-      {
-        "soft_title": "ロードランナー 失われた迷宮",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "シューティング",
         "release_day": "1990-07-27"
       },
       {
@@ -1241,7 +1052,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-08-03"
       },
       {
@@ -1250,17 +1061,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-08-09"
-      },
-      {
-        "soft_title": "クラックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1990-08-10"
       },
       {
         "soft_title": "将棋 初段一直線",
@@ -1268,7 +1070,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-08-10"
       },
       {
@@ -1277,7 +1079,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-08-10"
       },
       {
@@ -1286,25 +1088,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-08-10"
       },
       {
-        "soft_title": "オペレーションウルフ",
+        "soft_title": "暗黒伝説",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1990-08-31"
-      },
-      {
-        "soft_title": "暗黒伝説The Legendary Axe II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-09-07"
       },
       {
@@ -1313,17 +1106,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-09-07"
-      },
-      {
-        "soft_title": "F1サーカス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RCG",
-        "release_day": "1990-09-14"
       },
       {
         "soft_title": "関ヶ原",
@@ -1331,7 +1115,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-09-14"
       },
       {
@@ -1340,7 +1124,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-09-21"
       },
       {
@@ -1349,17 +1133,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-09-21"
-      },
-      {
-        "soft_title": "アフターバーナーII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1990-09-28"
       },
       {
         "soft_title": "ゴモラスピード",
@@ -1367,16 +1142,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-09-28"
-      },
-      {
-        "soft_title": "ダイハード",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-09-28"
       },
       {
@@ -1385,7 +1151,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-09-28"
       },
       {
@@ -1394,26 +1160,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-09-28"
-      },
-      {
-        "soft_title": "サイバーナイト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1990-10-12"
-      },
-      {
-        "soft_title": "バットマン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1990-10-12"
       },
       {
         "soft_title": "ラビオレプススペシャル",
@@ -1421,7 +1169,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-10-19"
       },
       {
@@ -1430,26 +1178,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-10-26"
-      },
-      {
-        "soft_title": "琉球",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1990-10-26"
-      },
-      {
-        "soft_title": "エアロブラスターズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1990-11-02"
       },
       {
         "soft_title": "カットビ!宅配くん",
@@ -1457,7 +1187,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-11-09"
       },
       {
@@ -1466,7 +1196,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-11-23"
       },
       {
@@ -1475,7 +1205,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-07"
       },
       {
@@ -1484,7 +1214,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-07"
       },
       {
@@ -1493,7 +1223,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-07"
       },
       {
@@ -1502,7 +1232,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-07"
       },
       {
@@ -1511,16 +1241,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-11"
       },
       {
-        "soft_title": "バイオレントソルジャーSinistron",
+        "soft_title": "バイオレントソルジャー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-14"
       },
       {
@@ -1529,7 +1259,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1990-12-14"
       },
       {
@@ -1538,16 +1268,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1990-12-14"
-      },
-      {
-        "soft_title": "大旋風",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "パズル",
         "release_day": "1990-12-14"
       },
       {
@@ -1556,7 +1277,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-12-14"
       },
       {
@@ -1565,7 +1286,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-14"
       },
       {
@@ -1574,17 +1295,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-12-14"
-      },
-      {
-        "soft_title": "アウトラン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RCG",
-        "release_day": "1990-12-21"
       },
       {
         "soft_title": "クロスワイバー",
@@ -1592,7 +1304,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-21"
       },
       {
@@ -1601,7 +1313,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-21"
       },
       {
@@ -1610,7 +1322,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-21"
       },
       {
@@ -1619,7 +1331,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-12-22"
       },
       {
@@ -1628,7 +1340,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-01-08"
       },
       {
@@ -1637,16 +1349,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
-        "release_day": "1991-01-18"
-      },
-      {
-        "soft_title": "ジャッキー・チェンJackie Chan's Action Kung Fu",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "Aロールプレイング",
         "release_day": "1991-01-18"
       },
       {
@@ -1655,7 +1358,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-01-25"
       },
       {
@@ -1664,7 +1367,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-02-15"
       },
       {
@@ -1673,16 +1376,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1991-02-22"
-      },
-      {
-        "soft_title": "パズルボーイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "シューティング",
         "release_day": "1991-02-22"
       },
       {
@@ -1691,7 +1385,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-02-22"
       },
       {
@@ -1700,7 +1394,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-03-01"
       },
       {
@@ -1709,7 +1403,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-03-08"
       },
       {
@@ -1718,7 +1412,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-03-13"
       },
       {
@@ -1727,7 +1421,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-03-15"
       },
       {
@@ -1736,7 +1430,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1991-03-15"
       },
       {
@@ -1745,16 +1439,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-03-21"
       },
       {
-        "soft_title": "19431943改",
+        "soft_title": "1943改",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-03-22"
       },
       {
@@ -1763,7 +1457,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-03-29"
       },
       {
@@ -1772,16 +1466,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1991-03-29"
-      },
-      {
-        "soft_title": "コラムス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "シューティング",
         "release_day": "1991-03-29"
       },
       {
@@ -1790,17 +1475,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-03-29"
-      },
-      {
-        "soft_title": "ポピュラス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1991-04-05"
       },
       {
         "soft_title": "サーカスライド",
@@ -1808,7 +1484,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1991-04-06"
       },
       {
@@ -1817,7 +1493,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-04-12"
       },
       {
@@ -1826,34 +1502,25 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-04-19"
       },
       {
-        "soft_title": "改造町人シュビビンマン2 -新たなる敵-Shockman",
+        "soft_title": "改造町人シュビビンマン2 -新たなる敵-S",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-04-27"
       },
       {
-        "soft_title": "ハットリス",
+        "soft_title": "パワーイレブン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1991-05-24"
-      },
-      {
-        "soft_title": "パワーイレブン（英語版）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-06-21"
       },
       {
@@ -1862,16 +1529,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-07-05"
       },
       {
-        "soft_title": "トリッキー（英語版）",
+        "soft_title": "トリッキー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1991-07-06"
       },
       {
@@ -1880,7 +1547,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-07-12"
       },
       {
@@ -1889,16 +1556,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-07-12"
       },
       {
-        "soft_title": "PC原人2Bonk's Revenge",
+        "soft_title": "PC原人2",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-07-19"
       },
       {
@@ -1907,7 +1574,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-07-19"
       },
       {
@@ -1916,7 +1583,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1991-08-02"
       },
       {
@@ -1925,7 +1592,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-08-09"
       },
       {
@@ -1934,16 +1601,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-08-09"
       },
       {
-        "soft_title": "19411941 Counter Attack",
+        "soft_title": " 1941 Counter Attack",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-08-23"
       },
       {
@@ -1952,7 +1619,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-08-30"
       },
       {
@@ -1961,7 +1628,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-08-30"
       },
       {
@@ -1970,7 +1637,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-09-20"
       },
       {
@@ -1979,7 +1646,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-09-20"
       },
       {
@@ -1988,7 +1655,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-09-27"
       },
       {
@@ -1997,7 +1664,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-09-27"
       },
       {
@@ -2006,16 +1673,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1991-09-27"
       },
       {
-        "soft_title": "メソポタミア（英語版）",
+        "soft_title": "メソポタミア",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-10-04"
       },
       {
@@ -2024,7 +1691,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-10-18"
       },
       {
@@ -2033,7 +1700,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1991-11-08"
       },
       {
@@ -2042,7 +1709,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-11-15"
       },
       {
@@ -2051,17 +1718,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-11-15"
-      },
-      {
-        "soft_title": "雷電",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1991-11-22"
       },
       {
         "soft_title": "コリューン",
@@ -2069,7 +1727,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-11-29"
       },
       {
@@ -2078,7 +1736,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1991-11-29"
       },
       {
@@ -2087,7 +1745,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-11-29"
       },
       {
@@ -2096,7 +1754,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-11-29"
       },
       {
@@ -2105,17 +1763,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1991-11-29"
-      },
-      {
-        "soft_title": "沙羅曼蛇",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1991-12-06"
       },
       {
         "soft_title": "バブルガムクラッシュ",
@@ -2123,7 +1772,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-12-06"
       },
       {
@@ -2132,7 +1781,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-12-13"
       },
       {
@@ -2141,7 +1790,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-12-13"
       },
       {
@@ -2150,7 +1799,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-12-13"
       },
       {
@@ -2159,17 +1808,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-12-13"
-      },
-      {
-        "soft_title": "スーパー桃太郎電鉄II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "TBL",
-        "release_day": "1991-12-20"
       },
       {
         "soft_title": "ドラゴンセイバー",
@@ -2177,7 +1817,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-12-27"
       },
       {
@@ -2186,7 +1826,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-01-04"
       },
       {
@@ -2195,7 +1835,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-01-10"
       },
       {
@@ -2204,7 +1844,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-01-17"
       },
       {
@@ -2213,7 +1853,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-01-24"
       },
       {
@@ -2222,7 +1862,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-01-31"
       },
       {
@@ -2231,7 +1871,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-01-31"
       },
       {
@@ -2240,7 +1880,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-02-21"
       },
       {
@@ -2249,7 +1889,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-02-28"
       },
       {
@@ -2258,7 +1898,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-02-28"
       },
       {
@@ -2267,7 +1907,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-03-06"
       },
       {
@@ -2276,7 +1916,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-03-13"
       },
       {
@@ -2285,17 +1925,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-03-13"
-      },
-      {
-        "soft_title": "熱血高校ドッジボール部 PCサッカー編",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SPT",
-        "release_day": "1992-04-03"
       },
       {
         "soft_title": "源平討魔伝 巻ノ弐Samurai Ghost",
@@ -2303,7 +1934,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-04-07"
       },
       {
@@ -2312,16 +1943,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-06-25"
       },
       {
-        "soft_title": "高橋名人の新冒険島New Adventure Island",
+        "soft_title": "高橋名人の新冒険島New アドベンチャーenture Island",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-06-26"
       },
       {
@@ -2330,7 +1961,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-07-10"
       },
       {
@@ -2339,7 +1970,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-07-24"
       },
       {
@@ -2348,7 +1979,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-07-24"
       },
       {
@@ -2357,7 +1988,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-08-07"
       },
       {
@@ -2366,7 +1997,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-09-25"
       },
       {
@@ -2375,7 +2006,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-10-02"
       },
       {
@@ -2384,7 +2015,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-10-10"
       },
       {
@@ -2393,7 +2024,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-11-13"
       },
       {
@@ -2402,7 +2033,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-11-20"
       },
       {
@@ -2411,7 +2042,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-11-27"
       },
       {
@@ -2420,7 +2051,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-12-04"
       },
       {
@@ -2429,7 +2060,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-12-11"
       },
       {
@@ -2438,7 +2069,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1992-12-18"
       },
       {
@@ -2447,7 +2078,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1993-02-10"
       },
       {
@@ -2456,16 +2087,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-02-19"
       },
       {
-        "soft_title": "PC原人3Bonk 3: Bonk's Big Adventure",
+        "soft_title": "PC原人3Bonk 3: Bonk's Big アドベンチャーenture",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-04-02"
       },
       {
@@ -2474,7 +2105,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-04-29"
       },
       {
@@ -2483,7 +2114,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-04-29"
       },
       {
@@ -2492,7 +2123,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-05-14"
       },
       {
@@ -2501,7 +2132,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-06-12"
       },
       {
@@ -2510,7 +2141,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-06-25"
       },
       {
@@ -2519,7 +2150,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1993-10-15"
       },
       {
@@ -2528,7 +2159,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-12-10"
       },
       {
@@ -2537,7 +2168,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1994-01-15"
       },
       {
@@ -2546,7 +2177,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-12-16"
       },
       {
@@ -2555,7 +2186,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1988-12-04"
       },
       {
@@ -2564,7 +2195,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1988-12-04"
       },
       {
@@ -2582,7 +2213,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1989-03-31"
       },
       {
@@ -2591,7 +2222,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-06-23"
       },
       {
@@ -2600,7 +2231,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1989-06-30"
       },
       {
@@ -2609,7 +2240,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-08-31"
       },
       {
@@ -2618,7 +2249,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-09-14"
       },
       {
@@ -2627,7 +2258,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1989-10-27"
       },
       {
@@ -2654,7 +2285,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1989-11-24"
       },
       {
@@ -2663,7 +2294,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1989-12-15"
       },
       {
@@ -2681,7 +2312,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1989-12-21"
       },
       {
@@ -2690,7 +2321,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1989-12-22"
       },
       {
@@ -2699,7 +2330,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1989-12-28"
       },
       {
@@ -2717,7 +2348,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-02-23"
       },
       {
@@ -2726,7 +2357,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-03-10"
       },
       {
@@ -2735,7 +2366,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-03-16"
       },
       {
@@ -2744,7 +2375,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-03-23"
       },
       {
@@ -2753,7 +2384,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-03-30"
       },
       {
@@ -2762,7 +2393,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-03-30"
       },
       {
@@ -2816,7 +2447,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1990-04-13"
       },
       {
@@ -2834,7 +2465,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-04-27"
       },
       {
@@ -2843,7 +2474,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-04-27"
       },
       {
@@ -2861,7 +2492,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-06-29"
       },
       {
@@ -2870,7 +2501,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-06-29"
       },
       {
@@ -2879,7 +2510,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-07-06"
       },
       {
@@ -2897,7 +2528,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1990-08-31"
       },
       {
@@ -2906,7 +2537,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-09-07"
       },
       {
@@ -2915,7 +2546,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-09-14"
       },
       {
@@ -2924,7 +2555,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-09-14"
       },
       {
@@ -2933,7 +2564,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-09-21"
       },
       {
@@ -2951,7 +2582,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1990-10-05"
       },
       {
@@ -2960,7 +2591,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1990-10-09"
       },
       {
@@ -2969,7 +2600,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1990-11-02"
       },
       {
@@ -2978,7 +2609,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1990-11-23"
       },
       {
@@ -2987,7 +2618,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1990-12-07"
       },
       {
@@ -2996,7 +2627,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1990-12-07"
       },
       {
@@ -3005,7 +2636,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1990-12-20"
       },
       {
@@ -3023,7 +2654,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-01-25"
       },
       {
@@ -3032,7 +2663,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1991-02-15"
       },
       {
@@ -3041,7 +2672,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-02-15"
       },
       {
@@ -3050,7 +2681,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-03-15"
       },
       {
@@ -3059,7 +2690,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1991-03-22"
       },
       {
@@ -3068,7 +2699,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-03-22"
       },
       {
@@ -3077,7 +2708,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-03-22"
       },
       {
@@ -3086,7 +2717,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1991-03-22"
       },
       {
@@ -3095,7 +2726,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1991-03-29"
       },
       {
@@ -3104,7 +2735,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-03-29"
       },
       {
@@ -3113,7 +2744,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-03-29"
       },
       {
@@ -3122,7 +2753,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-04-05"
       },
       {
@@ -3131,7 +2762,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-04-05"
       },
       {
@@ -3140,7 +2771,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1991-04-05"
       },
       {
@@ -3149,7 +2780,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-04-12"
       },
       {
@@ -3158,7 +2789,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-04-12"
       },
       {
@@ -3167,7 +2798,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1991-04-19"
       },
       {
@@ -3185,7 +2816,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-05-31"
       },
       {
@@ -3194,7 +2825,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-06-07"
       },
       {
@@ -3203,7 +2834,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-06-07"
       },
       {
@@ -3212,7 +2843,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-06-21"
       },
       {
@@ -3221,7 +2852,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1991-06-28"
       },
       {
@@ -3230,7 +2861,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-06-28"
       },
       {
@@ -3239,7 +2870,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-07-12"
       },
       {
@@ -3248,7 +2879,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-07-26"
       },
       {
@@ -3257,7 +2888,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1991-07-26"
       },
       {
@@ -3266,7 +2897,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-08-09"
       },
       {
@@ -3275,7 +2906,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-08-23"
       },
       {
@@ -3284,7 +2915,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-08-30"
       },
       {
@@ -3302,7 +2933,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1991-10-11"
       },
       {
@@ -3311,16 +2942,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
-        "release_day": "1991-10-25"
-      },
-      {
-        "soft_title": "ドラゴンスレイヤー英雄伝説Dragon Slayer: The Legend of Heroes",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "テーブル",
         "release_day": "1991-10-25"
       },
       {
@@ -3329,7 +2951,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1991-10-25"
       },
       {
@@ -3338,17 +2960,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-10-25"
-      },
-      {
-        "soft_title": "プリンス・オブ・ペルシャ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1991-11-08"
       },
       {
         "soft_title": "レディファントム",
@@ -3356,7 +2969,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-11-29"
       },
       {
@@ -3365,7 +2978,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-11-29"
       },
       {
@@ -3374,7 +2987,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-12-06"
       },
       {
@@ -3383,7 +2996,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1991-12-06"
       },
       {
@@ -3392,7 +3005,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1991-12-13"
       },
       {
@@ -3401,7 +3014,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-12-13"
       },
       {
@@ -3410,7 +3023,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1991-12-13"
       },
       {
@@ -3419,7 +3032,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1991-12-20"
       },
       {
@@ -3428,16 +3041,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1991-12-20"
-      },
-      {
-        "soft_title": "熱血高校ドッジボール部 CDサッカー編",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "シューティング",
         "release_day": "1991-12-20"
       },
       {
@@ -3446,20 +3050,11 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1991-12-27"
       },
       {
-        "soft_title": "マイト・アンド・マジック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1992-01-24"
-      },
-      {
-        "soft_title": "うウルトラボックス 第6号",
+        "soft_title": "ウルトラボックス 第6号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3473,7 +3068,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-02-21"
       },
       {
@@ -3482,7 +3077,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-02-28"
       },
       {
@@ -3491,7 +3086,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1992-02-28"
       },
       {
@@ -3500,16 +3095,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-02-28"
       },
       {
-        "soft_title": "ライジングサンLords of the Rising Sun",
+        "soft_title": "ライジングサン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-03-13"
       },
       {
@@ -3518,7 +3113,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-03-13"
       },
       {
@@ -3527,7 +3122,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1992-03-20"
       },
       {
@@ -3536,7 +3131,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-03-27"
       },
       {
@@ -3545,7 +3140,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-03-27"
       },
       {
@@ -3554,7 +3149,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-04-24"
       },
       {
@@ -3563,7 +3158,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-07-10"
       },
       {
@@ -3572,7 +3167,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-07-17"
       },
       {
@@ -3581,7 +3176,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-07-17"
       },
       {
@@ -3590,7 +3185,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-09-18"
       },
       {
@@ -3599,7 +3194,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1992-10-02"
       },
       {
@@ -3608,7 +3203,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-10-10"
       },
       {
@@ -3617,25 +3212,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-11-20"
       },
       {
-        "soft_title": "上海III ドラゴンズアイ",
+        "soft_title": "シャーロック・ホームズの探偵講座II",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1992-12-18"
-      },
-      {
-        "soft_title": "シャーロック・ホームズの探偵講座IISherlock Holmes: Consulting Detective Vol. II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-05-28"
       },
       {
@@ -3644,7 +3230,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1993-05-28"
       },
       {
@@ -3653,7 +3239,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-02-07"
       },
       {
@@ -3662,7 +3248,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-02-21"
       },
       {
@@ -3671,7 +3257,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-02-28"
       },
       {
@@ -3680,7 +3266,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-02-28"
       },
       {
@@ -3689,7 +3275,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-03-06"
       },
       {
@@ -3698,7 +3284,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-03-13"
       },
       {
@@ -3707,7 +3293,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-03-19"
       },
       {
@@ -3716,7 +3302,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-03-19"
       },
       {
@@ -3725,7 +3311,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-03-26"
       },
       {
@@ -3734,7 +3320,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-03-27"
       },
       {
@@ -3743,7 +3329,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-03-27"
       },
       {
@@ -3752,7 +3338,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-03-27"
       },
       {
@@ -3761,7 +3347,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-04-01"
       },
       {
@@ -3770,7 +3356,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1992-04-01"
       },
       {
@@ -3779,7 +3365,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-04-02"
       },
       {
@@ -3788,7 +3374,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-04-03"
       },
       {
@@ -3797,16 +3383,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-04-24"
       },
       {
-        "soft_title": "テラフォーミングSyd Mead's Terraforming",
+        "soft_title": "テラフォーミング",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-05-01"
       },
       {
@@ -3815,7 +3401,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-05-01"
       },
       {
@@ -3824,7 +3410,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-05-29"
       },
       {
@@ -3833,7 +3419,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-05-29"
       },
       {
@@ -3842,7 +3428,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-06-19"
       },
       {
@@ -3851,7 +3437,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-06-25"
       },
       {
@@ -3860,7 +3446,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1992-06-26"
       },
       {
@@ -3869,7 +3455,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-06-26"
       },
       {
@@ -3878,17 +3464,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-06-26"
-      },
-      {
-        "soft_title": "ソーサリアン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ARPG",
-        "release_day": "1992-07-17"
       },
       {
         "soft_title": "ぽっぷ'nまじっく",
@@ -3896,34 +3473,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-07-24"
       },
       {
-        "soft_title": "ザ・キックボクシングAndre Panza Kick Boxing",
+        "soft_title": " ドラゴンナイトII",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
-        "release_day": "1992-07-31"
-      },
-      {
-        "soft_title": "ボナンザブラザーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1992-07-31"
-      },
-      {
-        "soft_title": " ドラゴンナイトII（英語版）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-08-07"
       },
       {
@@ -3932,7 +3491,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1992-08-10"
       },
       {
@@ -3941,7 +3500,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-08-28"
       },
       {
@@ -3950,7 +3509,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-08-29"
       },
       {
@@ -3959,7 +3518,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-09-04"
       },
       {
@@ -3968,25 +3527,25 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-09-11"
       },
       {
-        "soft_title": "ダンジョン・マスター セロンズ・クエストDungeon Master",
+        "soft_title": "ダンジョン・マスター セロンズ・クエスト",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-09-18"
       },
       {
-        "soft_title": "エグザイルII 邪念の事象Exile: Wicked Phenomenon",
+        "soft_title": "エグザイルII 邪念の事象",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1992-09-22"
       },
       {
@@ -3995,16 +3554,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1992-09-25"
-      },
-      {
-        "soft_title": "WIZARDRY V",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "アドベンチャー",
         "release_day": "1992-09-25"
       },
       {
@@ -4013,16 +3563,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-09-25"
       },
       {
-        "soft_title": "シェイプシフター 魔界英雄伝Shape Shifter",
+        "soft_title": "シェイプシフター 魔界英雄伝",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-09-29"
       },
       {
@@ -4031,7 +3581,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-10-01"
       },
       {
@@ -4040,7 +3590,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-10-02"
       },
       {
@@ -4049,7 +3599,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-10-09"
       },
       {
@@ -4058,7 +3608,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-10-09"
       },
       {
@@ -4067,7 +3617,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-10-23"
       },
       {
@@ -4076,16 +3626,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1992-10-23"
-      },
-      {
-        "soft_title": "スナッチャー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-10-23"
       },
       {
@@ -4094,7 +3635,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-11-20"
       },
       {
@@ -4103,16 +3644,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1992-11-27"
-      },
-      {
-        "soft_title": "レミングス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "シューティング",
         "release_day": "1992-11-27"
       },
       {
@@ -4121,7 +3653,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-12-04"
       },
       {
@@ -4130,7 +3662,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-12-04"
       },
       {
@@ -4139,7 +3671,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1992-12-04"
       },
       {
@@ -4148,7 +3680,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1992-12-11"
       },
       {
@@ -4157,7 +3689,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-12-11"
       },
       {
@@ -4166,16 +3698,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1992-12-18"
-      },
-      {
-        "soft_title": "グラディウスII -GOFERの野望-",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-12-18"
       },
       {
@@ -4184,7 +3707,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-12-18"
       },
       {
@@ -4193,7 +3716,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1992-12-18"
       },
       {
@@ -4202,7 +3725,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1992-12-18"
       },
       {
@@ -4211,7 +3734,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1992-12-18"
       },
       {
@@ -4220,7 +3743,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1992-12-22"
       },
       {
@@ -4229,17 +3752,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1992-12-22"
-      },
-      {
-        "soft_title": "ドラゴンスレイヤー英雄伝説II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1992-12-23"
       },
       {
         "soft_title": "井上麻美 この星にたったひとりのキミ",
@@ -4247,16 +3761,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1992-12-25"
-      },
-      {
-        "soft_title": "ゲイングランドSX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アドベンチャー",
         "release_day": "1992-12-25"
       },
       {
@@ -4265,7 +3770,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1992-12-25"
       },
       {
@@ -4274,17 +3779,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1992-12-25"
-      },
-      {
-        "soft_title": "スーパー麻雀大会",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "TBL",
-        "release_day": "1992-12-28"
       },
       {
         "soft_title": "魔物ハンター妖子 〜遠き呼び声〜",
@@ -4292,7 +3788,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-01-08"
       },
       {
@@ -4301,7 +3797,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-01-14"
       },
       {
@@ -4310,25 +3806,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-01-22"
       },
       {
-        "soft_title": "ふしぎの海のナディア",
+        "soft_title": "コットン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1993-01-29"
-      },
-      {
-        "soft_title": "コットンCotton: Fantastic Night Dreams",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-02-12"
       },
       {
@@ -4346,7 +3833,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "Z/他",
+        "game_category": "その他",
         "release_day": "1993-02-19"
       },
       {
@@ -4355,16 +3842,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1993-02-26"
       },
       {
-        "soft_title": "クレスト オブ ウルフRiot Zone",
+        "soft_title": "クレスト オブ ウルフ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-02-26"
       },
       {
@@ -4373,7 +3860,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-02-26"
       },
       {
@@ -4382,17 +3869,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-02-26"
-      },
-      {
-        "soft_title": "信長の野望・武将風雲録",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1993-02-27"
       },
       {
         "soft_title": "ゼロヨンチャンプII",
@@ -4400,17 +3878,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1993-03-05"
-      },
-      {
-        "soft_title": "双截龍II THE REVENGE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1993-03-12"
       },
       {
         "soft_title": "CD BATTLE 光の勇者たち",
@@ -4418,7 +3887,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "Z/他",
+        "game_category": "その他",
         "release_day": "1993-03-19"
       },
       {
@@ -4427,7 +3896,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-03-19"
       },
       {
@@ -4436,7 +3905,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1993-03-26"
       },
       {
@@ -4445,7 +3914,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-03-26"
       },
       {
@@ -4454,7 +3923,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-03-26"
       },
       {
@@ -4463,7 +3932,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-03-26"
       },
       {
@@ -4472,7 +3941,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-03-26"
       },
       {
@@ -4481,7 +3950,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-03-26"
       },
       {
@@ -4490,7 +3959,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-03-30"
       },
       {
@@ -4499,7 +3968,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-03-31"
       },
       {
@@ -4508,16 +3977,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1993-04-16"
       },
       {
-        "soft_title": "ウィンズ オブ サンダーLords of Thunder",
+        "soft_title": "ウィンズ オブ サンダー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-04-23"
       },
       {
@@ -4526,7 +3995,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-04-23"
       },
       {
@@ -4535,7 +4004,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-06-11"
       },
       {
@@ -4544,7 +4013,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-06-30"
       },
       {
@@ -4553,26 +4022,17 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-07-10"
       },
       {
-        "soft_title": "15521552天下大乱",
+        "soft_title": "1552天下大乱",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-07-16"
-      },
-      {
-        "soft_title": "WIZARDRY I・II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1993-07-23"
       },
       {
         "soft_title": "サマーカーニバル'93 ネクスザールスペシャル",
@@ -4580,7 +4040,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-07-23"
       },
       {
@@ -4589,7 +4049,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-07-23"
       },
       {
@@ -4598,7 +4058,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-07-23"
       },
       {
@@ -4607,7 +4067,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-07-30"
       },
       {
@@ -4616,7 +4076,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-07-30"
       },
       {
@@ -4625,7 +4085,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-07-30"
       },
       {
@@ -4634,7 +4094,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-08-06"
       },
       {
@@ -4643,7 +4103,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RCG",
+        "game_category": "レース",
         "release_day": "1993-08-06"
       },
       {
@@ -4652,7 +4112,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-08-06"
       },
       {
@@ -4661,7 +4121,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-09-24"
       },
       {
@@ -4670,17 +4130,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-09-24"
-      },
-      {
-        "soft_title": "蒼き狼と白き牝鹿・元朝秘史",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1993-09-30"
       },
       {
         "soft_title": "機動警察パトレイバー グリフォン篇",
@@ -4688,7 +4139,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-09-30"
       },
       {
@@ -4697,7 +4148,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-09-30"
       },
       {
@@ -4706,17 +4157,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-09-30"
-      },
-      {
-        "soft_title": "三國志III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1993-10-02"
       },
       {
         "soft_title": "シルフィア",
@@ -4724,7 +4166,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1993-10-22"
       },
       {
@@ -4733,7 +4175,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-10-22"
       },
       {
@@ -4742,7 +4184,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-10-29"
       },
       {
@@ -4751,7 +4193,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-10-29"
       },
       {
@@ -4760,7 +4202,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-10-29"
       },
       {
@@ -4769,7 +4211,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1993-10-29"
       },
       {
@@ -4778,7 +4220,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-11-19"
       },
       {
@@ -4787,7 +4229,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-11-19"
       },
       {
@@ -4796,16 +4238,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
-        "release_day": "1993-11-26"
-      },
-      {
-        "soft_title": "ただいま勇者募集中",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "クイズ",
         "release_day": "1993-11-26"
       },
       {
@@ -4814,7 +4247,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-11-26"
       },
       {
@@ -4823,7 +4256,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1993-12-03"
       },
       {
@@ -4832,7 +4265,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-12-10"
       },
       {
@@ -4841,7 +4274,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1993-12-10"
       },
       {
@@ -4850,17 +4283,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-12-10"
-      },
-      {
-        "soft_title": "信長の野望・全国版",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1993-12-11"
       },
       {
         "soft_title": "スーパーリアル麻雀PIV カスタム",
@@ -4868,7 +4292,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-12-17"
       },
       {
@@ -4877,7 +4301,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-12-17"
       },
       {
@@ -4886,7 +4310,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1993-12-17"
       },
       {
@@ -4895,7 +4319,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1993-12-19"
       },
       {
@@ -4904,17 +4328,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1993-12-22"
-      },
-      {
-        "soft_title": "スーパーダライアスII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1993-12-23"
       },
       {
         "soft_title": "セクシーアイドル麻雀",
@@ -4922,26 +4337,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1993-12-24"
-      },
-      {
-        "soft_title": "ダウンタウン熱血物語",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1993-12-24"
-      },
-      {
-        "soft_title": "真・女神転生",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1993-12-25"
       },
       {
         "soft_title": "爆笑吉本新喜劇・今日はこれぐらいにしといたる!",
@@ -4949,7 +4346,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-01-03"
       },
       {
@@ -4958,17 +4355,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-01-07"
-      },
-      {
-        "soft_title": "エメラルドドラゴン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1994-01-28"
       },
       {
         "soft_title": "格闘覇王伝説アルガノス",
@@ -4976,7 +4364,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-01-28"
       },
       {
@@ -4985,7 +4373,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-02-10"
       },
       {
@@ -4994,7 +4382,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-02-18"
       },
       {
@@ -5003,7 +4391,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-02-25"
       },
       {
@@ -5012,26 +4400,17 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-02-25"
       },
       {
-        "soft_title": "ゴジラ 爆闘烈伝Godzilla",
+        "soft_title": "ゴジラ 爆闘烈伝",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-02-26"
-      },
-      {
-        "soft_title": "WIZARDRY III・IV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1994-03-04"
       },
       {
         "soft_title": "THE ATLAS ルネッサンス ボイジャー",
@@ -5039,7 +4418,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-03-04"
       },
       {
@@ -5048,17 +4427,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1994-03-04"
-      },
-      {
-        "soft_title": "餓狼伝説2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-03-12"
       },
       {
         "soft_title": "CALIII 完結編",
@@ -5066,26 +4436,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-03-25"
-      },
-      {
-        "soft_title": "プリンセス・ミネルバ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1994-03-25"
-      },
-      {
-        "soft_title": "龍虎の拳",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-03-26"
       },
       {
         "soft_title": "フレイCD サーク外伝",
@@ -5093,7 +4445,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-03-30"
       },
       {
@@ -5102,7 +4454,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-03-30"
       },
       {
@@ -5111,7 +4463,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-04-15"
       },
       {
@@ -5120,7 +4472,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-04-22"
       },
       {
@@ -5129,7 +4481,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1994-04-22"
       },
       {
@@ -5138,44 +4490,17 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-04-28"
       },
       {
-        "soft_title": "初恋物語",
+        "soft_title": "超英雄伝説ダイナスティックヒーロー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1994-04-28"
-      },
-      {
-        "soft_title": "超英雄伝説ダイナスティックヒーローThe Dynastic Hero",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1994-05-20"
-      },
-      {
-        "soft_title": "ときめきメモリアル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1994-05-27"
-      },
-      {
-        "soft_title": "ワールドヒーローズ2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-06-04"
       },
       {
         "soft_title": "コズミックファンタジー4 銀河少年伝説 突入編",
@@ -5183,7 +4508,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-06-10"
       },
       {
@@ -5192,7 +4517,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-06-17"
       },
       {
@@ -5201,7 +4526,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1994-06-17"
       },
       {
@@ -5210,16 +4535,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-06-17"
-      },
-      {
-        "soft_title": "ブランディッシュ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "アクション",
         "release_day": "1994-06-17"
       },
       {
@@ -5228,7 +4544,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-07-08"
       },
       {
@@ -5237,7 +4553,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-07-08"
       },
       {
@@ -5246,7 +4562,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-07-15"
       },
       {
@@ -5255,25 +4571,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-07-15"
       },
       {
-        "soft_title": "アドヴァンストV.G.",
+        "soft_title": " ドラゴンナイトIII",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-07-22"
-      },
-      {
-        "soft_title": " ドラゴンナイトIII（英語版）",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-07-22"
       },
       {
@@ -5282,7 +4589,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-07-29"
       },
       {
@@ -5291,7 +4598,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-07-29"
       },
       {
@@ -5300,7 +4607,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-08-05"
       },
       {
@@ -5309,7 +4616,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-08-05"
       },
       {
@@ -5318,7 +4625,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-08-05"
       },
       {
@@ -5327,7 +4634,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1994-08-12"
       },
       {
@@ -5336,17 +4643,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-08-26"
-      },
-      {
-        "soft_title": "マッドストーカー フルメタルフォース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-09-15"
       },
       {
         "soft_title": "セクシーアイドル麻雀まーじゃんファッション物語",
@@ -5354,26 +4652,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-09-16"
-      },
-      {
-        "soft_title": "ストライダー飛竜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-09-22"
-      },
-      {
-        "soft_title": "誕生 Debut",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1994-09-22"
       },
       {
         "soft_title": "YAWARA!2",
@@ -5381,7 +4661,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-09-23"
       },
       {
@@ -5390,7 +4670,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1994-09-30"
       },
       {
@@ -5399,7 +4679,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-09-30"
       },
       {
@@ -5408,7 +4688,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-09-30"
       },
       {
@@ -5417,7 +4697,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-10-21"
       },
       {
@@ -5426,7 +4706,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "Aロールプレイング",
         "release_day": "1994-10-21"
       },
       {
@@ -5435,7 +4715,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-10-28"
       },
       {
@@ -5444,7 +4724,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-10-28"
       },
       {
@@ -5453,7 +4733,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1994-11-05"
       },
       {
@@ -5462,7 +4742,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-11-11"
       },
       {
@@ -5471,7 +4751,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1994-11-18"
       },
       {
@@ -5480,7 +4760,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "QUIZ",
+        "game_category": "クイズ",
         "release_day": "1994-11-25"
       },
       {
@@ -5489,7 +4769,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1994-11-25"
       },
       {
@@ -5498,7 +4778,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-11-25"
       },
       {
@@ -5507,7 +4787,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1994-11-25"
       },
       {
@@ -5516,17 +4796,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "Z/他",
+        "game_category": "その他",
         "release_day": "1994-11-25"
-      },
-      {
-        "soft_title": "餓狼伝説SPECIAL",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1994-12-02"
       },
       {
         "soft_title": "カードエンジェルス",
@@ -5534,7 +4805,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1994-12-09"
       },
       {
@@ -5543,26 +4814,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-12-16"
-      },
-      {
-        "soft_title": "アルナムの牙 獣族十二神徒伝説",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1994-12-22"
-      },
-      {
-        "soft_title": "ボンバーマン ぱにっくボンバー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "PZL",
-        "release_day": "1994-12-22"
       },
       {
         "soft_title": "Jリーグ トリメンダスサッカー'94",
@@ -5570,16 +4823,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
-        "release_day": "1994-12-23"
-      },
-      {
-        "soft_title": "卒業II 〜Neo Generation〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "スポーツ",
         "release_day": "1994-12-23"
       },
       {
@@ -5588,7 +4832,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1994-12-29"
       },
       {
@@ -5597,7 +4841,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1995-01-03"
       },
       {
@@ -5606,7 +4850,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1995-01-20"
       },
       {
@@ -5615,7 +4859,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1995-01-31"
       },
       {
@@ -5624,7 +4868,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1995-02-03"
       },
       {
@@ -5633,16 +4877,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1995-02-24"
-      },
-      {
-        "soft_title": "雀神伝説",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "アクション",
         "release_day": "1995-02-24"
       },
       {
@@ -5651,7 +4886,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1995-02-24"
       },
       {
@@ -5660,7 +4895,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1995-02-24"
       },
       {
@@ -5669,7 +4904,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1995-03-03"
       },
       {
@@ -5678,7 +4913,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1995-03-17"
       },
       {
@@ -5687,7 +4922,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1995-03-31"
       },
       {
@@ -5696,7 +4931,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1995-04-07"
       },
       {
@@ -5705,7 +4940,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1995-04-28"
       },
       {
@@ -5714,7 +4949,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1995-05-19"
       },
       {
@@ -5723,16 +4958,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1995-05-26"
-      },
-      {
-        "soft_title": "空想科学世界ガリバーボーイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "シミュレーション",
         "release_day": "1995-05-26"
       },
       {
@@ -5741,7 +4967,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1995-05-26"
       },
       {
@@ -5750,16 +4976,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1995-06-16"
-      },
-      {
-        "soft_title": "プリンセスメーカー2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "ロールプレイング",
         "release_day": "1995-06-16"
       },
       {
@@ -5768,7 +4985,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1995-06-23"
       },
       {
@@ -5777,7 +4994,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ARPG",
+        "game_category": "ロールプレイング",
         "release_day": "1995-06-30"
       },
       {
@@ -5786,26 +5003,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1995-06-30"
-      },
-      {
-        "soft_title": "あす0%マキシマ バーニングフェスト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ACT",
-        "release_day": "1995-07-28"
-      },
-      {
-        "soft_title": "スペースインベーダー ジ・オリジナルゲーム",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1995-07-28"
       },
       {
         "soft_title": "百物語〜ほんとにあった怖い話〜",
@@ -5813,7 +5012,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "Z/他",
+        "game_category": "その他",
         "release_day": "1995-08-04"
       },
       {
@@ -5822,7 +5021,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1995-08-11"
       },
       {
@@ -5831,7 +5030,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1995-08-11"
       },
       {
@@ -5840,7 +5039,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1995-09-22"
       },
       {
@@ -5849,17 +5048,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ACT",
+        "game_category": "アクション",
         "release_day": "1995-09-29"
-      },
-      {
-        "soft_title": "リンダキューブ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "RPG",
-        "release_day": "1995-10-13"
       },
       {
         "soft_title": "将棋データベース 棋友",
@@ -5867,17 +5057,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "TBL",
+        "game_category": "テーブル",
         "release_day": "1995-10-27"
-      },
-      {
-        "soft_title": "同級生",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ADV",
-        "release_day": "1995-11-23"
       },
       {
         "soft_title": "銀河婦警伝説サファイア",
@@ -5885,26 +5066,17 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "STG",
+        "game_category": "シューティング",
         "release_day": "1995-11-24"
       },
       {
-        "soft_title": "聖夜物語 AnEarth Fantasy Stories",
+        "soft_title": "聖夜物語",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1995-12-22"
-      },
-      {
-        "soft_title": "スチーム・ハーツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "STG",
-        "release_day": "1996-03-22"
       },
       {
         "soft_title": "ぷよぷよCD通",
@@ -5912,7 +5084,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1996-03-29"
       },
       {
@@ -5921,7 +5093,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SLG",
+        "game_category": "シミュレーション",
         "release_day": "1996-05-31"
       },
       {
@@ -5930,7 +5102,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "SPT",
+        "game_category": "スポーツ",
         "release_day": "1996-06-28"
       },
       {
@@ -5939,7 +5111,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1996-07-12"
       },
       {
@@ -5948,7 +5120,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "PZL",
+        "game_category": "パズル",
         "release_day": "1996-07-26"
       },
       {
@@ -5957,17 +5129,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "RPG",
+        "game_category": "ロールプレイング",
         "release_day": "1996-12-13"
-      },
-      {
-        "soft_title": "はたらく☆少女 てきぱきワーキン・ラブ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "SLG",
-        "release_day": "1997-03-28"
       },
       {
         "soft_title": "デッド・オブ・ザ・ブレイン 1&2",
@@ -5975,20 +5138,11 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "ADV",
+        "game_category": "アドベンチャー",
         "release_day": "1999-06-03"
       }
     ],
     "PC-FX": [
-      {
-        "soft_title": "卒業II 〜Neo Generation〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1994-12-23"
-      },
       {
         "soft_title": "TEAM INNOCENT -The Point of No Return-",
         "collected_new": false,
@@ -6017,15 +5171,6 @@
         "release_day": "1995-03-24"
       },
       {
-        "soft_title": "麻雀悟空 天竺",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "テーブル",
-        "release_day": "1995-03-24"
-      },
-      {
         "soft_title": "紺碧の艦隊",
         "collected_new": false,
         "collected_old": false,
@@ -6033,15 +5178,6 @@
         "dont_collect": false,
         "game_category": "シミュレーション",
         "release_day": "1995-03-31"
-      },
-      {
-        "soft_title": "RETURN TO ZORK",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1995-05-27"
       },
       {
         "soft_title": "天外魔境 電脳絡繰格闘伝",
@@ -6098,15 +5234,6 @@
         "release_day": "1995-12-22"
       },
       {
-        "soft_title": "アンジェリークSpecial",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1995-12-22"
-      },
-      {
         "soft_title": "鬼神童子ZENKI FX 金剛炎闘（ヴァジュラファイト）",
         "collected_new": false,
         "collected_old": false,
@@ -6143,24 +5270,6 @@
         "release_day": "1996-03-08"
       },
       {
-        "soft_title": "上海 万里の長城",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "テーブル",
-        "release_day": "1996-03-15"
-      },
-      {
-        "soft_title": "ブルー・シカゴ・ブルース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1996-03-22"
-      },
-      {
         "soft_title": "ミラークルム ザ・ラスト・レベレーション",
         "collected_new": false,
         "collected_old": false,
@@ -6179,22 +5288,13 @@
         "release_day": "1996-03-29"
       },
       {
-        "soft_title": "\tアニメフリークFX Vol.3",
+        "soft_title": "アニメフリークFX Vol.3",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "その他",
         "release_day": "1996-04-05"
-      },
-      {
-        "soft_title": "デア ラングリッサーFX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1996-04-26"
       },
       {
         "soft_title": "スーパーパワーリーグFX",
@@ -6251,15 +5351,6 @@
         "release_day": "1996-07-26"
       },
       {
-        "soft_title": "同級生2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1996-08-09"
-      },
-      {
         "soft_title": "チップちゃんキィーック!",
         "collected_new": false,
         "collected_old": false,
@@ -6267,33 +5358,6 @@
         "dont_collect": false,
         "game_category": "アクション",
         "release_day": "1996-09-13"
-      },
-      {
-        "soft_title": "きゃんきゃんバニーエクストラDX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1996-09-27"
-      },
-      {
-        "soft_title": "ブルーブレイカー 〜剣よりも微笑みを〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ロールプレイング",
-        "release_day": "1996-09-27"
-      },
-      {
-        "soft_title": "ふしぎの国のアンジェリーク",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "テーブル",
-        "release_day": "1996-10-11"
       },
       {
         "soft_title": "赤ずきんチャチャ -お騒がせパニックレース-",
@@ -6314,33 +5378,6 @@
         "release_day": "1996-11-08"
       },
       {
-        "soft_title": "アンジェリークSpecial2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1996-12-06"
-      },
-      {
-        "soft_title": "ファイアーウーマン纏組",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1996-12-20"
-      },
-      {
-        "soft_title": "バウンダリーゲート Daughter of Kingdom",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ロールプレイング",
-        "release_day": "1997-01-24"
-      },
-      {
         "soft_title": "アニメフリークFX Vol.4",
         "collected_new": false,
         "collected_old": false,
@@ -6359,15 +5396,6 @@
         "release_day": "1997-03-14"
       },
       {
-        "soft_title": "ドラゴンナイト4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1997-03-28"
-      },
-      {
         "soft_title": "スパークリングフェザー",
         "collected_new": false,
         "collected_old": false,
@@ -6375,42 +5403,6 @@
         "dont_collect": false,
         "game_category": "シミュレーション",
         "release_day": "1997-04-25"
-      },
-      {
-        "soft_title": "Piaキャロットへようこそ!!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1997-05-23"
-      },
-      {
-        "soft_title": "続 初恋物語 〜修学旅行〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1997-06-06"
-      },
-      {
-        "soft_title": "アルバレアの乙女",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1997-06-27"
-      },
-      {
-        "soft_title": "惑星攻機隊りとるキャッツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1997-07-04"
       },
       {
         "soft_title": "となりのプリンセス ロルフィー",
@@ -6458,15 +5450,6 @@
         "release_day": "1997-10-24"
       },
       {
-        "soft_title": "カクテルパック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1997-11-28"
-      },
-      {
         "soft_title": "ああっ女神さまっ",
         "collected_new": false,
         "collected_old": false,
@@ -6474,15 +5457,6 @@
         "dont_collect": false,
         "game_category": "アドベンチャー",
         "release_day": "1997-12-12"
-      },
-      {
-        "soft_title": "卒業R 〜Graduation Real〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1998-01-16"
       },
       {
         "soft_title": "ルルリ・ラ・ルラ",
@@ -6519,24 +5493,6 @@
         "dont_collect": false,
         "game_category": "アドベンチャー",
         "release_day": "1998-03-27"
-      },
-      {
-        "soft_title": "アンジェリーク 天空の鎮魂歌",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ロールプレイング",
-        "release_day": "1998-04-02"
-      },
-      {
-        "soft_title": "ファーストKiss☆物語",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アドベンチャー",
-        "release_day": "1998-04-27"
       }
     ]
   }
