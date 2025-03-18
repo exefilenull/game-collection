@@ -8,7 +8,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1994-09-23"
       },
       {
@@ -17,7 +17,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "クイズ",
+        "release_day": "1994-09-23"
+      },
+      {
+        "soft_title": "SDガンダム大図鑑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
         "release_day": "1994-09-23"
       },
       {
@@ -26,7 +35,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1994-09-23"
       },
       {
@@ -35,7 +44,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1994-09-28"
       },
       {
@@ -44,7 +53,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1994-09-28"
       },
       {
@@ -53,7 +62,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1994-11-25"
       },
       {
@@ -62,7 +71,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1994-11-25"
       },
       {
@@ -71,7 +80,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1994-12-08"
       },
       {
@@ -80,7 +89,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1994-12-16"
       },
       {
@@ -89,7 +98,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1994-12-16"
       },
       {
@@ -98,7 +107,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-01-24"
       },
       {
@@ -107,7 +116,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-01-24"
       },
       {
@@ -116,7 +125,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1995-03-22"
       },
       {
@@ -125,7 +134,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1995-03-22"
       },
       {
@@ -134,7 +143,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-06-22"
       },
       {
@@ -143,7 +152,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-06-22"
       },
       {
@@ -152,7 +161,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-06-22"
       },
       {
@@ -161,7 +170,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-07-28"
       },
       {
@@ -170,7 +179,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-07-28"
       },
       {
@@ -179,7 +188,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-07-28"
       },
       {
@@ -188,7 +197,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-08-24"
       },
       {
@@ -197,7 +206,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-08-24"
       },
       {
@@ -206,7 +215,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-08-24"
       },
       {
@@ -215,7 +224,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-10-20"
       },
       {
@@ -224,7 +233,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-11-16"
       },
       {
@@ -233,7 +242,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1995-12-15"
       },
       {
@@ -242,7 +251,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1996-03-22"
       },
       {
@@ -251,7 +260,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1996-03-22"
       },
       {
@@ -260,7 +269,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1996-03-27"
       },
       {
@@ -269,7 +278,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1996-04-22"
       },
       {
@@ -278,7 +287,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1996-05-15"
       },
       {
@@ -287,47 +296,11 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1996-06-26"
       }
     ],
     "ワンダースワン": [
-      {
-        "soft_title": "GUNPEY",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-04"
-      },
-      {
-        "soft_title": "チョコボの不思議なダンジョン for ワンダースワン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-04"
-      },
-      {
-        "soft_title": "電車でGO!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-04"
-      },
-      {
-        "soft_title": "新日本プロレスリング闘魂烈伝",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-04"
-      },
       {
         "soft_title": "信長の野望 for ワンダースワン",
         "collected_new": false,
@@ -339,24 +312,6 @@
       },
       {
         "soft_title": "麻雀登龍門",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-11"
-      },
-      {
-        "soft_title": "ぷよぷよ通",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-11"
-      },
-      {
-        "soft_title": "ワンダースタジアム",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -383,33 +338,6 @@
         "release_day": "1999-04-01"
       },
       {
-        "soft_title": "三國志 for ワンダースワン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-04-01"
-      },
-      {
-        "soft_title": "上海ポケット",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-04-01"
-      },
-      {
-        "soft_title": "語楽王 TANGO!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-04-01"
-      },
-      {
         "soft_title": "ナイスオン",
         "collected_new": false,
         "collected_old": false,
@@ -417,15 +345,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1999-04-08"
-      },
-      {
-        "soft_title": "元祖じゃじゃ丸くん",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-04-15"
       },
       {
         "soft_title": "子育てクイズ どこでもマイエンジェル",
@@ -471,15 +390,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1999-05-04"
-      },
-      {
-        "soft_title": "スペースインベーダー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-05-13"
       },
       {
         "soft_title": "ワンダースワンハンディーソナー",
@@ -554,15 +464,6 @@
         "release_day": "1999-06-24"
       },
       {
-        "soft_title": "パズルボブル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-07-01"
-      },
-      {
         "soft_title": "トランプコレクション ボトムアップ的トランプ生活",
         "collected_new": false,
         "collected_old": false,
@@ -588,24 +489,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1999-07-22"
-      },
-      {
-        "soft_title": "魔界村 for ワンダースワン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-07-22"
-      },
-      {
-        "soft_title": "クレイジークライマー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-07-29"
       },
       {
         "soft_title": "TERRORS",
@@ -672,15 +555,6 @@
       },
       {
         "soft_title": "プロ麻雀 極 for ワンダースワン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-10-07"
-      },
-      {
-        "soft_title": "電車でGO!2",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
