@@ -7979,11 +7979,11 @@
       },
       {
         "soft_title": "バーチャファイターCGポートレートシリーズVOL.6（ラウ・チェン）",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1995-12-08"
       },
       {
@@ -17903,7 +17903,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-04-27"
       },
       {

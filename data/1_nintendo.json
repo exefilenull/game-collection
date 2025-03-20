@@ -13830,11 +13830,11 @@
       },
       {
         "soft_title": "幽☆遊☆白書",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1993-12-22"
       },
       {
@@ -54677,11 +54677,11 @@
       },
       {
         "soft_title": "ゲームで発見!!たまごっち オスっちとメスっち",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1998-01-15"
       },
       {

@@ -18044,7 +18044,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "音楽",
         "release_day": "1999-09-22"
       },
       {
@@ -42369,11 +42369,11 @@
       },
       {
         "soft_title": "アクアキッズ",
-        "collected_new": false,
+        "collected_new": "ture",
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-08-12"
       },
       {
@@ -42693,11 +42693,11 @@
       },
       {
         "soft_title": "ファイナルファンタジーXI プロマシアの呪縛",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2004-09-16"
       },
       {
@@ -58575,7 +58575,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2010-10-21"
       },
       {
@@ -66421,11 +66421,11 @@
       },
       {
         "soft_title": "バトルボーン",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2016-05-19"
       },
       {

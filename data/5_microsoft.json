@@ -22,7 +22,7 @@
       },
       {
         "soft_title": "天空 -Tenku- Freestyle SnowBoarding",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -8110,7 +8110,7 @@
       },
       {
         "soft_title": "Minecraft Legends（マインクラフト レジェンズ）",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
