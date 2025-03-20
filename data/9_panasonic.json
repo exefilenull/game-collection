@@ -337,7 +337,7 @@
       },
       {
         "soft_title": "マーフィーだよ全員集合!!",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -472,7 +472,7 @@
       },
       {
         "soft_title": "インセクターウォー",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
