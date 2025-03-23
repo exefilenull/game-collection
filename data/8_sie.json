@@ -75913,7 +75913,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2021-06-10"
       },
       {
@@ -76566,11 +76566,11 @@
       },
       {
         "soft_title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
-        "collected_new": false,
-        "collected_old": false,
+        "collected_new": true,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2022-03-18"
       },
       {
@@ -77241,11 +77241,11 @@
       },
       {
         "soft_title": "クライシス コア -ファイナルファンタジーVII- リユニオン",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2022-12-13"
       },
       {
@@ -78537,11 +78537,11 @@
       },
       {
         "soft_title": "ファイナルファンタジーVII リバース",
-        "collected_new": false,
-        "collected_old": false,
+        "collected_new": true,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2024-02-29"
       },
       {
