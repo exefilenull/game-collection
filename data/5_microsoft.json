@@ -4614,11 +4614,11 @@
       },
       {
         "soft_title": "Kinect アドベンチャー!",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2010-11-20"
       },
       {

@@ -8770,11 +8770,11 @@
       },
       {
         "soft_title": "ヨッシーのクッキー",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1992-11-21"
       },
       {

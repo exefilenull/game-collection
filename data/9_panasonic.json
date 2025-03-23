@@ -337,8 +337,8 @@
       },
       {
         "soft_title": "マーフィーだよ全員集合!!",
-        "collected_new": true,
-        "collected_old": false,
+        "collected_new": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "その他",
@@ -1111,7 +1111,7 @@
       },
       {
         "soft_title": "Jリーグ バーチャルスタジアム‘95",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,

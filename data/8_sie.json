@@ -18040,7 +18040,7 @@
       },
       {
         "soft_title": "Goo! Goo! SOUNDY",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -30835,7 +30835,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2001-02-22"
       },
       {
@@ -35331,11 +35331,11 @@
       },
       {
         "soft_title": "ラチェット&クランク",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-12-03"
       },
       {
@@ -84470,15 +84470,6 @@
       },
       {
         "soft_title": "テグザーネオ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-10-01"
-      },
-      {
-        "soft_title": "シャドウ オブ メモリーズ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
