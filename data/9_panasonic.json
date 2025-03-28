@@ -4,7 +4,7 @@
     "3DO": [
       {
         "soft_title": "ザ・ライフステージ",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -13,7 +13,7 @@
       },
       {
         "soft_title": "ファイアボール",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -49,7 +49,7 @@
       },
       {
         "soft_title": "ステラ7 ドラクソンの逆襲",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -94,7 +94,7 @@
       },
       {
         "soft_title": "娯楽の殿堂",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -346,7 +346,7 @@
       },
       {
         "soft_title": "パタンク",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -679,7 +679,7 @@
       },
       {
         "soft_title": "クレヨンしんちゃん パズル大魔王の謎",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
@@ -1021,7 +1021,7 @@
       },
       {
         "soft_title": "ボールズ ディレクターズカット",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
