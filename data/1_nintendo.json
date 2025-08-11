@@ -8,7 +8,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1983-07-15"
       },
       {
@@ -17,7 +17,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1983-07-15"
       },
       {
@@ -26,7 +26,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1983-07-15"
       },
       {
@@ -35,7 +35,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1983-08-27"
       },
       {
@@ -44,7 +44,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1983-08-27"
       },
       {
@@ -53,7 +53,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1983-09-09"
       },
       {
@@ -62,7 +62,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1983-11-22"
       },
       {
@@ -71,7 +71,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1983-12-07"
       },
       {
@@ -80,7 +80,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1983-12-12"
       },
       {
@@ -89,7 +89,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1984-01-14"
       },
       {
@@ -98,7 +98,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1984-02-02"
       },
       {
@@ -107,7 +107,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1984-02-18"
       },
       {
@@ -116,7 +116,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1984-04-21"
       },
       {
@@ -125,7 +125,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1984-05-01"
       },
       {
@@ -134,17 +134,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1984-06-12"
-      },
-      {
-        "soft_title": "ファミリーベーシック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-06-21"
       },
       {
         "soft_title": "ドンキーコング3",
@@ -314,7 +305,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スタディ",
         "release_day": "1985-02-21"
       },
       {
@@ -323,7 +314,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-04-04"
       },
       {
@@ -332,17 +323,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1985-04-09"
-      },
-      {
-        "soft_title": "スペースインベーダー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-04-17"
       },
       {
         "soft_title": "チャンピオンシップロードランナー",
@@ -350,7 +332,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1985-04-17"
       },
       {
@@ -359,7 +341,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1985-04-22"
       },
       {
@@ -368,7 +350,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-04-22"
       },
       {
@@ -377,7 +359,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-05-10"
       },
       {
@@ -386,7 +368,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-05-24"
       },
       {
@@ -395,26 +377,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-06-04"
-      },
-      {
-        "soft_title": "FLAPPY",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-06-14"
-      },
-      {
-        "soft_title": "レッキングクルー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-06-18"
       },
       {
         "soft_title": "スパルタンX",
@@ -422,7 +386,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-06-21"
       },
       {
@@ -440,17 +404,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-06-25"
-      },
-      {
-        "soft_title": "エレベーターアクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-06-28"
       },
       {
         "soft_title": "フィールドコンバット",
@@ -458,7 +413,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-07-09"
       },
       {
@@ -467,7 +422,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1985-07-11"
       },
       {
@@ -476,7 +431,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-07-12"
       },
       {
@@ -485,7 +440,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1985-07-18"
       },
       {
@@ -494,7 +449,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-07-18"
       },
       {
@@ -503,7 +458,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-07-25"
       },
       {
@@ -512,7 +467,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1985-07-26"
       },
       {
@@ -521,7 +476,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-08-01"
       },
       {
@@ -530,7 +485,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-08-06"
       },
       {
@@ -539,7 +494,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-08-09"
       },
       {
@@ -548,7 +503,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1985-08-10"
       },
       {
@@ -557,7 +512,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-08-13"
       },
       {
@@ -566,7 +521,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-08-28"
       },
       {
@@ -575,7 +530,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1985-08-30"
       },
       {
@@ -584,7 +539,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-09-09"
       },
       {
@@ -593,7 +548,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1985-09-13"
       },
       {
@@ -602,7 +557,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1985-09-20"
       },
       {
@@ -1016,7 +971,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1986-04-18"
       },
       {
@@ -1385,7 +1340,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1986-11-11"
       },
       {
@@ -7613,7 +7568,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-09-27"
       },
       {
@@ -14662,7 +14617,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1994-03-25"
       },
       {
@@ -15715,7 +15670,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1994-08-12"
       },
       {
@@ -22177,7 +22132,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1998-01-01"
       },
       {
@@ -23068,15 +23023,6 @@
       },
       {
         "soft_title": "ヘクセン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-12-18"
-      },
-      {
-        "soft_title": "ハイパーオリンピック イン ナガノ64",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -48732,7 +48678,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1990-03-23"
       },
       {
@@ -48755,15 +48701,6 @@
       },
       {
         "soft_title": "ぺんぎんくんWARS vs.",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-03-30"
-      },
-      {
-        "soft_title": "スペースインベーダーズ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -48858,7 +48795,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1990-04-20"
       },
       {
@@ -49524,7 +49461,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1990-12-11"
       },
       {
@@ -49679,15 +49616,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-12-23"
-      },
-      {
-        "soft_title": "ドルアーガの塔",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-12-31"
       },
       {
         "soft_title": "コントラ",
@@ -50266,15 +50194,6 @@
         "release_day": "1991-08-03"
       },
       {
-        "soft_title": "エレベーターアクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-08-09"
-      },
-      {
         "soft_title": "ネメシスII",
         "collected_new": false,
         "collected_old": false,
@@ -50298,7 +50217,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1991-08-09"
       },
       {
@@ -50442,7 +50361,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-11-22"
       },
       {
@@ -55691,7 +55610,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2000-01-27"
       },
       {
@@ -56289,15 +56208,6 @@
         "release_day": "2000-09-29"
       },
       {
-        "soft_title": "エレベーターアクションEX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-09-29"
-      },
-      {
         "soft_title": "ゴン太のおきらく大冒険",
         "collected_new": false,
         "collected_old": false,
@@ -56789,7 +56699,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2001-02-23"
       },
       {
@@ -60760,7 +60670,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-12-20"
       },
       {
@@ -64103,15 +64013,6 @@
         "release_day": "2005-09-08"
       },
       {
-        "soft_title": "ファミコンミニ スーパーマリオブラザーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-09-13"
-      },
-      {
         "soft_title": "ドクターマリオパネルでポン",
         "collected_new": false,
         "collected_old": false,
@@ -65190,7 +65091,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-09-08"
       },
       {

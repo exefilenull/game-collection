@@ -192,15 +192,6 @@
         "release_day": "2001-09-13"
       },
       {
-        "soft_title": "ジッピーレース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-09-27"
-      },
-      {
         "soft_title": "エクセリオン",
         "collected_new": false,
         "collected_old": false,
@@ -417,15 +408,6 @@
         "release_day": "2002-07-12"
       },
       {
-        "soft_title": "スターフォース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-07-12"
-      },
-      {
         "soft_title": "スペースインベーダー",
         "collected_new": false,
         "collected_old": false,
@@ -516,15 +498,6 @@
         "release_day": "2002-12-07"
       },
       {
-        "soft_title": "エレベーターアクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-12-20"
-      },
-      {
         "soft_title": "ロックンボルト",
         "collected_new": false,
         "collected_old": false,
@@ -577,15 +550,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2003-05-02"
-      },
-      {
-        "soft_title": "チャンピオンシップロードランナー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-07-17"
       },
       {
         "soft_title": "忍者プリンセス",
@@ -11367,7 +11331,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-02-14"
       },
       {
@@ -21982,7 +21946,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1994-08-12"
       },
       {

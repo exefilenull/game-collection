@@ -8,7 +8,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "RPG",
         "release_day": "1994-12-03"
       },
       {
@@ -17,7 +17,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1994-12-03"
       },
       {
@@ -2753,7 +2753,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1996-06-28"
       },
       {
@@ -8639,7 +8639,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "RPG",
         "release_day": "1997-11-27"
       },
       {
@@ -9053,7 +9053,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-12-18"
       },
       {
@@ -47264,15 +47264,6 @@
         "release_day": "2005-10-27"
       },
       {
-        "soft_title": "オレたちゲーセン族イー・アル・カンフー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-10-27"
-      },
-      {
         "soft_title": "オレたちゲーセン族 スーパーバレーボール",
         "collected_new": false,
         "collected_old": false,
@@ -49496,15 +49487,6 @@
         "release_day": "2006-05-25"
       },
       {
-        "soft_title": "オレたちゲーセン族 プーヤン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2006-05-25"
-      },
-      {
         "soft_title": "キミキス",
         "collected_new": false,
         "collected_old": true,
@@ -50284,7 +50266,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-08-31"
       },
       {
@@ -66799,11 +66781,11 @@
       },
       {
         "soft_title": "PlayStation VR Worlds",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2016-10-13"
       },
       {

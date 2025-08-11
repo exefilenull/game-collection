@@ -437,7 +437,7 @@
       {
         "soft_title": "ロック・オン",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "シューティング",
@@ -608,7 +608,7 @@
       {
         "soft_title": "PC原人",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
@@ -1749,15 +1749,6 @@
         "release_day": "1991-11-29"
       },
       {
-        "soft_title": "ファイティングラン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1991-11-29"
-      },
-      {
         "soft_title": "モンスタープロレス",
         "collected_new": false,
         "collected_old": false,
@@ -1823,7 +1814,7 @@
       {
         "soft_title": "冒険男爵ドン サン=ハート編",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "シューティング",
@@ -1921,7 +1912,7 @@
       },
       {
         "soft_title": "パチ夫くん 十番勝負",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,

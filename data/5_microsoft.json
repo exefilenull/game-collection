@@ -2611,7 +2611,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2008-04-24"
       },
       {
@@ -7802,9 +7802,9 @@
       },
       {
         "soft_title": "デッドライジング3",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": true,
-        "game_cleared": false,
+        "game_cleared": true,
         "dont_collect": false,
         "game_category": "アクション",
         "release_day": "2014-09-04"
@@ -7928,7 +7928,7 @@
       },
       {
         "soft_title": "Halo 5: Guardians",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
