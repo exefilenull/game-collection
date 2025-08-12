@@ -42,12 +42,6 @@
             gap: 20px;
         }
         
-        .chart-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        
         //.canvas {
         //    backgroundColor: "f0fff0f"
         //}
@@ -66,7 +60,7 @@
             text-align: center;
             font-size: 14px;
             font-weight: bold;
-            color: #66b3ff;
+            color: cornsilk;
             pointer-events: auto;
         }
         
@@ -160,15 +154,22 @@
             const centerTextPlugin = {
                 id: 'centerText',
                 beforeDraw(chart) {
-                    const { width } = chart;
-                    const { height } = chart;
-                    const ctx = chart.ctx;
-                    ctx.restore();
-                    const fontSize = (height / 120).toFixed(2);
-                    ctx.font = `${fontSize}em sans-serif`;
+                    //const { width } = chart;
+                    //const { height } = chart;
+                    //const ctx = chart.ctx;
+                    //ctx.restore();
+                    const { chartArea, ctx } = chart;
+                    const meta = chart.getDatasetMeta(0);
+                    const arc = meta.data[0];
+                    const innerRadius = arc.innerRadius;
+                    ctx.save();
+                    //const fontSize = (height / 120).toFixed(2);
+                    //ctx.font = `${fontSize}em sans-serif`;
                     ctx.textBaseline = 'middle';
                     ctx.fillStyle = 'white';
-                    const text = `新品：${((totalNew / totalCount) * 100).toFixed(1)}\n中古：${((totalOld / totalCount) * 100).toFixed(1)}%`;
+                    const fontSize = innerRadius * 0.18;
+                    ctx.font = `${fontSize}em sans-serif`;
+                    const text = `ゲーム全体\n新品：${((totalNew / totalCount) * 100).toFixed(1)}\n中古：${((totalOld / totalCount) * 100).toFixed(1)}%`;
                     const lines = text.split('\n');
                     lines.forEach((line, index) => {
                         const textX =Math.round((width - ctx.measureText(line).width) / 2);
@@ -203,11 +204,6 @@
                             duration: 4000
                         }
                     }]
-                    //labels: ['新品', '中古', '未収集'],
-                    //datasets: [{
-                    //    data: [totalNew, totalOld, totalCount - (totalNew + totalOld)],
-                    //    backgroundColor: ['#000000', '#888888', '#ccc'],
-                    //}]
                 },
                 plugins: [centerTextPlugin]
             });
