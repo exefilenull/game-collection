@@ -75,6 +75,9 @@
 <body>
     <h1>ゲームコレクション</h1>
 
+    <div style="width:100%; max-width:1000px; margin:auto;">
+        <canvas id="allChart"></canvas>
+
     <div id="charts"></div>
 
     <script>
@@ -109,11 +112,55 @@
             // JSONを読み込んで処理
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
                 .then(jsonDataArray => {
+                    // 全体集計データ
+                    const allData = calculateAll(jsonDataArray);
+                    drawAllChart(allData);
+
+                    // カテゴリ毎データ
                     const combinedData = mergeData(jsonDataArray);
                     displayCharts(combinedData);
                 })
                 .catch(error => console.error('Error loading JSON:', error));
         });
+
+        // 全体集計
+        function calculateAll(jsonDataArray) {
+            let totalNew = 0;
+            let totalOld = 0;
+            let totalCount = 0;
+
+            jsonDataArray.forEach(data => {
+                Object.values(data.hardware_name).forEach(games => {
+                    totalNew += games.filter(game => game.collectedCountNew).length;
+                    totalOld += games.filter(game => game.collectedCountOld).length;
+                    totalCount += games.length;
+                });
+            });
+
+            return { totalNew, totalOld, totalCount };
+        }
+
+        // 全体グラフ描画
+        function drawAllChart({ totalNew, totalOld, totalCount }) {
+            const ctx = document.getElementById('allChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut', 
+                data: {
+                    labels: ['新品', '中古', '未収集'],
+                    datasets: [{
+                        data: [totalNew, totalOld, totalCount - (totalNew + totalOld)],
+                        backgroundColor: ['#000000', '#888888', '#ccc'],
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'top' },
+                        title: { display: true, text: '全ハード集計(新品・中古・未収集)' }
+                    }
+                }
+            });
+        }
 
         // JSONデータを結合する関数
         function mergeData(jsonDataArray) {
