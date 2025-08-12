@@ -190,7 +190,7 @@
                     const centerX = width / 2;
                     const centerY = chart.chartArea.height / 2 + chart.chartArea.top;
                     const lineHeight = 18;
-                    lines.forEach((line, index) => {
+                    text.forEach((line, index) => {
                         ctx.fillText(line, centerX, centerY+ index * lineHeight);
                     });
                     //ctx.fillText(`全ハード集計\n新品：${((1000 / 20000) * 100).toFixed(1)}%\n中古：${((2000 / 20000) * 100).toFixed(1)}%`, width / 2, chart.chartArea.height / 2 + chart.chartArea.top);
