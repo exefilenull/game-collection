@@ -155,6 +155,31 @@
         // 全体グラフ描画
         function drawAllChart({ totalNew, totalOld, totalCount }) {
             const ctx = document.getElementById('allChart').getContext('2d');
+
+            // 中央にテキストを挿入
+            const centerTextPlugin = {
+                id: 'centerText',
+                beforeDraw(chart) {
+                    const { width } = chart;
+                    const { height } = chart;
+                    const ctx = chart.ctx;
+                    ctx.restore();
+                    const fontSize = (height / 120).toFixed(2);
+                    ctx.font = `${fontSize}em sans-serif`;
+                    ctx.textBaseline = 'middle';
+                    ctx.fillStyle = 'white';
+                    const text = `新品：${((totalNew / totalCount) * 100).toFixed(1)}\n中古：${((totalOld / totalCount) * 100).toFixed(1)}%`;
+                    const lines = text.split('\n');
+                    lines.forEach((line, index) => {
+                        const textX =Math.round((width - ctx.measureText(line).width) / 2);
+                        const textY = height / 2 + (index - (lines.length - 1) / 2) * 20;
+                        ctx.fillText(line, textX, textY);
+                    });
+                    ctx.save();
+                }
+            };
+
+            // 全体ドーナツグラフを描画
             new Chart(ctx, {
                 type: 'doughnut', 
                 data: {
