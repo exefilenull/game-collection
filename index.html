@@ -146,18 +146,30 @@
             new Chart(ctx, {
                 type: 'doughnut', 
                 data: {
-                    labels: ['新品', '中古', '未収集'],
                     datasets: [{
-                        data: [totalNew, totalOld, totalCount - (totalNew + totalOld)],
-                        backgroundColor: ['#000000', '#888888', '#ccc'],
+                        label: '新品データ',
+                        data: [totalNew, totalCount - totalNew ],
+                        backgroundColor: ['#000000', '#ccc']
+                        hoverOffset: 4,
+                        cutout: '50%',
+                        animation: {
+                            duration: 3000
+                        }
+                    }, {
+                        label: '中古データ',
+                        data: [totalOld, totalCount - totalOld ],
+                        backgroundColor: ['#888888', '#ccc']
+                        hoverOffset: 4,
+                        cutout: '50%',
+                        animation: {
+                            duration: 4000
+                        }
                     }]
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: { position: 'top' },
-                        title: { display: true, text: '全ハード集計(新品・中古・未収集)' }
-                    }
+                    //labels: ['新品', '中古', '未収集'],
+                    //datasets: [{
+                    //    data: [totalNew, totalOld, totalCount - (totalNew + totalOld)],
+                    //    backgroundColor: ['#000000', '#888888', '#ccc'],
+                    //}]
                 }
             });
         }
