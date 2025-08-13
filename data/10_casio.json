@@ -1,0 +1,106 @@
+{
+  "category": "CASIO",
+  "hardware_name": {
+    "LOOPY": [
+      {
+        "soft_title": "あにめらんど",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "ドリームチェンジ 小金ちゃんのファッションパーティー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "わんわん愛情物語",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "似顔絵アーティスト",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "HARIHARIシールパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "ビデオシールワープロ マジカルショップ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-01"
+      },
+      {
+        "soft_title": "パソコン・コレクション",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "リトルロマンス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "ルピトンのワンダーパレット",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "ルーピータウンのおへやがほしい!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "チャクラくんのおまじないパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "キャラクター",
+        "release_day": "1997-01-01"
+      }
+    ]
+  }
+}

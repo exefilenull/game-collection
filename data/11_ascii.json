@@ -1,0 +1,2565 @@
+{
+  "category": "ASCII",
+  "hardware_name": {
+    "MSX": [
+      {
+        "soft_title": "ザ・ライフステージ",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "ファイアボール",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "ウルトラマンパワード",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "チキチキマシン猛レース ケンケンとブラック魔王のイジワル大作戦",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "クラッシュ・アン・バーン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "ステラ7 ドラクソンの逆襲",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "バーチャルホラー 〜呪われた館〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ホラー",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "鉄人",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-04-09"
+      },
+      {
+        "soft_title": "寺沢武一の「武」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-04-29"
+      },
+      {
+        "soft_title": "ドクターハウザー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-04-29"
+      },
+      {
+        "soft_title": "娯楽の殿堂",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1994-05-14"
+      },
+      {
+        "soft_title": "NFLマッデン・フットボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "黒き死の仮面",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "時を超えた手紙",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "パワーズキングダム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-06-11"
+      },
+      {
+        "soft_title": "ノンタンといっしょ 〜のはらであそぼ〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-06-11"
+      },
+      {
+        "soft_title": "ファラオの封印",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-06-25"
+      },
+      {
+        "soft_title": "バーニング・ソルジャー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-06-25"
+      },
+      {
+        "soft_title": "スーパーウイングコマンダー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-07-09"
+      },
+      {
+        "soft_title": "麻雀狂時代 〜AVギャル制服編〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-07-20"
+      },
+      {
+        "soft_title": "パラランチョ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-07-23"
+      },
+      {
+        "soft_title": "パペットテイル",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-07-23"
+      },
+      {
+        "soft_title": "パットパット・ファンパック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "ファッティーベア ファンパック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "宇宙生物フロポン君",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "囲碁タイムトライアル・詰碁I",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "マリンツアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "セクレ フーミンのおもちゃ箱",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-08-27"
+      },
+      {
+        "soft_title": "グリム名作劇場1「ブレーメンの音楽隊」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "グリム名作劇場2「ヘンゼルとグレーテル」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "グリム名作劇場3「赤ずきん」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "シャドー・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "バトルチェス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-09-16"
+      },
+      {
+        "soft_title": "メガレース",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-10-07"
+      },
+      {
+        "soft_title": "VIRTUAL PUPPET REIKA",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-10-07"
+      },
+      {
+        "soft_title": "アウターワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "アローン・イン・ザ・ダーク",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "マーフィーだよ全員集合!!",
+        "collected_new": false,
+        "collected_old": true,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "パタンク",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "Jリーグ バーチャルスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「イソップ物語1」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「しらゆきひめ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "グリッダーズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-11-18"
+      },
+      {
+        "soft_title": "トム・カイトのこれがゴルフだ!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-11-18"
+      },
+      {
+        "soft_title": "バトルピンボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-11-25"
+      },
+      {
+        "soft_title": "ジュラシック・パーク・インタラクティブ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "パットパットとパレードに行こう!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「三匹のこぶた」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「にんぎょひめ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "グレートサッカーキッド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "デモリションマン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "九星占術による平成開運暦",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "インセクターウォー",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "お姉さんといっしょ!じゃんけんパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "突撃機関!メガダす!!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "ベルゼリオン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "痛快ゲームショー ツイステッド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "幽☆遊☆白書",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "PENTHOUSE INTERACTIVE VIRTUAL PHOT SHOOT Vol.1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "ボディコンディジタルレイブ Part1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "タロット占い",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "ピーター・フランクル「パズルの塔」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「おおかみと七ひきのこやぎ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「シンデレラ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "マカロニほうれん荘インタラクティブ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "AD&D ロストダンジョン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-01-20"
+      },
+      {
+        "soft_title": "モンタナ・ジョーンズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-01-20"
+      },
+      {
+        "soft_title": "石田芳夫九段の囲碁制覇",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-01-27"
+      },
+      {
+        "soft_title": "スーパーモデル ゲイル・マッケンナ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-28"
+      },
+      {
+        "soft_title": "ファッティーベアのびっくり誕生日!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "フラッシュバック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "ファン・ゲーム ソフトのおもちゃばこ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part1 沢田奈緒美&樹里あんな",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "姓名判断",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "ドラゴン・タイクーン・エッジ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-02-24"
+      },
+      {
+        "soft_title": "クレヨンしんちゃん パズル大魔王の謎",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 漢字の天才1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 算数の天才1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 算数の天才2",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "セサミストリートナンバーズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-03-17"
+      },
+      {
+        "soft_title": "トゥインクル☆ナイツ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-03-17"
+      },
+      {
+        "soft_title": "スターコントロールII",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-03-24"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part2 かわいなつみ&立原貴美",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-03-24"
+      },
+      {
+        "soft_title": "ドラえもん 友情伝説ザ・ドラえもんズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-04-07"
+      },
+      {
+        "soft_title": "パドックノート‘95",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-04-14"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part3 杉本ゆみか",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-04-28"
+      },
+      {
+        "soft_title": "ワールドカップ スーパースタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-04-28"
+      },
+      {
+        "soft_title": "ワールドカップスペシャル",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "電脳漂流 〜Multimedia Crusing〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "NICE BODYオールスター水泳大会 OFFICIAL CD-ROM",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "ノンタンといっしょ ほしのおくりもの",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "ウェイ・オブ・ザ・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1995-05-26"
+      },
+      {
+        "soft_title": "小倉百人一首",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-05-26"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part4 藤谷しおり",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-06-02"
+      },
+      {
+        "soft_title": "山田かまち美術館",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-09"
+      },
+      {
+        "soft_title": "けろけろけろっぴとおりがみのたびびと",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-16"
+      },
+      {
+        "soft_title": "ハローキティあそびのおもちゃばこ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-16"
+      },
+      {
+        "soft_title": "スラムジャム'95 3Dバスケットボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-06-30"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part5 安藤有里",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-06-30"
+      },
+      {
+        "soft_title": "リターンファイアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-07-14"
+      },
+      {
+        "soft_title": "おやじハンターマージャン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-07-14"
+      },
+      {
+        "soft_title": "オーシャンズビロウ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-07-21"
+      },
+      {
+        "soft_title": "実機パチスロシミュレーターVol.1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-07-21"
+      },
+      {
+        "soft_title": "ゴルフ場マルチメディア新書 裾野カンツリー倶楽部編",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-08-03"
+      },
+      {
+        "soft_title": "対決! るみーず",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-08-07"
+      },
+      {
+        "soft_title": "スクランブルコブラ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "囲碁タイムトライアル死活大百科",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "チキチキマシン猛レース2 〜In Space〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "ピラミッドイントゥルーダ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "サプリーム・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-08-25"
+      },
+      {
+        "soft_title": "コープス・キラー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-25"
+      },
+      {
+        "soft_title": "バーチャルソー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-09-01"
+      },
+      {
+        "soft_title": "カランティーン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "ボールズ ディレクターズカット",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "フロポンワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "パーフェクトワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-22"
+      },
+      {
+        "soft_title": "Tetsujin RETURNS",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-22"
+      },
+      {
+        "soft_title": "ゴールFH",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-10-13"
+      },
+      {
+        "soft_title": "シンジケート",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "ブレードフォース",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "ペペロン村の四季",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "未来少年コナン DIGITAL LIBRARY",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "マルチメディア新書・ドライビングスクール 普通免許科編",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-25"
+      },
+      {
+        "soft_title": "Jリーグ バーチャルスタジアム‘95",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-10-27"
+      },
+      {
+        "soft_title": "F1GP",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-10-28"
+      },
+      {
+        "soft_title": "デイドラス〜エピソード1：難破船のエイリアン〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-11-10"
+      },
+      {
+        "soft_title": "お姉さんといっしょ!着せ替えパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-11-22"
+      },
+      {
+        "soft_title": "ブラッドエンジェルス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-12-01"
+      },
+      {
+        "soft_title": "プロスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-12-08"
+      },
+      {
+        "soft_title": "ウルフェンシュタイン3D",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "飯田譲治ナイトメアインタラクティブ Moon Cradle 異形の花嫁",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "N.O.B",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "ものしり自遊学「小倉百人一首編」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "閉ざされた館",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-12-22"
+      },
+      {
+        "soft_title": "Auto Barn Tokio",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-12-22"
+      },
+      {
+        "soft_title": "プロ野球バーチャルスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-12-29"
+      },
+      {
+        "soft_title": "Dの食卓 Director's Cut",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "SHORT WARP",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1996-01-15"
+      },
+      {
+        "soft_title": "キャプテンクエーザー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1996-02-16"
+      },
+      {
+        "soft_title": "えいごでGO!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1996-02-16"
+      },
+      {
+        "soft_title": "ロイヤルプロレスリング〜実況ライブ!!〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1996-02-23"
+      },
+      {
+        "soft_title": "王国のグランシェフ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1996-03-01"
+      }
+    ],
+    "MSX2": [
+      {
+        "soft_title": "ザ・ライフステージ",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "ファイアボール",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "ウルトラマンパワード",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "チキチキマシン猛レース ケンケンとブラック魔王のイジワル大作戦",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-03-20"
+      },
+      {
+        "soft_title": "クラッシュ・アン・バーン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "ステラ7 ドラクソンの逆襲",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "バーチャルホラー 〜呪われた館〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ホラー",
+        "release_day": "1994-03-26"
+      },
+      {
+        "soft_title": "鉄人",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-04-09"
+      },
+      {
+        "soft_title": "寺沢武一の「武」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-04-29"
+      },
+      {
+        "soft_title": "ドクターハウザー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-04-29"
+      },
+      {
+        "soft_title": "娯楽の殿堂",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1994-05-14"
+      },
+      {
+        "soft_title": "NFLマッデン・フットボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "黒き死の仮面",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "時を超えた手紙",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-05-28"
+      },
+      {
+        "soft_title": "パワーズキングダム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-06-11"
+      },
+      {
+        "soft_title": "ノンタンといっしょ 〜のはらであそぼ〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-06-11"
+      },
+      {
+        "soft_title": "ファラオの封印",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1994-06-25"
+      },
+      {
+        "soft_title": "バーニング・ソルジャー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1994-06-25"
+      },
+      {
+        "soft_title": "スーパーウイングコマンダー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-07-09"
+      },
+      {
+        "soft_title": "麻雀狂時代 〜AVギャル制服編〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-07-20"
+      },
+      {
+        "soft_title": "パラランチョ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-07-23"
+      },
+      {
+        "soft_title": "パペットテイル",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-07-23"
+      },
+      {
+        "soft_title": "パットパット・ファンパック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "ファッティーベア ファンパック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "宇宙生物フロポン君",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "囲碁タイムトライアル・詰碁I",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "マリンツアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-08-06"
+      },
+      {
+        "soft_title": "セクレ フーミンのおもちゃ箱",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-08-27"
+      },
+      {
+        "soft_title": "グリム名作劇場1「ブレーメンの音楽隊」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "グリム名作劇場2「ヘンゼルとグレーテル」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "グリム名作劇場3「赤ずきん」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "シャドー・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1994-09-02"
+      },
+      {
+        "soft_title": "バトルチェス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-09-16"
+      },
+      {
+        "soft_title": "メガレース",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1994-10-07"
+      },
+      {
+        "soft_title": "VIRTUAL PUPPET REIKA",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-10-07"
+      },
+      {
+        "soft_title": "アウターワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "アローン・イン・ザ・ダーク",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "マーフィーだよ全員集合!!",
+        "collected_new": false,
+        "collected_old": true,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-10-21"
+      },
+      {
+        "soft_title": "パタンク",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "Jリーグ バーチャルスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「イソップ物語1」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「しらゆきひめ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-11-03"
+      },
+      {
+        "soft_title": "グリッダーズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1994-11-18"
+      },
+      {
+        "soft_title": "トム・カイトのこれがゴルフだ!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-11-18"
+      },
+      {
+        "soft_title": "バトルピンボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1994-11-25"
+      },
+      {
+        "soft_title": "ジュラシック・パーク・インタラクティブ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "パットパットとパレードに行こう!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「三匹のこぶた」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「にんぎょひめ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-02"
+      },
+      {
+        "soft_title": "グレートサッカーキッド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "デモリションマン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "九星占術による平成開運暦",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-09"
+      },
+      {
+        "soft_title": "インセクターウォー",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "お姉さんといっしょ!じゃんけんパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "突撃機関!メガダす!!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "ベルゼリオン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1994-12-16"
+      },
+      {
+        "soft_title": "痛快ゲームショー ツイステッド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "幽☆遊☆白書",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "PENTHOUSE INTERACTIVE VIRTUAL PHOT SHOOT Vol.1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "ボディコンディジタルレイブ Part1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1994-12-23"
+      },
+      {
+        "soft_title": "タロット占い",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "ピーター・フランクル「パズルの塔」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「おおかみと七ひきのこやぎ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "平田昭吾インタラクティブ絵本「シンデレラ」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "マカロニほうれん荘インタラクティブ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-01-13"
+      },
+      {
+        "soft_title": "AD&D ロストダンジョン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-01-20"
+      },
+      {
+        "soft_title": "モンタナ・ジョーンズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-01-20"
+      },
+      {
+        "soft_title": "石田芳夫九段の囲碁制覇",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-01-27"
+      },
+      {
+        "soft_title": "スーパーモデル ゲイル・マッケンナ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-01-28"
+      },
+      {
+        "soft_title": "ファッティーベアのびっくり誕生日!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "フラッシュバック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "ファン・ゲーム ソフトのおもちゃばこ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part1 沢田奈緒美&樹里あんな",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "姓名判断",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-02-17"
+      },
+      {
+        "soft_title": "ドラゴン・タイクーン・エッジ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-02-24"
+      },
+      {
+        "soft_title": "クレヨンしんちゃん パズル大魔王の謎",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 漢字の天才1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 算数の天才1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "ナオコとヒデ坊 算数の天才2",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-03-10"
+      },
+      {
+        "soft_title": "セサミストリートナンバーズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-03-17"
+      },
+      {
+        "soft_title": "トゥインクル☆ナイツ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-03-17"
+      },
+      {
+        "soft_title": "スターコントロールII",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-03-24"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part2 かわいなつみ&立原貴美",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-03-24"
+      },
+      {
+        "soft_title": "ドラえもん 友情伝説ザ・ドラえもんズ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-04-07"
+      },
+      {
+        "soft_title": "パドックノート‘95",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-04-14"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part3 杉本ゆみか",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-04-28"
+      },
+      {
+        "soft_title": "ワールドカップ スーパースタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-04-28"
+      },
+      {
+        "soft_title": "ワールドカップスペシャル",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "電脳漂流 〜Multimedia Crusing〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "NICE BODYオールスター水泳大会 OFFICIAL CD-ROM",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "ノンタンといっしょ ほしのおくりもの",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-05-19"
+      },
+      {
+        "soft_title": "ウェイ・オブ・ザ・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1995-05-26"
+      },
+      {
+        "soft_title": "小倉百人一首",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1995-05-26"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part4 藤谷しおり",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-06-02"
+      },
+      {
+        "soft_title": "山田かまち美術館",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-09"
+      },
+      {
+        "soft_title": "けろけろけろっぴとおりがみのたびびと",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-16"
+      },
+      {
+        "soft_title": "ハローキティあそびのおもちゃばこ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-06-16"
+      },
+      {
+        "soft_title": "スラムジャム'95 3Dバスケットボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-06-30"
+      },
+      {
+        "soft_title": "バーチャルカメラマン Part5 安藤有里",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-06-30"
+      },
+      {
+        "soft_title": "リターンファイアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-07-14"
+      },
+      {
+        "soft_title": "おやじハンターマージャン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-07-14"
+      },
+      {
+        "soft_title": "オーシャンズビロウ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-07-21"
+      },
+      {
+        "soft_title": "実機パチスロシミュレーターVol.1",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-07-21"
+      },
+      {
+        "soft_title": "ゴルフ場マルチメディア新書 裾野カンツリー倶楽部編",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-08-03"
+      },
+      {
+        "soft_title": "対決! るみーず",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-08-07"
+      },
+      {
+        "soft_title": "スクランブルコブラ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "囲碁タイムトライアル死活大百科",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "テーブル",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "チキチキマシン猛レース2 〜In Space〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "ピラミッドイントゥルーダ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-11"
+      },
+      {
+        "soft_title": "サプリーム・ウォリアー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-08-25"
+      },
+      {
+        "soft_title": "コープス・キラー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-08-25"
+      },
+      {
+        "soft_title": "バーチャルソー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-09-01"
+      },
+      {
+        "soft_title": "カランティーン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "ボールズ ディレクターズカット",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "格闘",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "フロポンワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-09-14"
+      },
+      {
+        "soft_title": "パーフェクトワールド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-22"
+      },
+      {
+        "soft_title": "Tetsujin RETURNS",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-09-22"
+      },
+      {
+        "soft_title": "ゴールFH",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-10-13"
+      },
+      {
+        "soft_title": "シンジケート",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "ブレードフォース",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "ペペロン村の四季",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "未来少年コナン DIGITAL LIBRARY",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-20"
+      },
+      {
+        "soft_title": "マルチメディア新書・ドライビングスクール 普通免許科編",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-10-25"
+      },
+      {
+        "soft_title": "Jリーグ バーチャルスタジアム‘95",
+        "collected_new": true,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-10-27"
+      },
+      {
+        "soft_title": "F1GP",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-10-28"
+      },
+      {
+        "soft_title": "デイドラス〜エピソード1：難破船のエイリアン〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-11-10"
+      },
+      {
+        "soft_title": "お姉さんといっしょ!着せ替えパラダイス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1995-11-22"
+      },
+      {
+        "soft_title": "ブラッドエンジェルス",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-12-01"
+      },
+      {
+        "soft_title": "プロスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-12-08"
+      },
+      {
+        "soft_title": "ウルフェンシュタイン3D",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "飯田譲治ナイトメアインタラクティブ Moon Cradle 異形の花嫁",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "N.O.B",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シミュレーション",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "ものしり自遊学「小倉百人一首編」",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1995-12-15"
+      },
+      {
+        "soft_title": "閉ざされた館",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-12-22"
+      },
+      {
+        "soft_title": "Auto Barn Tokio",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "レース",
+        "release_day": "1995-12-22"
+      },
+      {
+        "soft_title": "プロ野球バーチャルスタジアム",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1995-12-29"
+      },
+      {
+        "soft_title": "Dの食卓 Director's Cut",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アドベンチャー",
+        "release_day": "1996-01-01"
+      },
+      {
+        "soft_title": "SHORT WARP",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "その他",
+        "release_day": "1996-01-15"
+      },
+      {
+        "soft_title": "キャプテンクエーザー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1996-02-16"
+      },
+      {
+        "soft_title": "えいごでGO!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スタディ",
+        "release_day": "1996-02-16"
+      },
+      {
+        "soft_title": "ロイヤルプロレスリング〜実況ライブ!!〜",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1996-02-23"
+      },
+      {
+        "soft_title": "王国のグランシェフ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "ロールプレイング",
+        "release_day": "1996-03-01"
+      }
+    ]
+  }
+}
