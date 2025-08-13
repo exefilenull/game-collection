@@ -138,8 +138,8 @@
 
             jsonDataArray.forEach(data => {
                 Object.values(data.hardware_name).forEach(games => {
-                    totalNew += games.filter(game => game.collectCountNew).length;
-                    totalOld += games.filter(game => game.collectCountOld).length;
+                    totalNew += games.filter(game => game.collected_new).length;
+                    totalOld += games.filter(game => game.collected_old).length;
                     totalCount += games.length;
                 });
             });
