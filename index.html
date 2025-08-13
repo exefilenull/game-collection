@@ -177,8 +177,8 @@
                     //const text = `ゲーム全体\n新品：${((totalNew / totalCount) * 100).toFixed(1)}\n中古：${((totalOld / totalCount) * 100).toFixed(1)}%`;
                     const text = [
                         "ゲーム全体",
-                        `新品：${((1000 / 20000) * 100).toFixed(1)}%`,
-                        `中古：${((19500 / 20000) * 100).toFixed(1)}%`
+                        `新品：${((totalNew / totalCount) * 100).toFixed(1)}%`,
+                        `中古：${((totalOld / totalCount) * 100).toFixed(1)}%`
                     ];
                     //const lines = text.split('\n');
                     //const lineHeight = fontSize * 1.2;
