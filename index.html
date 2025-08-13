@@ -10,13 +10,6 @@
             color:cornsilk;
             background-color: #282831;
         }
-        //.category {
-        //    margin-bottom: 40px;
-        //    padding: 10px;
-        //    color: #ffffff;
-        //    backgroundColor: 
-        //}
-        //.category { font-size: 24px; font-weight: bold; margin-top: 20px; padding: 10px; background-color: #cccccc; border-radius: 5px; }
 
         a {
             color: #66b3ff;
@@ -41,10 +34,6 @@
             flex-wrap: wrap;
             gap: 20px;
         }
-        
-        //.canvas {
-        //    backgroundColor: "f0fff0f"
-        //}
 
         .chart-item {
             flex: 1 1 calc(25% - 20px);
@@ -63,11 +52,6 @@
             color: cornsilk;
             pointer-events: auto;
         }
-        
-        //.chart-label a {
-        //    color: black;
-        //    text-decoration: none;
-        //}
 
         .category h2 {
             background-color: #028760; /* 好きな色に変更 */
@@ -106,7 +90,9 @@
             "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
             "SIE": ['#0033FF', '#ccc'],        // SIEの色
             "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
-            "その他": ['#FF3399', '#ccc'],        // その他の色
+            "CASIO": ['#FF3399', '#ccc'],        // CASIOの色
+            "ASCII": ['#C47600', '#ccc'],        // ASCIIの色
+            "Tomy": ['#99FFCC', '#ccc']        // Tomyの色
         };
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -119,7 +105,10 @@
                 'data/6_bandai.json', 
                 'data/7_sega.json', 
                 'data/8_sie.json',
-                'data/9_panasonic.json'
+                'data/9_panasonic.json',
+                'data/10_casio.json',
+                'data/11_ascii.json',
+                'data/12_tomy.json',
             ];
 
             // JSONを読み込んで処理
@@ -165,36 +154,16 @@
                 id: 'centerText',
                 beforeDraw(chart) {
                     const { width } = chart;
-                    //const { height } = chart;
                     const ctx = chart.ctx;
-                    //ctx.restore();
-                    //const { chartArea, ctx } = chart;
-                    //const meta = chart.getDatasetMeta(0);
-                    //const arc = meta.data[0];
-                    //const innerRadius = arc.innerRadius;
                     ctx.save();
-                    //const fontSize = (height / 120).toFixed(2);
-                    //ctx.font = `${fontSize}em sans-serif`;
                     ctx.textAlign = 'center';
                     ctx.textBaseline = 'middle';
                     ctx.fillStyle = 'white';
-                    //const fontSize = innerRadius * 0.18;
-                    //ctx.font = `${fontSize}em sans-serif`;
-                    //const text = `ゲーム全体\n新品：${((totalNew / totalCount) * 100).toFixed(1)}\n中古：${((totalOld / totalCount) * 100).toFixed(1)}%`;
                     const text = [
                         "ゲーム全体",
                         `新品：${((totalNew / totalCount) * 100).toFixed(1)}%`,
                         `中古：${((totalOld / totalCount) * 100).toFixed(1)}%`
                     ];
-                    //const lines = text.split('\n');
-                    //const lineHeight = fontSize * 1.2;
-                    //const totalHeight = lineHeight * text.length;
-                    //text.forEach((line, i) => {
-                    //    const textWidth = ctx.measureText(line).width;
-                    //    const x = (chartArea.left + chartArea.right) / 2 - textWidth / 2;
-                    //    const y = (chartArea.top + chartArea.bottom) / 2 - totalHeight /2 + (i * lineHeight);
-                    //    ctx.fillText(line, x, y);
-                    //});
                     ctx.font = 'bold 18px Arial';
                     const centerX = width / 2;
                     const centerY = chart.chartArea.height / 2 + chart.chartArea.top;
@@ -202,14 +171,7 @@
                     text.forEach((line, index) => {
                         ctx.fillText(line, centerX, centerY+ index * lineHeight);
                     });
-                    //ctx.fillText(`全ハード集計\n新品：${((1000 / 20000) * 100).toFixed(1)}%\n中古：${((2000 / 20000) * 100).toFixed(1)}%`, width / 2, chart.chartArea.height / 2 + chart.chartArea.top);
                     ctx.restore();
-                    //lines.forEach((line, index) => {
-                    //    const textX =Math.round((width - ctx.measureText(line).width) / 2);
-                    //    const textY = height / 2 + (index - (lines.length - 1) / 2) * 20;
-                    //    ctx.fillText(line, textX, textY);
-                    //});
-                    //ctx.save();
                 }
             };
 
@@ -219,8 +181,7 @@
                 data: {
                     datasets: [{
                         label: '新品データ',
-                        //data: [totalNew, totalCount - totalNew ],
-                        data: [1000, 20000 - 1000 ],
+                        data: [totalNew, totalCount - totalNew],
                         backgroundColor: ['#000000', '#ccc'],
                         hoverOffset: 4,
                         cutout: '50%',
@@ -229,7 +190,7 @@
                         }
                     }, {
                         label: '中古データ',
-                        data: [2000, 20000 - 2000 ],
+                        data: [totalOld, totalCount - totalOld],
                         backgroundColor: ['#282831', '#000000'],
                         hoverOffset: 4,
                         cutout: '50%',
