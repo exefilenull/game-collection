@@ -101,7 +101,10 @@
                 'data/6_bandai.json', 
                 'data/7_sega.json', 
                 'data/8_sie.json', 
-                'data/9_panasonic.json'
+                'data/9_panasonic.json',
+                'data/10_casio.json',
+                'data/11_ascii.json',
+                'data/12_tomy.json',
             ];
 
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
