@@ -150,6 +150,9 @@
         // 全体グラフ描画
         function drawAllChart({ totalNew, totalOld, totalCount }) {
             const ctx = document.getElementById('allChart').getContext('2d');
+            console.log(`totalNew = ${totalNew}`);
+            console.log(`totalOld = ${totalOld}`);
+            console.log(`totalCount = ${totalCount}`);
 
             // 中央にテキストを挿入
             const centerTextPlugin = {
