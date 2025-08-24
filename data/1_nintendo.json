@@ -22631,7 +22631,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1996-06-23"
       },
       {
@@ -22640,7 +22640,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1996-06-23"
       },
       {
@@ -22649,7 +22649,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1996-06-23"
       },
       {
@@ -22658,7 +22658,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1996-09-27"
       },
       {
@@ -22667,7 +22667,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1996-11-22"
       },
       {
@@ -22676,7 +22676,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1996-11-29"
       },
       {
@@ -22685,7 +22685,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1996-12-14"
       },
       {
@@ -22694,7 +22694,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1996-12-20"
       },
       {
@@ -22703,7 +22703,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1996-12-20"
       },
       {
@@ -22712,7 +22712,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1996-12-20"
       },
       {
@@ -22721,7 +22721,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-03-14"
       },
       {
@@ -22730,7 +22730,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-03-21"
       },
       {
@@ -22739,7 +22739,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-03-21"
       },
       {
@@ -22748,7 +22748,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1997-03-28"
       },
       {
@@ -22757,7 +22757,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-03-28"
       },
       {
@@ -22766,7 +22766,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1997-04-04"
       },
       {
@@ -22775,7 +22775,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-04-27"
       },
       {
@@ -22784,7 +22784,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-05-30"
       },
       {
@@ -22793,7 +22793,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-06-14"
       },
       {
@@ -22802,7 +22802,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-06-27"
       },
       {
@@ -22811,25 +22811,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-07-18"
-      },
-      {
-        "soft_title": "ウェーブレース64 振動パック対応バージョン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-07-18"
-      },
-      {
-        "soft_title": "スーパーマリオ64 振動パック対応バージョン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1997-07-18"
       },
       {
@@ -22838,7 +22820,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1997-07-25"
       },
       {
@@ -22847,7 +22829,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-08-01"
       },
       {
@@ -22856,7 +22838,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1997-08-01"
       },
       {
@@ -22865,7 +22847,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1997-08-07"
       },
       {
@@ -22874,7 +22856,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-08-08"
       },
       {
@@ -22883,7 +22865,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-08-23"
       },
       {
@@ -22892,7 +22874,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-09-05"
       },
       {
@@ -22901,7 +22883,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-09-18"
       },
       {
@@ -22910,7 +22892,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-09-26"
       },
       {
@@ -22919,7 +22901,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-10-24"
       },
       {
@@ -22928,7 +22910,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1997-10-31"
       },
       {
@@ -22937,7 +22919,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1997-11-21"
       },
       {
@@ -22946,7 +22928,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1997-11-21"
       },
       {
@@ -22955,7 +22937,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1997-11-28"
       },
       {
@@ -22964,7 +22946,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1997-11-28"
       },
       {
@@ -22973,7 +22955,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-11-28"
       },
       {
@@ -22982,7 +22964,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-11-28"
       },
       {
@@ -22991,7 +22973,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1997-12-05"
       },
       {
@@ -23000,7 +22982,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1997-12-05"
       },
       {
@@ -23009,7 +22991,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-12-12"
       },
       {
@@ -23018,17 +23000,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-12-12"
-      },
-      {
-        "soft_title": "ヘクセン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-12-18"
       },
       {
         "soft_title": "飛龍の拳ツイン",
@@ -23036,7 +23009,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1997-12-18"
       },
       {
@@ -23045,7 +23018,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1997-12-19"
       },
       {
@@ -23054,16 +23027,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-12-19"
-      },
-      {
-        "soft_title": "バーチャル・プロレスリング64",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1997-12-19"
       },
       {
@@ -23072,7 +23036,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティー",
         "release_day": "1997-12-19"
       },
       {
@@ -23081,17 +23045,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-12-21"
-      },
-      {
-        "soft_title": "遙かなるオーガスタ MASTERS'98",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-12-26"
       },
       {
         "soft_title": "新日本プロレスリング 闘魂炎導 BRAVE SPIRITS",
@@ -23099,7 +23054,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-01-04"
       },
       {
@@ -23108,17 +23063,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-01-29"
-      },
-      {
-        "soft_title": "シムシティ2000",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-01-30"
       },
       {
         "soft_title": "ウェイン・グレツキー 3Dホッケー",
@@ -23126,7 +23072,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-02-28"
       },
       {
@@ -23135,7 +23081,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-02-28"
       },
       {
@@ -23144,7 +23090,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-03-19"
       },
       {
@@ -23153,7 +23099,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1998-03-26"
       },
       {
@@ -23162,7 +23108,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-03-26"
       },
       {
@@ -23171,7 +23117,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1998-03-26"
       },
       {
@@ -23180,7 +23126,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-03-27"
       },
       {
@@ -23189,7 +23135,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-03-27"
       },
       {
@@ -23198,17 +23144,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1998-04-03"
-      },
-      {
-        "soft_title": "FIFA Road to WORLD CUP 98 ワールドカップへの道",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-04-24"
       },
       {
         "soft_title": "ボンバーマンヒーロー ミリアン王女を救え!",
@@ -23216,7 +23153,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-04-30"
       },
       {
@@ -23225,7 +23162,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-05-29"
       },
       {
@@ -23234,7 +23171,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-05-29"
       },
       {
@@ -23243,7 +23180,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1998-05-29"
       },
       {
@@ -23252,7 +23189,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-06-04"
       },
       {
@@ -23261,7 +23198,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-06-26"
       },
       {
@@ -23270,7 +23207,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-07-10"
       },
       {
@@ -23279,7 +23216,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-07-14"
       },
       {
@@ -23288,7 +23225,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-07-16"
       },
       {
@@ -23297,7 +23234,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-07-17"
       },
       {
@@ -23306,7 +23243,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1998-07-17"
       },
       {
@@ -23315,7 +23252,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1998-07-23"
       },
       {
@@ -23324,7 +23261,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-07-24"
       },
       {
@@ -23333,7 +23270,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1998-08-01"
       },
       {
@@ -23342,7 +23279,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1998-08-07"
       },
       {
@@ -23351,7 +23288,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-08-28"
       },
       {
@@ -23360,7 +23297,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-10-09"
       },
       {
@@ -23369,7 +23306,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティー",
         "release_day": "1998-10-23"
       },
       {
@@ -23378,7 +23315,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-10-30"
       },
       {
@@ -23387,7 +23324,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1998-11-13"
       },
       {
@@ -23396,16 +23333,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1998-11-20"
       },
       {
         "soft_title": "ゼルダの伝説 時のオカリナ",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-11-21"
       },
       {
@@ -23414,16 +23351,16 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1998-11-27"
       },
       {
-        "soft_title": "ナイフエッジ ノーズガンナー英語版",
+        "soft_title": "ナイフエッジ ノーズガンナー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-11-27"
       },
       {
@@ -23432,7 +23369,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1998-11-27"
       },
       {
@@ -23441,7 +23378,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1998-12-02"
       },
       {
@@ -23450,7 +23387,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティー",
         "release_day": "1998-12-04"
       },
       {
@@ -23459,7 +23396,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-12-06"
       },
       {
@@ -23468,7 +23405,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1998-12-11"
       },
       {
@@ -23477,7 +23414,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1998-12-11"
       },
       {
@@ -23486,7 +23423,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1998-12-12"
       },
       {
@@ -23495,7 +23432,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1998-12-18"
       },
       {
@@ -23504,7 +23441,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-12-18"
       },
       {
@@ -23513,7 +23450,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-12-18"
       },
       {
@@ -23522,7 +23459,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティ",
         "release_day": "1998-12-18"
       },
       {
@@ -23531,7 +23468,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1998-12-18"
       },
       {
@@ -23540,7 +23477,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-12-23"
       },
       {
@@ -23549,7 +23486,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1998-12-24"
       },
       {
@@ -23558,7 +23495,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-12-25"
       },
       {
@@ -23567,7 +23504,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-12-26"
       },
       {
@@ -23576,7 +23513,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1998-12-26"
       },
       {
@@ -23585,7 +23522,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-01-15"
       },
       {
@@ -23594,7 +23531,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1999-01-21"
       },
       {
@@ -23603,7 +23540,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1999-01-29"
       },
       {
@@ -23612,7 +23549,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1999-01-29"
       },
       {
@@ -23621,7 +23558,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1999-02-05"
       },
       {
@@ -23630,17 +23567,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-02-19"
-      },
-      {
-        "soft_title": "パズルボブル64",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-03-05"
       },
       {
         "soft_title": "悪魔城ドラキュラ黙示録",
@@ -23648,7 +23576,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-03-11"
       },
       {
@@ -23657,7 +23585,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-03-19"
       },
       {
@@ -23666,7 +23594,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1999-03-19"
       },
       {
@@ -23675,7 +23603,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-03-19"
       },
       {
@@ -23684,7 +23612,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-03-19"
       },
       {
@@ -23693,7 +23621,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1999-03-21"
       },
       {
@@ -23702,7 +23630,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-03-25"
       },
       {
@@ -23711,17 +23639,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-03-26"
-      },
-      {
-        "soft_title": "おねがいモンスター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-04-09"
       },
       {
         "soft_title": "実況GIステイブル",
@@ -23729,7 +23648,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1999-04-28"
       },
       {
@@ -23738,7 +23657,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1999-04-30"
       },
       {
@@ -23747,7 +23666,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-05-28"
       },
       {
@@ -23756,7 +23675,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-06-03"
       },
       {
@@ -23765,7 +23684,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1999-06-11"
       },
       {
@@ -23774,7 +23693,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-06-11"
       },
       {
@@ -23783,7 +23702,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1999-06-18"
       },
       {
@@ -23792,7 +23711,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1999-06-25"
       },
       {
@@ -23801,7 +23720,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-07-09"
       },
       {
@@ -23810,7 +23729,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-07-14"
       },
       {
@@ -23819,7 +23738,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-07-16"
       },
       {
@@ -23828,17 +23747,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-07-21"
-      },
-      {
-        "soft_title": "実況Jリーグ1999 パーフェクトストライカー2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-07-29"
       },
       {
         "soft_title": "ロードランナー3-D",
@@ -23846,7 +23756,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "1999-07-30"
       },
       {
@@ -23855,7 +23765,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1999-07-30"
       },
       {
@@ -23864,7 +23774,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-08-05"
       },
       {
@@ -23873,7 +23783,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-08-06"
       },
       {
@@ -23882,7 +23792,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1999-08-13"
       },
       {
@@ -23891,7 +23801,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1999-08-27"
       },
       {
@@ -23900,7 +23810,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1999-08-27"
       },
       {
@@ -23909,7 +23819,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1999-09-03"
       },
       {
@@ -23918,17 +23828,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-09-10"
-      },
-      {
-        "soft_title": "WIN BACK",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-09-23"
       },
       {
         "soft_title": "トランスフォーマー ビーストウォーズメタルス64",
@@ -23936,7 +23837,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "1999-10-01"
       },
       {
@@ -23945,7 +23846,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-10-14"
       },
       {
@@ -23954,7 +23855,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ノベル",
         "release_day": "1999-10-22"
       },
       {
@@ -23963,7 +23864,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-10-29"
       },
       {
@@ -23972,7 +23873,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1999-11-05"
       },
       {
@@ -23981,7 +23882,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1999-11-05"
       },
       {
@@ -23990,7 +23891,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-11-26"
       },
       {
@@ -23999,7 +23900,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "1999-12-01"
       },
       {
@@ -24008,7 +23909,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-12-03"
       },
       {
@@ -24017,7 +23918,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1999-12-03"
       },
       {
@@ -24026,7 +23927,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-12-08"
       },
       {
@@ -24035,7 +23936,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-12-10"
       },
       {
@@ -24044,7 +23945,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティ",
         "release_day": "1999-12-17"
       },
       {
@@ -24053,7 +23954,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "1999-12-24"
       },
       {
@@ -24062,7 +23963,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1999-12-24"
       },
       {
@@ -24071,7 +23972,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-12-25"
       },
       {
@@ -24080,17 +23981,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1999-12-25"
-      },
-      {
-        "soft_title": "バイオハザード2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-01-28"
       },
       {
         "soft_title": "バーチャルプロレス2 ～王道継承～",
@@ -24098,7 +23990,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2000-01-28"
       },
       {
@@ -24107,7 +23999,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2000-02-04"
       },
       {
@@ -24116,7 +24008,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2000-03-17"
       },
       {
@@ -24125,7 +24017,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-03-24"
       },
       {
@@ -24134,7 +24026,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2000-03-31"
       },
       {
@@ -24143,7 +24035,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2000-04-07"
       },
       {
@@ -24152,7 +24044,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2000-04-07"
       },
       {
@@ -24161,7 +24053,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2000-04-21"
       },
       {
@@ -24170,7 +24062,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "2000-04-21"
       },
       {
@@ -24179,7 +24071,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-04-27"
       },
       {
@@ -24188,7 +24080,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2000-04-28"
       },
       {
@@ -24197,7 +24089,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2000-04-29"
       },
       {
@@ -24206,7 +24098,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2000-05-26"
       },
       {
@@ -24215,17 +24107,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2000-06-23"
-      },
-      {
-        "soft_title": "がんばれ!ニッポン!オリンピック2000",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-07-13"
       },
       {
         "soft_title": "マリオテニス64",
@@ -24233,7 +24116,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2000-07-21"
       },
       {
@@ -24242,7 +24125,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-07-28"
       },
       {
@@ -24251,7 +24134,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2000-08-11"
       },
       {
@@ -24260,7 +24143,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2000-09-15"
       },
       {
@@ -24269,7 +24152,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2000-09-27"
       },
       {
@@ -24278,7 +24161,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2000-10-21"
       },
       {
@@ -24287,7 +24170,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2000-11-10"
       },
       {
@@ -24296,17 +24179,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2000-11-21"
-      },
-      {
-        "soft_title": "ロックマンDASH 鋼の冒険心",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-11-22"
       },
       {
         "soft_title": "バンジョーとカズーイの大冒険2",
@@ -24314,7 +24188,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-11-27"
       },
       {
@@ -24323,7 +24197,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "2000-11-30"
       },
       {
@@ -24332,7 +24206,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パーティ",
         "release_day": "2000-12-07"
       },
       {
@@ -24341,7 +24215,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2000-12-14"
       },
       {
@@ -24350,7 +24224,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2001-01-21"
       },
       {
@@ -24359,7 +24233,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2001-03-29"
       },
       {
@@ -24368,7 +24242,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2001-04-06"
       },
       {
@@ -24377,7 +24251,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2001-04-14"
       },
       {
@@ -24386,7 +24260,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "2001-08-10"
       },
       {
@@ -24395,7 +24269,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2001-12-20"
       }
     ],
