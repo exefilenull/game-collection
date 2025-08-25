@@ -24451,7 +24451,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-03-22"
       },
       {
@@ -24784,7 +24784,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2002-11-21"
       },
       {
@@ -24993,24 +24993,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2003-01-16"
-      },
-      {
-        "soft_title": "バイオハザード2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-23"
-      },
-      {
-        "soft_title": "バイオハザード3 LAST ESCAPE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-01-23"
       },
       {
         "soft_title": "ワールドサッカーウイニングイレブン6 ファイナルエヴォリューション",
@@ -25434,15 +25416,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2003-07-31"
-      },
-      {
-        "soft_title": "バイオハザード コード：ベロニカ完全版",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-08-07"
       },
       {
         "soft_title": "ファイナルファンタジー・クリスタルクロニクル",
@@ -26219,15 +26192,6 @@
         "release_day": "2004-12-22"
       },
       {
-        "soft_title": "バイオハザード ダブル フィーチャー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-22"
-      },
-      {
         "soft_title": "デジモンワールドX",
         "collected_new": false,
         "collected_old": false,
@@ -26271,15 +26235,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2005-01-20"
-      },
-      {
-        "soft_title": "バイオハザード4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-01-27"
       },
       {
         "soft_title": "スターフォックス アサルト",
@@ -27179,7 +27134,7 @@
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
-        "dont_collect": false,
+        "dont_collect": "ture",
         "game_category:": "",
         "release_day": "2007-05-31"
       },
@@ -27522,7 +27477,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2007-11-15"
       },
       {
@@ -28300,15 +28255,6 @@
         "release_day": "2008-07-03"
       },
       {
-        "soft_title": "バイオハザード0",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2008-07-10"
-      },
-      {
         "soft_title": "パズルシリーズ Vol.2 イラストロジック+からふるロジック",
         "collected_new": false,
         "collected_old": false,
@@ -28928,15 +28874,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2008-12-18"
-      },
-      {
-        "soft_title": "バイオハザード",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2008-12-25"
       },
       {
         "soft_title": "Wiiであそぶ ピクミン",
@@ -29889,7 +29826,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2010-01-14"
       },
       {
@@ -31108,15 +31045,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2013-04-24"
-      },
-      {
-        "soft_title": "バイオハザード リベレーションズ アンベールド エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-05-23"
       },
       {
         "soft_title": "ラビッツランド",
@@ -33533,15 +33461,6 @@
         "release_day": "2017-11-22"
       },
       {
-        "soft_title": "バイオハザード リベレーションズ アンベールド エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-11-30"
-      },
-      {
         "soft_title": "信長の野望・大志",
         "collected_new": false,
         "collected_old": false,
@@ -35747,15 +35666,6 @@
         "release_day": "2019-05-23"
       },
       {
-        "soft_title": "バイオハザード オリジンズコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-05-23"
-      },
-      {
         "soft_title": "私立ベルばら学園 〜ベルサイユのばら Re*imagination〜",
         "collected_new": false,
         "collected_old": false,
@@ -36612,15 +36522,6 @@
       },
       {
         "soft_title": "たべごろ!スーパーモンキーボール",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-10-31"
-      },
-      {
-        "soft_title": "バイオハザード トリプル パック",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -65523,7 +65424,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2006-01-19"
       },
       {
@@ -81212,7 +81113,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2011-06-02"
       },
       {
@@ -82168,15 +82069,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2012-01-25"
-      },
-      {
-        "soft_title": "バイオハザード リベレーションズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2012-01-26"
       },
       {
         "soft_title": "ズーキーパー3D",

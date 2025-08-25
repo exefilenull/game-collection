@@ -1947,15 +1947,6 @@
         "release_day": "1996-03-22"
       },
       {
-        "soft_title": "バイオハザード",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1996-03-22"
-      },
-      {
         "soft_title": "チョロQ",
         "collected_new": false,
         "collected_old": false,
@@ -7914,15 +7905,6 @@
         "release_day": "1997-09-25"
       },
       {
-        "soft_title": "バイオハザード ディレクターズカット",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-09-25"
-      },
-      {
         "soft_title": "マーヴル・スーパーヒーローズ",
         "collected_new": false,
         "collected_old": false,
@@ -9463,15 +9445,6 @@
       },
       {
         "soft_title": "コンプリートサッカー オンサイド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-01-29"
-      },
-      {
-        "soft_title": "バイオハザード2",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -12104,7 +12077,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-08-06"
       },
       {
@@ -12113,7 +12086,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1998-08-06"
       },
       {
@@ -18107,7 +18080,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1999-09-22"
       },
       {
@@ -20294,7 +20267,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2000-01-27"
       },
       {
@@ -30997,7 +30970,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2001-03-22"
       },
       {
@@ -32131,7 +32104,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2001-11-08"
       },
       {
@@ -36055,7 +36028,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-02-13"
       },
       {
@@ -39448,7 +39421,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2003-12-11"
       },
       {
@@ -42616,7 +42589,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2004-09-09"
       },
       {
@@ -47755,7 +47728,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "アクション",
+        "game_category": "シューティング",
         "release_day": "2005-12-01"
       },
       {
@@ -57319,15 +57292,6 @@
         "release_day": "2009-02-26"
       },
       {
-        "soft_title": "バイオハザード5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-03-05"
-      },
-      {
         "soft_title": "無双OROCHI Z",
         "collected_new": false,
         "collected_old": false,
@@ -59623,15 +59587,6 @@
         "release_day": "2011-09-08"
       },
       {
-        "soft_title": "バイオハザード リバイバルセレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-09-08"
-      },
-      {
         "soft_title": "RESISTANCE3",
         "collected_new": false,
         "collected_old": false,
@@ -60681,7 +60636,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2012-04-26"
       },
       {
@@ -60821,15 +60776,6 @@
       },
       {
         "soft_title": "アイドルマスター アニメ＆G4U!パック VOL.9",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2012-06-28"
-      },
-      {
-        "soft_title": "バイオハザードクロニクルズ HDセレクション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -61891,15 +61837,6 @@
         "release_day": "2013-05-23"
       },
       {
-        "soft_title": "バイオハザード リベレーションズ アンベールド エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-05-23"
-      },
-      {
         "soft_title": "The Last of Us",
         "collected_new": false,
         "collected_old": true,
@@ -62123,15 +62060,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2013-08-01"
-      },
-      {
-        "soft_title": "バイオハザード6 スペシャルパッケージ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-08-08"
       },
       {
         "soft_title": "スーパーロボット大戦OGサーガ 魔装機神III PRIDE OF JUSTICE",
@@ -63556,15 +63484,6 @@
         "release_day": "2014-11-20"
       },
       {
-        "soft_title": "バイオハザード HDリマスター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-27"
-      },
-      {
         "soft_title": "ドラゴンエイジ:インクイジション",
         "collected_new": false,
         "collected_old": false,
@@ -63842,15 +63761,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-03-12"
-      },
-      {
-        "soft_title": "バイオハザード リベレーションズ2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-03-19"
       },
       {
         "soft_title": "バトルフィールド ハードライン",
@@ -64319,15 +64229,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2016-01-14"
-      },
-      {
-        "soft_title": "バイオハザード0 HDリマスター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-01-21"
       },
       {
         "soft_title": "龍が如く 極",
@@ -65309,7 +65210,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2015-02-25"
       },
       {
@@ -66024,15 +65925,6 @@
         "release_day": "2016-01-21"
       },
       {
-        "soft_title": "バイオハザード オリジンズコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-01-21"
-      },
-      {
         "soft_title": "ジャストコーズ3",
         "collected_new": false,
         "collected_old": false,
@@ -66502,15 +66394,6 @@
       },
       {
         "soft_title": "ウォーキング・デッド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-06-23"
-      },
-      {
-        "soft_title": "バイオハザード アンブレラコア",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -67137,15 +67020,6 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
-        "release_day": "2017-01-26"
-      },
-      {
-        "soft_title": "バイオハザード7 レジデント イービル",
-        "collected_new": false,
-        "collected_old": true,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
         "release_day": "2017-01-26"
       },
       {
@@ -67883,7 +67757,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2017-08-31"
       },
       {
@@ -70286,7 +70160,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "アクション",
+        "game_category": "シューティング",
         "release_day": "2019-01-25"
       },
       {
@@ -72149,7 +72023,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "2020-04-03"
       },
       {
@@ -72158,7 +72032,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2020-04-10"
       },
       {
@@ -75841,7 +75715,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "アクション",
+        "game_category": "シューティング",
         "release_day": "2021-05-08"
       },
       {
@@ -77479,7 +77353,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "アクション",
+        "game_category": "シューティング",
         "release_day": "2023-03-24"
       },
       {
@@ -96509,7 +96383,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": true,
         "release_day": "2015-09-17"
       },
       {
