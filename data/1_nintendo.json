@@ -2582,7 +2582,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1987-12-18"
       },
       {
@@ -3833,7 +3833,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1988-12-17"
       },
       {
@@ -5633,7 +5633,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1990-04-27"
       },
       {
@@ -9372,15 +9372,6 @@
         "release_day": "1994-02-19"
       },
       {
-        "soft_title": "ファイナルファンタジーI・II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1994-02-27"
-      },
-      {
         "soft_title": "Jリーグ スーパートッププレイヤーズ",
         "collected_new": false,
         "collected_old": false,
@@ -9635,12 +9626,12 @@
         "release_day": "1991-07-19"
       },
       {
-        "soft_title": "ファイナルファンタジーIVFinal Fantasy II",
+        "soft_title": "ファイナルファンタジーIV",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1991-07-19"
       },
       {
@@ -9741,15 +9732,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1991-10-25"
-      },
-      {
-        "soft_title": "ファイナルファンタジーIV イージータイプ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-10-29"
       },
       {
         "soft_title": "悪魔城ドラキュラSuper Castlevania IV",
@@ -11170,7 +11152,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1992-12-06"
       },
       {
@@ -14711,12 +14693,12 @@
         "release_day": "1994-04-01"
       },
       {
-        "soft_title": "ファイナルファンタジーVIFinal Fantasy III",
+        "soft_title": "ファイナルファンタジーVI",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1994-04-02"
       },
       {
@@ -25423,7 +25405,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-08-08"
       },
       {
@@ -27128,15 +27110,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2007-05-24"
-      },
-      {
-        "soft_title": "バイオハザード4 Wii edition",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": "ture",
-        "game_category:": "",
-        "release_day": "2007-05-31"
       },
       {
         "soft_title": "パイレーツ・オブ・カリビアン/ワールド・エンド",
@@ -28935,7 +28908,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2009-01-29"
       },
       {
@@ -29583,7 +29556,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2009-11-12"
       },
       {
@@ -30894,15 +30867,6 @@
         "release_day": "2012-12-08"
       },
       {
-        "soft_title": "アサシン クリード III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2012-12-08"
-      },
-      {
         "soft_title": "ゾンビU",
         "collected_new": false,
         "collected_old": false,
@@ -31279,15 +31243,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2013-11-21"
-      },
-      {
-        "soft_title": "アサシン クリード IV ブラック フラッグ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-11-28"
       },
       {
         "soft_title": "ディズニーインフィニティ",
@@ -35468,15 +35423,6 @@
         "release_day": "2019-04-11"
       },
       {
-        "soft_title": "FINAL FANTASY XX-2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-04-11"
-      },
-      {
         "soft_title": "Nintendo Labo Toy-Con 04: VR Kit",
         "collected_new": false,
         "collected_old": false,
@@ -35550,15 +35496,6 @@
       },
       {
         "soft_title": "ピクセル パズルパック 3-in-1",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-04-25"
-      },
-      {
-        "soft_title": "FINAL FANTASY XII THE ZODIAC AGE",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -35649,15 +35586,6 @@
       },
       {
         "soft_title": "みんなのどうぶつしょうぎ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-05-23"
-      },
-      {
-        "soft_title": "アサシン クリード III リマスター",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -36735,15 +36663,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2019-12-05"
-      },
-      {
-        "soft_title": "アサシン クリード リベルコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-12-06"
       },
       {
         "soft_title": "爆釣ハンターズ",
@@ -37926,15 +37845,6 @@
       },
       {
         "soft_title": "ジラフとアンニカ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-08-27"
-      },
-      {
-        "soft_title": "ファイナルファンタジー・クリスタルクロニクル リマスター",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -41120,15 +41030,6 @@
         "release_day": "2022-02-17"
       },
       {
-        "soft_title": "アサシン クリード エツィオコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-02-17"
-      },
-      {
         "soft_title": "刀剣乱舞無双",
         "collected_new": false,
         "collected_old": false,
@@ -42972,15 +42873,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2022-12-09"
-      },
-      {
-        "soft_title": "クライシス コア -ファイナルファンタジーVII- リユニオン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2022-12-13"
       },
       {
         "soft_title": "Them's Fightin' Herds: Deluxe Edition",
@@ -45240,51 +45132,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2023-03-30"
-      },
-      {
-        "soft_title": "FINAL FANTASY II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-20"
-      },
-      {
-        "soft_title": "FINAL FANTASY III",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-20"
-      },
-      {
-        "soft_title": "FINAL FANTASY IV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-20"
-      },
-      {
-        "soft_title": "FINAL FANTASY V",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-20"
-      },
-      {
-        "soft_title": "FINAL FANTASY VI",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-20"
       },
       {
         "soft_title": "マジカルドロップ6",
@@ -49848,7 +49695,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1991-06-28"
       },
       {
@@ -57329,7 +57176,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2002-03-29"
       },
       {
@@ -60625,7 +60472,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-02-14"
       },
       {
@@ -62582,15 +62429,6 @@
         "release_day": "2004-07-29"
       },
       {
-        "soft_title": "ファイナルファンタジーI・II アドバンス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-29"
-      },
-      {
         "soft_title": "レジェンズ 甦る試練の島",
         "collected_new": false,
         "collected_old": false,
@@ -63955,7 +63793,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-12-15"
       },
       {
@@ -64252,7 +64090,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-10-12"
       },
       {
@@ -64261,7 +64099,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-11-30"
       }
     ],
@@ -66492,10 +66330,10 @@
       {
         "soft_title": "ファイナルファンタジーIII",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-08-24"
       },
       {
@@ -68574,7 +68412,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-04-26"
       },
       {
@@ -69798,7 +69636,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-08-23"
       },
       {
@@ -70473,7 +70311,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-10-25"
       },
       {
@@ -71310,7 +71148,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-12-20"
       },
       {
@@ -75481,15 +75319,6 @@
         "release_day": "2009-01-29"
       },
       {
-        "soft_title": "ファイナルファンタジー・クリスタルクロニクル エコーズ・オブ・タイム",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-01-29"
-      },
-      {
         "soft_title": "ひらめきアクション ちびっこワギャンの大きな冒険",
         "collected_new": false,
         "collected_old": false,
@@ -77412,7 +77241,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2009-10-29"
       },
       {
@@ -82130,7 +81959,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "リズム",
         "release_day": "2012-02-16"
       },
       {
@@ -86432,7 +86261,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "リズム",
         "release_day": "2014-04-24"
       },
       {
@@ -88219,15 +88048,6 @@
       },
       {
         "soft_title": "Outer World 20th Anniversary Edition",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-01-21"
-      },
-      {
-        "soft_title": "FINAL FANTASY",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -92143,11 +91963,11 @@
       },
       {
         "soft_title": "PICTLOGICA FINAL FANTASY ≒",
-        "collected_new": false,
+        "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "2017-07-12"
       },
       {

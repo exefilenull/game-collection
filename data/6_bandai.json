@@ -1728,15 +1728,6 @@
     ],
     "ワンダースワンカラー": [
       {
-        "soft_title": "ファイナルファンタジー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-12-09"
-      },
-      {
         "soft_title": "GUNPEY EX",
         "collected_new": false,
         "collected_old": false,
@@ -1825,15 +1816,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2001-04-26"
-      },
-      {
-        "soft_title": "ファイナルファンタジーII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-05-02"
       },
       {
         "soft_title": "落雀",
@@ -2077,15 +2059,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2002-03-20"
-      },
-      {
-        "soft_title": "ファイナルファンタジーIV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-03-29"
       },
       {
         "soft_title": "デジモンテイマーズ バトルスピリットVer.1.5",
