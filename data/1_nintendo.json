@@ -24262,7 +24262,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "レース",
         "release_day": "2001-09-14"
       },
       {
@@ -24271,7 +24271,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2001-09-14"
       },
       {
@@ -24280,7 +24280,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2001-09-14"
       },
       {
@@ -24289,17 +24289,8 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2001-10-26"
-      },
-      {
-        "soft_title": "FIFA2002 Road to FIFA WORLD CUP",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-11-15"
       },
       {
         "soft_title": "大乱闘スマッシュブラザーズDX",
@@ -24307,7 +24298,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "格闘",
         "release_day": "2001-11-21"
       },
       {
@@ -24316,7 +24307,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2001-12-07"
       },
       {
@@ -25927,7 +25918,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2004-04-29"
       },
       {
@@ -28849,15 +28840,6 @@
         "release_day": "2008-12-18"
       },
       {
-        "soft_title": "Wiiであそぶ ピクミン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2008-12-25"
-      },
-      {
         "soft_title": "悪魔城ドラキュラ ジャッジメント",
         "collected_new": false,
         "collected_old": false,
@@ -29012,15 +28994,6 @@
       },
       {
         "soft_title": "ファントム・ブレイブWii",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-03-12"
-      },
-      {
-        "soft_title": "Wiiであそぶ ピクミン2",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -31061,7 +31034,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2013-07-13"
       },
       {
@@ -36463,7 +36436,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2019-10-31"
       },
       {
@@ -38121,15 +38094,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2020-10-29"
-      },
-      {
-        "soft_title": "ピクミン3 デラックス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-10-30"
       },
       {
         "soft_title": "シャドウバース チャンピオンズバトル",
@@ -40479,15 +40443,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2021-11-11"
-      },
-      {
-        "soft_title": "グランド・セフト・オート:トリロジー:決定版",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-11-12"
       },
       {
         "soft_title": "みんなのラジコンGP+バラエティセット",
@@ -44005,7 +43960,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "2023-07-21"
       },
       {
@@ -45188,24 +45143,6 @@
         "release_day": "2023-06-22"
       },
       {
-        "soft_title": "ピクミン1",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-06-22"
-      },
-      {
-        "soft_title": "ピクミン2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-06-22"
-      },
-      {
         "soft_title": "AEW Fight Forever",
         "collected_new": false,
         "collected_old": false,
@@ -46233,15 +46170,6 @@
       },
       {
         "soft_title": "RIZAP for Nintendo Switch 〜体感♪リズムトレーニング〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2024-06-27"
-      },
-      {
-        "soft_title": "ルイージマンション2 HD",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -77214,7 +77142,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2009-10-29"
       },
       {
@@ -85311,15 +85239,6 @@
         "release_day": "2013-11-28"
       },
       {
-        "soft_title": "いっしょにフォト ピクミン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-12-02"
-      },
-      {
         "soft_title": "燐光のランツェ",
         "collected_new": false,
         "collected_old": false,
@@ -91985,7 +91904,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2017-07-13"
       },
       {
@@ -92705,7 +92624,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2018-11-08"
       },
       {

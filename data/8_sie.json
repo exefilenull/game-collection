@@ -12329,7 +12329,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1998-08-27"
       },
       {
@@ -32266,7 +32266,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2001-11-29"
       },
       {
@@ -38206,7 +38206,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-09-25"
       },
       {
@@ -41248,7 +41248,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-05-20"
       },
       {
@@ -51220,7 +51220,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-01-25"
       },
       {
@@ -52597,7 +52597,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-09-06"
       },
       {
@@ -53182,7 +53182,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-12-06"
       },
       {
@@ -58125,7 +58125,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2010-06-10"
       },
       {
@@ -59282,15 +59282,6 @@
       },
       {
         "soft_title": "BLEACH ソウル・イグニッション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-06-23"
-      },
-      {
-        "soft_title": "グランド・セフト・オートIV コンプリートエディション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -62206,15 +62197,6 @@
         "release_day": "2013-10-10"
       },
       {
-        "soft_title": "グランド・セフト・オートV",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-10-10"
-      },
-      {
         "soft_title": "聖闘士星矢 ブレイブ・ソルジャーズ",
         "collected_new": false,
         "collected_old": false,
@@ -64083,7 +64065,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2015-12-17"
       },
       {
@@ -64931,7 +64913,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2014-12-11"
       },
       {
@@ -81598,15 +81580,6 @@
         "release_day": "2007-07-19"
       },
       {
-        "soft_title": "グランド・セフト・オート・リバティーシティ・ストーリーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2007-07-26"
-      },
-      {
         "soft_title": "アイドル雀士スーチーパイIII Remix",
         "collected_new": false,
         "collected_old": false,
@@ -81920,15 +81893,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2007-11-29"
-      },
-      {
-        "soft_title": "グランド・セフト・オート・バイスシティ・ストーリーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2007-12-06"
       },
       {
         "soft_title": "サイレントヒル ゼロ",
@@ -85241,15 +85205,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2010-03-04"
-      },
-      {
-        "soft_title": "グランド・セフト・オート・チャイナタウンウォーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2010-03-11"
       },
       {
         "soft_title": "絶対ヒーロー改造計画",
