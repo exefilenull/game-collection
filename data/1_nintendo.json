@@ -29137,15 +29137,6 @@
         "release_day": "2009-04-23"
       },
       {
-        "soft_title": "モンスターハンターG",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-04-23"
-      },
-      {
         "soft_title": "□いアタマを○くする。Wii",
         "collected_new": false,
         "collected_old": false,
@@ -29306,15 +29297,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2009-07-30"
-      },
-      {
-        "soft_title": "モンスターハンター3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2009-08-01"
       },
       {
         "soft_title": "コロリンパ2 アンソニーと金色ひまわりのタネ",
@@ -30872,7 +30854,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2012-12-08"
       },
       {
@@ -31254,15 +31236,6 @@
         "release_day": "2013-12-05"
       },
       {
-        "soft_title": "モンスターハンター フロンティアG",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-12-11"
-      },
-      {
         "soft_title": "ファミコンリミックス",
         "collected_new": false,
         "collected_old": false,
@@ -31398,15 +31371,6 @@
         "release_day": "2014-04-09"
       },
       {
-        "soft_title": "モンスターハンター フロンティアGG",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-04-23"
-      },
-      {
         "soft_title": "ファミコンリミックス2",
         "collected_new": false,
         "collected_old": false,
@@ -31513,15 +31477,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2014-07-02"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティアG5",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-07-23"
       },
       {
         "soft_title": "戦車SP",
@@ -31684,15 +31639,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2014-11-13"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティアG6",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-19"
       },
       {
         "soft_title": "カンフーラビット",
@@ -31956,15 +31902,6 @@
         "release_day": "2015-04-08"
       },
       {
-        "soft_title": "モンスターハンター フロンティアG7",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-15"
-      },
-      {
         "soft_title": "タッチ!amiibo いきなりファミコン名シーン英語版",
         "collected_new": false,
         "collected_old": false,
@@ -32098,15 +32035,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-07-16"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティアG8",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-07-22"
       },
       {
         "soft_title": "テトロボット AND CO.",
@@ -32314,15 +32242,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-11-13"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティアG9",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-18"
       },
       {
         "soft_title": "U-EXPLORE SPACE ADVENTURES",
@@ -32586,15 +32505,6 @@
         "release_day": "2016-04-21"
       },
       {
-        "soft_title": "モンスターハンター フロンティアG10",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-04-21"
-      },
-      {
         "soft_title": "LEGO マーベル アベンジャーズ英語版",
         "collected_new": false,
         "collected_old": false,
@@ -32749,15 +32659,6 @@
       },
       {
         "soft_title": "Ninja Pizza Girl",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-11-09"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティアZ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -33189,15 +33090,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2017-08-24"
-      },
-      {
-        "soft_title": "モンスターハンターダブルクロス Nintendo Switch Ver.",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-08-25"
       },
       {
         "soft_title": "よるのないくに2 〜新月の花嫁〜",
@@ -39005,15 +38897,6 @@
         "release_day": "2021-03-26"
       },
       {
-        "soft_title": "モンスターハンターライズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2021-03-26"
-      },
-      {
         "soft_title": "ISLAND",
         "collected_new": false,
         "collected_old": false,
@@ -39595,7 +39478,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2021-07-09"
       },
       {
@@ -57700,7 +57583,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2001-08-03"
       },
       {
@@ -81621,15 +81504,6 @@
         "release_day": "2011-12-08"
       },
       {
-        "soft_title": "モンスターハンター3（トライ）G",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-12-10"
-      },
-      {
         "soft_title": "かわいい仔犬3D",
         "collected_new": false,
         "collected_old": false,
@@ -84663,15 +84537,6 @@
         "release_day": "2013-09-11"
       },
       {
-        "soft_title": "モンスターハンター4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-09-14"
-      },
-      {
         "soft_title": "ジュエルマスター",
         "collected_new": false,
         "collected_old": false,
@@ -87215,7 +87080,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2014-10-11"
       },
       {
@@ -89460,15 +89325,6 @@
         "release_day": "2015-11-26"
       },
       {
-        "soft_title": "モンスターハンタークロス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-28"
-      },
-      {
         "soft_title": "ポケモンピクロス",
         "collected_new": false,
         "collected_old": false,
@@ -90797,7 +90653,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2016-10-08"
       },
       {
@@ -91571,7 +91427,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2017-03-18"
       },
       {

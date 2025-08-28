@@ -40523,15 +40523,6 @@
         "release_day": "2004-03-11"
       },
       {
-        "soft_title": "モンスターハンター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-03-11"
-      },
-      {
         "soft_title": "アーマード・コア ネクサス",
         "collected_new": false,
         "collected_old": false,
@@ -44128,7 +44119,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-01-20"
       },
       {
@@ -44394,15 +44385,6 @@
       },
       {
         "soft_title": "D1グランプリ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-02-17"
-      },
-      {
-        "soft_title": "Devil May Cry 3",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -47458,7 +47440,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-11-17"
       },
       {
@@ -48430,7 +48412,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-02-16"
       },
       {
@@ -48538,7 +48520,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-02-23"
       },
       {
@@ -52921,7 +52903,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-10-25"
       },
       {
@@ -56374,15 +56356,6 @@
         "release_day": "2008-01-31"
       },
       {
-        "soft_title": "デビルメイクライ4",
-        "collected_new": false,
-        "collected_old": true,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "2008-01-31"
-      },
-      {
         "soft_title": "セガラリーレボ",
         "collected_new": false,
         "collected_old": false,
@@ -57976,15 +57949,6 @@
         "release_day": "2010-03-18"
       },
       {
-        "soft_title": "ゴッド・オブ・ウォー コレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2010-03-18"
-      },
-      {
         "soft_title": "アーミー オブ ツー: The 40th Day",
         "collected_new": false,
         "collected_old": true,
@@ -59479,15 +59443,6 @@
         "release_day": "2011-08-25"
       },
       {
-        "soft_title": "モンスターハンター ポータブル 3rd HD Ver.",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-08-25"
-      },
-      {
         "soft_title": "Hunted The Demon's Forge",
         "collected_new": false,
         "collected_old": false,
@@ -59606,15 +59561,6 @@
       },
       {
         "soft_title": "Rage",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-10-06"
-      },
-      {
-        "soft_title": "ゴッド・オブ・ウォー 落日の悲愴曲＆降誕の刻印HDコレクション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -61383,7 +61329,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2013-01-17"
       },
       {
@@ -65282,7 +65228,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2015-06-18"
       },
       {
@@ -65332,15 +65278,6 @@
       },
       {
         "soft_title": "ゴジラ-GODZILLA-VS",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-07-16"
-      },
-      {
-        "soft_title": "GOD OF WAR III REMASTERED",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -68310,15 +68247,6 @@
         "release_day": "2018-01-25"
       },
       {
-        "soft_title": "モンスターハンター：ワールド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-01-26"
-      },
-      {
         "soft_title": "ドラゴンボール ファイターズ",
         "collected_new": false,
         "collected_old": false,
@@ -68500,15 +68428,6 @@
       },
       {
         "soft_title": "進撃の巨人2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-03-15"
-      },
-      {
-        "soft_title": "Devil May Cry HD Collection",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -70216,15 +70135,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2019-03-07"
-      },
-      {
-        "soft_title": "デビルメイクライ5",
-        "collected_new": false,
-        "collected_old": true,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-03-08"
       },
       {
         "soft_title": "ONE PIECE WORLD SEEKER",
@@ -75211,7 +75121,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2020-11-12"
       },
       {
@@ -76741,7 +76651,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2022-11-09"
       },
       {
@@ -79236,7 +79146,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-12-01"
       },
       {
@@ -81310,15 +81220,6 @@
         "release_day": "2007-02-22"
       },
       {
-        "soft_title": "モンスターハンターポータブル 2nd",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2007-02-22"
-      },
-      {
         "soft_title": "悪代官漫遊記 正義の刃",
         "collected_new": false,
         "collected_old": false,
@@ -82170,7 +82071,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2008-03-27"
       },
       {
@@ -82413,7 +82314,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2008-07-10"
       },
       {
@@ -86940,7 +86841,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2010-11-11"
       },
       {
@@ -87102,7 +87003,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2010-12-01"
       },
       {
@@ -94344,15 +94245,6 @@
         "release_day": "2014-04-24"
       },
       {
-        "soft_title": "GOD OF WAR COLLECTIONS",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-05-15"
-      },
-      {
         "soft_title": "限界凸記 モエロクロニクル",
         "collected_new": false,
         "collected_old": false,
@@ -94621,15 +94513,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2014-08-07"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティア G",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-08-13"
       },
       {
         "soft_title": "CLANNAD",
@@ -94963,15 +94846,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2014-11-13"
-      },
-      {
-        "soft_title": "モンスターハンター フロンティア G6",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-11-19"
       },
       {
         "soft_title": "戦場の円舞曲",
@@ -95559,15 +95433,6 @@
         "release_day": "2015-04-09"
       },
       {
-        "soft_title": "モンスターハンターG7",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-04-15"
-      },
-      {
         "soft_title": "さよなら 海腹川背 ちらり",
         "collected_new": false,
         "collected_old": false,
@@ -95881,15 +95746,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-07-16"
-      },
-      {
-        "soft_title": "モンスターハンターG8",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-07-22"
       },
       {
         "soft_title": "魔壊神トリリオン",
@@ -96304,15 +96160,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-11-12"
-      },
-      {
-        "soft_title": "モンスターハンターG9",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-11-18"
       },
       {
         "soft_title": "ソフィーのアトリエ 〜不思議な本の錬金術士〜",
