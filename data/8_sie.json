@@ -2280,15 +2280,6 @@
         "release_day": "1996-04-26"
       },
       {
-        "soft_title": "ロックマンX3",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1996-04-26"
-      },
-      {
         "soft_title": "ときめきメモリアル プライベートコレクション",
         "collected_new": false,
         "collected_old": false,
@@ -4760,7 +4751,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1996-12-17"
       },
       {
@@ -7442,7 +7433,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1997-08-01"
       },
       {
@@ -8918,7 +8909,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1997-12-12"
       },
       {
@@ -12415,15 +12406,6 @@
       },
       {
         "soft_title": "ナビット",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-09-03"
-      },
-      {
-        "soft_title": "メタルギアソリッド",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -16856,7 +16838,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1999-06-24"
       },
       {
@@ -17445,15 +17427,6 @@
         "release_day": "1999-08-05"
       },
       {
-        "soft_title": "ロックマン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-08-05"
-      },
-      {
         "soft_title": "パネキット",
         "collected_new": false,
         "collected_old": false,
@@ -17760,15 +17733,6 @@
         "release_day": "1999-09-02"
       },
       {
-        "soft_title": "ロックマン2 Dr.ワイリーの謎",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-09-02"
-      },
-      {
         "soft_title": "ワイルドアームズ 2ndイグニッション",
         "collected_new": false,
         "collected_old": false,
@@ -17932,15 +17896,6 @@
       },
       {
         "soft_title": "デジタルグライダー エアマン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-09-14"
-      },
-      {
-        "soft_title": "ロックマン3 Dr.ワイリーの最期!?",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -18543,15 +18498,6 @@
         "release_day": "1999-10-28"
       },
       {
-        "soft_title": "ロックマン4 新たなる野望!!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-10-28"
-      },
-      {
         "soft_title": "ハーレムビート",
         "collected_new": false,
         "collected_old": false,
@@ -19056,15 +19002,6 @@
         "release_day": "1999-11-18"
       },
       {
-        "soft_title": "ロックマン5 ブルースの罠!?",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-11-25"
-      },
-      {
         "soft_title": "ホワイトダイアモンド",
         "collected_new": false,
         "collected_old": false,
@@ -19453,15 +19390,6 @@
       },
       {
         "soft_title": "ル・コンチェルト フォルテシモ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-12-09"
-      },
-      {
-        "soft_title": "ロックマン6 史上最大の戦い!!",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -21527,7 +21455,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2000-04-20"
       },
       {
@@ -24074,7 +24002,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-11-30"
       },
       {
@@ -26774,7 +26702,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2001-11-29"
       },
       {
@@ -32270,15 +32198,6 @@
         "release_day": "2001-11-29"
       },
       {
-        "soft_title": "メタルギアソリッド2 サンズ・オブ・リバティ METAL GEAR SOLID2 SONS OF LIBERTY",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-11-29"
-      },
-      {
         "soft_title": "レガイア デュエルサーガ",
         "collected_new": false,
         "collected_old": false,
@@ -34566,15 +34485,6 @@
       },
       {
         "soft_title": "エッグマニア",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-09-12"
-      },
-      {
-        "soft_title": "ザ・ドキュメント・オブ メタルギアソリッド2",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -37531,7 +37441,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-07-17"
       },
       {
@@ -42121,7 +42031,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2004-07-29"
       },
       {
@@ -42256,7 +42166,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-08-05"
       },
       {
@@ -43808,15 +43718,6 @@
         "release_day": "2004-12-16"
       },
       {
-        "soft_title": "メタルギアソリッド3 スネークイーター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-16"
-      },
-      {
         "soft_title": "レジェンズ 激闘!サーガバトル",
         "collected_new": false,
         "collected_old": false,
@@ -44704,7 +44605,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-03-10"
       },
       {
@@ -48034,7 +47935,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-12-22"
       },
       {
@@ -56592,10 +56493,10 @@
       {
         "soft_title": "メタルギアソリッド4 ガンズ・オブ・ザ・パトリオット",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2008-06-12"
       },
       {
@@ -59731,15 +59632,6 @@
         "release_day": "2011-11-10"
       },
       {
-        "soft_title": "メタルギアソリッド ピースウォーカー HD エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-11-10"
-      },
-      {
         "soft_title": "ザ・シムズ3 ペット",
         "collected_new": false,
         "collected_old": false,
@@ -59822,15 +59714,6 @@
       },
       {
         "soft_title": "街ingメーカー4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2011-11-23"
-      },
-      {
-        "soft_title": "メタルギア ソリッド HD エディション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -61423,15 +61306,6 @@
         "release_day": "2013-02-14"
       },
       {
-        "soft_title": "メタルギア ライジング リベンジェンス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2013-02-21"
-      },
-      {
         "soft_title": "車輪の国、向日葵の少女",
         "collected_new": false,
         "collected_old": false,
@@ -62418,7 +62292,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2013-12-05"
       },
       {
@@ -62693,15 +62567,6 @@
       },
       {
         "soft_title": "戦国無双4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2014-03-20"
-      },
-      {
-        "soft_title": "メタルギアソリッドV GROUND ZEROS",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -63779,15 +63644,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2015-08-27"
-      },
-      {
-        "soft_title": "METAL GEAR SOLID V: THE PHANTOMPAIN",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2015-09-02"
       },
       {
         "soft_title": "IS 〈インフィニット・ストラトス〉2 ラブ アンド パージ",
@@ -66573,15 +66429,6 @@
         "release_day": "2016-11-10"
       },
       {
-        "soft_title": "メタルギアソリッドV グラウンド・ゼロズ プラス ファントムペイン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2016-11-10"
-      },
-      {
         "soft_title": "DRIVECLUB VR",
         "collected_new": false,
         "collected_old": false,
@@ -67390,15 +67237,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2017-08-03"
-      },
-      {
-        "soft_title": "ロックマン クラシックス コレクション 2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2017-08-10"
       },
       {
         "soft_title": "HITMAN THE COMPLETE FIRST SEASON",
@@ -68333,7 +68171,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2018-02-21"
       },
       {
@@ -69395,7 +69233,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2018-10-04"
       },
       {
@@ -71551,15 +71389,6 @@
       },
       {
         "soft_title": "千里の棋譜 〜現代将棋ミステリー〜",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-02-27"
-      },
-      {
-        "soft_title": "ロックマン ゼロ&ゼクス ダブルヒーローコレクション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -77717,15 +77546,6 @@
         "release_day": "2023-10-20"
       },
       {
-        "soft_title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-10-24"
-      },
-      {
         "soft_title": "ロスト アイドロン",
         "collected_new": false,
         "collected_old": false,
@@ -78399,7 +78219,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2004-12-16"
       },
       {
@@ -78844,15 +78664,6 @@
         "release_day": "2005-08-04"
       },
       {
-        "soft_title": "ロックマンDASH 鋼の冒険心",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-08-04"
-      },
-      {
         "soft_title": "太鼓の達人 ぽ〜たぶる",
         "collected_new": false,
         "collected_old": false,
@@ -78914,15 +78725,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2005-09-01"
-      },
-      {
-        "soft_title": "ロックマンDASH2 エピソード2 大いなる遺産",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-09-08"
       },
       {
         "soft_title": "攻殻機動隊 STAND ALONE COMPLEX -狩人の領域-",
@@ -79173,7 +78975,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "2005-12-08"
       },
       {
@@ -79596,7 +79398,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-03-02"
       },
       {
@@ -80586,7 +80388,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ノベル",
         "release_day": "2006-09-21"
       },
       {
@@ -80991,7 +80793,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-12-21"
       },
       {
@@ -81639,7 +81441,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-09-20"
       },
       {
@@ -85518,7 +85320,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2010-04-29"
       },
       {
@@ -92785,15 +92587,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2012-06-14"
-      },
-      {
-        "soft_title": "メタルギア ソリッド HD エディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2012-06-28"
       },
       {
         "soft_title": "ネクレボ ITパスポート試験",

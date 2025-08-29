@@ -2561,10 +2561,10 @@
       {
         "soft_title": "ロックマン",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1987-12-17"
       },
       {
@@ -2611,15 +2611,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1987-12-18"
-      },
-      {
-        "soft_title": "メタルギア",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-12-22"
       },
       {
         "soft_title": "スーパーマン",
@@ -3902,10 +3893,10 @@
       {
         "soft_title": "ロックマン2 Dr.ワイリーの謎",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1988-12-24"
       },
       {
@@ -6179,10 +6170,10 @@
       {
         "soft_title": "ロックマン3 Dr.ワイリーの最期!?",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1990-09-28"
       },
       {
@@ -7772,10 +7763,10 @@
       {
         "soft_title": "ロックマン4 新たなる野望!!",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-12-06"
       },
       {
@@ -8744,10 +8735,10 @@
       {
         "soft_title": "ロックマン5 ブルースの罠!?",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1992-12-04"
       },
       {
@@ -9266,10 +9257,10 @@
       {
         "soft_title": "ロックマン6 史上最大の戦い!!",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1993-11-05"
       },
       {
@@ -13582,7 +13573,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1993-12-17"
       },
       {
@@ -16813,7 +16804,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1994-12-16"
       },
       {
@@ -17920,7 +17911,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1995-03-24"
       },
       {
@@ -19990,7 +19981,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1995-12-01"
       },
       {
@@ -22179,15 +22170,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1998-04-01"
-      },
-      {
-        "soft_title": "ロックマン&フォルテ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-04-24"
       },
       {
         "soft_title": "スーパーファミコンウォーズ",
@@ -25036,7 +25018,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-03-06"
       },
       {
@@ -25873,7 +25855,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-03-11"
       },
       {
@@ -26004,15 +25986,6 @@
       },
       {
         "soft_title": "デジモンバトルクロニクル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-07-29"
-      },
-      {
-        "soft_title": "ロックマンX コマンドミッション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -33938,24 +33911,6 @@
         "release_day": "2018-07-26"
       },
       {
-        "soft_title": "ロックマンX アニバーサリー コレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-07-26"
-      },
-      {
-        "soft_title": "ロックマンX アニバーサリー コレクション2",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-07-26"
-      },
-      {
         "soft_title": "大図書館の羊飼い -Library Party-",
         "collected_new": false,
         "collected_old": false,
@@ -34326,15 +34281,6 @@
       },
       {
         "soft_title": "すみっコぐらし あつまれ!すみっコタウン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-10-04"
-      },
-      {
-        "soft_title": "ロックマン11 運命の歯車!!",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -36873,15 +36819,6 @@
       },
       {
         "soft_title": "バブルボブル 4 フレンズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2020-02-27"
-      },
-      {
-        "soft_title": "ロックマン ゼロゼクス",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -43298,15 +43235,6 @@
         "release_day": "2023-04-13"
       },
       {
-        "soft_title": "ロックマンエグゼ アドバンスドコレクション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-04-14"
-      },
-      {
         "soft_title": "AKIBA'S TRIP2 ディレクターズカット",
         "collected_new": false,
         "collected_old": false,
@@ -44322,15 +44250,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2023-10-20"
-      },
-      {
-        "soft_title": "METAL GEAR SOLID: MASTER COLLECTION Vol.1",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2023-10-24"
       },
       {
         "soft_title": "ジャストダンス 2024 エディション",
@@ -49578,7 +49497,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-07-26"
       },
       {
@@ -49947,7 +49866,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-12-20"
       },
       {
@@ -50856,7 +50775,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1992-12-11"
       },
       {
@@ -51621,7 +51540,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1993-10-29"
       },
       {
@@ -52188,7 +52107,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1994-07-22"
       },
       {
@@ -55286,7 +55205,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2000-04-27"
       },
       {
@@ -56573,7 +56492,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2001-07-19"
       },
       {
@@ -57142,7 +57061,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2001-03-21"
       },
       {
@@ -58087,7 +58006,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2001-12-14"
       },
       {
@@ -58753,7 +58672,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2002-04-26"
       },
       {
@@ -59324,15 +59243,6 @@
         "release_day": "2002-08-09"
       },
       {
-        "soft_title": "ロックマン&フォルテ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-08-10"
-      },
-      {
         "soft_title": "遙かなる時空の中で",
         "collected_new": false,
         "collected_old": false,
@@ -59833,7 +59743,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2002-12-06"
       },
       {
@@ -60445,7 +60355,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-03-28"
       },
       {
@@ -60625,7 +60535,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-05-02"
       },
       {
@@ -60760,7 +60670,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-07-17"
       },
       {
@@ -60940,7 +60850,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-08-08"
       },
       {
@@ -61435,7 +61345,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-12-12"
       },
       {
@@ -61444,7 +61354,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2003-12-12"
       },
       {
@@ -61894,7 +61804,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2004-04-23"
       },
       {
@@ -62155,7 +62065,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2004-07-22"
       },
       {
@@ -62317,7 +62227,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2004-08-06"
       },
       {
@@ -62717,15 +62627,6 @@
         "release_day": "2004-12-09"
       },
       {
-        "soft_title": "ロックマンエグゼ5 チーム オブ ブルース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-12-09"
-      },
-      {
         "soft_title": "コロッケ!Great 時空の冒険者",
         "collected_new": false,
         "collected_old": false,
@@ -63068,15 +62969,6 @@
         "release_day": "2005-02-17"
       },
       {
-        "soft_title": "ロックマンエグゼ5 チーム オブ カーネル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2005-02-24"
-      },
-      {
         "soft_title": "千年家族",
         "collected_new": false,
         "collected_old": false,
@@ -63136,7 +63028,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2005-04-21"
       },
       {
@@ -63343,7 +63235,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-07-28"
       },
       {
@@ -63541,7 +63433,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-11-23"
       },
       {
@@ -63550,7 +63442,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-11-23"
       },
       {
@@ -64362,7 +64254,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2004-07-21"
       },
       {
@@ -65838,7 +65730,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2006-07-06"
       },
       {
@@ -66657,7 +66549,7 @@
         "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-11-22"
       },
       {
@@ -66945,7 +66837,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-12-14"
       },
       {
@@ -66954,7 +66846,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-12-14"
       },
       {
@@ -66963,7 +66855,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2006-12-14"
       },
       {
@@ -68952,7 +68844,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2007-07-12"
       },
       {
@@ -70410,7 +70302,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-11-22"
       },
       {
@@ -70419,7 +70311,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2007-11-22"
       },
       {
@@ -74361,7 +74253,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2008-11-13"
       },
       {
@@ -74370,7 +74262,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2008-11-13"
       },
       {
@@ -77169,7 +77061,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2009-11-12"
       },
       {
@@ -78479,15 +78371,6 @@
       },
       {
         "soft_title": "マル合格資格奪取! 行政書士試験",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2010-06-10"
-      },
-      {
-        "soft_title": "ロックマン ゼロ コレクション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -81835,15 +81718,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2012-03-01"
-      },
-      {
-        "soft_title": "メタルギアソリッド スネークイーター 3D",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2012-03-08"
       },
       {
         "soft_title": "ガールズRPG シンデレライフ",
