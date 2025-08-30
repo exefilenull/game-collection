@@ -1,6 +1,107 @@
 {
   "category": "エポック",
   "hardware_name": {
+    "カセットビジョン": [
+      {
+        "soft_title": "きこりの与作",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1981-07-30"
+      },
+      {
+        "soft_title": "ベースボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1981-07-30"
+      },
+      {
+        "soft_title": "ギャラクシアン",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1981-08-10"
+      },
+      {
+        "soft_title": "ビッグスポーツ12",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1981-10-20"
+      },
+      {
+        "soft_title": "バトルベーダー",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1982-03-03"
+      },
+      {
+        "soft_title": "ニューベースボール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1982-06-15"
+      },
+      {
+        "soft_title": "パクパクモンスター",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1982-07-13"
+      },
+      {
+        "soft_title": "モンスターマンション",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1982-10-07"
+      },
+      {
+        "soft_title": "アストロコマンド",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1983-08-03"
+      },
+      {
+        "soft_title": "モンスターブロック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1984-03-16"
+      },
+      {
+        "soft_title": "エレベータパニック",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1984-08-01"
+      }
+    ],
     "スーパーカセットビジョン": [
       {
         "soft_title": "アストロウォーズ",
