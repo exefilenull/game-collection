@@ -678,15 +678,6 @@
         "release_day": "1990-01-19"
       },
       {
-        "soft_title": "タイトーチェイスH.Q.",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1990-01-26"
-      },
-      {
         "soft_title": "ガイフレーム",
         "collected_new": false,
         "collected_old": false,
@@ -1035,15 +1026,6 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "スポーツ",
-        "release_day": "1990-07-27"
-      },
-      {
-        "soft_title": "イメージファイト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
         "release_day": "1990-07-27"
       },
       {
@@ -1830,24 +1812,6 @@
         "release_day": "1992-01-10"
       },
       {
-        "soft_title": "ミズバク大冒険",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1992-01-17"
-      },
-      {
-        "soft_title": "忍者龍剣伝",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1992-01-24"
-      },
-      {
         "soft_title": "NHK大河ドラマ太平記",
         "collected_new": false,
         "collected_old": false,
@@ -1864,24 +1828,6 @@
         "dont_collect": false,
         "game_category": "スポーツ",
         "release_day": "1992-01-31"
-      },
-      {
-        "soft_title": "パロディウスだ!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
-        "release_day": "1992-02-21"
-      },
-      {
-        "soft_title": "出たな!!ツインビー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
-        "release_day": "1992-02-28"
       },
       {
         "soft_title": "麻雀覇王伝カイザーズクエスト",
@@ -1929,24 +1875,6 @@
         "release_day": "1992-04-07"
       },
       {
-        "soft_title": "ドルアーガの塔",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1992-06-25"
-      },
-      {
-        "soft_title": "高橋名人の新冒険島New アドベンチャーenture Island",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1992-06-26"
-      },
-      {
         "soft_title": "ソルジャーブレイド",
         "collected_new": false,
         "collected_old": false,
@@ -1965,15 +1893,6 @@
         "release_day": "1992-07-24"
       },
       {
-        "soft_title": "TATSUJIN",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
-        "release_day": "1992-07-24"
-      },
-      {
         "soft_title": "パワーリーグV",
         "collected_new": false,
         "collected_old": false,
@@ -1981,24 +1900,6 @@
         "dont_collect": false,
         "game_category": "スポーツ",
         "release_day": "1992-08-07"
-      },
-      {
-        "soft_title": "炎の闘球児ドッジ弾平",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "スポーツ",
-        "release_day": "1992-09-25"
-      },
-      {
-        "soft_title": "激写ボーイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1992-10-02"
       },
       {
         "soft_title": "パワースポーツ[要曖昧さ回避]World Sports Competition",
@@ -2118,15 +2019,6 @@
         "release_day": "1993-05-14"
       },
       {
-        "soft_title": "ストリートファイターII'",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1993-06-12"
-      },
-      {
         "soft_title": "パワーテニス",
         "collected_new": false,
         "collected_old": false,
@@ -2190,12 +2082,12 @@
         "release_day": "1988-12-04"
       },
       {
-        "soft_title": "ひビックリマン大事界",
+        "soft_title": "ビックリマン大事界",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1988-12-23"
       },
       {
@@ -2433,15 +2325,6 @@
         "release_day": "1990-04-06"
       },
       {
-        "soft_title": "上海II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "パズル",
-        "release_day": "1990-04-13"
-      },
-      {
         "soft_title": "ROM2KARAOKE VOLUME 5",
         "collected_new": false,
         "collected_old": false,
@@ -2451,30 +2334,12 @@
         "release_day": "1990-04-23"
       },
       {
-        "soft_title": "スーパー大戦略",
+        "soft_title": "ウルトラボックス 創刊号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1990-04-27"
-      },
-      {
-        "soft_title": "デス・ブリンガー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "ロールプレイング",
-        "release_day": "1990-04-27"
-      },
-      {
-        "soft_title": "うウルトラボックス 創刊号",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1990-06-15"
       },
       {
@@ -2559,12 +2424,12 @@
         "release_day": "1990-09-21"
       },
       {
-        "soft_title": "うウルトラボックス 第2号",
+        "soft_title": "ウルトラボックス 第2号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1990-09-28"
       },
       {
@@ -2631,12 +2496,12 @@
         "release_day": "1990-12-20"
       },
       {
-        "soft_title": "うウルトラボックス 第3号",
+        "soft_title": "ウルトラボックス 第3号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1990-12-28"
       },
       {
@@ -2658,15 +2523,6 @@
         "release_day": "1991-02-15"
       },
       {
-        "soft_title": "マスターオブモンスターズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シミュレーション",
-        "release_day": "1991-02-15"
-      },
-      {
         "soft_title": "CYBER CITY OEDO 808 獣の属性",
         "collected_new": false,
         "collected_old": false,
@@ -2674,15 +2530,6 @@
         "dont_collect": false,
         "game_category": "アドベンチャー",
         "release_day": "1991-03-15"
-      },
-      {
-        "soft_title": "イースIII",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "Aロールプレイング",
-        "release_day": "1991-03-22"
       },
       {
         "soft_title": "魔晶伝紀ラ・ヴァルー",
@@ -2793,12 +2640,12 @@
         "release_day": "1991-04-19"
       },
       {
-        "soft_title": "うウルトラボックス 第4号",
+        "soft_title": "ウルトラボックス 第4号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1991-05-24"
       },
       {
@@ -2910,12 +2757,12 @@
         "release_day": "1991-08-30"
       },
       {
-        "soft_title": "うウルトラボックス 第5号",
+        "soft_title": "ウルトラボックス 第5号",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1991-09-27"
       },
       {
@@ -3050,7 +2897,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1992-01-31"
       },
       {
@@ -3815,7 +3662,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "その他",
         "release_day": "1993-02-12"
       },
       {
