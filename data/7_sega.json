@@ -102,33 +102,6 @@
         "release_day": "2001-04-26"
       },
       {
-        "soft_title": "パッカー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-05-02"
-      },
-      {
-        "soft_title": "セガ・ギャラガ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-05-31"
-      },
-      {
-        "soft_title": "Qバート",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-06-07"
-      },
-      {
         "soft_title": "ガズラー",
         "collected_new": false,
         "collected_old": false,
@@ -192,15 +165,6 @@
         "release_day": "2001-09-13"
       },
       {
-        "soft_title": "エクセリオン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-09-27"
-      },
-      {
         "soft_title": "ゴルゴ13",
         "collected_new": false,
         "collected_old": false,
@@ -262,24 +226,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2001-12-20"
-      },
-      {
-        "soft_title": "岡本綾子のマッチプレイゴルフ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2001-12-29"
-      },
-      {
-        "soft_title": "ロードランナー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-01-03"
       },
       {
         "soft_title": "チャンピオンボクシング",
@@ -381,15 +327,6 @@
         "release_day": "2002-06-13"
       },
       {
-        "soft_title": "コナミのハイパースポーツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-06-27"
-      },
-      {
         "soft_title": "コナミの新入社員とおるくん",
         "collected_new": false,
         "collected_old": false,
@@ -406,24 +343,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2002-07-12"
-      },
-      {
-        "soft_title": "スペースインベーダー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-07-12"
-      },
-      {
-        "soft_title": "オセロ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-07-27"
       },
       {
         "soft_title": "ズーム909",
@@ -453,15 +372,6 @@
         "release_day": "2002-08-29"
       },
       {
-        "soft_title": "チョップリフター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-09-26"
-      },
-      {
         "soft_title": "どきどきペンギンランド",
         "collected_new": false,
         "collected_old": false,
@@ -478,15 +388,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2002-11-03"
-      },
-      {
-        "soft_title": "チャックンポップ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-11-16"
       },
       {
         "soft_title": "ドロール",
@@ -516,15 +417,6 @@
         "release_day": "2003-02-08"
       },
       {
-        "soft_title": "倉庫番",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-03-15"
-      },
-      {
         "soft_title": "Nチャンピオンアイスホッケー",
         "collected_new": false,
         "collected_old": false,
@@ -550,15 +442,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2003-05-02"
-      },
-      {
-        "soft_title": "忍者プリンセス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2003-07-31"
       },
       {
         "soft_title": "C-SO!",
@@ -588,15 +471,6 @@
         "release_day": "2003-11-20"
       },
       {
-        "soft_title": "ワンダーボーイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-02-02"
-      },
-      {
         "soft_title": "ガルケーブ",
         "collected_new": false,
         "collected_old": false,
@@ -622,27 +496,9 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2004-05-31"
-      },
-      {
-        "soft_title": "ザ・ブラックオニキス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-05-31"
-      },
-      {
-        "soft_title": "ロレッタの肖像",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2004-05-31"
       }
     ],
-    "セガ・マーク3": [
+    "セガ・マークIII": [
       {
         "soft_title": "テディーボーイ・ブルース",
         "collected_new": false,
@@ -752,15 +608,6 @@
         "release_day": "1986-04-21"
       },
       {
-        "soft_title": "ファンタジーゾーン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-06-15"
-      },
-      {
         "soft_title": "極悪同盟 ダンプ松本",
         "collected_new": false,
         "collected_old": false,
@@ -786,15 +633,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1986-08-17"
-      },
-      {
-        "soft_title": "スパイvsスパイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-09-20"
       },
       {
         "soft_title": "ザ・サーキット",
@@ -860,15 +698,6 @@
         "release_day": "1986-12-20"
       },
       {
-        "soft_title": "スペースハリアー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-12-21"
-      },
-      {
         "soft_title": "ダブルターゲット シンシアの眠り",
         "collected_new": false,
         "collected_old": false,
@@ -885,15 +714,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1987-03-15"
-      },
-      {
-        "soft_title": "スーパーワンダーボーイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-03-22"
       },
       {
         "soft_title": "グレートバレーボール",
@@ -968,15 +788,6 @@
         "release_day": "1987-05-24"
       },
       {
-        "soft_title": "アウトラン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-06-30"
-      },
-      {
         "soft_title": "ザ・プロ野球ペナントレース",
         "collected_new": false,
         "collected_old": false,
@@ -1002,15 +813,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1987-07-19"
-      },
-      {
-        "soft_title": "ファンタジーゾーンII オパオパの涙",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-08-01"
       },
       {
         "soft_title": "どきどきペンギンランド 宇宙大冒険",
@@ -1040,25 +842,7 @@
         "release_day": "1987-10-10"
       },
       {
-        "soft_title": "覇邪の封印",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-10-18"
-      },
-      {
         "soft_title": "麻雀戦国時代",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-10-18"
-      },
-      {
-        "soft_title": "エイリアンシンドローム",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1220,15 +1004,6 @@
         "release_day": "1988-04-02"
       },
       {
-        "soft_title": "ソロモンの鍵 王女リヒタの涙",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-04-17"
-      },
-      {
         "soft_title": "天才バカボン",
         "collected_new": false,
         "collected_old": false,
@@ -1256,24 +1031,6 @@
         "release_day": "1988-06-02"
       },
       {
-        "soft_title": "忍 -SHINOBI-",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-06-19"
-      },
-      {
-        "soft_title": "キャプテンシルバー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-07-02"
-      },
-      {
         "soft_title": "スーパーレーシング",
         "collected_new": false,
         "collected_old": false,
@@ -1284,15 +1041,6 @@
       },
       {
         "soft_title": "め組レスキュー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-07-30"
-      },
-      {
-        "soft_title": "サンダーブレード",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1335,33 +1083,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1988-09-23"
-      },
-      {
-        "soft_title": "R-TYPE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-10-01"
-      },
-      {
-        "soft_title": "ダブルドラゴン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-10-01"
-      },
-      {
-        "soft_title": "イース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-10-15"
       },
       {
         "soft_title": "スポーツパッドサッカー",
