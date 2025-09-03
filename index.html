@@ -161,8 +161,8 @@
                     ctx.fillStyle = 'white';
                     const text = [
                         "ゲーム全体",
-                        `新品：${((totalNew / totalCount) * 100).toFixed(1)}%`,
-                        `中古：${((totalOld / totalCount) * 100).toFixed(1)}%`
+                        `新品：${((totalNew / totalCount) * 100).toFixed(1)}% (${totalNew} / ${totalCount})`,
+                        `中古：${((totalOld / totalCount) * 100).toFixed(1)}% (${totalOld} / ${totalCount})`
                     ];
                     ctx.font = 'bold 18px Arial';
                     const centerX = width / 2;
@@ -268,9 +268,9 @@
                     label.innerHTML = `
                       <a href="hardware_detail.html?category=${encodeURIComponent(categoryData.category)}&hardware=${encodeURIComponent(hardTitle)}">${hardTitle}</a>
                       <br>
-                      新品：${collectedRateNew}%
+                      新品：${collectedRateNew}% (${collectedCountNew} / ${totalCount})
                       <br>
-                      中古：${collectedRateOld}%
+                      中古：${collectedRateOld}% (${collectedCountOld} / ${totalCount})
                     `;
 
                     // Chart.jsでドーナツグラフを生成
