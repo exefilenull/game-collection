@@ -14,8 +14,8 @@
       {
         "soft_title": "ドンキーコングJR.",
         "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
+        "collected_old": true,
+        "game_cleared": true,
         "dont_collect": false,
         "game_category": "アクション",
         "release_day": "1983-07-15"
@@ -201,15 +201,6 @@
         "release_day": "1984-11-02"
       },
       {
-        "soft_title": "F1レース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-11-02"
-      },
-      {
         "soft_title": "ゼビウス",
         "collected_new": false,
         "collected_old": false,
@@ -379,24 +370,6 @@
         "dont_collect": false,
         "game_category": "アクション",
         "release_day": "1985-06-04"
-      },
-      {
-        "soft_title": "スパルタンX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1985-06-21"
-      },
-      {
-        "soft_title": "ハイパーオリンピック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-06-21"
       },
       {
         "soft_title": "スターフォース",
@@ -660,15 +633,6 @@
         "release_day": "1985-11-21"
       },
       {
-        "soft_title": "バーガータイム",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-11-27"
-      },
-      {
         "soft_title": "いっき",
         "collected_new": false,
         "collected_old": false,
@@ -688,15 +652,6 @@
       },
       {
         "soft_title": "ルナーボール",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-12-05"
-      },
-      {
-        "soft_title": "カラテカ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -984,15 +939,6 @@
         "release_day": "1986-04-24"
       },
       {
-        "soft_title": "グラディウス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-04-25"
-      },
-      {
         "soft_title": "けいさんゲーム さんすう1年",
         "collected_new": false,
         "collected_old": false,
@@ -1018,15 +964,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1986-04-25"
-      },
-      {
-        "soft_title": "スパイvsスパイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-04-26"
       },
       {
         "soft_title": "セクロス",
@@ -1126,15 +1063,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1986-07-18"
-      },
-      {
-        "soft_title": "ソロモンの鍵",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-07-30"
       },
       {
         "soft_title": "がんばれゴエモン!からくり道中",
@@ -2127,15 +2055,6 @@
         "release_day": "1987-08-17"
       },
       {
-        "soft_title": "夢幻戦士ヴァリス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-08-21"
-      },
-      {
         "soft_title": "光の戦士フォトン",
         "collected_new": false,
         "collected_old": false,
@@ -2485,15 +2404,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1987-12-07"
-      },
-      {
-        "soft_title": "ゴルフ倶楽部 バーディーラッシュ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-12-09"
       },
       {
         "soft_title": "トップガン",
@@ -2865,15 +2775,6 @@
         "release_day": "1988-03-18"
       },
       {
-        "soft_title": "信長の野望・全国版",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-03-18"
-      },
-      {
         "soft_title": "ファイティングゴルフ",
         "collected_new": false,
         "collected_old": false,
@@ -3216,15 +3117,6 @@
         "release_day": "1988-07-26"
       },
       {
-        "soft_title": "レインボーアイランド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-07-26"
-      },
-      {
         "soft_title": "グレートタンク",
         "collected_new": false,
         "collected_old": false,
@@ -3334,15 +3226,6 @@
       },
       {
         "soft_title": "ドラゴンボール 大魔王復活",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-08-12"
-      },
-      {
-        "soft_title": "ファイナルラップ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3556,15 +3439,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1988-10-28"
-      },
-      {
-        "soft_title": "三國志",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-10-30"
       },
       {
         "soft_title": "東方見文録",
@@ -4215,15 +4089,6 @@
         "release_day": "1989-03-28"
       },
       {
-        "soft_title": "アフターバーナー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1989-03-30"
-      },
-      {
         "soft_title": "オペレーションウルフ",
         "collected_new": false,
         "collected_old": false,
@@ -4440,15 +4305,6 @@
         "release_day": "1989-06-30"
       },
       {
-        "soft_title": "マーダークラブ JBハロルドの事件簿",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1989-06-30"
-      },
-      {
         "soft_title": "ドラゴンニンジャ",
         "collected_new": false,
         "collected_old": false,
@@ -4582,15 +4438,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1989-07-31"
-      },
-      {
-        "soft_title": "究極タイガー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1989-08-04"
       },
       {
         "soft_title": "コズミックウォーズ",
@@ -5313,15 +5160,6 @@
         "release_day": "1990-02-02"
       },
       {
-        "soft_title": "信長の野望・戦国群雄伝",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-02-03"
-      },
-      {
         "soft_title": "もっともあぶない刑事",
         "collected_new": false,
         "collected_old": false,
@@ -5329,15 +5167,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-02-06"
-      },
-      {
-        "soft_title": "ドラゴンクエストIV 導かれし者たち",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-02-11"
       },
       {
         "soft_title": "人間兵器 デッドフォックス",
@@ -5718,15 +5547,6 @@
         "release_day": "1990-06-22"
       },
       {
-        "soft_title": "水滸伝・天命の誓い",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-06-25"
-      },
-      {
         "soft_title": "燃えろ!!柔道WARRIORS",
         "collected_new": false,
         "collected_old": false,
@@ -5809,15 +5629,6 @@
       },
       {
         "soft_title": "キャプテン翼II スーパーストライカー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-07-20"
-      },
-      {
-        "soft_title": "獣王記",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -5953,24 +5764,6 @@
       },
       {
         "soft_title": "ドラゴンファイター",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-08-10"
-      },
-      {
-        "soft_title": "川のぬし釣り",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-08-10"
-      },
-      {
-        "soft_title": "TITAN",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -6121,15 +5914,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-09-14"
-      },
-      {
-        "soft_title": "維新の嵐",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-09-15"
       },
       {
         "soft_title": "インセクターX",
@@ -6294,15 +6078,6 @@
         "release_day": "1990-10-27"
       },
       {
-        "soft_title": "三國志II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-11-02"
-      },
-      {
         "soft_title": "クロスファイヤー",
         "collected_new": false,
         "collected_old": false,
@@ -6319,15 +6094,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-11-02"
-      },
-      {
-        "soft_title": "ラストハルマゲドン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-11-10"
       },
       {
         "soft_title": "テクモボウル",
@@ -6355,15 +6121,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-11-29"
-      },
-      {
-        "soft_title": "パロディウスだ!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1990-11-30"
       },
       {
         "soft_title": "大迷路 迷宮の達人",
@@ -7545,15 +7302,6 @@
         "release_day": "1991-09-27"
       },
       {
-        "soft_title": "イースIII ワンダラーズ フロム イース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-09-27"
-      },
-      {
         "soft_title": "スパルタンX2",
         "collected_new": false,
         "collected_old": false,
@@ -7752,15 +7500,6 @@
         "release_day": "1991-12-02"
       },
       {
-        "soft_title": "スノーブラザーズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-06"
-      },
-      {
         "soft_title": "ロックマン4 新たなる野望!!",
         "collected_new": false,
         "collected_old": true,
@@ -7777,15 +7516,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1991-12-06"
-      },
-      {
-        "soft_title": "テクモスーパーボウル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-13"
       },
       {
         "soft_title": "ティーンエージ ミュータント ニンジャ タートルズ2 ザ マンハッタン プロジェクト",
@@ -7950,15 +7680,6 @@
         "release_day": "1991-12-21"
       },
       {
-        "soft_title": "信長の野望・武将風雲録",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-21"
-      },
-      {
         "soft_title": "SDガンダムワールド ガチャポン戦士4 ニュータイプストーリー",
         "collected_new": false,
         "collected_old": false,
@@ -8113,15 +7834,6 @@
       },
       {
         "soft_title": "いけいけ!熱血ホッケー部 すべってころんで大乱闘",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1992-02-07"
-      },
-      {
-        "soft_title": "F1サーカス",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9012,15 +8724,6 @@
         "release_day": "1993-03-23"
       },
       {
-        "soft_title": "蒼き狼と白き牝鹿・元朝秘史",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1993-03-25"
-      },
-      {
         "soft_title": "もえろツインビー シナモン博士を救え!",
         "collected_new": false,
         "collected_old": false,
@@ -9193,15 +8896,6 @@
       },
       {
         "soft_title": "クレヨンしんちゃん オラとポイポイ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1993-08-27"
-      },
-      {
-        "soft_title": "クレヨンしんちゃん オラとポイポイ（データック版）",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9482,7 +9176,7 @@
         "release_day": "1990-12-29"
       },
       {
-        "soft_title": "ジャンボ尾崎のホールインワンHal's Hole in One Golf",
+        "soft_title": "ジャンボ尾崎のホールインワン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9491,7 +9185,7 @@
         "release_day": "1991-02-23"
       },
       {
-        "soft_title": "ジャレコラリー ビッグランJaleco Rally: Big Run: The Supreme 4WD Challenge",
+        "soft_title": "ジャレコラリー ビッグラン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9518,7 +9212,7 @@
         "release_day": "1991-04-05"
       },
       {
-        "soft_title": "ウルトラマン 空想特撮シリーズUltraman: Towards the Future",
+        "soft_title": "ウルトラマン 空想特撮シリーズ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9536,7 +9230,7 @@
         "release_day": "1991-04-26"
       },
       {
-        "soft_title": "スーパープロフェッショナルベースボールSuper Bases Loaded",
+        "soft_title": "スーパープロフェッショナルベースボール",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9545,7 +9239,7 @@
         "release_day": "1991-05-17"
       },
       {
-        "soft_title": "ドラッケンDRAKKHEN",
+        "soft_title": "ドラッケン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9563,16 +9257,7 @@
         "release_day": "1991-05-28"
       },
       {
-        "soft_title": "イースIII ワンダラーズフロムイース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-06-21"
-      },
-      {
-        "soft_title": "スーパースタジアムNolan Ryan's Baseball",
+        "soft_title": "スーパースタジアム",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9590,7 +9275,7 @@
         "release_day": "1991-07-06"
       },
       {
-        "soft_title": "スーパーウルトラベースボールSuper Baseball Simulator 1.000",
+        "soft_title": "スーパーウルトラベースボール",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9608,7 +9293,7 @@
         "release_day": "1991-07-13"
       },
       {
-        "soft_title": "がんばれゴエモン〜ゆき姫救出絵巻〜The Legend of the Mystical Ninja",
+        "soft_title": "がんばれゴエモン〜ゆき姫救出絵巻〜",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9626,16 +9311,7 @@
         "release_day": "1991-07-19"
       },
       {
-        "soft_title": "バトルドッジボール 闘球大激突!",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-07-20"
-      },
-      {
-        "soft_title": "エリア88U.N. Squadron",
+        "soft_title": "エリア88",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9644,7 +9320,7 @@
         "release_day": "1991-07-26"
       },
       {
-        "soft_title": "白熱プロ野球ガンバリーグExtra Innings",
+        "soft_title": "白熱プロ野球ガンバリーグ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9662,7 +9338,7 @@
         "release_day": "1991-08-23"
       },
       {
-        "soft_title": "スーパーテニス ワールドサーキットSuper Tennis",
+        "soft_title": "スーパーテニス ワールドサーキット",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9680,7 +9356,7 @@
         "release_day": "1991-08-31"
       },
       {
-        "soft_title": "ジェリーボーイSmart Ball",
+        "soft_title": "ジェリーボーイ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9689,16 +9365,7 @@
         "release_day": "1991-09-13"
       },
       {
-        "soft_title": "スーパー三國志IIRomance of the Three Kingdoms II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-09-15"
-      },
-      {
-        "soft_title": "プロサッカーWorld League Soccer",
+        "soft_title": "プロサッカー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9707,16 +9374,16 @@
         "release_day": "1991-09-20"
       },
       {
-        "soft_title": "超魔界村Super Ghouls 'n Ghosts",
+        "soft_title": "超魔界村",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-10-04"
       },
       {
-        "soft_title": "スーパーE.D.F.Earth Defense Force",
+        "soft_title": "スーパーE.D.F.",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9725,7 +9392,7 @@
         "release_day": "1991-10-25"
       },
       {
-        "soft_title": "悪魔城ドラキュラSuper Castlevania IV",
+        "soft_title": "悪魔城ドラキュラ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9734,22 +9401,13 @@
         "release_day": "1991-10-31"
       },
       {
-        "soft_title": "ゼルダの伝説 神々のトライフォースThe Legend of Zelda: A Link to the Past",
+        "soft_title": "ゼルダの伝説 神々のトライフォース",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1991-11-21"
-      },
-      {
-        "soft_title": "雷電伝説Raiden Trad",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-11-29"
       },
       {
         "soft_title": "JOE&MAC 戦え原始人",
@@ -9770,7 +9428,7 @@
         "release_day": "1991-12-13"
       },
       {
-        "soft_title": "スーパーフォーメーションサッカーSuper Soccer",
+        "soft_title": "スーパーフォーメーションサッカー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9806,7 +9464,7 @@
         "release_day": "1991-12-18"
       },
       {
-        "soft_title": "ディメンションフォースD-Force",
+        "soft_title": "ディメンションフォース",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9833,15 +9491,6 @@
         "release_day": "1991-12-20"
       },
       {
-        "soft_title": "スーパー信長の野望 武将風雲録Nobunaga's Ambition: Lord of Darkness",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-21"
-      },
-      {
         "soft_title": "SDガンダム外伝 ナイトガンダム物語 大いなる遺産",
         "collected_new": false,
         "collected_old": false,
@@ -9860,7 +9509,7 @@
         "release_day": "1991-12-27"
       },
       {
-        "soft_title": "反省ザル ジローくんの大冒険（）Spanky's Quest",
+        "soft_title": "反省ザル ジローくんの大冒険",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9869,16 +9518,7 @@
         "release_day": "1991-12-27"
       },
       {
-        "soft_title": "シムアース",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-29"
-      },
-      {
-        "soft_title": "スーパーチャイニーズワールドSuper Ninja Boy",
+        "soft_title": "スーパーチャイニーズワールド",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9896,22 +9536,13 @@
         "release_day": "1991-12-29"
       },
       {
-        "soft_title": "高橋名人の大冒険島Super Adventure Island",
+        "soft_title": "高橋名人の大冒険島",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1992-01-11"
-      },
-      {
-        "soft_title": "プロフットボールJohn Madden Football",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1992-01-17"
       },
       {
         "soft_title": "ドラゴンボールZ 超サイヤ伝説",
@@ -9923,16 +9554,7 @@
         "release_day": "1992-01-25"
       },
       {
-        "soft_title": "ロマンシング サ・ガ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1992-01-28"
-      },
-      {
-        "soft_title": "ソウルブレイダーSoul Blazer",
+        "soft_title": "ソウルブレイダー",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9941,16 +9563,7 @@
         "release_day": "1992-01-31"
       },
       {
-        "soft_title": "ドラゴンスレイヤー英雄伝説",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1992-02-14"
-      },
-      {
-        "soft_title": "エキゾースト・ヒートF1 ROC: Race of Champions",
+        "soft_title": "エキゾースト・ヒート",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9959,7 +9572,7 @@
         "release_day": "1992-02-21"
       },
       {
-        "soft_title": "魂斗羅スピリッツContra III: The Alien WarsNASuper Probotector: Alien RebelsEU",
+        "soft_title": "魂斗羅スピリッツ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9991,7 +9604,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ノベル",
         "release_day": "1992-03-07"
       },
       {
@@ -12234,15 +11847,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1993-05-28"
-      },
-      {
-        "soft_title": "ドラゴンスレイヤー英雄伝説II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1993-06-04"
       },
       {
         "soft_title": "スーパーフォーメーションサッカーII",
@@ -49933,15 +49537,6 @@
         "release_day": "1991-12-28"
       },
       {
-        "soft_title": "ウルトラマン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-12-29"
-      },
-      {
         "soft_title": "機甲警察メタルジャック",
         "collected_new": false,
         "collected_old": false,
@@ -50775,7 +50370,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シューティング",
         "release_day": "1992-12-11"
       },
       {
@@ -51479,15 +51074,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1993-09-17"
-      },
-      {
-        "soft_title": "レミングス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1993-09-23"
       },
       {
         "soft_title": "エイリアンVSプレデター",
@@ -52271,15 +51857,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1994-09-22"
-      },
-      {
-        "soft_title": "魂斗羅スピリッツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1994-09-23"
       },
       {
         "soft_title": "ザ・シンプソンズ バートのジャックと豆の木",
@@ -59549,15 +59126,6 @@
         "release_day": "2002-11-14"
       },
       {
-        "soft_title": "魂斗羅ハードスピリッツ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-11-14"
-      },
-      {
         "soft_title": "真・女神転生デビルチルドレン 光の書",
         "collected_new": false,
         "collected_old": false,
@@ -63020,15 +62588,6 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "2005-04-21"
-      },
-      {
-        "soft_title": "傑作選!がんばれゴエモン1・2 ゆき姫とマッギネス",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
         "release_day": "2005-04-21"
       },
       {

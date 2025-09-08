@@ -201,15 +201,6 @@
         "release_day": "1995-01-27"
       },
       {
-        "soft_title": "雷電プロジェクト",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1995-01-27"
-      },
-      {
         "soft_title": "SPACE GRIFFON VF-9",
         "collected_new": false,
         "collected_old": false,
@@ -9534,15 +9525,6 @@
         "release_day": "1998-01-29"
       },
       {
-        "soft_title": "R-TYPES",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1998-02-05"
-      },
-      {
         "soft_title": "エクサレギウス",
         "collected_new": false,
         "collected_old": false,
@@ -12815,7 +12797,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "シミュレーション",
         "release_day": "1998-09-23"
       },
       {
@@ -14957,7 +14939,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ストラテジー",
         "release_day": "1999-02-18"
       },
       {
@@ -15614,7 +15596,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ノベル",
         "release_day": "1999-03-25"
       },
       {
@@ -23646,15 +23628,6 @@
         "release_day": "2000-10-26"
       },
       {
-        "soft_title": "MajorWave1500シリーズ 雷電DX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-10-26"
-      },
-      {
         "soft_title": "SuperLite1500シリーズ スペースチェイサー2000",
         "collected_new": false,
         "collected_old": false,
@@ -28849,15 +28822,6 @@
       },
       {
         "soft_title": "MajorWaveシリーズ アーケードヒッツ マジカルドロップ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2002-11-28"
-      },
-      {
-        "soft_title": "MajorWaveシリーズ アーケードヒッツ 雷電",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -44722,7 +44686,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "2005-03-24"
       },
       {
@@ -79452,7 +79416,7 @@
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "パズル",
         "release_day": "2006-03-09"
       },
       {
