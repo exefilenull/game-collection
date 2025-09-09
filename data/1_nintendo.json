@@ -60659,9 +60659,9 @@
         "soft_title": "スライムもりもりドラゴンクエスト 衝撃のしっぽ団",
         "collected_new": false,
         "collected_old": true,
-        "game_cleared": false,
+        "game_cleared": "slime_dragonquest1",
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "2003-11-14"
       },
       {
