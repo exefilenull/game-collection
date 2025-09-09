@@ -182,7 +182,7 @@
 
                 // クリア済みのゲームはリンクを有効化する
                 const clearedCell = game.game_cleared 
-                ? `<a href="${game.game_cleared}.html">クリア済み</a>`
+                ? `<a href="game_clear/${categoryName}/${hardwareName}/${game.game_cleared}.html">クリア済み</a>`
                 : '未クリア';
 
                 row.innerHTML = `
