@@ -11,15 +11,6 @@
             padding: 20px;
         }
 
-        h1 {
-            text-align: center;
-        }
-
-        .chart-container {
-            width: 60%;
-            margin: 20px auto;
-        }
-
         table {
             width: 80%;
             background-color: #ffffff;
@@ -41,146 +32,311 @@
         .highlight {
             background-color: #ffff99;
         }
+
+        .toggle-header {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .toggle-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            line-height: 1.2;
+            margin-left: 20px;
+        }
+        .toggle-content.open {
+            max-height: 2000px;
+        }
+
+        .toggle-icon {
+            margin-left: 5px;
+        }
+
+        #toc {
+            background: #fffacd;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        #toc a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
     </style>
 </head>
 
 <body>
-    <h1 id="game-title">スライムもりもりドラゴンクエスト 衝撃のしっぽ団</h1>
-    <p>ジャンル: RPG</p>
+    <h1 id="game-title"><span style="color:#90B8E0"></span>スライムもりもりドラゴンクエスト 衝撃のしっぽ団★（#90B8E0）</span></h1>
+
+    <div id="toc">
+        <strong>目次</strong>
+        <div id="toc-content"></div>
+    </div>
+
+    <h1 class="toggle-header"><span style="color:#90B8E0">スライム★<span class="toggle-icon">▲</span></span></h1>
+    <div class="toggle-content open">
+        <span>1匹目: <span style="color:#90B8E0">ドラお☆</span></span><br>
+        <span>2匹目: <span style="color:#90B8E0">スーラ☆</span></span><br>
+        <span>3匹目: <span style="color:#90B8E0">スラック☆</span></span><br>
+        <span>4匹目: <span style="color:#90B8E0">スラネット☆</span></span><br>
+        <span>5匹目: <span style="color:#90B8E0">スラゾー☆</span></span><br>
+        <span>6匹目: <span style="color:#90B8E0">しんぷ☆</span></span><br>
+        <span>7匹目: <span style="color:#90B8E0">ドラフィーユ☆</span></span><br>
+        <span>8匹目: <span style="color:#90B8E0">バブすけ☆</span></span><br>
+        <span>9匹目: <span style="color:#90B8E0">グランじいさん☆</span></span><br>
+        <span>10匹目: <span style="color:#90B8E0">ミニスラ☆</span></span><br>
+        <span>11匹目: <span style="color:#90B8E0">スラじろう☆</span></span><br>
+        <span>12匹目: <span style="color:#90B8E0">スラニオ☆</span></span><br>
+        <span>13匹目: <span style="color:#90B8E0">スラベル☆</span></span><br>
+        <span>14匹目: <span style="color:#90B8E0">ファンファン☆</span></span><br>
+        <span>15匹目: <span style="color:#90B8E0">スラのせき☆</span></span><br>
+        <span>16匹目: <span style="color:#90B8E0">スラト☆</span></span><br>
+        <span>17匹目: <span style="color:#90B8E0">スラのすけ☆</span></span><br>
+        <span>18匹目: <span style="color:#90B8E0">ホイミー☆</span></span><br>
+        <span>19匹目: <span style="color:#90B8E0">バブブ☆</span></span><br>
+        <span>20匹目: <span style="color:#90B8E0">スラックス☆</span></span><br>
+        <span>21匹目: <span style="color:#90B8E0">スラきち☆</span></span><br>
+        <span>22匹目: <span style="color:#90B8E0">コーチ☆</span></span><br>
+        <span>23匹目: <span style="color:#90B8E0">ぶちゴロウ☆</span></span><br>
+        <span>24匹目: <span style="color:#90B8E0">おスラ☆</span></span><br>
+        <span>25匹目: <span style="color:#90B8E0">スラエル☆</span></span><br>
+        <span>26匹目: <span style="color:#90B8E0">ツリッキー☆</span></span><br>
+        <span>27匹目: <span style="color:#90B8E0">グレン☆</span></span><br>
+        <span>28匹目: <span style="color:#90B8E0">スラカンプ☆</span></span><br>
+        <span>29匹目: <span style="color:#90B8E0">ホイップル☆</span></span><br>
+        <span>30匹目: <span style="color:#90B8E0">スライワー☆</span></span><br>
+        <span>31匹目: <span style="color:#90B8E0">ラスブーチン☆</span></span><br>
+        <span>32匹目: <span style="color:#90B8E0">イワン☆</span></span><br>
+        <span>33匹目: <span style="color:#90B8E0">スラや☆</span></span><br>
+        <span>34匹目: <span style="color:#90B8E0">ホイスケ☆</span></span><br>
+        <span>35匹目: <span style="color:#90B8E0">ボーグル☆</span></span><br>
+        <span>36匹目: <span style="color:#90B8E0">タイオー☆</span></span><br>
+        <span>37匹目: <span style="color:#90B8E0">テキや☆</span></span><br>
+        <span>38匹目: <span style="color:#90B8E0">ミニン☆</span></span><br>
+        <span>39匹目: <span style="color:#90B8E0">スラげ☆</span></span><br>
+        <span>40匹目: <span style="color:#90B8E0">たまちゃん☆</span></span><br>
+        <span>41匹目: <span style="color:#90B8E0">ツリろう☆</span></span><br>
+        <span>42匹目: <span style="color:#90B8E0">パパ☆</span></span><br>
+        <span>43匹目: <span style="color:#90B8E0">ママ☆</span></span><br>
+        <span>44匹目: <span style="color:#90B8E0">テンシーラ☆</span></span><br>
+        <span>45匹目: <span style="color:#90B8E0">メカキチ☆</span></span><br>
+        <span>46匹目: <span style="color:#90B8E0">スラまる☆</span></span><br>
+        <span>47匹目: <span style="color:#90B8E0">マリン☆</span></span><br>
+        <span>48匹目: <span style="color:#90B8E0">ホイサッサ☆</span></span><br>
+        <span>49匹目: <span style="color:#90B8E0">スラかげ☆</span></span><br>
+        <span>50匹目: <span style="color:#90B8E0">トミー☆</span></span><br>
+        <span>51匹目: <span style="color:#90B8E0">バブりん☆</span></span><br>
+        <span>52匹目: <span style="color:#90B8E0">スライフ☆</span></span><br>
+        <span>53匹目: <span style="color:#90B8E0">コンペー☆</span></span><br>
+        <span>54匹目: <span style="color:#90B8E0">くろりん☆</span></span><br>
+        <span>55匹目: <span style="color:#90B8E0">ホーミィ☆</span></span><br>
+        <span>56匹目: <span style="color:#90B8E0">バブルス☆</span></span><br>
+        <span>57匹目: <span style="color:#90B8E0">エッグル☆</span></span><br>
+        <span>58匹目: <span style="color:#90B8E0">ブッチモンド☆</span></span><br>
+        <span>59匹目: <span style="color:#90B8E0">ゴルド☆</span></span><br>
+        <span>60匹目: <span style="color:#90B8E0">ホイミィ☆</span></span><br>
+        <span>61匹目: <span style="color:#90B8E0">ハガネンダー☆</span></span><br>
+        <span>62匹目: <span style="color:#90B8E0">ぶちサベス☆</span></span><br>
+        <span>63匹目: <span style="color:#90B8E0">エンゼリカ☆</span></span><br>
+        <span>64匹目: <span style="color:#90B8E0">ボーグン☆</span></span><br>
+        <span>65匹目: <span style="color:#90B8E0">スラムリン☆</span></span><br>
+        <span>66匹目: <span style="color:#90B8E0">スクラテス☆</span></span><br>
+        <span>67匹目: <span style="color:#90B8E0">スラッピ☆</span></span><br>
+        <span>68匹目: <span style="color:#90B8E0">バブルのやま☆</span></span><br>
+        <span>69匹目: <span style="color:#90B8E0">ガブリエル☆</span></span><br>
+        <span>70匹目: <span style="color:#90B8E0">バブルーノ☆</span></span><br>
+        <span>71匹目: <span style="color:#90B8E0">ブチのすけ☆</span></span><br>
+        <span>72匹目: <span style="color:#90B8E0">ブッチーナ☆</span></span><br>
+        <span>73匹目: <span style="color:#90B8E0">スラダーク☆</span></span><br>
+        <span>74匹目: <span style="color:#90B8E0">オババ☆</span></span><br>
+        <span>75匹目: <span style="color:#90B8E0">オイスラー☆</span></span><br>
+        <span>76匹目: <span style="color:#90B8E0">スラボックル☆</span></span><br>
+        <span>77匹目: <span style="color:#90B8E0">ホイミンパパ☆</span></span><br>
+        <span>78匹目: <span style="color:#90B8E0">ホイミンママ☆</span></span><br>
+        <span>79匹目: <span style="color:#90B8E0">シルバ☆</span></span><br>
+        <span>80匹目: <span style="color:#90B8E0">メテお☆</span></span><br>
+        <span>81匹目: <span style="color:#90B8E0">マダラン☆</span></span><br>
+        <span>82匹目: <span style="color:#90B8E0">エッグーナ☆</span></span><br>
+        <span>83匹目: <span style="color:#90B8E0">エッグリーン☆</span></span><br>
+        <span>84匹目: <span style="color:#90B8E0">ミニー☆</span></span><br>
+        <span>85匹目: <span style="color:#90B8E0">ぶっちい☆</span></span><br>
+        <span>86匹目: <span style="color:#90B8E0">ゴールドベリー☆</span></span><br>
+        <span>87匹目: <span style="color:#90B8E0">ドラゴーネ☆</span></span><br>
+        <span>88匹目: <span style="color:#90B8E0">ブチじぃ☆</span></span><br>
+        <span>89匹目: <span style="color:#90B8E0">ホイミコ☆</span></span><br>
+        <span>90匹目: <span style="color:#90B8E0">スラワー☆</span></span><br>
+        <span>91匹目: <span style="color:#90B8E0">ツムツム☆</span></span><br>
+        <span>92匹目: <span style="color:#90B8E0">スラーリン☆</span></span><br>
+        <span>93匹目: <span style="color:#90B8E0">スラッサー☆</span></span><br>
+        <span>94匹目: <span style="color:#90B8E0">ホイーチェ☆</span></span><br>
+        <span>95匹目: <span style="color:#90B8E0">スラッピ☆</span></span><br>
+        <span>96匹目: <span style="color:#90B8E0">スラッピーナ☆</span></span><br>
+        <span>97匹目: <span style="color:#90B8E0">バブべえ☆</span></span><br>
+        <span>98匹目: <span style="color:#90B8E0">ホイミン☆</span></span><br>
+        <span>99匹目: <span style="color:#90B8E0">スラみ☆</span></span><br>
+        <span>100匹目: <span style="color:#90B8E0">スラジョー☆</span></span><br>
+    </div>
+
+    <br>
+
+    <h1 class="toggle-header"><span style="color:#90B8E0">魔物堂★<span class="toggle-icon">▲</span></span></h1>
+    <div class="toggle-content open">
+        <h2 class="toggle-header"><span style="color:#90B8E0">魔物堂改築前★<span class="toggle-icon">▲</span></span></h2>
+        <div class="toggle-content open">
+            <span style="color:#90B8E0">赤い花モジャ☆</span><br>
+            <span style="color:#90B8E0">橋を直すモジャ☆</span><br>
+            <span style="color:#90B8E0">橋を架けるモジャ☆</span><br>
+            <span style="color:#90B8E0">スラボード作るモジャ☆</span><br>
+            <span style="color:#90B8E0">網で遊ぶモジャ☆</span><br>
+            <span style="color:#90B8E0">便利なポストモジャ☆</span><br>
+            <span style="color:#90B8E0">町を広げるモジャ☆</span><br>
+            <span style="color:#90B8E0">もっとドキ壷モジャ☆</span><br>
+            <span style="color:#90B8E0">グランド作るモジャ☆</span><br>
+            <span style="color:#90B8E0">魔物堂改築モジャ☆</span><br>
+        </div>
+        <h2 class="toggle-header"><span style="color:#90B8E0">魔物堂改築前★<span class="toggle-icon">▲</span></span></h2>
+        <div class="toggle-content open">
+            <span style="color:#90B8E0">海の家リフォームモジャ☆</span><br>
+            <span style="color:#90B8E0">町で間欠泉モジャ☆</span><br>
+            <span style="color:#90B8E0">橋を架けるモジャ☆</span><br>
+            <span style="color:#90B8E0">楽々階段モジャ☆</span><br>
+            <span style="color:#90B8E0">ローラーダッシュモジャ☆</span><br>
+            <span style="color:#90B8E0">酒場を作るモジャ☆</span><br>
+            <span style="color:#90B8E0">博物館を建てるモジャ☆</span><br>
+            <span style="color:#90B8E0">スタジアムを建てるモジャ☆</span><br>
+            <span style="color:#90B8E0">お願いがあるモジャ☆</span><br>
+            <span style="color:#90B8E0">白い花モジャ☆</span><br>
+        </div>
+    </div>
+
+    <br>
+    
+    <h1 class="toggle-header"><span style="color:#90B8E0">ミニゲーム★<span class="toggle-icon">▲</span></span></h1>
+    <div class="toggle-content open">
+        <h2 class="toggle-header"><span style="color:#90B8E0">どきどき壷クラッシュ★<span class="toggle-icon">▲</span></span></h2>
+        <div class="toggle-content open">
+            <span style="color:#90B8E0">初級☆</span><br>
+            <span style="color:#90B8E0">中級☆</span><br>
+            <span style="color:#90B8E0">上級☆</span><br>
+        </div>
+        <h2><span style="color:#90B8E0">波乗り小銭トール★</span></h2>
+        <h2 class="toggle-header"><span style="color:#90B8E0">テキ屋★<span class="toggle-icon">▲</span></span></h2>
+        <div class="toggle-content open">
+            <span style="color:#90B8E0">ノッケの井戸☆</span><br>
+            <span style="color:#90B8E0">ウルオッターの井戸☆</span><br>
+            <span style="color:#90B8E0">ニコミスキーの井戸☆</span><br>
+        </div>
+        <h2 class="toggle-header"><span style="color:#90B8E0">スッカー★<span class="toggle-icon">▲</span></span></h2>
+        <div class="toggle-content open">
+            <h3 class="toggle-header"><span style="color:#90B8E0">優勝★<span class="toggle-icon">▲</span></span></h3>
+            <div class="toggle-content open">
+                <span>1回戦: <span style="color:#90B8E0">モジャロスターズ☆</span></span><br>
+                <span>2回戦: <span style="color:#90B8E0">マジャックス☆</span></span><br>
+                <span>準決勝戦: <span style="color:#90B8E0">モジャントス☆</span></span><br>
+                <span>決勝戦: <span style="color:#90B8E0">モジャーセナル☆</span></span><br>
+                <span>エキシビジョン戦: <span style="color:#90B8E0">モジャーズ（テストを全てクリアしないと戦えない）☆</span></span><br>
+            </div>
+            <h3 class="toggle-header"><span style="color:#90B8E0">スッカーテスト★<span class="toggle-icon">▲</span></span></h3>
+            <div class="toggle-content open">
+                <span>テストその1: <span style="color:#90B8E0">まずは小手調べだ！このまま逃げ切れ！！☆</span></span><br>
+                <span>テストその2: <span style="color:#90B8E0">このままでは負けてしまう！逆転して勝つんだ！！☆</span></span><br>
+                <span>テストその3: <span style="color:#90B8E0">残り時間はあと僅か！逆転して勝つんだ！☆</span></span><br>
+                <span>テストその4: <span style="color:#90B8E0">負けているがナイポイが100あるぞ！これで逆転だ☆</span></span><br>
+                <span>テストその5: <span style="color:#90B8E0">残り10秒からの大逆転！ゴールまでの素早さが勝負だ！☆</span></span><br>
+                <span>テストその6: <span style="color:#90B8E0">残り時間はあと僅か！これはロングシュートしかないぞ！☆</span></span><br>
+                <span>テストその7: <span style="color:#90B8E0">自分の力が全てだ！300点差を跳ね返せ！☆</span></span><br>
+                <span>テストその8: <span style="color:#90B8E0">残り時間を考えればチャンスは一度しかないぞ！逆転しろ！☆</span></span><br>
+                <span>テストその9: <span style="color:#90B8E0">この大差に打ち勝てるか！？メークドラマだ！☆</span></span><br>
+                <span>テストその10: <span style="color:#90B8E0">ついに神の領域に！これがスッカーの星伝説だ！☆</span></span><br>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <h1 class="toggle-header"><span style="color:#90B8E0">博物館（魔物集め）★<span class="toggle-icon">▲</span></span></h1>
+    <div class="toggle-content open">
+        <span style="color:#90B8E0">ももんじゃ☆</span><br>
+        <span style="color:#90B8E0">ドラキー☆</span><br>
+        <span style="color:#90B8E0">一角兎☆</span><br>
+        <span style="color:#90B8E0">大木槌☆</span><br>
+        <span style="color:#90B8E0">タコ壷小僧☆</span><br>
+        <span style="color:#90B8E0">ピクシー☆</span><br>
+        <span style="color:#90B8E0">ガメゴン☆</span><br>
+        <span style="color:#90B8E0">一つ目ピエロ☆</span><br>
+        <span style="color:#90B8E0">腐った死体☆</span><br>
+        <span style="color:#90B8E0">フレイム☆</span><br>
+        <span style="color:#90B8E0">彷徨う鎧☆</span><br>
+        <span style="color:#90B8E0">マミー☆</span><br>
+        <span style="color:#90B8E0">マドハンド☆</span><br>
+    </div>
+
+    <br>
+
+    <h1 class="toggle-header"><span style="color:#90B8E0">感想<span class="toggle-icon">▲</span></span></h1>
+    <div class="toggle-content open">
+        <p>
+            ・対象にしているプレイヤー層がライトゲーマーで、年齢が低め<br>
+            ・全体的にストーリーの難易度は低く、ボリュームも少ない<br>
+            ・本気で進めれば一日もあればストーリーは余裕でクリアできる<br>
+            ・おじさんが読むにはキツいやり取りがある<br>
+            ・しかし、対してミニゲームの難易度が異常に高く感じた<br>
+            ・どのミニゲームも割と練習しないとクリアできないくらいの難易度になっている<br>
+            ・もう二度とやりたくない<br>
+            ・やり取りが幼めなのもあって、煽られてる気がして台パンめっちゃした<br>
+            ・とはいえ、ゲーム自体は全体的に高品質で楽しめた
+        </p>
 
     <script>
-        const graphColors = {
-            "全体": ['#000000', '#ccc'],        // 全体の色
-            "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
-            "SNK": ['#FF8C00', '#ccc'],        // SNKの色
-            "NEC": ['#ffff00', '#ccc'],        // NECの色
-            "エポック": ['#ADFF2F', '#ccc'],        // エポックの色
-            "Microsoft": ['#00CC00', '#ccc'],  // Microsoftの色
-            "BANDAI": ['#06FECF', '#ccc'],        // BANDAIの色
-            "SEGA": ['#00BFFF', '#ccc'],        // SEGAの色
-            "SIE": ['#0033FF', '#ccc'],        // SIEの色
-            "Panasonic": ['#9900FF', '#ccc'],   // Panasonicの色
-            "CASIO": ['#FF3399', '#ccc'],        // CASIOの色
-            "ASCII": ['#C47600', '#ccc'],        // ASCIIの色
-            "Tomy": ['#99FFCC', '#ccc']        // Tomyの色
-        };
+        document.querySelectorAll('.toggle-header').forEach(header => {
+            const icon = header.querySelector('.toggle-icon');
+            const content = header.nextElementSibling;
 
-        const urlParams = new URLSearchParams(window.location.search);
-        const hardwareName = urlParams.get('hardware');
-        const categoryName = urlParams.get('category');
+            header.addEventListener('click', () => {
+                content.classList.toggle('open');
 
-        document.addEventListener("DOMContentLoaded", () => {
-            if (!hardwareName) {
-                alert('ハードウェア名が指定されていません。');
-                return;
-            }
-
-            document.getElementById('hardware-title').textContent = `${hardwareName} の詳細`;
-
-            const jsonFiles = [
-                'data/1_nintendo.json', 
-                'data/2_snk.json', 
-                'data/3_nec.json', 
-                'data/4_epoch.json', 
-                'data/5_microsoft.json', 
-                'data/6_bandai.json', 
-                'data/7_sega.json', 
-                'data/8_sie.json', 
-                'data/9_panasonic.json',
-                'data/10_casio.json',
-                'data/11_ascii.json',
-                'data/12_tomy.json',
-            ];
-
-            Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
-                .then(jsonDataArray => {
-                    const games = extractHardwareData(jsonDataArray, hardwareName);
-                    displayChart(games);
-                    displayTable(games);
-                })
-                .catch(error => console.error('JSONの読み込みエラー:', error));
+                if(content.classList.contains('open')) {
+                    icon.textContent = '▲';
+                } else {
+                    icon.textContent = '▼';
+                }
+            });
         });
 
-        function extractHardwareData(jsonDataArray, hardwareName) {
-            for (const data of jsonDataArray) {
-                for (const [hardTitle, games] of Object.entries(data.hardware_name)) {
-                    if (hardTitle === hardwareName) {
-                        return games;
-                    }
-                }
-            }
-            return [];
-        }
-
-        function displayChart(games) {
-            const collectedCountNew = games.filter(game => game.collected_new).length;
-            const collectedCountOld = games.filter(game => game.collected_old).length;
+        function generateTOC() {
+            const tocContent = document.getElementById("toc-content");
+            const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
             
-            const totalCount = games.length;
-            const categoryColor = graphColors[categoryName] || ["#000000", "#ccc"]
-
-            new Chart(document.getElementById('hardwareChart'), {
-                type: 'doughnut',
-                data: {
-                    labels: ['収集済み', '未収集'],
-                    datasets: [{
-                        label: '新品データ',
-                        data: [collectedCountNew, totalCount - collectedCountNew],
-                        backgroundColor: [categoryColor[0], categoryColor[1]],
-                        hoverOffset: 4,
-                        cutout: '50%',
-                        animation: {
-                            duration: 3000
-                        }
-                    }, {
-                        label: '中古データ',
-                        data: [collectedCountOld, totalCount - collectedCountOld],
-                        backgroundColor: ['#fffacd', categoryColor[0]],
-                        hoverOffset: 4,
-                        cutout: '50%',
-                        animation: {
-                            duration: 4000
-                        }
-                    }]
-                },
-                options: {
-                    animation: {
-                        duration: 2000
-                    }
+            headings.forEach(heading => {
+                if (
+                    heading.id === "game-title"
+                ) {
+                    return; // この見出しは目次に入れない
                 }
+                
+                const level = parseInt(heading.tagName.charAt(1));
+                const id = heading.textContent.replace(/\s+/g, '_');
+                heading.id = id;
+                
+                // toggle-icon を除外したテキストを取得
+                const text = heading.cloneNode(true);
+                const icon = text.querySelector(".toggle-icon");
+                if (icon) {
+                    icon.remove();
+                }
+                
+                const link = document.createElement("a");
+                link.href = `#${id}`;
+                link.textContent = text.textContent.trim();
+                link.style.paddingLeft = `${(level - 1) * 20}px`;
+                tocContent.appendChild(link);
             });
         }
-
-        function displayTable(games) {
-            const tbody = document.querySelector('#game-table tbody');
-            tbody.innerHTML = '';
-
-            games.sort((a, b) => new Date(a.release_day) - new Date(b.release_day));
-
-            games.forEach(game => {
-                const row = document.createElement('tr');
-                if (game.collected_new || game.collected_old) {
-                    row.classList.add('highlight');
-                }
-
-                // クリア済みのゲームはリンクを有効化する
-                const clearedCell = game.game_cleared 
-                ? `<a href="${game.game_cleared}.html">クリア済み</a>`
-                : '未クリア';
-
-                row.innerHTML = `
-                    <td>${game.soft_title}</td>
-                    <td>${game.game_category}</td>
-                    <td>${game.collected_new ? '収集済み' : '未収集'}</td>
-                    <td>${game.collected_old ? '収集済み' : '未収集'}</td>
-                    <td>${game.release_day || '不明'}</td>
-                    <td>${clearedCell}</td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
+        window.onload = generateTOC;
     </script>
 
-</body>
+    </body>
 
 </html>

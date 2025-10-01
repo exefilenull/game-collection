@@ -1,0 +1,86 @@
+{
+  "category": [
+    {
+      "任天堂": {
+        "hardware_name": {
+          "ファミリーコンピュータ": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "スーパーファミコン": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "バーチャルボーイ": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "NINTENDO64": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ニンテンドーゲームキューブ": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "Wii": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "WiiU": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "NintendoSwitch": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ゲームボーイ": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ゲームボーイカラー": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ゲームボーイアドバンス": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ニンテンドーDS": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ニンテンドー3DS": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          }
+        }
+      },
+      "SNK": {
+        "hardware_name": {
+          "Multi Video System": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "NEOGEO": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ネオジオCD": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ネオジオポケット": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          },
+          "ネオジオポケットカラー": {
+            "where_to_save": "カセット",
+            "how_to_save": "レトロフリーク経由でバックアップ"
+          }
+        }
+      }
+    }
+  ]
+}

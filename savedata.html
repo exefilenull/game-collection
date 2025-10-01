@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ゲーム保存方法一覧</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: #fdfdfd;
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    th {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+<h2>ゲーム保存方法一覧</h2>
+
+<table id="gameTable">
+  <thead>
+    <tr>
+      <th>カテゴリ</th>
+      <th>ハード名</th>
+      <th>保存場所</th>
+      <th>保存方法</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- JSで生成 -->
+  </tbody>
+</table>
+
+<script>
+// 外部 JSON を読み込む
+fetch("savedata/savedata.json")
+  .then(response => response.json())
+  .then(data => {
+    const tbody = document.querySelector("#gameTable tbody");
+
+    // JSON構造を展開
+    data.category.forEach(catObj => {
+      for (const category in catObj) {
+        const hardware = catObj[category].hardware_name;
+        const hwNames = Object.keys(hardware);
+        hwNames.forEach((hw, index) => {
+          const tr = document.createElement("tr");
+
+          // 最初の行だけカテゴリセルを追加（rowspanで結合）
+          if (index === 0) {
+            const tdCategory = document.createElement("td");
+            tdCategory.textContent = category;
+            tdCategory.rowSpan = hwNames.length;
+            tr.appendChild(tdCategory);
+          }
+
+          const tdHw = document.createElement("td");
+          tdHw.textContent = hw;
+
+          const tdWhere = document.createElement("td");
+          tdWhere.textContent = hardware[hw].where_to_save;
+
+          const tdHow = document.createElement("td");
+          tdHow.textContent = hardware[hw].how_to_save;
+
+          tr.appendChild(tdHw);
+          tr.appendChild(tdWhere);
+          tr.appendChild(tdHow);
+
+          tbody.appendChild(tr);
+        });
+      }
+    });
+  })
+  .catch(error => {
+    console.error("JSONの読み込みに失敗しました:", error);
+  });
+</script>
+
+</body>
+</html>
