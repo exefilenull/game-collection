@@ -17,6 +17,10 @@
     th {
       background: #ddd;
     }
+    body {
+        color:cornsilk;
+        background-color: #282831;
+    }
   </style>
 </head>
 <body>
@@ -38,6 +42,20 @@
 </table>
 
 <script>
+const categoryColor = {
+    "任天堂": ['#ff0000', '#ccc'],
+    "SNK": ['#FF8C00', '#ccc'],
+    "NEC": ['#ffff00', '#ccc'],
+    "エポック": ['#ADFF2F', '#ccc'],
+    "Microsoft": ['#00CC00', '#ccc'],
+    "BANDAI": ['#06FECF', '#ccc'],
+    "SEGA": ['#00BFFF', '#ccc'],
+    "SIE": ['#0033FF', '#ccc'],
+    "Panasonic": ['#9900FF', '#ccc'],
+    "CASIO": ['#FF3399', '#ccc'],
+    "ASCII": ['#C47600', '#ccc'],
+    "Tomy": ['#99FFCC', '#ccc']
+}
 // 外部 JSON を読み込む
 fetch("savedata/savedata.json")
   .then(response => response.json())
@@ -57,6 +75,13 @@ fetch("savedata/savedata.json")
             const tdCategory = document.createElement("td");
             tdCategory.textContent = category;
             tdCategory.rowSpan = hwNames.length;
+
+            // カテゴリ毎に色を変更する
+            if (categoryColor[category]) {
+                tdCategory.style.backgroundColor = categoryColor[category][0];
+                tdCategory.style.color = categoryColor[category][1];
+            }
+            
             tr.appendChild(tdCategory);
           }
 
