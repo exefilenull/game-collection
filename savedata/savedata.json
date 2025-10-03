@@ -13,7 +13,7 @@
           },
           "バーチャルボーイ": {
             "where_to_save": "カセット",
-            "how_to_save": "※調査
+            "how_to_save": "※調査"
           },
           "NINTENDO64": {
             "where_to_save": "カセット",
@@ -56,7 +56,9 @@
             "how_to_save": "※調査"
           }
         }
-      },
+      }
+    },
+    {
       "SNK": {
         "hardware_name": {
           "Multi Video System": {
@@ -80,7 +82,9 @@
             "how_to_save": "※調査"
           }
         }
-      },
+      }
+    },
+    {
       "NEC": {
         "hardware_name": {
           "PCエンジン": {
@@ -92,7 +96,9 @@
             "how_to_save": "※調査"
           }
         }
-      },
+      }
+    },
+    {
       "エポック": {
         "hardware_name": {
           "カセットビジョン": {
@@ -106,6 +112,7 @@
         }
       }
     },
+    {
       "Microsoft": {
         "hardware_name": {
           "Xbox": {
@@ -127,6 +134,7 @@
         }
       }
     },
+    {
       "BANDAI": {
         "hardware_name": {
           "プレイディア": {
@@ -148,6 +156,7 @@
         }
       }
     },
+    {
       "SEGA": {
         "hardware_name": {
           "SG-1000": {
@@ -185,6 +194,7 @@
         }
       }
     },
+    {
       "SIE": {
         "hardware_name": {
           "PlayStation1": {
@@ -218,6 +228,7 @@
         }
       }
     },
+    {
       "Panasonic": {
         "hardware_name": {
           "3DO": {
@@ -227,6 +238,7 @@
         }
       }
     },
+    {
       "CASIO": {
         "hardware_name": {
           "LOOPY": {
@@ -236,6 +248,7 @@
         }
       }
     },
+    {
       "ASCII": {
         "hardware_name": {
           "MSX1": {
@@ -257,6 +270,7 @@
         }
       }
     },
+    {
       "Tomy": {
         "hardware_name": {
           "ぴゅう太": {
