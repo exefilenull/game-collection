@@ -236,7 +236,7 @@
 
         // GitHub更新関数
         async function saveToGitHub(updatedData) {
-            const res = await fetch("/.netlify/functions/update-json", {
+            const res = await fetch("/.netlify/functions/update", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
