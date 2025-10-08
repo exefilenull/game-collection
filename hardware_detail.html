@@ -65,6 +65,9 @@
         <tbody></tbody>
     </table>
 
+    <!-- 保存ボタン追加 -->
+    <button class="save-button" id="saveBtn">GitHubに保存</button>
+
     <script>
         const graphColors = {
             "全体": ['#000000', '#ccc'],        // 全体の色
@@ -85,6 +88,8 @@
         const urlParams = new URLSearchParams(window.location.search);
         const hardwareName = urlParams.get('hardware');
         const categoryName = urlParams.get('category');
+
+        let currentGames = []; // ← 現在読み込んだデータを保持
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -112,6 +117,7 @@
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
                 .then(jsonDataArray => {
                     const games = extractHardwareData(jsonDataArray, hardwareName);
+                    currentGames = games; // ← 保存用に保持
                     displayChart(games);
                     displayTable(games);
                 })
@@ -195,7 +201,71 @@
                 `;
                 tbody.appendChild(row);
             });
+
+        // セルクリックで収集状況を変更
+            tbody.querySelectorAll('.toggle-new').forEach(cell => {
+                cell.addEventListener('click', () => {
+                    const i = cell.dataset.index;
+                    currentGames[i].collected_new = !currentGames[i].collected_new;
+                    cell.textContent = currentGames[i].collected_new ? '収集済み' : '未収集';
+                    markChanged();
+                });
+            });
+
+            tbody.querySelectorAll('.toggle-old').forEach(cell => {
+                cell.addEventListener('click', () => {
+                    const i = cell.dataset.index;
+                    currentGames[i].collected_old = !currentGames[i].collected_old;
+                    cell.textContent = currentGames[i].collected_old ? '収集済み' : '未収集';
+                    markChanged();
+                });
+            });
         }
+
+        // 差分検知してボタン活性化
+        function markChanged() {
+            const changed = JSON.stringify(currentGames) !== JSON.stringify(originalData);
+            if (changed) {
+                saveBtn.disabled = false;
+                saveBtn.classList.add("active");
+            } else {
+                saveBtn.disabled = true;
+                saveBtn.classList.remove("active");
+            }
+        }
+
+        // GitHub更新関数
+        async function saveToGitHub(updatedData) {
+            const res = await fetch("/.netlify/functions/update-json", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    path: "data/1_nintendo.json",
+                    content: JSON.stringify(updatedData, null, 2),
+                    message: "WebからJSONを更新",
+                }),
+            });
+
+            const result = await res.json();
+            if (result.success) {
+                alert("✅ GitHubに保存しました！");
+                originalData = structuredClone(currentGames); // 保存後に差分をリセット
+                markChanged();
+            } else {
+                alert("⚠️ エラー: " + (result.error || "保存に失敗しました"));
+            }
+        }
+
+        // 保存ボタンクリック
+        saveBtn.addEventListener("click", () => {
+            if (currentGames.length === 0) {
+                alert("保存できるデータがありません。");
+                return;
+            }
+            if (confirm("このデータをGitHubに保存しますか？")) {
+                saveToGitHub(currentGames);
+            }
+        });
     </script>
 
 </body>
