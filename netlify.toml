@@ -1,0 +1,3 @@
+[build]
+  publish = "." # 公開ディレクトリ（index.htmlなど）
+  functions = "netlify/functions" # Functionsの格納先
