@@ -1,6 +1,4 @@
 // netlify/functions/update.js
-import fetch from "node-fetch";
-
 export const handler = async (event) => {
   try {
     const { path, content, message } = JSON.parse(event.body);
@@ -9,18 +7,21 @@ export const handler = async (event) => {
     const repo = process.env.REPO_NAME;
     const token = process.env.GITHUB_TOKEN;
 
-    // GitHubのAPIエンドポイント
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
-    // 現在のSHAを取得（上書き時に必要）
+    // 現在のSHAを取得
     const current = await fetch(apiUrl, {
       headers: { Authorization: `token ${token}` },
     }).then(res => res.json());
 
-    // ファイル内容をBase64でエンコード
+    if (!current.sha) {
+      throw new Error(`対象ファイルが見つかりません: ${path}`);
+    }
+
+    // Base64エンコード
     const encodedContent = Buffer.from(content).toString("base64");
 
-    // 更新リクエストを送信
+    // PUTリクエストでGitHubに保存
     const response = await fetch(apiUrl, {
       method: "PUT",
       headers: {
