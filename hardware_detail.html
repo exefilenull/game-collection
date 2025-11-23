@@ -199,8 +199,8 @@
                     <td>${game.collected_old ? '収集済み' : '未収集'}</td>
                     <td>${game.release_day || '不明'}</td>
                     <td>${clearedCell}</td>
-                    <td class="toggle-ignore" data-index="${i}">
-                        ${game.collected_ignore ? '不要' : '必要'}
+                    <td class="toggle-ignore" data-index="${index}">
+                        ${game.dont_collect ? '不要' : '必要'}
                     </td>
                 `;
                 tbody.appendChild(row);
@@ -228,23 +228,9 @@
             tbody.querySelectorAll('.toggle-ignore').forEach(cell => {
                 cell.addEventListener('click', () => {
                     const i = cell.dataset.index;
-
-                    // 値を反転
-                    currentGames[i].collected_ignore = !currentGames[i].collected_ignore;
-
-                    // 表示を更新
-                    cell.textContent = currentGames[i].collected_ignore ? '不要' : '必要';
-
-                    // ★ 1 行でも true があるかチェックしてボタンを制御
-                    const hasIgnore = currentGames.some(g => g.collected_ignore === true);
-
-                    if (hasIgnore) {
-                        saveBtn.disabled = false;
-                        saveBtn.classList.add("active");
-                    } else {
-                        saveBtn.disabled = true;
-                        saveBtn.classList.remove("active");
-                    }
+                    currentGames[i].dont_collect = !currentGames[i].dont_collect;
+                    cell.textContent = currentGames[i].dont_collect ? '不要' : '必要';
+                    markChanged();
                 });
             });
         }
