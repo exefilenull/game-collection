@@ -91,6 +91,10 @@
         const categoryName = urlParams.get('category');
 
         let currentGames = []; // ← 現在読み込んだデータを保持
+        let originalDontCollect = {};
+        const saveBtn = document.getElementById('saveBtn');
+
+        if (saveBtn) saveBtn.disabled = true;
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -117,10 +121,21 @@
 
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
                 .then(jsonDataArray => {
-                    const games = extractHardwareData(jsonDataArray, hardwareName);
+                    const games = extractHardwareData(jsonDataArray, hardwareName) || [];
                     currentGames = games; // ← 保存用に保持
+
+                    originalDontCollect = {};
+                    currentGames.forEach(g => {
+                        originalDontCollect[g.soft_title] = !!g.dont_collect;
+                    });
+
                     displayChart(games);
                     displayTable(games);
+
+                    if (saveBtn) {
+                        saveBtn.disabled = true;
+                        saveBtn.classList.remove("active");
+                    }
                 })
                 .catch(error => console.error('JSONの読み込みエラー:', error));
         });
@@ -193,11 +208,11 @@
                     : '未クリア';
 
                 row.innerHTML = `
-                    <td class="game-title">${game.soft_title}</td>
-                    <td>${game.game_category}</td>
+                    <td class="game-title">${escapeHtml(game.soft_title)}</td>
+                    <td>${escapeHtml(game.game_category || '')}</td>
                     <td class="toggle-new">${game.collected_new ? '収集済み' : '未収集'}</td>
                     <td class="toggle-old">${game.collected_old ? '収集済み' : '未収集'}</td>
-                    <td>${game.release_day || '不明'}</td>
+                    <td>${escapeHtml(game.release_day || '不明')}</td>
                     <td>${clearedCell}</td>
                     <td class="toggle-ignore">${game.dont_collect ? '不要' : '必要'}</td>
                 `;
@@ -254,13 +269,23 @@
 
         // 差分検知してボタン活性化
         function markChanged() {
-            const changed = JSON.stringify(currentGames) !== JSON.stringify(originalData);
-            if (changed) {
-                saveBtn.disabled = false;
-                saveBtn.classList.add("active");
-            } else {
-                saveBtn.disabled = true;
-                saveBtn.classList.remove("active");
+            // originalDontCollect に対して currentGames の dont_collect を比較
+            let changed = false;
+            for (const g of currentGames) {
+                const original = originalDontCollect[g.soft_title];
+                // 原本にキーが無い場合は false とみなす
+                const origVal = typeof original === 'undefined' ? false : !!original;
+                const curVal = !!g.dont_collect;
+                if (origVal !== curVal) {
+                    changed = true;
+                    break;
+                }
+            }
+
+            if (saveBtn) {
+                saveBtn.disabled = !changed;
+                if (changed) saveBtn.classList.add("active");
+                else saveBtn.classList.remove("active");
             }
         }
 
@@ -279,23 +304,39 @@
             const result = await res.json();
             if (result.success) {
                 alert("✅ GitHubに保存しました！");
-                originalData = structuredClone(currentGames); // 保存後に差分をリセット
-                markChanged();
+
+                // originalDontCollect を currentGames の最新 dont_collect で上書き
+                originalDontCollect = {};
+                currentGames.forEach(g => {
+                    originalDontCollect[g.soft_title] = !!g.dont_collect;
+                });
+
+                // ボタンを無効にする
+                if (saveBtn) {
+                    saveBtn.disabled = true;
+                    saveBtn.classList.remove("active");
+                }
             } else {
                 alert("⚠️ エラー: " + (result.error || "保存に失敗しました"));
             }
         }
 
         // 保存ボタンクリック
-        saveBtn.addEventListener("click", () => {
-            if (currentGames.length === 0) {
-                alert("保存できるデータがありません。");
-                return;
-            }
-            if (confirm("このデータをGitHubに保存しますか？")) {
+        if (saveBtn) {
+            saveBtn.addEventListener("click", () => {
+                if (currentGames.length === 0) {
+                    alert("保存できるデータがありません。");
+                    return;
+                }
+                if (!confirm("このデータをGitHubに保存しますか？")) return;
                 saveToGitHub(currentGames);
-            }
-        });
+            });
+        }
+
+        // 小さなユーティリティ（XSS対策として）
+        function escapeHtml(s) {
+            return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        }
     </script>
 
 </body>
