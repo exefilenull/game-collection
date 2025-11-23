@@ -183,53 +183,70 @@
 
             games.forEach(game => {
                 const row = document.createElement('tr');
+
                 if (game.collected_new || game.collected_old) {
                     row.classList.add('highlight');
                 }
 
-                // クリア済みのゲームはリンクを有効化する
-                const clearedCell = game.game_cleared 
-                ? `<a href="game_clear/${categoryName}/${hardwareName}/${game.game_cleared}.html">クリア済み</a>`
-                : '未クリア';
+                const clearedCell = game.game_cleared
+                    ? `<a href="game_clear/${categoryName}/${hardwareName}/${game.game_cleared}.html">クリア済み</a>`
+                    : '未クリア';
 
                 row.innerHTML = `
-                    <td>${game.soft_title}</td>
+                    <td class="game-title">${game.soft_title}</td>
                     <td>${game.game_category}</td>
-                    <td>${game.collected_new ? '収集済み' : '未収集'}</td>
-                    <td>${game.collected_old ? '収集済み' : '未収集'}</td>
+                    <td class="toggle-new">${game.collected_new ? '収集済み' : '未収集'}</td>
+                    <td class="toggle-old">${game.collected_old ? '収集済み' : '未収集'}</td>
                     <td>${game.release_day || '不明'}</td>
                     <td>${clearedCell}</td>
-                    <td class="toggle-ignore" data-index="${index}">
-                        ${game.dont_collect ? '不要' : '必要'}
-                    </td>
+                    <td class="toggle-ignore">${game.dont_collect ? '不要' : '必要'}</td>
                 `;
+
                 tbody.appendChild(row);
             });
 
-        // セルクリックで収集状況を変更
+            // ★ クリックイベント：ゲーム名で突き合わせる
             tbody.querySelectorAll('.toggle-new').forEach(cell => {
                 cell.addEventListener('click', () => {
-                    const i = cell.dataset.index;
-                    currentGames[i].collected_new = !currentGames[i].collected_new;
-                    cell.textContent = currentGames[i].collected_new ? '収集済み' : '未収集';
+                    const row = cell.closest('tr');
+                    const title = row.querySelector('.game-title').textContent.trim();
+
+                    const game = currentGames.find(g => g.soft_title === title);
+                    if (!game) return;
+
+                    game.collected_new = !game.collected_new;
+                    cell.textContent = game.collected_new ? '収集済み' : '未収集';
+
                     markChanged();
                 });
             });
 
             tbody.querySelectorAll('.toggle-old').forEach(cell => {
                 cell.addEventListener('click', () => {
-                    const i = cell.dataset.index;
-                    currentGames[i].collected_old = !currentGames[i].collected_old;
-                    cell.textContent = currentGames[i].collected_old ? '収集済み' : '未収集';
+                    const row = cell.closest('tr');
+                    const title = row.querySelector('.game-title').textContent.trim();
+
+                    const game = currentGames.find(g => g.soft_title === title);
+                    if (!game) return;
+
+                    game.collected_old = !game.collected_old;
+                    cell.textContent = game.collected_old ? '収集済み' : '未収集';
+
                     markChanged();
                 });
             });
 
             tbody.querySelectorAll('.toggle-ignore').forEach(cell => {
                 cell.addEventListener('click', () => {
-                    const i = cell.dataset.index;
-                    currentGames[i].dont_collect = !currentGames[i].dont_collect;
-                    cell.textContent = currentGames[i].dont_collect ? '不要' : '必要';
+                    const row = cell.closest('tr');
+                    const title = row.querySelector('.game-title').textContent.trim();
+
+                    const game = currentGames.find(g => g.soft_title === title);
+                    if (!game) return;
+
+                    game.dont_collect = !game.dont_collect;
+                    cell.textContent = game.dont_collect ? '不要' : '必要';
+
                     markChanged();
                 });
             });
