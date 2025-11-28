@@ -92,6 +92,7 @@
 
         let currentGames = []; // ← 現在読み込んだデータを保持
         let originalDontCollect = {};
+        let sourceJsonFile = null;
         const saveBtn = document.getElementById('saveBtn');
 
         if (saveBtn) saveBtn.disabled = true;
@@ -121,7 +122,7 @@
 
             Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
                 .then(jsonDataArray => {
-                    const games = extractHardwareData(jsonDataArray, hardwareName) || [];
+                    const games = extractHardwareData(jsonDataArray, jsonFiles, hardwareName) || [];
                     currentGames = games; // ← 保存用に保持
 
                     originalDontCollect = {};
@@ -140,14 +141,24 @@
                 .catch(error => console.error('JSONの読み込みエラー:', error));
         });
 
-        function extractHardwareData(jsonDataArray, hardwareName) {
-            for (const data of jsonDataArray) {
-                for (const [hardTitle, games] of Object.entries(data.hardware_name)) {
+        function extractHardwareData(jsonDataArray, jsonFiles, hardwareName) {
+            for (let i = 0; i < jsonDataArray.length; i++){
+                const data = jsonDataArray[i];
+
+                for (const [hardTitle, games] of Object.entries(data.hardware_name)){
                     if (hardTitle === hardwareName) {
+                        sourceJsonFile = jsonFiles[i];
                         return games;
                     }
                 }
             }
+            //for (const data of jsonDataArray) {
+            //    for (const [hardTitle, games] of Object.entries(data.hardware_name)) {
+            //        if (hardTitle === hardwareName) {
+            //            return games;
+            //        }
+            //    }
+            //}
             return [];
         }
 
@@ -291,13 +302,18 @@
 
         // GitHub更新関数
         async function saveToGitHub(updatedData) {
+            if (!sourceJsonFile) {
+                alert("更新先のJsonファイルが特定できません。");
+                return;
+            }
+
             const res = await fetch("/.netlify/functions/update", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    path: "data/1_nintendo.json",
+                    path: sourceJsonFile,
                     content: JSON.stringify(updatedData, null, 2),
-                    message: "WebからJSONを更新",
+                    message: `Update ${sourceJsonFile} via WebUI`,
                 }),
             });
 
