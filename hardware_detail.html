@@ -217,8 +217,7 @@
 
             games.forEach(game => {
                 const row = document.createElement('tr');
-
-                console.log(game.collected_new, game.collected_old);
+                row.classList.remove('highlight', 'highlight-new', 'highlight-old', 'highlight-both');
 
                 if (game.collected_new && game.collected_old) {
                     row.classList.add('highlight-both');
