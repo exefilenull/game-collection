@@ -227,6 +227,13 @@
                     row.classList.add('highlight-old');
                 }
 
+                console.log(
+                    "TITLE:", game.soft_title,
+                    "N:", game.collected_new,
+                    "O:", game.collected_old,
+                    "CLASS:", row.classList.value
+                );
+
                 const clearedCell = game.game_cleared
                     ? `<a href="game_clear/${categoryName}/${hardwareName}/${game.game_cleared}.html">クリア済み</a>`
                     : '未クリア';
