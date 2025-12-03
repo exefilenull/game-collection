@@ -218,6 +218,8 @@
             games.forEach(game => {
                 const row = document.createElement('tr');
 
+                console.log(game.collected_new, game.collected_old);
+
                 if (game.collected_new && game.collected_old) {
                     row.classList.add('highlight-both');
                 } else if (game.collected_new) {
