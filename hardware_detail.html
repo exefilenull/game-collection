@@ -39,8 +39,16 @@
             color: white;
         }
         
-        .highlight {
-            background-color: #ffff99;
+        .highlight-old {
+            background-color: #f4f466;
+        }
+
+        .highlight-new {
+            background-color: #f78562;
+        }
+
+        .highlight-both {
+            background-color: #5286f7;
         }
     </style>
 </head>
@@ -210,8 +218,12 @@
             games.forEach(game => {
                 const row = document.createElement('tr');
 
-                if (game.collected_new || game.collected_old) {
-                    row.classList.add('highlight');
+                if (game.collected_new) {
+                    row.classList.add('highlight-new');
+                } else if (game.collected_old) {
+                    row.classList.add('highlight-old');
+                } else if (game.collected_new && game.collected_old) {
+                    row.classList.add('highlight-both');
                 }
 
                 const clearedCell = game.game_cleared
