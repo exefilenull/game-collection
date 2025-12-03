@@ -218,12 +218,12 @@
             games.forEach(game => {
                 const row = document.createElement('tr');
 
-                if (game.collected_new) {
+                if (game.collected_new && game.collected_old) {
+                    row.classList.add('highlight-both');
+                } else if (game.collected_new) {
                     row.classList.add('highlight-new');
                 } else if (game.collected_old) {
                     row.classList.add('highlight-old');
-                } else if (game.collected_new && game.collected_old) {
-                    row.classList.add('highlight-both');
                 }
 
                 const clearedCell = game.game_cleared
