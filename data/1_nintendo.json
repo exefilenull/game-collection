@@ -194,10 +194,10 @@
       {
         "soft_title": "4人打ち麻雀",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "テーブル",
         "release_day": "1984-11-02"
       },
       {
@@ -473,7 +473,7 @@
       {
         "soft_title": "本将棋 内藤九段将棋秘伝",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "テーブル",
@@ -1409,7 +1409,7 @@
       {
         "soft_title": "たけしの挑戦状",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -2489,7 +2489,7 @@
       {
         "soft_title": "ファイナルファンタジー",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "ロールプレイング",
@@ -4496,7 +4496,7 @@
       {
         "soft_title": "レーサーミニ四駆 ジャパンカップ",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -9113,7 +9113,7 @@
         "release_day": "1990-11-21"
       },
       {
-        "soft_title": "ボンバザルKA-BLOOEY",
+        "soft_title": "ボンバザル",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9150,6 +9150,15 @@
       },
       {
         "soft_title": "グラディウスIII",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1990-12-21"
+      },
+      {
+        "soft_title": "ファイナルファイト",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9196,7 +9205,7 @@
       {
         "soft_title": "遙かなるオーガスタ",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -9302,6 +9311,15 @@
         "release_day": "1991-07-19"
       },
       {
+        "soft_title": "バトルドッジボール 闘球大激突!",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1991-07-20"
+      },
+      {
         "soft_title": "エリア88",
         "collected_new": false,
         "collected_old": false,
@@ -9381,6 +9399,15 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1991-10-25"
+      },
+      {
+        "soft_title": "ファイナルファンタジーIV イージータイプ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1991-10-29"
       },
       {
         "soft_title": "悪魔城ドラキュラ",
@@ -9608,7 +9635,7 @@
         "release_day": "1992-03-19"
       },
       {
-        "soft_title": "新世紀GPXサイバーフォーミュラCyber Spin",
+        "soft_title": "新世紀GPXサイバーフォーミュラ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9617,7 +9644,7 @@
         "release_day": "1992-03-19"
       },
       {
-        "soft_title": "スーパー伊忍道 打倒信長Inindo: Way of the Ninja",
+        "soft_title": "スーパー伊忍道 打倒信長",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9626,7 +9653,7 @@
         "release_day": "1992-03-19"
       },
       {
-        "soft_title": "超攻合神サーディオンXARDION",
+        "soft_title": "超攻合神サーディオン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -9635,7 +9662,16 @@
         "release_day": "1992-03-20"
       },
       {
-        "soft_title": "スマッシュT.V.Super Smash TV",
+        "soft_title": "ファイナルファイト・ガイ",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1992-03-20"
+      },
+      {
+        "soft_title": "スマッシュT.V.",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -11876,16 +11912,16 @@
         "release_day": "1993-06-18"
       },
       {
-        "soft_title": "スーパースコープ6Nintendo Scope 6EU",
+        "soft_title": "スーパースコープ6",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1993-06-21"
       },
       {
-        "soft_title": "スペースバズーカBattle Clash",
+        "soft_title": "スペースバズーカ",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -12263,7 +12299,7 @@
         "release_day": "1993-08-05"
       },
       {
-        "soft_title": "聖剣伝説2Secret of Mana",
+        "soft_title": "聖剣伝説2",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -14272,7 +14308,7 @@
       {
         "soft_title": "ファイナルファンタジーVI",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "ロールプレイング",
@@ -17251,7 +17287,7 @@
       {
         "soft_title": "HEIWAパチンコワールド",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -18853,7 +18889,7 @@
       {
         "soft_title": "マリオのスーパーピクロス",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -19654,7 +19690,7 @@
       {
         "soft_title": "す〜ぱ〜ぷよぷよ通",
         "collected_new": false,
-        "collected_old": true,
+        "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -19690,10 +19726,10 @@
       {
         "soft_title": "ドラゴンクエストVI 幻の大地",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1995-12-09"
       },
       {
@@ -21382,7 +21418,7 @@
       {
         "soft_title": "ミニ四駆 シャイニングスコーピオン レッツ&ゴー!!",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -26295,7 +26331,7 @@
       {
         "soft_title": "おどる メイド イン ワリオ",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -26844,7 +26880,7 @@
       {
         "soft_title": "マリオストライカーズ チャージド",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -27006,7 +27042,7 @@
       {
         "soft_title": "マリオ&ソニック AT 北京オリンピック",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -27915,7 +27951,7 @@
       {
         "soft_title": "ONE PIECE アンリミテッドクルーズ エピソード1 波に揺れる秘宝",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28005,7 +28041,7 @@
       {
         "soft_title": "Wii Music",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28086,7 +28122,7 @@
       {
         "soft_title": "シェイプボクシング Wiiでエンジョイダイエット!",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28320,7 +28356,7 @@
       {
         "soft_title": "太鼓の達人Wii",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28500,7 +28536,7 @@
       {
         "soft_title": "ONE PIECE アンリミテッドクルーズ エピソード2 目覚める勇者",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28788,7 +28824,7 @@
       {
         "soft_title": "Wii Sports Resort",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -28968,7 +29004,7 @@
       {
         "soft_title": "Wii Fit Plus",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -30030,7 +30066,7 @@
       {
         "soft_title": "JUST DANCE Wii",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -47325,7 +47361,7 @@
       {
         "soft_title": "テトリス",
         "collected_new": false,
-        "collected_old": true,
+        "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "パズル",
@@ -48689,15 +48725,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1991-03-15"
-      },
-      {
-        "soft_title": "R-TYPE",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1991-03-19"
       },
       {
         "soft_title": "ファーステスト・ラップ",
@@ -50344,15 +50371,6 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1992-12-11"
-      },
-      {
-        "soft_title": "R-TYPE II",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
         "release_day": "1992-12-11"
       },
       {
@@ -63612,7 +63630,7 @@
       {
         "soft_title": "東北大学未来科学技術共同研究センター川島隆太教授監修 脳を鍛える大人のDSトレーニング",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
@@ -79886,10 +79904,10 @@
       {
         "soft_title": "ウイニングイレブン 3DSoccer",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "2011-02-26"
       },
       {
@@ -90398,7 +90416,7 @@
       {
         "soft_title": "デジモンユニバース アプリモンスターズ",
         "collected_new": false,
-        "collected_old": false,
+        "collected_old": true,
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
