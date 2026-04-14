@@ -274,7 +274,7 @@
                 const categoryColor = graphColors[categoryData.category] || ["#000000", "#ccc"];
 
                 const categoryTitle = document.createElement('h2');
-                categoryTitle.textContent = `${categoryData.category}　カテゴリ：${categoryTotalCount} / 全体：${totalCount}　割合：${categoryRate}`;
+                categoryTitle.textContent = `${categoryData.category}　カテゴリ：${categoryTotalCount} / 全体：${allTotalCount}　割合：${categoryRate}`;
                 categoryDiv.appendChild(categoryTitle);
 
                 const chartContainer = document.createElement('div');
