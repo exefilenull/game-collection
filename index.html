@@ -297,7 +297,7 @@
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
                     
-                    const categoryRate = ((categoryTotalCount / totalCount) * 100).toFixed(1);
+                    const categoryRate = ((totalCount / categoryTotalCount) * 100).toFixed(1);
                     const categoryTitle = document.createElement('h2');
                     categoryTitle.textContent = `${categoryData.category}　カテゴリ：${categoryTotalCount} / 全体：${totalCount}　割合：${categoryRate}`;
                     categoryDiv.appendChild(categoryTitle);
