@@ -260,15 +260,20 @@
             const chartsContainer = document.getElementById('charts');
 
             data.forEach(categoryData => {
+                let categoryTotalCount = 0;
+                Object.values(categoryData.hardwares).forEach(games => {
+                    categoryTotalCount += games.length;
+                });
+                
                 const categoryDiv = document.createElement('div');
                 categoryDiv.className = 'category';
                 
                 //カテゴリ毎に設定する色を定義
                 const categoryColor = graphColors[categoryData.category] || ["#000000", "#ccc"];
 
-                const categoryTitle = document.createElement('h2');
-                categoryTitle.textContent = categoryData.category;
-                categoryDiv.appendChild(categoryTitle);
+                //const categoryTitle = document.createElement('h2');
+                //categoryTitle.textContent = categoryData.category;
+                //categoryDiv.appendChild(categoryTitle);
 
                 const chartContainer = document.createElement('div');
                 chartContainer.className = 'chart-container';
@@ -291,6 +296,11 @@
                     const totalCount = games.length;
                     const collectedRateNew = ((collectedCountNew / totalCount) * 100).toFixed(1);
                     const collectedRateOld = ((collectedCountOld / totalCount) * 100).toFixed(1);
+                    
+                    const categoryRate = ((categoryTotalCount / totalCount) * 100).toFixed(1);
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.textContent = `${categoryData.category}　カテゴリ：${categoryTotalCount} / 全体：${totalCount}　割合：${categoryRate}`;
+                    categoryDiv.appendChild(categoryTitle);
                     
                     //label.innerHTML = <a href="detail.html?hardware=${encodeURIComponent(hardTilte)}">`${hardTitle}</a><br>新品：${collectedRateNew}%<br>中古：${collectedRateOld}%`;
                     console.log(encodeURIComponent(categoryData.category));
