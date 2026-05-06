@@ -104,6 +104,15 @@
     ],
     "NEOGEO": [
       {
+        "soft_title": "キング・オブ・ザ・モンスターズ☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1991-07-01"
+      },
+      {
         "soft_title": "みなさんのおかげさまです! 大スゴロク大会",
         "collected_new": false,
         "collected_old": false,
@@ -176,7 +185,7 @@
         "release_day": "1994-02-18"
       },
       {
-        "soft_title": "ちびまる子ちゃん まる子デラックスクイズ",
+        "soft_title": "ちびまる子ちゃん まる子デラックスクイズ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -266,7 +275,7 @@
         "release_day": "2000-06-01"
       },
       {
-        "soft_title": "戦国伝承2001",
+        "soft_title": "戦国伝承2001☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -322,7 +331,7 @@
     ],
     "ネオジオCD": [
       {
-        "soft_title": "ASO II 〜ラストガーディアン〜",
+        "soft_title": "ASO II 〜ラストガーディアン〜☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -331,7 +340,16 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "ザ・スーパースパイ",
+        "soft_title": "キング・オブ・ザ・モンスターズ2 〜THE NEXT THING〜☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1994-09-09"
+      },
+      {
+        "soft_title": "ザ・スーパースパイ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -340,7 +358,7 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "ジョイジョイキッド",
+        "soft_title": "ジョイジョイキッド☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -358,7 +376,7 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "トッププレイヤーズゴルフ",
+        "soft_title": "トッププレイヤーズゴルフ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -367,7 +385,7 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "NAM-1975",
+        "soft_title": "NAM-1975☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -403,7 +421,7 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "麻雀狂列伝 -西日本編-",
+        "soft_title": "麻雀狂列伝 -西日本編-☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -421,7 +439,7 @@
         "release_day": "1994-09-09"
       },
       {
-        "soft_title": "リーグボウリング",
+        "soft_title": "リーグボウリング☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -466,7 +484,7 @@
         "release_day": "1994-10-31"
       },
       {
-        "soft_title": "ニンジャコンバット",
+        "soft_title": "ニンジャコンバット☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -475,7 +493,7 @@
         "release_day": "1994-10-31"
       },
       {
-        "soft_title": "マジシャンロード",
+        "soft_title": "マジシャンロード☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -484,7 +502,7 @@
         "release_day": "1994-10-31"
       },
       {
-        "soft_title": "ラギ",
+        "soft_title": "ラギ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -574,7 +592,7 @@
         "release_day": "1995-02-25"
       },
       {
-        "soft_title": "ゴーストパイロット",
+        "soft_title": "ゴーストパイロット☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -583,7 +601,16 @@
         "release_day": "1995-03-17"
       },
       {
-        "soft_title": "戦国伝承2",
+        "soft_title": "戦国伝承☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1995-03-17"
+      },
+      {
+        "soft_title": "戦国伝承2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -619,7 +646,7 @@
         "release_day": "1995-04-07"
       },
       {
-        "soft_title": "サイバーリップ",
+        "soft_title": "サイバーリップ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -637,7 +664,7 @@
         "release_day": "1995-04-21"
       },
       {
-        "soft_title": "ベースボールスターズプロフェッショナル",
+        "soft_title": "ベースボールスターズプロフェッショナル☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -664,7 +691,7 @@
         "release_day": "1995-05-02"
       },
       {
-        "soft_title": "ライディングヒーロー",
+        "soft_title": "ライディングヒーロー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,

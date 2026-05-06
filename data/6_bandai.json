@@ -455,7 +455,7 @@
         "release_day": "1995-07-28"
       },
       {
-        "soft_title": "SDガンダム外伝☆",
+        "soft_title": "SDガンダム外伝☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -889,6 +889,15 @@
     ],
     "ワンダースワン": [
       {
+        "soft_title": "チョコボの不思議なダンジョン for ワンダースワン☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1999-03-04"
+      },
+      {
         "soft_title": "信長の野望 for ワンダースワン",
         "collected_new": false,
         "collected_old": false,
@@ -1229,15 +1238,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1999-11-18"
-      },
-      {
-        "soft_title": "サイドポケット for ワンダースワン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1999-11-25"
       },
       {
         "soft_title": "TURNTABLIST －DJバトル－",
@@ -2115,7 +2115,7 @@
         "release_day": "2003-01-30"
       },
       {
-        "soft_title": "ロックマンエグゼ WS",
+        "soft_title": "ロックマンエグゼ WS☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2169,12 +2169,12 @@
         "release_day": "2003-07-17"
       },
       {
-        "soft_title": "聖闘士星矢 黄金伝説編 Perfect Edition",
+        "soft_title": "聖闘士星矢 黄金伝説編 Perfect Edition☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アドベンチャー",
         "release_day": "2003-07-31"
       },
       {

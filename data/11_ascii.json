@@ -750,24 +750,6 @@
         "release_day": "1983-01-01"
       },
       {
-        "soft_title": "パックマン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-01-18"
-      },
-      {
-        "soft_title": "マッピー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-01-18"
-      },
-      {
         "soft_title": "ライズアウト",
         "collected_new": false,
         "collected_old": false,
@@ -802,15 +784,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1984-01-01"
-      },
-      {
-        "soft_title": "ギャラクシアン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-01-31"
       },
       {
         "soft_title": "スーパーコブラ",
@@ -1164,12 +1137,12 @@
         "release_day": "1984-06-01"
       },
       {
-        "soft_title": "ハイパースポーツ1",
+        "soft_title": "ハイパースポーツ1☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1984-06-01"
       },
       {
@@ -1569,12 +1542,12 @@
         "release_day": "1984-11-01"
       },
       {
-        "soft_title": "ハイパースポーツ2",
+        "soft_title": "ハイパースポーツ2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1984-11-01"
       },
       {
@@ -2478,15 +2451,6 @@
         "release_day": "1984-01-01"
       },
       {
-        "soft_title": "バイナリィランド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1984-01-01"
-      },
-      {
         "soft_title": "バブルクンド1999",
         "collected_new": false,
         "collected_old": false,
@@ -2766,12 +2730,12 @@
         "release_day": "1985-03-18"
       },
       {
-        "soft_title": "ハイドライド",
+        "soft_title": "ハイドライド☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1985-03-01"
       },
       {
@@ -2800,15 +2764,6 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1985-05-23"
-      },
-      {
-        "soft_title": "ゴーストバスターズ",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-06-05"
       },
       {
         "soft_title": "スターフォース",
@@ -2901,12 +2856,12 @@
         "release_day": "1985-08-01"
       },
       {
-        "soft_title": "ハイパースポーツ3",
+        "soft_title": "ハイパースポーツ3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1985-09-25"
       },
       {
@@ -2937,7 +2892,7 @@
         "release_day": "1985-09-01"
       },
       {
-        "soft_title": "ジャッキー・チェンのスパルタンX",
+        "soft_title": "ジャッキー・チェンのスパルタンX☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4665,15 +4620,6 @@
         "release_day": "1986-03-01"
       },
       {
-        "soft_title": "ツインビー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-05-25"
-      },
-      {
         "soft_title": "ザ・キャッスル",
         "collected_new": false,
         "collected_old": false,
@@ -4863,12 +4809,12 @@
         "release_day": "1986-10-01"
       },
       {
-        "soft_title": "ハイドライドII",
+        "soft_title": "ハイドライドII☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1986-11-01"
       },
       {
@@ -5278,15 +5224,6 @@
       },
       {
         "soft_title": "影の伝説",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1986-01-01"
-      },
-      {
-        "soft_title": "ジャイロダイン",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -5781,12 +5718,12 @@
         "release_day": "1987-11-06"
       },
       {
-        "soft_title": "ハイドライド3",
+        "soft_title": "ハイドライド3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1987-11-01"
       },
       {
@@ -5817,16 +5754,7 @@
         "release_day": "1987-12-26"
       },
       {
-        "soft_title": "ハイドライドブロンズバック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-12-01"
-      },
-      {
-        "soft_title": "ダイナマイトボウル",
+        "soft_title": "ダイナマイトボウル☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -6105,12 +6033,12 @@
         "release_day": "1988-04-28"
       },
       {
-        "soft_title": "ディープダンジョン勇士の紋章",
+        "soft_title": "ディープダンジョンII 勇士の紋章☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1988-04-01"
       },
       {
@@ -6258,12 +6186,12 @@
         "release_day": "1988-01-01"
       },
       {
-        "soft_title": "ディープダンジョン魔洞戦記",
+        "soft_title": "ディープダンジョン 魔洞戦記☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1988-01-01"
       },
       {
@@ -6764,15 +6692,6 @@
         "release_day": "1987-01-01"
       },
       {
-        "soft_title": "がんばれゴエモン!からくり道中",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1987-02-25"
-      },
-      {
         "soft_title": "ヴァクソル",
         "collected_new": false,
         "collected_old": false,
@@ -6845,12 +6764,12 @@
         "release_day": "1987-07-09"
       },
       {
-        "soft_title": "メタルギア",
+        "soft_title": "メタルギア☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1987-07-13"
       },
       {
@@ -7979,15 +7898,6 @@
         "release_day": "1988-12-23"
       },
       {
-        "soft_title": "ゼビウス ファードラウト伝説",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-12-23"
-      },
-      {
         "soft_title": "中華大仙",
         "collected_new": false,
         "collected_old": false,
@@ -8421,15 +8331,6 @@
       },
       {
         "soft_title": "囲碁倶楽部",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1988-01-01"
-      },
-      {
-        "soft_title": "ファミリーボクシング",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -10121,12 +10022,12 @@
         "release_day": "1990-07-20"
       },
       {
-        "soft_title": "メタルギア2 ソリッドスネーク",
+        "soft_title": "メタルギア2 ソリッドスネーク☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "アクション",
         "release_day": "1990-07-20"
       },
       {

@@ -1222,15 +1222,6 @@
         "release_day": "1989-10-06"
       },
       {
-        "soft_title": "スーパーハイドライド",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1989-10-06"
-      },
-      {
         "soft_title": "ランボーIII",
         "collected_new": false,
         "collected_old": false,
@@ -1427,6 +1418,15 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "1990-06-08"
+      },
+      {
+        "soft_title": "ゴーストバスターズ☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1990-06-30"
       },
       {
         "soft_title": "コラムス",
@@ -2662,7 +2662,7 @@
         "release_day": "1992-01-14"
       },
       {
-        "soft_title": "ちびまる子ちゃん わくわくショッピング",
+        "soft_title": "ちびまる子ちゃん わくわくショッピング☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3139,6 +3139,15 @@
         "release_day": "1992-12-11"
       },
       {
+        "soft_title": "サイドポケット☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "スポーツ",
+        "release_day": "1992-12-11"
+      },
+      {
         "soft_title": "中嶋悟監修 F1スーパーライセンス",
         "collected_new": false,
         "collected_old": false,
@@ -3472,7 +3481,7 @@
         "release_day": "1993-07-30"
       },
       {
-        "soft_title": "エコー・ザ・ドルフィン",
+        "soft_title": "エコー・ザ・ドルフィン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4012,7 +4021,7 @@
         "release_day": "1994-08-12"
       },
       {
-        "soft_title": "エコー・ザ・ドルフィン2",
+        "soft_title": "エコー・ザ・ドルフィン2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4374,7 +4383,7 @@
         "release_day": "1992-06-19"
       },
       {
-        "soft_title": "LUNAR ザ・シルバースターw:Lunar: The Silver Star",
+        "soft_title": "LUNAR ザ・シルバースター☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4743,6 +4752,15 @@
         "release_day": "1993-12-10"
       },
       {
+        "soft_title": "戦国伝承☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1993-12-28"
+      },
+      {
         "soft_title": "いしいひさいちの大政界",
         "collected_new": false,
         "collected_old": false,
@@ -4986,7 +5004,7 @@
         "release_day": "1994-12-22"
       },
       {
-        "soft_title": "エコー・ザ・ドルフィンCD",
+        "soft_title": "エコー・ザ・ドルフィンCD☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -5269,12 +5287,12 @@
         "release_day": "1995-03-24"
       },
       {
-        "soft_title": "サイドポケット2 〜伝説のハスラー〜",
+        "soft_title": "サイドポケット2 〜伝説のハスラー〜☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1995-03-31"
       },
       {
@@ -5287,12 +5305,12 @@
         "release_day": "1995-04-01"
       },
       {
-        "soft_title": "ヴァーチャルハイドライド",
+        "soft_title": "ヴァーチャルハイドライド☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "ロールプレイング",
         "release_day": "1995-04-28"
       },
       {
@@ -5935,7 +5953,7 @@
         "release_day": "1995-12-15"
       },
       {
-        "soft_title": "ちびまる子ちゃんの対戦ぱずるだま",
+        "soft_title": "ちびまる子ちゃんの対戦ぱずるだま☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -6808,6 +6826,15 @@
         "release_day": "1996-07-19"
       },
       {
+        "soft_title": "ときめきメモリアル〜forever with you〜☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1996-07-19"
+      },
+      {
         "soft_title": "麻雀狂時代セブアイランド'96",
         "collected_new": false,
         "collected_old": false,
@@ -7339,7 +7366,7 @@
         "release_day": "1996-11-15"
       },
       {
-        "soft_title": "プリクラ大作戦",
+        "soft_title": "プリクラ大作戦☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -8599,15 +8626,6 @@
         "release_day": "1997-07-04"
       },
       {
-        "soft_title": "ルナ シルバースターストーリーMPEG版",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1997-07-04"
-      },
-      {
         "soft_title": "アルバムクラブ胸キュン セントポーリア女学院",
         "collected_new": false,
         "collected_old": false,
@@ -8635,12 +8653,12 @@
         "release_day": "1997-07-11"
       },
       {
-        "soft_title": "サイドポケット3",
+        "soft_title": "サイドポケット3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
-        "game_category:": "",
+        "game_category": "スポーツ",
         "release_day": "1997-07-18"
       },
       {
@@ -11067,7 +11085,7 @@
         "release_day": "1999-07-29"
       },
       {
-        "soft_title": "ソウルキャリバー",
+        "soft_title": "ソウルキャリバー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -11472,7 +11490,7 @@
         "release_day": "1999-12-16"
       },
       {
-        "soft_title": "クリスマスシーマン 〜想いを伝えるもうひとつの方法〜",
+        "soft_title": "クリスマスシーマン 〜想いを伝えるもうひとつの方法〜☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -13976,6 +13994,15 @@
         "release_day": "1991-04-26"
       },
       {
+        "soft_title": "マッピー☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1991-05-24"
+      },
+      {
         "soft_title": "琉球",
         "collected_new": false,
         "collected_old": false,
@@ -14732,7 +14759,7 @@
         "release_day": "1995-01-27"
       },
       {
-        "soft_title": "美少女戦士セーラームーンS",
+        "soft_title": "美少女戦士セーラームーンS☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -14741,7 +14768,7 @@
         "release_day": "1995-01-27"
       },
       {
-        "soft_title": "クレヨンしんちゃん 対決!カンタムパニック!!",
+        "soft_title": "クレヨンしんちゃん 対決!カンタムパニック!!☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -14822,7 +14849,7 @@
         "release_day": "1995-04-28"
       },
       {
-        "soft_title": "スーパーコラムス",
+        "soft_title": "スーパーコラムス☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,

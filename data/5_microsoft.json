@@ -3,7 +3,7 @@
   "hardware_name": {
     "Xbox": [
       {
-        "soft_title": "デッド オア アライブ3",
+        "soft_title": "デッド オア アライブ3☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -39,7 +39,7 @@
         "release_day": "2002-02-22"
       },
       {
-        "soft_title": "JSRF ジェット セット ラジオ フューチャー",
+        "soft_title": "JSRF ジェット セット ラジオ フューチャー☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -93,7 +93,7 @@
         "release_day": "2002-03-21"
       },
       {
-        "soft_title": "HALO",
+        "soft_title": "HALO☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -507,7 +507,7 @@
         "release_day": "2003-06-12"
       },
       {
-        "soft_title": "ディノクライシス3",
+        "soft_title": "ディノクライシス3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1047,7 +1047,7 @@
         "release_day": "2004-11-11"
       },
       {
-        "soft_title": "HALO2",
+        "soft_title": "HALO2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1198,15 +1198,6 @@
         "dont_collect": false,
         "game_category": "シューティング",
         "release_day": "2005-06-30"
-      },
-      {
-        "soft_title": "Halo 2 マルチプレイヤー マップ パック",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
-        "release_day": "2005-07-07"
       },
       {
         "soft_title": "Sudeki 〜千年の暁の物語〜",
@@ -1382,7 +1373,7 @@
         "release_day": "2006-03-30"
       },
       {
-        "soft_title": "ザ・コンビニ200X",
+        "soft_title": "ザ・コンビニ200X☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1517,7 +1508,7 @@
         "release_day": "2006-09-28"
       },
       {
-        "soft_title": "デッドライジング",
+        "soft_title": "デッドライジング☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -1778,7 +1769,7 @@
         "release_day": "2007-09-06"
       },
       {
-        "soft_title": "Halo 3",
+        "soft_title": "Halo 3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1904,15 +1895,6 @@
         "release_day": "2007-12-13"
       },
       {
-        "soft_title": "ガンダム無双インターナショナル",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2007-12-27"
-      },
-      {
         "soft_title": "Battlestations: Midway",
         "collected_new": false,
         "collected_old": false,
@@ -2021,7 +2003,7 @@
         "release_day": "2008-07-24"
       },
       {
-        "soft_title": "トゥー・ヒューマン",
+        "soft_title": "トゥー・ヒューマン☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -2039,7 +2021,7 @@
         "release_day": "2008-09-11"
       },
       {
-        "soft_title": "インフィニット アンディスカバリー",
+        "soft_title": "インフィニット アンディスカバリー☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -2075,7 +2057,7 @@
         "release_day": "2008-10-23"
       },
       {
-        "soft_title": "ラスト レムナント",
+        "soft_title": "ラスト レムナント☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -2102,6 +2084,15 @@
         "release_day": "2008-11-27"
       },
       {
+        "soft_title": "Fallout 3☑",
+        "collected_new": false,
+        "collected_old": true,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "2008-12-04"
+      },
+      {
         "soft_title": "バンジョーとカズーイの大冒険 ガレージ大作戦",
         "collected_new": false,
         "collected_old": false,
@@ -2120,7 +2111,7 @@
         "release_day": "2008-12-18"
       },
       {
-        "soft_title": "Left 4 Dead",
+        "soft_title": "Left 4 Dead☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2156,7 +2147,7 @@
         "release_day": "2009-02-19"
       },
       {
-        "soft_title": "Halo Wars",
+        "soft_title": "Halo Wars☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2246,7 +2237,7 @@
         "release_day": "2009-09-17"
       },
       {
-        "soft_title": "Halo 3: ODST",
+        "soft_title": "Halo 3: ODST☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2264,7 +2255,7 @@
         "release_day": "2009-10-15"
       },
       {
-        "soft_title": "Forza Motorsport 3",
+        "soft_title": "Forza Motorsport 3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2282,7 +2273,7 @@
         "release_day": "2009-11-05"
       },
       {
-        "soft_title": "Left 4 Dead 2",
+        "soft_title": "Left 4 Dead 2☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -2507,7 +2498,7 @@
         "release_day": "2010-07-29"
       },
       {
-        "soft_title": "Halo:Reach",
+        "soft_title": "Halo:Reach☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2516,7 +2507,7 @@
         "release_day": "2010-09-15"
       },
       {
-        "soft_title": "デッドライジング2",
+        "soft_title": "デッドライジング2☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -2559,6 +2550,15 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2010-10-28"
+      },
+      {
+        "soft_title": "Fallout: New Vegas☑",
+        "collected_new": false,
+        "collected_old": true,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "2010-11-04"
       },
       {
         "soft_title": "Kinect スポーツ",
@@ -2642,7 +2642,7 @@
         "release_day": "2010-12-09"
       },
       {
-        "soft_title": "DECA SPORTA FREEDOM",
+        "soft_title": "DECA SPORTA FREEDOM☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2831,7 +2831,7 @@
         "release_day": "2011-09-29"
       },
       {
-        "soft_title": "Crysis",
+        "soft_title": "Crysis☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2867,7 +2867,7 @@
         "release_day": "2011-10-13"
       },
       {
-        "soft_title": "Forza Motorsport 4",
+        "soft_title": "Forza Motorsport 4☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3119,7 +3119,7 @@
         "release_day": "2012-10-18"
       },
       {
-        "soft_title": "Forza Horizon",
+        "soft_title": "Forza Horizon☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3137,7 +3137,7 @@
         "release_day": "2012-10-25"
       },
       {
-        "soft_title": "Halo 4",
+        "soft_title": "Halo 4☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3189,6 +3189,15 @@
         "dont_collect": false,
         "game_category:": "",
         "release_day": "2013-03-21"
+      },
+      {
+        "soft_title": "バイオハザード リベレーションズ アンベールド エディション☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "2013-05-23"
       },
       {
         "soft_title": "シューティングラブ。10周年 〜XIIZEAL & ⊿ZEAL〜",
@@ -3346,7 +3355,7 @@
         "release_day": "2014-09-04"
       },
       {
-        "soft_title": "デッドライジング3",
+        "soft_title": "デッドライジング3☑",
         "collected_new": true,
         "collected_old": true,
         "game_cleared": true,
@@ -3355,7 +3364,7 @@
         "release_day": "2014-09-04"
       },
       {
-        "soft_title": "Forza Motorsport 5",
+        "soft_title": "Forza Motorsport 5☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3382,7 +3391,7 @@
         "release_day": "2014-09-04"
       },
       {
-        "soft_title": "Forza Horizon 2",
+        "soft_title": "Forza Horizon 2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3463,7 +3472,7 @@
         "release_day": "2015-08-06"
       },
       {
-        "soft_title": "Forza Motorsport 6",
+        "soft_title": "Forza Motorsport 6☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3472,13 +3481,22 @@
         "release_day": "2015-09-17"
       },
       {
-        "soft_title": "Halo 5: Guardians",
+        "soft_title": "Halo 5: Guardians☑",
         "collected_new": true,
         "collected_old": false,
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "シューティング",
         "release_day": "2015-10-29"
+      },
+      {
+        "soft_title": "Fallout 4☑",
+        "collected_new": false,
+        "collected_old": true,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "2015-12-17"
       },
       {
         "soft_title": "Quantum Break",
@@ -3499,7 +3517,7 @@
         "release_day": "2016-06-16"
       },
       {
-        "soft_title": "Forza Horizon 3",
+        "soft_title": "Forza Horizon 3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3517,16 +3535,7 @@
         "release_day": "2016-10-28"
       },
       {
-        "soft_title": "デッドライジング4",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "2016-12-08"
-      },
-      {
-        "soft_title": "Halo Wars 2",
+        "soft_title": "Halo Wars 2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3562,7 +3571,7 @@
         "release_day": "2017-08-31"
       },
       {
-        "soft_title": "Forza Motorsport 7",
+        "soft_title": "Forza Motorsport 7☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3589,7 +3598,7 @@
         "release_day": "2017-11-07"
       },
       {
-        "soft_title": "Forza Horizon 4",
+        "soft_title": "Forza Horizon 4☑",
         "collected_new": true,
         "collected_old": true,
         "game_cleared": false,
@@ -3636,7 +3645,7 @@
         "release_day": "2021-10-26"
       },
       {
-        "soft_title": "Forza Horizon 5",
+        "soft_title": "Forza Horizon 5☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3645,7 +3654,7 @@
         "release_day": "2021-11-09"
       },
       {
-        "soft_title": "Halo Infinite",
+        "soft_title": "Halo Infinite☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3663,7 +3672,7 @@
         "release_day": "2023-04-19"
       },
       {
-        "soft_title": "Forza Motorsport（フォルツァ モータースポーツ）",
+        "soft_title": "Forza Motorsport（フォルツァ モータースポーツ）☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,

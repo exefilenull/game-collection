@@ -444,7 +444,7 @@
         "release_day": "1989-08-25"
       },
       {
-        "soft_title": "ロック・オン",
+        "soft_title": "ロック・オン☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -615,7 +615,7 @@
         "release_day": "1989-12-08"
       },
       {
-        "soft_title": "PC原人",
+        "soft_title": "PC原人☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -966,7 +966,7 @@
         "release_day": "1990-06-29"
       },
       {
-        "soft_title": "ゼビウス ファードラウト伝説",
+        "soft_title": "ゼビウス ファードラウト伝説☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1506,6 +1506,15 @@
         "release_day": "1991-04-27"
       },
       {
+        "soft_title": "ハットリス☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "パズル",
+        "release_day": "1991-05-24"
+      },
+      {
         "soft_title": "パワーイレブン",
         "collected_new": false,
         "collected_old": false,
@@ -1551,7 +1560,7 @@
         "release_day": "1991-07-12"
       },
       {
-        "soft_title": "PC原人2",
+        "soft_title": "PC原人2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1812,7 +1821,7 @@
         "release_day": "1991-12-27"
       },
       {
-        "soft_title": "冒険男爵ドン サン=ハート編",
+        "soft_title": "冒険男爵ドン サン=ハート編☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -1821,7 +1830,7 @@
         "release_day": "1992-01-04"
       },
       {
-        "soft_title": "ちびまる子ちゃん クイズでピーヒャラ",
+        "soft_title": "ちびまる子ちゃん クイズでピーヒャラ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1938,7 +1947,7 @@
         "release_day": "1992-11-13"
       },
       {
-        "soft_title": "PC原人シリーズ PC電人Air Zonk",
+        "soft_title": "PC原人シリーズ PC電人☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2001,7 +2010,7 @@
         "release_day": "1993-02-19"
       },
       {
-        "soft_title": "PC原人3Bonk 3: Bonk's Big アドベンチャーenture",
+        "soft_title": "PC原人3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2829,7 +2838,7 @@
         "release_day": "1991-10-25"
       },
       {
-        "soft_title": "ポピュラス ザ・プロミストランド",
+        "soft_title": "ポピュラス ザ・プロミストランド☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3873,7 +3882,7 @@
         "release_day": "1993-04-23"
       },
       {
-        "soft_title": "A列車で行こうIII",
+        "soft_title": "A列車で行こうIII☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
