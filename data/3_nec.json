@@ -93,7 +93,7 @@
         "release_day": "1988-07-08"
       },
       {
-        "soft_title": "ギャラガ'88",
+        "soft_title": "ギャラガ'88☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -352,6 +352,15 @@
         "dont_collect": false,
         "game_category": "スポーツ",
         "release_day": "1989-05-30"
+      },
+      {
+        "soft_title": "パックランド☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1989-06-01"
       },
       {
         "soft_title": "わいわい麻雀 ゆかいな雀友たち",
@@ -777,7 +786,7 @@
         "release_day": "1990-03-02"
       },
       {
-        "soft_title": "スペースインベーダーズ 復活の日",
+        "soft_title": "スペースインベーダーズ 復活の日☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1900,6 +1909,15 @@
         "dont_collect": false,
         "game_category": "アクション",
         "release_day": "1992-04-07"
+      },
+      {
+        "soft_title": "ドルアーガの塔☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1992-06-25"
       },
       {
         "soft_title": "ソルジャーブレイド",
@@ -3252,7 +3270,7 @@
         "release_day": "1992-04-02"
       },
       {
-        "soft_title": "超時空要塞マクロス2036",
+        "soft_title": "超時空要塞マクロス2036☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3540,7 +3558,7 @@
         "release_day": "1992-12-04"
       },
       {
-        "soft_title": "超時空要塞マクロス 永遠のラヴソング",
+        "soft_title": "超時空要塞マクロス 永遠のラヴソング☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4888,6 +4906,15 @@
         "dont_collect": false,
         "game_category": "アドベンチャー",
         "release_day": "1995-06-30"
+      },
+      {
+        "soft_title": "スペースインベーダー ジ・オリジナルゲーム☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "シューティング",
+        "release_day": "1995-07-28"
       },
       {
         "soft_title": "百物語〜ほんとにあった怖い話〜",

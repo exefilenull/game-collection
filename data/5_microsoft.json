@@ -3056,7 +3056,7 @@
         "release_day": "2012-06-21"
       },
       {
-        "soft_title": "ウィッチャー2",
+        "soft_title": "ウィッチャー2☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -3515,6 +3515,15 @@
         "dont_collect": false,
         "game_category": "アドベンチャー",
         "release_day": "2016-06-16"
+      },
+      {
+        "soft_title": "ウィッチャー3 ワイルドハント☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "2016-09-01"
       },
       {
         "soft_title": "Forza Horizon 3☑",

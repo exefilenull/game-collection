@@ -264,7 +264,7 @@
         "release_day": "1985-01-22"
       },
       {
-        "soft_title": "アイスクライマー",
+        "soft_title": "アイスクライマー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -273,7 +273,7 @@
         "release_day": "1985-01-30"
       },
       {
-        "soft_title": "エクセリオン",
+        "soft_title": "エクセリオン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -282,7 +282,7 @@
         "release_day": "1985-02-11"
       },
       {
-        "soft_title": "バンゲリング ベイ",
+        "soft_title": "バンゲリング ベイ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -291,7 +291,7 @@
         "release_day": "1985-02-15"
       },
       {
-        "soft_title": "ギャラガ",
+        "soft_title": "ギャラガ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -300,7 +300,7 @@
         "release_day": "1985-02-15"
       },
       {
-        "soft_title": "ファミリーベーシックV3",
+        "soft_title": "ファミリーベーシックV3☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -309,7 +309,7 @@
         "release_day": "1985-02-21"
       },
       {
-        "soft_title": "フォーメーションZ",
+        "soft_title": "フォーメーションZ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -327,16 +327,7 @@
         "release_day": "1985-04-09"
       },
       {
-        "soft_title": "チャンピオンシップロードランナー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "パズル",
-        "release_day": "1985-04-17"
-      },
-      {
-        "soft_title": "イー・アル・カンフー",
+        "soft_title": "イー・アル・カンフー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -345,7 +336,7 @@
         "release_day": "1985-04-22"
       },
       {
-        "soft_title": "けっきょく南極大冒険",
+        "soft_title": "けっきょく南極大冒険☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -354,7 +345,7 @@
         "release_day": "1985-04-22"
       },
       {
-        "soft_title": "忍者くん 魔城の冒険",
+        "soft_title": "忍者くん 魔城の冒険☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -363,7 +354,7 @@
         "release_day": "1985-05-10"
       },
       {
-        "soft_title": "ちゃっくんぽっぷ",
+        "soft_title": "ちゃっくんぽっぷ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -372,7 +363,7 @@
         "release_day": "1985-05-24"
       },
       {
-        "soft_title": "ディグダグ",
+        "soft_title": "ディグダグ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -390,7 +381,16 @@
         "release_day": "1985-06-21"
       },
       {
-        "soft_title": "スターフォース",
+        "soft_title": "ハイパーオリンピック☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1985-06-21"
+      },
+      {
+        "soft_title": "スターフォース☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -399,7 +399,16 @@
         "release_day": "1985-06-25"
       },
       {
-        "soft_title": "フィールドコンバット",
+        "soft_title": "エレベーターアクション☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1985-06-28"
+      },
+      {
+        "soft_title": "フィールドコンバット☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -408,7 +417,7 @@
         "release_day": "1985-07-09"
       },
       {
-        "soft_title": "ロードファイター",
+        "soft_title": "ロードファイター☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -417,7 +426,7 @@
         "release_day": "1985-07-11"
       },
       {
-        "soft_title": "ワープマン",
+        "soft_title": "ワープマン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -426,7 +435,7 @@
         "release_day": "1985-07-12"
       },
       {
-        "soft_title": "ジッピーレース",
+        "soft_title": "ジッピーレース☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -435,7 +444,7 @@
         "release_day": "1985-07-18"
       },
       {
-        "soft_title": "ドアドア",
+        "soft_title": "ドアドア☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -444,7 +453,7 @@
         "release_day": "1985-07-18"
       },
       {
-        "soft_title": "スーパーアラビアン",
+        "soft_title": "スーパーアラビアン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -453,7 +462,7 @@
         "release_day": "1985-07-25"
       },
       {
-        "soft_title": "ブロックセット",
+        "soft_title": "ブロックセット☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -462,7 +471,7 @@
         "release_day": "1985-07-26"
       },
       {
-        "soft_title": "フロントライン",
+        "soft_title": "フロントライン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -471,16 +480,7 @@
         "release_day": "1985-08-01"
       },
       {
-        "soft_title": "ドルアーガの塔",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "アクション",
-        "release_day": "1985-08-06"
-      },
-      {
-        "soft_title": "アストロロボSASA",
+        "soft_title": "アストロロボSASA☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -498,7 +498,7 @@
         "release_day": "1985-08-10"
       },
       {
-        "soft_title": "ジャイロセット",
+        "soft_title": "ジャイロセット☑",
         "collected_new": false,
         "collected_old": true,
         "game_cleared": false,
@@ -507,7 +507,7 @@
         "release_day": "1985-08-13"
       },
       {
-        "soft_title": "ゲイモス",
+        "soft_title": "ゲイモス☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -516,7 +516,7 @@
         "release_day": "1985-08-28"
       },
       {
-        "soft_title": "10ヤードファイト",
+        "soft_title": "10ヤードファイト☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -525,7 +525,7 @@
         "release_day": "1985-08-30"
       },
       {
-        "soft_title": "バトルシティー",
+        "soft_title": "バトルシティー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -543,7 +543,7 @@
         "release_day": "1985-09-13"
       },
       {
-        "soft_title": "プーヤン",
+        "soft_title": "プーヤン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -561,7 +561,7 @@
         "release_day": "1985-09-27"
       },
       {
-        "soft_title": "シティコネクション",
+        "soft_title": "シティコネクション☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -570,7 +570,7 @@
         "release_day": "1985-09-27"
       },
       {
-        "soft_title": "ルート16ターボ",
+        "soft_title": "ルート16ターボ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -579,7 +579,7 @@
         "release_day": "1985-10-04"
       },
       {
-        "soft_title": "チャレンジャー",
+        "soft_title": "チャレンジャー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -588,7 +588,7 @@
         "release_day": "1985-10-15"
       },
       {
-        "soft_title": "キン肉マン マッスルタッグマッチ",
+        "soft_title": "キン肉マン マッスルタッグマッチ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -597,7 +597,7 @@
         "release_day": "1985-11-08"
       },
       {
-        "soft_title": "スカイデストロイヤー",
+        "soft_title": "スカイデストロイヤー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -606,7 +606,7 @@
         "release_day": "1985-11-14"
       },
       {
-        "soft_title": "忍者じゃじゃ丸くん",
+        "soft_title": "忍者じゃじゃ丸くん☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -615,7 +615,7 @@
         "release_day": "1985-11-15"
       },
       {
-        "soft_title": "マッハライダー",
+        "soft_title": "マッハライダー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -624,7 +624,7 @@
         "release_day": "1985-11-21"
       },
       {
-        "soft_title": "おにゃんこTOWN",
+        "soft_title": "おにゃんこTOWN☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -633,7 +633,7 @@
         "release_day": "1985-11-21"
       },
       {
-        "soft_title": "パックランド",
+        "soft_title": "パチコン☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -642,16 +642,7 @@
         "release_day": "1985-11-21"
       },
       {
-        "soft_title": "パチコン",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "1985-11-21"
-      },
-      {
-        "soft_title": "いっき",
+        "soft_title": "いっき☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -660,7 +651,7 @@
         "release_day": "1985-11-28"
       },
       {
-        "soft_title": "ポートピア連続殺人事件",
+        "soft_title": "ポートピア連続殺人事件☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -669,7 +660,16 @@
         "release_day": "1985-11-29"
       },
       {
-        "soft_title": "ルナーボール",
+        "soft_title": "ルナーボール☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1985-12-05"
+      },
+      {
+        "soft_title": "カラテカ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -687,7 +687,7 @@
         "release_day": "1985-12-06"
       },
       {
-        "soft_title": "スペランカー",
+        "soft_title": "スペランカー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -696,7 +696,7 @@
         "release_day": "1985-12-07"
       },
       {
-        "soft_title": "高機動戦闘メカ ヴォルガードII",
+        "soft_title": "高機動戦闘メカ ヴォルガードII☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -705,7 +705,7 @@
         "release_day": "1985-12-07"
       },
       {
-        "soft_title": "超時空要塞マクロス",
+        "soft_title": "超時空要塞マクロス☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -714,7 +714,7 @@
         "release_day": "1985-12-10"
       },
       {
-        "soft_title": "1942",
+        "soft_title": "1942☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -723,7 +723,7 @@
         "release_day": "1985-12-11"
       },
       {
-        "soft_title": "ダウボーイ",
+        "soft_title": "ダウボーイ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -732,7 +732,7 @@
         "release_day": "1985-12-11"
       },
       {
-        "soft_title": "頭脳戦艦ガル",
+        "soft_title": "頭脳戦艦ガル☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -741,7 +741,7 @@
         "release_day": "1985-12-14"
       },
       {
-        "soft_title": "ボコスカウォーズ",
+        "soft_title": "ボコスカウォーズ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -939,7 +939,7 @@
         "release_day": "1986-04-18"
       },
       {
-        "soft_title": "ディグダグII",
+        "soft_title": "ディグダグII☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -1128,7 +1128,7 @@
         "release_day": "1986-08-22"
       },
       {
-        "soft_title": "じゃじゃ丸の大冒険",
+        "soft_title": "じゃじゃ丸の大冒険☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -2127,7 +2127,7 @@
         "release_day": "1987-09-11"
       },
       {
-        "soft_title": "スペランカーII 勇者への挑戦",
+        "soft_title": "スペランカーII 勇者への挑戦☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -4071,7 +4071,7 @@
         "release_day": "1989-03-24"
       },
       {
-        "soft_title": "じゃじゃ丸忍法帳",
+        "soft_title": "じゃじゃ丸忍法帳☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -5493,7 +5493,7 @@
         "release_day": "1990-05-25"
       },
       {
-        "soft_title": "じゃじゃ丸撃魔伝 幻の金魔城",
+        "soft_title": "じゃじゃ丸撃魔伝 幻の金魔城☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -6708,7 +6708,7 @@
         "release_day": "1991-03-29"
       },
       {
-        "soft_title": "忍者じゃじゃ丸〜銀河大作戦〜",
+        "soft_title": "忍者じゃじゃ丸〜銀河大作戦〜☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -10292,7 +10292,7 @@
         "release_day": "1992-08-11"
       },
       {
-        "soft_title": "キン肉マン DIRTY CHALLENGER",
+        "soft_title": "キン肉マン DIRTY CHALLENGER☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -12749,7 +12749,7 @@
         "release_day": "1993-10-29"
       },
       {
-        "soft_title": "超時空要塞マクロス スクランブルバルキリー",
+        "soft_title": "超時空要塞マクロス スクランブルバルキリー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -18995,7 +18995,7 @@
         "release_day": "1995-09-29"
       },
       {
-        "soft_title": "魔法騎士レイアース",
+        "soft_title": "魔法騎士レイアース☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -21650,7 +21650,7 @@
         "release_day": "1997-12-19"
       },
       {
-        "soft_title": "レッキングクルー'98",
+        "soft_title": "レッキングクルー'98☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -24284,7 +24284,7 @@
         "release_day": "2002-11-21"
       },
       {
-        "soft_title": "キン肉マンII世 新世代超人VS伝説超人",
+        "soft_title": "キン肉マンII世 新世代超人VS伝説超人☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -32327,7 +32327,7 @@
         "release_day": "2017-04-18"
       },
       {
-        "soft_title": "みんなでワイワイ！スペランカー",
+        "soft_title": "みんなでワイワイ！スペランカー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -34064,15 +34064,6 @@
         "release_day": "2018-12-20"
       },
       {
-        "soft_title": "鬼武者",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2018-12-20"
-      },
-      {
         "soft_title": "2064: Read Only Memories INTEGRAL",
         "collected_new": false,
         "collected_old": false,
@@ -35450,15 +35441,6 @@
         "release_day": "2019-10-16"
       },
       {
-        "soft_title": "ウィッチャー3 ワイルドハント コンプリートエディション",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-10-17"
-      },
-      {
         "soft_title": "リトルタウンヒーロー",
         "collected_new": false,
         "collected_old": false,
@@ -35784,15 +35766,6 @@
       },
       {
         "soft_title": "メガクアリウム",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2019-12-12"
-      },
-      {
-        "soft_title": "忍者じゃじゃ丸 コレクション",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -38627,7 +38600,7 @@
         "release_day": "2021-07-15"
       },
       {
-        "soft_title": "元祖みんなでスペランカー",
+        "soft_title": "元祖みんなでスペランカー☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -47035,7 +47008,7 @@
         "release_day": "1989-12-28"
       },
       {
-        "soft_title": "マスターカラテカ",
+        "soft_title": "マスターカラテカ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -47171,6 +47144,15 @@
       },
       {
         "soft_title": "ぺんぎんくんWARS vs.",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "1990-03-30"
+      },
+      {
+        "soft_title": "スペースインベーダーズ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -47620,7 +47602,7 @@
         "release_day": "1990-09-21"
       },
       {
-        "soft_title": "おいらじゃじゃ丸!世界大冒険",
+        "soft_title": "おいらじゃじゃ丸!世界大冒険☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -48106,7 +48088,7 @@
         "release_day": "1991-02-08"
       },
       {
-        "soft_title": "バーガータイム・デラックス",
+        "soft_title": "バーガータイム・デラックス☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -48619,6 +48601,15 @@
         "release_day": "1991-08-03"
       },
       {
+        "soft_title": "エレベーターアクション☑",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category": "アクション",
+        "release_day": "1991-08-09"
+      },
+      {
         "soft_title": "ネメシスII",
         "collected_new": false,
         "collected_old": false,
@@ -48634,15 +48625,6 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
-        "release_day": "1991-08-09"
-      },
-      {
-        "soft_title": "バトルシティー",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category": "シューティング",
         "release_day": "1991-08-09"
       },
       {
@@ -49591,7 +49573,7 @@
         "release_day": "1992-09-04"
       },
       {
-        "soft_title": "キン肉マン ザ☆ドリームマッチ",
+        "soft_title": "キン肉マン ザ☆ドリームマッチ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -51796,7 +51778,7 @@
         "release_day": "1995-05-26"
       },
       {
-        "soft_title": "魔法騎士レイアース",
+        "soft_title": "魔法騎士レイアース☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -51985,7 +51967,7 @@
         "release_day": "1995-10-27"
       },
       {
-        "soft_title": "魔法騎士レイアース2nd ミッシングカラーズ",
+        "soft_title": "魔法騎士レイアース2nd ミッシングカラーズ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -54417,7 +54399,7 @@
         "release_day": "1999-06-25"
       },
       {
-        "soft_title": "ハイパーオリンピックシリーズ トラック&フィールドGB",
+        "soft_title": "ハイパーオリンピックシリーズ トラック&フィールドGB☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -55227,7 +55209,7 @@
         "release_day": "2000-01-15"
       },
       {
-        "soft_title": "ハイパーオリンピック ウィンター2000",
+        "soft_title": "ハイパーオリンピック ウィンター2000☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -56262,15 +56244,6 @@
         "release_day": "2000-09-28"
       },
       {
-        "soft_title": "スペースインベーダーX",
-        "collected_new": false,
-        "collected_old": false,
-        "game_cleared": false,
-        "dont_collect": false,
-        "game_category:": "",
-        "release_day": "2000-09-29"
-      },
-      {
         "soft_title": "ソロモン",
         "collected_new": false,
         "collected_old": false,
@@ -56281,6 +56254,15 @@
       },
       {
         "soft_title": "牧場物語GB3 ボーイ・ミーツ・ガール",
+        "collected_new": false,
+        "collected_old": false,
+        "game_cleared": false,
+        "dont_collect": false,
+        "game_category:": "",
+        "release_day": "2000-09-29"
+      },
+      {
+        "soft_title": "エレベーターアクションEX☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -56883,7 +56865,7 @@
         "release_day": "2001-02-22"
       },
       {
-        "soft_title": "フロントライン The Next Mission",
+        "soft_title": "フロントライン The Next Mission☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -60737,7 +60719,7 @@
         "release_day": "2002-12-06"
       },
       {
-        "soft_title": "キン肉マンII世 正義超人への道",
+        "soft_title": "キン肉マンII世 正義超人への道☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -60971,7 +60953,7 @@
         "release_day": "2002-12-20"
       },
       {
-        "soft_title": "エレベーターアクション OLD&NEW",
+        "soft_title": "エレベーターアクション OLD&NEW☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -62834,7 +62816,7 @@
         "release_day": "2004-05-27"
       },
       {
-        "soft_title": "じゃじゃ丸Jr.伝承記 ジャレコレもあり候",
+        "soft_title": "じゃじゃ丸Jr.伝承記 ジャレコレもあり候☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -65257,7 +65239,7 @@
         "release_day": "2004-09-08"
       },
       {
-        "soft_title": "ディグダグ ディギング ストライク",
+        "soft_title": "ディグダグ ディギング ストライク☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
@@ -84600,7 +84582,7 @@
         "release_day": "2013-06-20"
       },
       {
-        "soft_title": "忍者じゃじゃ丸くん さくら姫と火竜のひみつ",
+        "soft_title": "忍者じゃじゃ丸くん さくら姫と火竜のひみつ☑",
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
