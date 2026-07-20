@@ -51,6 +51,21 @@
         .highlight-both {
             background-color: #5286f7;
         }
+
+        .controls-container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .controls-container label {
+            margin: 0 10px;
+        }
+
+        .controls-container select {
+            padding: 4px 8px;
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
 
@@ -58,6 +73,23 @@
     <h1 id="hardware-title">ハードウェア詳細</h1>
     <div class="chart-container">
         <canvas id="hardwareChart"></canvas>
+    </div>
+
+    <div class="controls-container" id="sort-controls">
+        <label for="sort-key-select">並び替え項目:</label>
+        <select id="sort-key-select">
+            <option value="title">タイトル</option>
+            <option value="release_day" selected>発売日</option>
+            <option value="genre">ジャンル</option>
+            <option value="collected">収集状況</option>
+            <option value="favorite">お気に入り</option>
+        </select>
+
+        <label for="sort-order-select">順序:</label>
+        <select id="sort-order-select">
+            <option value="asc" selected>昇順</option>
+            <option value="desc">降順</option>
+        </select>
     </div>
 
     <table id="game-table">
@@ -105,8 +137,16 @@
         let originalFavorite = {};
         let sourceJsonFile = null;
         const saveBtn = document.getElementById('saveBtn');
+        const sortKeySelect = document.getElementById('sort-key-select');
+        const sortOrderSelect = document.getElementById('sort-order-select');
 
         if (saveBtn) saveBtn.disabled = true;
+
+        function applySort() {
+        }
+
+        if (sortKeySelect) sortKeySelect.addEventListener('change', applySort);
+        if (sortOrderSelect) sortOrderSelect.addEventListener('change', applySort);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
