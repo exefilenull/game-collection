@@ -142,11 +142,47 @@
 
         if (saveBtn) saveBtn.disabled = true;
 
-        function applySort() {
+        // ソートキーごとの比較ロジック(収集状況は複合スコアで判定)
+        function compareGames(a, b, key) {
+            switch (key) {
+                case 'title':
+                    return (a.soft_title || '').localeCompare(b.soft_title || '');
+                case 'genre':
+                    return (a.game_category || '').localeCompare(b.game_category || '');
+                case 'collected': {
+                    // 収集状況の複合スコア: 新品・中古どちらも収集済み(2点) > いずれか一方収集済み(1点) > 未収集(0点)
+                    const scoreA = (a.collected_new ? 1 : 0) + (a.collected_old ? 1 : 0);
+                    const scoreB = (b.collected_new ? 1 : 0) + (b.collected_old ? 1 : 0);
+                    return scoreA - scoreB;
+                }
+                case 'favorite': {
+                    const favA = a.favorite ? 1 : 0;
+                    const favB = b.favorite ? 1 : 0;
+                    return favA - favB;
+                }
+                case 'release_day':
+                default:
+                    return new Date(a.release_day) - new Date(b.release_day);
+            }
         }
 
-        if (sortKeySelect) sortKeySelect.addEventListener('change', applySort);
-        if (sortOrderSelect) sortOrderSelect.addEventListener('change', applySort);
+        // currentGamesを破壊的に変更せず、選択中のソートキー/順序で並び替えた新しい配列を返す
+        function applySort(games) {
+            const key = sortKeySelect ? sortKeySelect.value : 'release_day';
+            const order = sortOrderSelect ? sortOrderSelect.value : 'asc';
+            const direction = order === 'desc' ? -1 : 1;
+
+            return [...games].sort((a, b) => direction * compareGames(a, b, key));
+        }
+
+        // currentGames(真実の源)からソート済みビューを生成してテーブルを再描画する(イベントもdisplayTable内で再バインドされる)
+        function renderSortedTable() {
+            const sortedView = applySort(currentGames);
+            displayTable(sortedView);
+        }
+
+        if (sortKeySelect) sortKeySelect.addEventListener('change', renderSortedTable);
+        if (sortOrderSelect) sortOrderSelect.addEventListener('change', renderSortedTable);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -171,7 +207,7 @@
                     });
 
                     displayChart(games);
-                    displayTable(games);
+                    renderSortedTable(); // 既定ソート(発売日昇順、UIのselected属性と一致)を適用して初回描画
 
                     if (saveBtn) {
                         saveBtn.disabled = true;
@@ -245,8 +281,7 @@
             const tbody = document.querySelector('#game-table tbody');
             tbody.innerHTML = '';
 
-            games.sort((a, b) => new Date(a.release_day) - new Date(b.release_day));
-
+            // ソートは呼び出し元(renderSortedTable→applySort)の責務。ここでは受け取った順序をそのまま描画する。
             games.forEach(game => {
                 const row = document.createElement('tr');
                 row.classList.remove('highlight', 'highlight-new', 'highlight-old', 'highlight-both');
