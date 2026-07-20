@@ -1,6 +1,6 @@
 # Implementation Plan
 
-- [ ] 1. Foundation: 共有データアクセスモジュールの抽出と統合
+- [x] 1. Foundation: 共有データアクセスモジュールの抽出と統合
 - [x] 1.1 データ取得・GitHub保存・エスケープ処理を共有モジュールに抽出する
   - hardware_detail.htmlのインライン実装(jsonFiles配列、saveToGitHub関数、escapeHtml関数)をscripts/data-store.jsに移動する
   - fetchAllCategoryData、saveToGitHub、escapeHtmlとして呼び出せる形にする
@@ -14,7 +14,7 @@
   - _Requirements: 4.1_
   - _Boundary: HardwareDetailPage, DataStoreModule_
 
-- [ ] 2. Core: お気に入り機能
+- [x] 2. Core: お気に入り機能
 - [x] 2.1 お気に入りの表示と既定値処理を追加する
   - 各ゲーム行にお気に入り状態を示すセルを追加する
   - favoriteフィールドが存在しないゲームは非お気に入りとして表示する
@@ -36,7 +36,7 @@
   - _Boundary: HardwareDetailPage, DataStoreModule_
   - _Depends: 1.2_
 
-- [ ] 3. Core: ソート機能
+- [x] 3. Core: ソート機能
 - [x] 3.1 ソートキー・順序の選択UIを追加する
   - タイトル/発売日/ジャンル/収集状況/お気に入りを選択できるコントロールと、昇順/降順を切り替えるコントロールを追加する
   - 観測可能な完了条件: 初期表示でソートUIが表示され、既定値(発売日昇順)が選択された状態になる
@@ -50,7 +50,7 @@
   - _Boundary: HardwareDetailPage_
   - _Depends: 3.1_
 
-- [ ] 4. Core: 絞り込み機能
+- [x] 4. Core: 絞り込み機能
 - [x] 4.1 絞り込み条件の選択UIを追加する
   - 収集状況(すべて/収集済み/未収集)、クリア状況(すべて/クリア済み/未クリア)のセレクトと、収集不要のみ・お気に入りのみのチェックボックスを追加する
   - 観測可能な完了条件: 初期表示で絞り込みUIが表示され、既定で「絞り込み無し」が選択されている
@@ -73,7 +73,7 @@
   - _Boundary: HardwareDetailPage_
   - _Depends: 4.2_
 
-- [ ] 5. Core: ブラウザ内設定の永続化
+- [x] 5. Core: ブラウザ内設定の永続化
 - [x] 5.1 設定の読み書きヘルパーとフォールバックを実装する
   - ソートキー・順序・絞り込み条件を単一のブラウザローカルキーに保存/読み込みするヘルパーを実装し、ストレージ利用不可・不正値の場合は既定値にフォールバックする
   - 観測可能な完了条件: 保存キーに不正な値を書き込んだ状態でページを再読み込みしても既定のソート・絞り込み状態になる(エラーにならない)
@@ -88,7 +88,7 @@
   - _Boundary: HardwareDetailPage, PreferenceStore_
   - _Depends: 5.1_
 
-- [ ] 6. Integration & Validation
+- [x] 6. Integration & Validation
 - [x] 6.1 既存編集・保存機能の非破壊性を回帰確認する
   - 収集済み(新品/中古)・収集不要・クリア済みの表示・編集・保存が変更前と同じ挙動であることを確認する
   - お気に入りと既存フィールドの変更を1回の保存操作でまとめて保存できることを確認する
