@@ -1,0 +1,22 @@
+{
+  "feature_name": "game-favorites-filters",
+  "created_at": "2026-07-20T14:02:02Z",
+  "updated_at": "2026-07-21T01:30:00Z",
+  "language": "ja",
+  "phase": "implemented",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true
+}
