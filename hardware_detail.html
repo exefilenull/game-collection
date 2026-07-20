@@ -140,6 +140,101 @@
     <button class="save-button" id="saveBtn">GitHubに保存</button>
 
     <script>
+        // ソート・絞り込み設定をブラウザに保存/復元する永続化ヘルパー
+        // (design.md #PreferenceStore: DOM操作を行わず、currentGames等のページ固有の状態を保持しない)
+        const PreferenceStore = (function () {
+            const STORAGE_KEY = 'gameCollectionHardwareDetailPreference';
+
+            // 記憶された値が存在しない・不正な場合のフォールバック先(2.5, 3.6)
+            const DEFAULT_PREFERENCE = {
+                sortKey: 'release_day',
+                sortOrder: 'asc',
+                filters: {
+                    collectionStatus: 'all',
+                    clearStatus: 'all',
+                    dontCollectOnly: false,
+                    favoriteOnly: false
+                }
+            };
+
+            // #sort-key-select / #sort-order-select / #filter-collected-select / #filter-cleared-select の
+            // option value属性と一致させる(hardware_detail.htmlのUI定義を単一の真実の源とする)
+            const VALID_SORT_KEYS = ['title', 'release_day', 'genre', 'collected', 'favorite'];
+            const VALID_SORT_ORDERS = ['asc', 'desc'];
+            const VALID_COLLECTION_STATUS = ['all', 'collected', 'uncollected'];
+            const VALID_CLEAR_STATUS = ['all', 'cleared', 'uncleared'];
+
+            function cloneDefault() {
+                return {
+                    sortKey: DEFAULT_PREFERENCE.sortKey,
+                    sortOrder: DEFAULT_PREFERENCE.sortOrder,
+                    filters: {
+                        collectionStatus: DEFAULT_PREFERENCE.filters.collectionStatus,
+                        clearStatus: DEFAULT_PREFERENCE.filters.clearStatus,
+                        dontCollectOnly: DEFAULT_PREFERENCE.filters.dontCollectOnly,
+                        favoriteOnly: DEFAULT_PREFERENCE.filters.favoriteOnly
+                    }
+                };
+            }
+
+            // 保存値の形状・既知の値との一致を検証する。1つでも不一致なら不正値として扱う
+            function isValidPreferenceShape(value) {
+                if (!value || typeof value !== 'object') return false;
+                if (VALID_SORT_KEYS.indexOf(value.sortKey) === -1) return false;
+                if (VALID_SORT_ORDERS.indexOf(value.sortOrder) === -1) return false;
+
+                const filters = value.filters;
+                if (!filters || typeof filters !== 'object') return false;
+                if (VALID_COLLECTION_STATUS.indexOf(filters.collectionStatus) === -1) return false;
+                if (VALID_CLEAR_STATUS.indexOf(filters.clearStatus) === -1) return false;
+                if (typeof filters.dontCollectOnly !== 'boolean') return false;
+                if (typeof filters.favoriteOnly !== 'boolean') return false;
+
+                return true;
+            }
+
+            // 単一のブラウザローカルキーにJSON文字列化して保存する。
+            // localStorageが利用できない環境(プライベートブラウジング等)では例外を吸収し、何もしない
+            function save(preference) {
+                try {
+                    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(preference));
+                } catch (error) {
+                    // ストレージ利用不可時は静かに諦める(design.md Error Handling: ユーザー通知は行わない)
+                }
+            }
+
+            // 保存されたJSONを読み込み、パースして返す。
+            // ストレージ利用不可・値が存在しない・パース失敗・形状不一致のいずれの場合も既定値を返す
+            function load() {
+                try {
+                    const raw = window.localStorage.getItem(STORAGE_KEY);
+                    if (!raw) return cloneDefault();
+
+                    const parsed = JSON.parse(raw);
+                    if (!isValidPreferenceShape(parsed)) return cloneDefault();
+
+                    return {
+                        sortKey: parsed.sortKey,
+                        sortOrder: parsed.sortOrder,
+                        filters: {
+                            collectionStatus: parsed.filters.collectionStatus,
+                            clearStatus: parsed.filters.clearStatus,
+                            dontCollectOnly: parsed.filters.dontCollectOnly,
+                            favoriteOnly: parsed.filters.favoriteOnly
+                        }
+                    };
+                } catch (error) {
+                    return cloneDefault();
+                }
+            }
+
+            return {
+                DEFAULT_PREFERENCE: cloneDefault(),
+                save: save,
+                load: load
+            };
+        })();
+
         const graphColors = {
             "全体": ['#000000', '#ccc'],        // 全体の色
             "任天堂": ['#ff0000', '#ccc'],        // 任天堂の色
