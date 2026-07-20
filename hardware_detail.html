@@ -340,13 +340,33 @@
             }
         }
 
-        if (sortKeySelect) sortKeySelect.addEventListener('change', renderView);
-        if (sortOrderSelect) sortOrderSelect.addEventListener('change', renderView);
+        // 現在の6コントロールの値からPreferenceStoreが扱う設定オブジェクトを組み立てる(save呼び出しで共通利用)
+        function getCurrentPreference() {
+            return {
+                sortKey: sortKeySelect ? sortKeySelect.value : PreferenceStore.DEFAULT_PREFERENCE.sortKey,
+                sortOrder: sortOrderSelect ? sortOrderSelect.value : PreferenceStore.DEFAULT_PREFERENCE.sortOrder,
+                filters: {
+                    collectionStatus: filterCollectedSelect ? filterCollectedSelect.value : PreferenceStore.DEFAULT_PREFERENCE.filters.collectionStatus,
+                    clearStatus: filterClearedSelect ? filterClearedSelect.value : PreferenceStore.DEFAULT_PREFERENCE.filters.clearStatus,
+                    dontCollectOnly: filterDontCollectCheckbox ? filterDontCollectCheckbox.checked : PreferenceStore.DEFAULT_PREFERENCE.filters.dontCollectOnly,
+                    favoriteOnly: filterFavoriteCheckbox ? filterFavoriteCheckbox.checked : PreferenceStore.DEFAULT_PREFERENCE.filters.favoriteOnly
+                }
+            };
+        }
 
-        if (filterCollectedSelect) filterCollectedSelect.addEventListener('change', renderView);
-        if (filterClearedSelect) filterClearedSelect.addEventListener('change', renderView);
-        if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', renderView);
-        if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', renderView);
+        // ソート・絞り込みコントロール変更時に再描画し、選択状態をPreferenceStoreへ保存する(2.4, 2.5, 3.5, 3.6)
+        function handlePreferenceControlChange() {
+            renderView();
+            PreferenceStore.save(getCurrentPreference());
+        }
+
+        if (sortKeySelect) sortKeySelect.addEventListener('change', handlePreferenceControlChange);
+        if (sortOrderSelect) sortOrderSelect.addEventListener('change', handlePreferenceControlChange);
+
+        if (filterCollectedSelect) filterCollectedSelect.addEventListener('change', handlePreferenceControlChange);
+        if (filterClearedSelect) filterClearedSelect.addEventListener('change', handlePreferenceControlChange);
+        if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', handlePreferenceControlChange);
+        if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', handlePreferenceControlChange);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -371,7 +391,19 @@
                     });
 
                     displayChart(games);
-                    renderView(); // 既定ソート(発売日昇順、UIのselected属性と一致)・絞り込み無しを適用して初回描画
+
+                    // 保存済みのソート・絞り込み設定を最初の描画前にコントロールへ復元する(2.4, 2.5, 3.5, 3.6)
+                    // 保存値が無い・不正な場合はPreferenceStore.load()がDEFAULT_PREFERENCEを返すため、
+                    // 既定のソート(発売日昇順)・絞り込み無し(UIのselected属性と一致)がそのまま適用される
+                    const restoredPreference = PreferenceStore.load();
+                    if (sortKeySelect) sortKeySelect.value = restoredPreference.sortKey;
+                    if (sortOrderSelect) sortOrderSelect.value = restoredPreference.sortOrder;
+                    if (filterCollectedSelect) filterCollectedSelect.value = restoredPreference.filters.collectionStatus;
+                    if (filterClearedSelect) filterClearedSelect.value = restoredPreference.filters.clearStatus;
+                    if (filterDontCollectCheckbox) filterDontCollectCheckbox.checked = restoredPreference.filters.dontCollectOnly;
+                    if (filterFavoriteCheckbox) filterFavoriteCheckbox.checked = restoredPreference.filters.favoriteOnly;
+
+                    renderView(); // 復元(または既定)されたソート・絞り込み設定を適用して初回描画
 
                     if (saveBtn) {
                         saveBtn.disabled = true;
