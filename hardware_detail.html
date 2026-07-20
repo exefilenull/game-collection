@@ -92,6 +92,32 @@
         </select>
     </div>
 
+    <div class="controls-container" id="filter-controls">
+        <label for="filter-collected-select">収集状況:</label>
+        <select id="filter-collected-select">
+            <option value="all" selected>すべて</option>
+            <option value="collected">収集済み</option>
+            <option value="uncollected">未収集</option>
+        </select>
+
+        <label for="filter-cleared-select">クリア状況:</label>
+        <select id="filter-cleared-select">
+            <option value="all" selected>すべて</option>
+            <option value="cleared">クリア済み</option>
+            <option value="uncleared">未クリア</option>
+        </select>
+
+        <label for="filter-dontcollect-checkbox">
+            <input type="checkbox" id="filter-dontcollect-checkbox">
+            収集不要のみ
+        </label>
+
+        <label for="filter-favorite-checkbox">
+            <input type="checkbox" id="filter-favorite-checkbox">
+            お気に入りのみ
+        </label>
+    </div>
+
     <table id="game-table">
         <thead>
             <tr>
@@ -139,6 +165,10 @@
         const saveBtn = document.getElementById('saveBtn');
         const sortKeySelect = document.getElementById('sort-key-select');
         const sortOrderSelect = document.getElementById('sort-order-select');
+        const filterCollectedSelect = document.getElementById('filter-collected-select');
+        const filterClearedSelect = document.getElementById('filter-cleared-select');
+        const filterDontCollectCheckbox = document.getElementById('filter-dontcollect-checkbox');
+        const filterFavoriteCheckbox = document.getElementById('filter-favorite-checkbox');
 
         if (saveBtn) saveBtn.disabled = true;
 
@@ -183,6 +213,15 @@
 
         if (sortKeySelect) sortKeySelect.addEventListener('change', renderSortedTable);
         if (sortOrderSelect) sortOrderSelect.addEventListener('change', renderSortedTable);
+
+        // 絞り込み条件UIの骨組み(選択状態に応じたビュー生成は次タスクで実装する)
+        function applyFilters() {
+        }
+
+        if (filterCollectedSelect) filterCollectedSelect.addEventListener('change', applyFilters);
+        if (filterClearedSelect) filterClearedSelect.addEventListener('change', applyFilters);
+        if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', applyFilters);
+        if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', applyFilters);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
