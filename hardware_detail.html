@@ -102,6 +102,7 @@
 
         let currentGames = []; // ← 現在読み込んだデータを保持
         let originalDontCollect = {};
+        let originalFavorite = {};
         let sourceJsonFile = null;
         const saveBtn = document.getElementById('saveBtn');
 
@@ -123,8 +124,10 @@
                     currentGames = games; // ← 保存用に保持
 
                     originalDontCollect = {};
+                    originalFavorite = {};
                     currentGames.forEach(g => {
                         originalDontCollect[g.soft_title] = !!g.dont_collect;
+                        originalFavorite[g.soft_title] = !!g.favorite;
                     });
 
                     displayChart(games);
@@ -286,18 +289,41 @@
                     markChanged();
                 });
             });
+
+            tbody.querySelectorAll('.toggle-favorite').forEach(cell => {
+                cell.addEventListener('click', () => {
+                    const row = cell.closest('tr');
+                    const title = row.querySelector('.game-title').textContent.trim();
+
+                    const game = currentGames.find(g => g.soft_title === title);
+                    if (!game) return;
+
+                    game.favorite = !game.favorite;
+                    cell.textContent = game.favorite ? '★' : '☆';
+
+                    markChanged();
+                });
+            });
         }
 
         // 差分検知してボタン活性化
         function markChanged() {
-            // originalDontCollect に対して currentGames の dont_collect を比較
+            // originalDontCollect / originalFavorite に対して currentGames の値を比較
             let changed = false;
             for (const g of currentGames) {
-                const original = originalDontCollect[g.soft_title];
+                const originalDC = originalDontCollect[g.soft_title];
                 // 原本にキーが無い場合は false とみなす
-                const origVal = typeof original === 'undefined' ? false : !!original;
-                const curVal = !!g.dont_collect;
-                if (origVal !== curVal) {
+                const origDCVal = typeof originalDC === 'undefined' ? false : !!originalDC;
+                const curDCVal = !!g.dont_collect;
+                if (origDCVal !== curDCVal) {
+                    changed = true;
+                    break;
+                }
+
+                const originalFav = originalFavorite[g.soft_title];
+                const origFavVal = typeof originalFav === 'undefined' ? false : !!originalFav;
+                const curFavVal = !!g.favorite;
+                if (origFavVal !== curFavVal) {
                     changed = true;
                     break;
                 }
@@ -326,10 +352,12 @@
             if (result.success) {
                 alert("✅ GitHubに保存しました！");
 
-                // originalDontCollect を currentGames の最新 dont_collect で上書き
+                // originalDontCollect / originalFavorite を currentGames の最新値で上書き
                 originalDontCollect = {};
+                originalFavorite = {};
                 currentGames.forEach(g => {
                     originalDontCollect[g.soft_title] = !!g.dont_collect;
+                    originalFavorite[g.soft_title] = !!g.favorite;
                 });
 
                 // ボタンを無効にする
