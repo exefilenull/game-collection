@@ -29,7 +29,7 @@
   - _Requirements: 1.2, 1.3_
   - _Boundary: HardwareDetailPage_
 
-- [ ] 2.3 お気に入りが既存の保存フローで永続化されることを確認する
+- [x] 2.3 お気に入りが既存の保存フローで永続化されることを確認する
   - 保存実行時にcurrentGames全体(favoriteを含む)がDataStoreModule.saveToGitHub経由で対象JSONファイルに送信されることを確認する
   - 観測可能な完了条件: 保存成功後、変更検知の状態が他フィールドと同様にリセットされ、送信されたJSONにfavoriteが含まれる
   - _Requirements: 1.4, 4.3_
