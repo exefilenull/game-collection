@@ -97,6 +97,10 @@
     }
 
     var DataStoreModule = {
+        // fetchAllCategoryData() の返り値と同じ順序のファイルパス一覧。
+        // 呼び出し元(hardware_detail.html等)が保存先ファイルパス(sourceJsonFile)を
+        // 特定する際に、fetchAllCategoryData()の返り値のインデックスと対応付けて使う。
+        CATEGORY_JSON_FILES: CATEGORY_JSON_FILES,
         fetchAllCategoryData: fetchAllCategoryData,
         saveToGitHub: saveToGitHub,
         escapeHtml: escapeHtml,

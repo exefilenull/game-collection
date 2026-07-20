@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>ハードウェア詳細</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/data-store.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -113,22 +114,9 @@
 
             document.getElementById('hardware-title').textContent = `${hardwareName} の詳細`;
 
-            const jsonFiles = [
-                'data/1_nintendo.json', 
-                'data/2_snk.json', 
-                'data/3_nec.json', 
-                'data/4_epoch.json', 
-                'data/5_microsoft.json', 
-                'data/6_bandai.json', 
-                'data/7_sega.json', 
-                'data/8_sie.json', 
-                'data/9_panasonic.json',
-                'data/10_casio.json',
-                'data/11_ascii.json',
-                'data/12_tomy.json',
-            ];
+            const jsonFiles = DataStoreModule.CATEGORY_JSON_FILES;
 
-            Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
+            DataStoreModule.fetchAllCategoryData()
                 .then(jsonDataArray => {
                     const games = extractHardwareData(jsonDataArray, jsonFiles, hardwareName) || [];
                     currentGames = games; // ← 保存用に保持
@@ -239,11 +227,11 @@
                     : '未クリア';
 
                 row.innerHTML = `
-                    <td class="game-title">${escapeHtml(game.soft_title)}</td>
-                    <td>${escapeHtml(game.game_category || '')}</td>
+                    <td class="game-title">${DataStoreModule.escapeHtml(game.soft_title)}</td>
+                    <td>${DataStoreModule.escapeHtml(game.game_category || '')}</td>
                     <td class="toggle-new">${game.collected_new ? '収集済み' : '未収集'}</td>
                     <td class="toggle-old">${game.collected_old ? '収集済み' : '未収集'}</td>
-                    <td>${escapeHtml(game.release_day || '不明')}</td>
+                    <td>${DataStoreModule.escapeHtml(game.release_day || '不明')}</td>
                     <td>${clearedCell}</td>
                     <td class="toggle-ignore">${game.dont_collect ? '不要' : '必要'}</td>
                 `;
@@ -327,17 +315,12 @@
                 return;
             }
 
-            const res = await fetch("/.netlify/functions/update", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    path: sourceJsonFile,
-                    content: JSON.stringify(updatedData, null, 2),
-                    message: `Update ${sourceJsonFile} via WebUI`,
-                }),
-            });
+            const result = await DataStoreModule.saveToGitHub(
+                sourceJsonFile,
+                JSON.stringify(updatedData, null, 2),
+                `Update ${sourceJsonFile} via WebUI`
+            );
 
-            const result = await res.json();
             if (result.success) {
                 alert("✅ GitHubに保存しました！");
 
@@ -367,11 +350,6 @@
                 if (!confirm("このデータをGitHubに保存しますか？")) return;
                 saveToGitHub(currentGames);
             });
-        }
-
-        // 小さなユーティリティ（XSS対策として）
-        function escapeHtml(s) {
-            return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
         }
     </script>
 

@@ -7,7 +7,7 @@
   - 観測可能な完了条件: scripts/data-store.jsを`<script>`で読み込み、ブラウザのdevtoolsから`DataStoreModule.escapeHtml()`を呼び出すと、移行前のインライン実装と同一のエスケープ結果が返る
   - _Requirements: 4.1_
 
-- [ ] 1.2 hardware_detail.htmlを共有モジュール経由に切り替える(既存動作を変更しない)
+- [x] 1.2 hardware_detail.htmlを共有モジュール経由に切り替える(既存動作を変更しない)
   - `<script src="scripts/data-store.js">`を追加し、既存のjsonFiles/saveToGitHub/escapeHtmlの呼び出しをDataStoreModule経由に置き換える
   - 重複していたインライン定義を削除する
   - 観測可能な完了条件: 既存のハードウェアページを開いた際に、テーブル・グラフ表示、収集済み/収集不要のクリック編集、保存ボタンによるGitHub保存が置き換え前と同じ挙動で動作する
