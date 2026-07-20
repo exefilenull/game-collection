@@ -101,3 +101,7 @@
   - 観測可能な完了条件: 全シナリオがPassし、不具合があれば修正のうえ再確認済みである
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8_
   - _Depends: 6.1_
+
+## Implementation Notes
+- 1.2: `fetchAllCategoryData()`の返り値だけでは保存先ファイルパス(`sourceJsonFile`)を特定できないため、`DataStoreModule.CATEGORY_JSON_FILES`(パス一覧の定数配列)をdata-store.jsに追加公開した。design.mdのService Interfaceを更新済み。後続タスクでDataStoreModuleの返り値形状を前提にする場合はこの制約を踏まえること。
+- リポジトリに`package.json`・テストランナーが存在しないため、各タスクの検証は`node --check`によるJS構文確認と、コードの手動トレースで行っている(design.mdのTesting Strategy参照)。
