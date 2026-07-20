@@ -118,6 +118,8 @@
         </label>
     </div>
 
+    <p id="empty-state" style="display:none; text-align:center;">該当するゲームがありません</p>
+
     <table id="game-table">
         <thead>
             <tr>
@@ -205,23 +207,51 @@
             return [...games].sort((a, b) => direction * compareGames(a, b, key));
         }
 
-        // currentGames(真実の源)からソート済みビューを生成してテーブルを再描画する(イベントもdisplayTable内で再バインドされる)
-        function renderSortedTable() {
-            const sortedView = applySort(currentGames);
-            displayTable(sortedView);
+        // 選択中の絞り込み条件(収集状況/クリア状況/収集不要のみ/お気に入りのみ)をAND結合で適用し、
+        // 引数の配列を破壊的に変更せず新しい配列を返す(Filter Semantics: design.md参照)
+        function applyFilters(games) {
+            const collectedValue = filterCollectedSelect ? filterCollectedSelect.value : 'all';
+            const clearedValue = filterClearedSelect ? filterClearedSelect.value : 'all';
+            const dontCollectOnly = filterDontCollectCheckbox ? filterDontCollectCheckbox.checked : false;
+            const favoriteOnly = filterFavoriteCheckbox ? filterFavoriteCheckbox.checked : false;
+
+            return games.filter(game => {
+                const isCollected = !!(game.collected_new || game.collected_old);
+                if (collectedValue === 'collected' && !isCollected) return false;
+                if (collectedValue === 'uncollected' && isCollected) return false;
+
+                const isCleared = !!game.game_cleared;
+                if (clearedValue === 'cleared' && !isCleared) return false;
+                if (clearedValue === 'uncleared' && isCleared) return false;
+
+                if (dontCollectOnly && game.dont_collect !== true) return false;
+                if (favoriteOnly && game.favorite !== true) return false;
+
+                return true;
+            });
         }
 
-        if (sortKeySelect) sortKeySelect.addEventListener('change', renderSortedTable);
-        if (sortOrderSelect) sortOrderSelect.addEventListener('change', renderSortedTable);
+        // currentGames(真実の源)から絞り込み→並び替え済みのビューを生成してテーブルを再描画する
+        // (イベントもdisplayTable内で再バインドされる)。currentGames自体は変更しない
+        function renderView() {
+            const filteredView = applyFilters(currentGames);
+            const view = applySort(filteredView);
 
-        // 絞り込み条件UIの骨組み(選択状態に応じたビュー生成は次タスクで実装する)
-        function applyFilters() {
+            displayTable(view);
+
+            const emptyState = document.getElementById('empty-state');
+            if (emptyState) {
+                emptyState.style.display = view.length === 0 ? '' : 'none';
+            }
         }
 
-        if (filterCollectedSelect) filterCollectedSelect.addEventListener('change', applyFilters);
-        if (filterClearedSelect) filterClearedSelect.addEventListener('change', applyFilters);
-        if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', applyFilters);
-        if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', applyFilters);
+        if (sortKeySelect) sortKeySelect.addEventListener('change', renderView);
+        if (sortOrderSelect) sortOrderSelect.addEventListener('change', renderView);
+
+        if (filterCollectedSelect) filterCollectedSelect.addEventListener('change', renderView);
+        if (filterClearedSelect) filterClearedSelect.addEventListener('change', renderView);
+        if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', renderView);
+        if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', renderView);
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
@@ -246,7 +276,7 @@
                     });
 
                     displayChart(games);
-                    renderSortedTable(); // 既定ソート(発売日昇順、UIのselected属性と一致)を適用して初回描画
+                    renderView(); // 既定ソート(発売日昇順、UIのselected属性と一致)・絞り込み無しを適用して初回描画
 
                     if (saveBtn) {
                         saveBtn.disabled = true;
@@ -320,7 +350,7 @@
             const tbody = document.querySelector('#game-table tbody');
             tbody.innerHTML = '';
 
-            // ソートは呼び出し元(renderSortedTable→applySort)の責務。ここでは受け取った順序をそのまま描画する。
+            // 絞り込み・ソートは呼び出し元(renderView→applyFilters→applySort)の責務。ここでは受け取った順序をそのまま描画する。
             games.forEach(game => {
                 const row = document.createElement('tr');
                 row.classList.remove('highlight', 'highlight-new', 'highlight-old', 'highlight-both');
