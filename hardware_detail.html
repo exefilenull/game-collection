@@ -70,6 +70,7 @@
                 <th>発売日</th>
                 <th>クリア済み</th>
                 <th>収集不要</th>
+                <th>お気に入り</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -234,6 +235,7 @@
                     <td>${DataStoreModule.escapeHtml(game.release_day || '不明')}</td>
                     <td>${clearedCell}</td>
                     <td class="toggle-ignore">${game.dont_collect ? '不要' : '必要'}</td>
+                    <td class="toggle-favorite">${!!game.favorite ? '★' : '☆'}</td>
                 `;
 
                 tbody.appendChild(row);
