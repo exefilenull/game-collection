@@ -11,6 +11,11 @@
 (function (global) {
     'use strict';
 
+    // このサイトはGitHub Pages(exefilenull.github.io)から配信されるが、
+    // 保存用のNetlify Functionは別ドメイン(Netlify)にホストされているため、
+    // 相対パスではなく絶対URLで呼び出す必要がある。
+    var NETLIFY_FUNCTIONS_BASE_URL = 'https://exefilenull-game-collection.netlify.app';
+
     // 全カテゴリJSONファイルのパス一覧(hardware_detail.htmlの既存実装と同一)
     var CATEGORY_JSON_FILES = [
         'data/1_nintendo.json',
@@ -54,7 +59,7 @@
      */
     async function saveToGitHub(path, content, message) {
         try {
-            const res = await fetch("/.netlify/functions/update", {
+            const res = await fetch(NETLIFY_FUNCTIONS_BASE_URL + "/.netlify/functions/update", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({

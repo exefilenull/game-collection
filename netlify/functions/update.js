@@ -1,5 +1,24 @@
 // netlify/functions/update.js
+//
+// このFunctionはGitHub Pages(exefilenull.github.io)から絶対URLでクロス
+// オリジン呼び出しされるため、CORSヘッダーとpreflight(OPTIONS)対応が必要。
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "https://exefilenull.github.io",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
 export const handler = async (event) => {
+  // ブラウザが送るCORS preflightリクエストにはボディが無いため、
+  // JSON.parse等を行う前にここで処理して返す。
+  if (event.httpMethod === "OPTIONS") {
+    return {
+      statusCode: 204,
+      headers: CORS_HEADERS,
+      body: "",
+    };
+  }
+
   try {
     const { path, content, message } = JSON.parse(event.body);
 
@@ -38,9 +57,14 @@ export const handler = async (event) => {
     const result = await response.json();
     return {
       statusCode: 200,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ success: true, result }),
     };
   } catch (err) {
-    return { statusCode: 500, body: JSON.stringify({ error: err.message }) };
+    return {
+      statusCode: 500,
+      headers: CORS_HEADERS,
+      body: JSON.stringify({ error: err.message }),
+    };
   }
 };
