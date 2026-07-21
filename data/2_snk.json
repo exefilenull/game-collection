@@ -886,7 +886,7 @@
         "collected_new": false,
         "collected_old": false,
         "game_cleared": false,
-        "dont_collect": false,
+        "dont_collect": true,
         "game_category": "格闘",
         "release_day": "1998-12-25"
       }
