@@ -41,7 +41,10 @@
     function fetchAllCategoryData() {
         return Promise.all(
             CATEGORY_JSON_FILES.map(function (file) {
-                return fetch(file).then(function (res) {
+                // GitHub Pagesはdata/*.jsonにCache-Control: max-age=600を付与するため、
+                // ブラウザキャッシュを経由すると保存直後のデータが反映されないことがある。
+                // 常に最新を取得するためHTTPキャッシュを明示的に無効化する
+                return fetch(file, { cache: 'no-store' }).then(function (res) {
                     return res.json();
                 });
             })
