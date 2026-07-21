@@ -259,6 +259,10 @@
         let originalDontCollect = {};
         let originalFavorite = {};
         let sourceJsonFile = null;
+        // 保存対象ファイル全体({category, hardware_name})。同じカテゴリファイルには
+        // 他のハードウェアのデータも含まれるため、保存時にcurrentGamesだけを送ると
+        // それらを消してしまう。必ずこのオブジェクトを介してファイル全体を再構築して送る
+        let sourceCategoryData = null;
         const saveBtn = document.getElementById('saveBtn');
         const sortKeySelect = document.getElementById('sort-key-select');
         const sortOrderSelect = document.getElementById('sort-order-select');
@@ -420,6 +424,7 @@
                 for (const [hardTitle, games] of Object.entries(data.hardware_name)){
                     if (hardTitle === hardwareName) {
                         sourceJsonFile = jsonFiles[i];
+                        sourceCategoryData = data;
                         return games;
                     }
                 }
@@ -609,14 +614,19 @@
 
         // GitHub更新関数
         async function saveToGitHub(updatedData) {
-            if (!sourceJsonFile) {
+            if (!sourceJsonFile || !sourceCategoryData) {
                 alert("更新先のJsonファイルが特定できません。");
                 return;
             }
 
+            // 保存対象ファイル全体(同じカテゴリ内の他ハードウェアのデータを含む)を
+            // 再構築してから送信する。updatedData(このハードウェアの配列)だけを
+            // ファイル全体として送ると、他のハードウェアのデータを消してしまう
+            sourceCategoryData.hardware_name[hardwareName] = updatedData;
+
             const result = await DataStoreModule.saveToGitHub(
                 sourceJsonFile,
-                JSON.stringify(updatedData, null, 2),
+                JSON.stringify(sourceCategoryData, null, 2),
                 `Update ${sourceJsonFile} via WebUI`
             );
 
