@@ -26,15 +26,24 @@ export const handler = async (event) => {
     const repo = process.env.REPO_NAME;
     const token = process.env.GITHUB_TOKEN;
 
+    if (!owner || !repo || !token) {
+      throw new Error(
+        `Netlifyの環境変数が未設定です(REPO_OWNER=${owner ? "set" : "missing"}, REPO_NAME=${repo ? "set" : "missing"}, GITHUB_TOKEN=${token ? "set" : "missing"})`
+      );
+    }
+
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 
     // 現在のSHAを取得
-    const current = await fetch(apiUrl, {
+    const currentRes = await fetch(apiUrl, {
       headers: { Authorization: `token ${token}` },
-    }).then(res => res.json());
+    });
+    const current = await currentRes.json();
 
     if (!current.sha) {
-      throw new Error(`対象ファイルが見つかりません: ${path}`);
+      throw new Error(
+        `対象ファイルが見つかりません: ${path} (GitHub API status=${currentRes.status}, message=${(current && current.message) || "unknown"})`
+      );
     }
 
     // Base64エンコード
