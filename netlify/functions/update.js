@@ -64,6 +64,13 @@ export const handler = async (event) => {
     });
 
     const result = await response.json();
+
+    if (!response.ok) {
+      throw new Error(
+        `GitHubへの書き込みに失敗しました: ${path} (GitHub API status=${response.status}, message=${(result && result.message) || "unknown"})`
+      );
+    }
+
     return {
       statusCode: 200,
       headers: CORS_HEADERS,
