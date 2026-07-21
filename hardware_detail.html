@@ -109,7 +109,7 @@
 
         <label for="filter-dontcollect-checkbox">
             <input type="checkbox" id="filter-dontcollect-checkbox">
-            収集不要のみ
+            収集不要も表示する
         </label>
 
         <label for="filter-favorite-checkbox">
@@ -306,12 +306,14 @@
             return [...games].sort((a, b) => direction * compareGames(a, b, key));
         }
 
-        // 選択中の絞り込み条件(収集状況/クリア状況/収集不要のみ/お気に入りのみ)をAND結合で適用し、
+        // 選択中の絞り込み条件(収集状況/クリア状況/収集不要も表示する/お気に入りのみ)をAND結合で適用し、
         // 引数の配列を破壊的に変更せず新しい配列を返す(Filter Semantics: design.md参照)
+        // 収集不要(dont_collect)のゲームは、チェックボックスがOFF(既定)の間は一覧から除外し、
+        // ONにした時だけ表示する(必要なくなったものは通常は見えなくてよい、という運用に合わせた仕様)
         function applyFilters(games) {
             const collectedValue = filterCollectedSelect ? filterCollectedSelect.value : 'all';
             const clearedValue = filterClearedSelect ? filterClearedSelect.value : 'all';
-            const dontCollectOnly = filterDontCollectCheckbox ? filterDontCollectCheckbox.checked : false;
+            const includeDontCollect = filterDontCollectCheckbox ? filterDontCollectCheckbox.checked : false;
             const favoriteOnly = filterFavoriteCheckbox ? filterFavoriteCheckbox.checked : false;
 
             return games.filter(game => {
@@ -323,7 +325,7 @@
                 if (clearedValue === 'cleared' && !isCleared) return false;
                 if (clearedValue === 'uncleared' && isCleared) return false;
 
-                if (dontCollectOnly && game.dont_collect !== true) return false;
+                if (!includeDontCollect && game.dont_collect === true) return false;
                 if (favoriteOnly && game.favorite !== true) return false;
 
                 return true;

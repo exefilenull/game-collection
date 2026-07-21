@@ -279,7 +279,7 @@ DataStoreModule.CATEGORY_JSON_FILES: string[]
 ### Filter Semantics(データ解釈の明示)
 - 「収集済み」= `collected_new || collected_old`、「未収集」= `!collected_new && !collected_old`(既存の行ハイライト表現との整合、[[research.md]]の設計判断を参照)
 - 「クリア済み」= `game_cleared`が真値、「未クリア」= `game_cleared`が偽値
-- 「収集不要のみ」= `dont_collect === true`
+- 「収集不要も表示する」チェックボックス: 既定(OFF)では`dont_collect === true`のゲームを一覧から除外する。ONにすると除外しない(収集不要のゲームも含めて表示する)。運用上、収集不要にしたゲームは通常見えなくてよいという想定に基づく仕様変更(2026-07-22、ユーザー指示により当初の「収集不要のみ表示」から反転)
 - 「お気に入りのみ」= `favorite === true`
 - 複数条件を選択した場合はAND結合で全て満たすゲームのみを表示する(3.2)
 
