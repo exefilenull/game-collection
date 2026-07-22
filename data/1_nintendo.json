@@ -2485,7 +2485,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1987-12-17"
+        "release_day": "1987-12-17",
+        "walkthrough_note_path": "game_notes/任天堂/ファミリーコンピュータ/ロックマン.html"
       },
       {
         "soft_title": "カルノフ",
@@ -3772,7 +3773,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1988-12-24"
+        "release_day": "1988-12-24",
+        "walkthrough_note_path": "game_notes/任天堂/ファミリーコンピュータ/ロックマン2 Dr.ワイリーの謎.html"
       },
       {
         "soft_title": "AKIRA",
@@ -5950,7 +5952,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1990-09-28"
+        "release_day": "1990-09-28",
+        "walkthrough_note_path": "game_notes/任天堂/ファミリーコンピュータ/ロックマン3 Dr.ワイリーの最期!？.html"
       },
       {
         "soft_title": "探偵 神宮寺三郎 時の過ぎゆくままに…",
@@ -7498,7 +7501,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1991-12-06"
+        "release_day": "1991-12-06",
+        "walkthrough_note_path": "game_notes/任天堂/ファミリーコンピュータ/ロックマン4 新たなる野望!!.html"
       },
       {
         "soft_title": "平成天才バカボン",
