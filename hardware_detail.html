@@ -481,6 +481,33 @@
             });
         }
 
+        // プレイ状況の次の状態を返す(未プレイ→プレイ中→全クリア→未プレイの順で1段階進める)。
+        // 未設定・不正値は未プレイ(not_started)からの遷移が始まったものとして扱う(2.1)
+        function getNextPlayStatus(currentStatus) {
+            switch (currentStatus) {
+                case 'not_started':
+                    return 'playing';
+                case 'playing':
+                    return 'cleared';
+                case 'cleared':
+                    return 'not_started';
+                default:
+                    return 'playing';
+            }
+        }
+
+        // play_status の値(not_started/playing/cleared)からプレイ状況セルの表示ラベルを返す(2.1)
+        function getPlayStatusLabel(status) {
+            switch (status) {
+                case 'playing':
+                    return 'プレイ中';
+                case 'cleared':
+                    return '全クリア';
+                default:
+                    return '未プレイ';
+            }
+        }
+
         function displayTable(games) {
             const tbody = document.querySelector('#game-table tbody');
             tbody.innerHTML = '';
@@ -578,6 +605,23 @@
 
                     game.dont_collect = !game.dont_collect;
                     cell.textContent = game.dont_collect ? '不要' : '必要';
+
+                    markChanged();
+                });
+            });
+
+            // プレイ状況セルのクリックで「未プレイ→プレイ中→全クリア→未プレイ」の順に1段階進める(2.1)。
+            // walkthrough_note_path には一切触れない(design.md Key Decisions)
+            tbody.querySelectorAll('.toggle-play-status').forEach(cell => {
+                cell.addEventListener('click', () => {
+                    const row = cell.closest('tr');
+                    const title = row.querySelector('.game-title').textContent.trim();
+
+                    const game = currentGames.find(g => g.soft_title === title);
+                    if (!game) return;
+
+                    game.play_status = getNextPlayStatus(game.play_status);
+                    cell.textContent = getPlayStatusLabel(game.play_status);
 
                     markChanged();
                 });
