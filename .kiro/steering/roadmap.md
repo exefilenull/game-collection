@@ -56,4 +56,7 @@
 
 ### Specs (dependency order, Phase 2)
 - [x] play-status-tracking -- hardware_detail.htmlの「クリア済み」列をプレイ状況(未プレイ/プレイ中/全クリア)に変更し、GitHub保存に対応する。既存game_clear/*.html方式を置き換える。Dependencies: none (完了。最終検証GO)
-- [ ] walkthrough-notes-generation -- 既存の手書き攻略メモと同じ構成のMDファイルをAIエージェントがオフラインで生成できるよう、SKILL.mdと対象抽出・配置の仕組みを整備する。Dependencies: play-status-tracking
+- [ ] walkthrough-notes-generation -- 既存の手書き攻略メモと同じ構成のHTMLファイルをAIエージェントがオフラインで生成できるよう、SKILL.mdと対象抽出・配置の仕組みを整備する。Dependencies: play-status-tracking
+
+### Update (2026-07-22): 出力形式をMDからHTMLに変更
+Phase 2着手時点では攻略メモの出力形式を`.md`と想定していたが、GitHub Pagesは`.md`をレンダリングせず生テキスト表示になってしまうため、`.html`形式(既存`game_clear/*.html`と同系統のスタイル)に変更した。この方針変更に合わせ、`Desktop\Game`内の手書きメモ8件を(元の`.md`は残置したまま)`game_notes/{category}/{hardware}/{title}.html`へ手動変換・配置し、対応するレコードの`walkthrough_note_path`で紐付け済み。`play-status-tracking`のコード自体は拡張子を前提にしていないため変更不要だった。この8件は`walkthrough-notes-generation`が今後生成するHTMLの実例・テンプレート参照元となる。詳細は`.kiro/specs/walkthrough-notes-generation/brief.md`を参照。
