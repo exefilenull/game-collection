@@ -18,7 +18,8 @@
         "game_cleared": true,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "1983-07-15"
+        "release_day": "1983-07-15",
+        "walkthrough_note_path": "game_notes/任天堂/ファミリーコンピュータ/ドンキーコングJR..html"
       },
       {
         "soft_title": "ポパイ☑",
@@ -27820,7 +27821,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "アドベンチャー",
-        "release_day": "2008-09-25"
+        "release_day": "2008-09-25",
+        "walkthrough_note_path": "game_notes/任天堂/Wii/DISASTER DAY OF CRISIS.html"
       },
       {
         "soft_title": "SIMPLE 2000シリーズWii Vol.1 THEテーブルゲーム 麻雀・囲碁・将棋・カード・花札・リバーシ・五目ならべ",
@@ -33152,7 +33154,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category": "ロールプレイング",
-        "release_day": "2018-07-13"
+        "release_day": "2018-07-13",
+        "walkthrough_note_path": "game_notes/任天堂/NintendoSwitch/OCTOPATH TRAVELER.html"
       },
       {
         "soft_title": "進め! キノピオ隊長",

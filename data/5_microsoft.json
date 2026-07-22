@@ -3361,7 +3361,8 @@
         "game_cleared": true,
         "dont_collect": false,
         "game_category": "アクション",
-        "release_day": "2014-09-04"
+        "release_day": "2014-09-04",
+        "walkthrough_note_path": "game_notes/Microsoft/XboxOne/デッドライジング3.html"
       },
       {
         "soft_title": "Forza Motorsport 5☑",
