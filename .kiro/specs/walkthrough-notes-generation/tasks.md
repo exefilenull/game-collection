@@ -10,7 +10,7 @@
   - _Requirements: 1.1, 1.2, 1.3, 1.4_
   - _Boundary: find_missing_walkthrough_notes.py_
 
-- [ ] 1.2 対象抽出スクリプトの動作検証
+- [x] 1.2 対象抽出スクリプトの動作検証
   - プレイ状況が「未プレイ」「未設定」「プレイ中」「全クリア」の4パターンで、対象への含有・除外が要件どおりになることを確認する
   - `walkthrough_note_path`が既に設定されているレコードが対象から除外されることを確認する
   - `soft_title`が欠落したレコードを含む入力でクラッシュせずスキップされることを確認する
@@ -71,4 +71,7 @@
   - 観測可能な完了条件: 試験生成したHTMLと既存実例とのチェックリスト対照結果(項目ごとのpass/fail)が記録され、いずれもpassしている
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 4.1_
   - _Depends: 3.1, 3.2_
+
+## Implementation Notes
+- タスク1.1の実装者が、実装と同時にTDD(RED→GREEN)で1.2の受け入れ基準(未プレイ/未設定/プレイ中/全クリアの各パターン、既紐付け除外、soft_title欠落のスキップ)を網羅する単体テスト11件を作成・全pass済みだったため、1.2は追加実装なしでそのままレビュー・完了とした(親コントローラーが`python -m unittest tools/test_find_missing_walkthrough_notes.py -v`を再実行し11件全pass・境界内であることをフレッシュな証拠として確認済み)。
   - _Boundary: game_notes/SKILL.md_
