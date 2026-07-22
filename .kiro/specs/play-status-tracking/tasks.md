@@ -21,7 +21,7 @@
   - _Requirements: 1.2, 3.3_
   - _Boundary: HardwareDetailPage_
 
-- [ ] 2.2 変更検知(markChanged)にplay_statusを追加する
+- [x] 2.2 変更検知(markChanged)にplay_statusを追加する
   - `originalPlayStatus`スナップショットを追加し、`originalFavorite`と同じタイミング(初回ロード時・保存成功時)で初期化・更新する
   - `markChanged()`が`play_status`の差分も検知し、保存ボタンを活性化するよう拡張する
   - 観測可能な完了条件: プレイ状況を変更すると保存ボタンが有効化され、元の値に戻すと(他に差分が無ければ)無効化される

@@ -259,6 +259,7 @@
         let currentGames = []; // ← 現在読み込んだデータを保持
         let originalDontCollect = {};
         let originalFavorite = {};
+        let originalPlayStatus = {};
         let sourceJsonFile = null;
         // 保存対象ファイル全体({category, hardware_name})。同じカテゴリファイルには
         // 他のハードウェアのデータも含まれるため、保存時にcurrentGamesだけを送ると
@@ -392,9 +393,11 @@
 
                     originalDontCollect = {};
                     originalFavorite = {};
+                    originalPlayStatus = {};
                     currentGames.forEach(g => {
                         originalDontCollect[g.soft_title] = !!g.dont_collect;
                         originalFavorite[g.soft_title] = !!g.favorite;
+                        originalPlayStatus[g.soft_title] = g.play_status || 'not_started';
                     });
 
                     displayChart(games);
@@ -664,6 +667,14 @@
                     changed = true;
                     break;
                 }
+
+                const originalPS = originalPlayStatus[g.soft_title];
+                const origPSVal = typeof originalPS === 'undefined' ? 'not_started' : originalPS;
+                const curPSVal = g.play_status || 'not_started';
+                if (origPSVal !== curPSVal) {
+                    changed = true;
+                    break;
+                }
             }
 
             if (saveBtn) {
@@ -697,9 +708,11 @@
                 // originalDontCollect / originalFavorite を currentGames の最新値で上書き
                 originalDontCollect = {};
                 originalFavorite = {};
+                originalPlayStatus = {};
                 currentGames.forEach(g => {
                     originalDontCollect[g.soft_title] = !!g.dont_collect;
                     originalFavorite[g.soft_title] = !!g.favorite;
+                    originalPlayStatus[g.soft_title] = g.play_status || 'not_started';
                 });
 
                 // ボタンを無効にする
