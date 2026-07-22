@@ -1,0 +1,22 @@
+{
+  "feature_name": "play-status-tracking",
+  "created_at": "2026-07-22T00:11:05Z",
+  "updated_at": "2026-07-22T02:00:00Z",
+  "language": "ja",
+  "phase": "implemented",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true
+}
