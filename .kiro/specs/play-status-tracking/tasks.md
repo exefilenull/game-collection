@@ -29,7 +29,7 @@
   - _Boundary: HardwareDetailPage_
 
 - [ ] 3. Integration: 保存フローへの統合確認
-- [ ] 3.1 プレイ状況が既存の保存フローでまとめて保存されることを確認する
+- [x] 3.1 プレイ状況が既存の保存フローでまとめて保存されることを確認する
   - 保存実行時に`currentGames`全体(`play_status`を含む)が`DataStoreModule.saveToGitHub`経由で対象JSONファイルに送信されることを確認する。design.mdの決定通り、既存の保存経路(`sourceCategoryData`の再構築・送信ロジック)自体には変更を加えない
   - 観測可能な完了条件: 送信されるJSONペイロードに変更後の`play_status`が含まれ、保存成功後に変更検知の状態がリセットされる
   - _Requirements: 2.1_
