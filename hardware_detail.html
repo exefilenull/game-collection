@@ -129,6 +129,7 @@
                 <th>収集状況(中古)</th>
                 <th>発売日</th>
                 <th>プレイ状況</th>
+                <th>攻略情報</th>
                 <th>収集不要</th>
                 <th>お気に入り</th>
             </tr>
@@ -517,6 +518,10 @@
                         break;
                 }
 
+                const walkthroughCell = game.walkthrough_note_path
+                    ? `<a href="${DataStoreModule.escapeHtml(game.walkthrough_note_path)}" target="_blank" rel="noopener">攻略情報</a>`
+                    : '';
+
                 row.innerHTML = `
                     <td class="game-title">${DataStoreModule.escapeHtml(game.soft_title)}</td>
                     <td>${DataStoreModule.escapeHtml(game.game_category || '')}</td>
@@ -524,6 +529,7 @@
                     <td class="toggle-old">${game.collected_old ? '収集済み' : '未収集'}</td>
                     <td>${DataStoreModule.escapeHtml(game.release_day || '不明')}</td>
                     <td class="toggle-play-status">${playStatusLabel}</td>
+                    <td class="walkthrough-note">${walkthroughCell}</td>
                     <td class="toggle-ignore">${game.dont_collect ? '不要' : '必要'}</td>
                     <td class="toggle-favorite">${!!game.favorite ? '★' : '☆'}</td>
                 `;
