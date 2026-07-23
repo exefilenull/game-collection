@@ -65,7 +65,7 @@
   - _Depends: 1.1, 2.1_
   - _Boundary: find_missing_walkthrough_notes.py, link_walkthrough_note.py_
 
-- [ ] 4.2 SKILL.md単独での試験生成レビュー
+- [x] 4.2 SKILL.md単独での試験生成レビュー
   - `game_notes/SKILL.md`の指示のみに従うAIエージェントの視点で、対象レコード1件を試験的に生成する
   - 生成物が既存29件と構造的に一致すること(見出し・目次・折りたたみ・`<br>`方式・見出しレベル別の区切り改行数・タイトル色付け)を確認する
   - 観測可能な完了条件: 試験生成したHTMLと既存実例とのチェックリスト対照結果(項目ごとのpass/fail)が記録され、いずれもpassしている
