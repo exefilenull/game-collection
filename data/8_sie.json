@@ -10314,7 +10314,8 @@
         "game_cleared": false,
         "dont_collect": false,
         "game_category:": "",
-        "release_day": "1998-03-26"
+        "release_day": "1998-03-26",
+        "walkthrough_note_path": "game_notes/SIE/PlayStation1/鉄拳3.html"
       },
       {
         "soft_title": "牌神2",
