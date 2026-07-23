@@ -19,7 +19,7 @@
   - _Boundary: find_missing_walkthrough_notes.py_
 
 - [ ] 2. 紐付けスクリプトの実装
-- [ ] 2.1 (P) 紐付けスクリプトの実装
+- [x] 2.1 (P) 紐付けスクリプトの実装
   - 対象ファイル・ハード名・ゲームタイトル(完全一致)・書き込むパスの4つを引数として受け取り、該当レコード1件の`walkthrough_note_path`を更新する
   - 該当レコードに既に`walkthrough_note_path`が設定されている場合は上書きせずスキップし、その旨を報告する(エラーにしない)
   - 該当レコードが0件または2件以上見つかった場合は、何も書き込まずにエラーを報告する
@@ -74,4 +74,5 @@
 
 ## Implementation Notes
 - タスク1.1の実装者が、実装と同時にTDD(RED→GREEN)で1.2の受け入れ基準(未プレイ/未設定/プレイ中/全クリアの各パターン、既紐付け除外、soft_title欠落のスキップ)を網羅する単体テスト11件を作成・全pass済みだったため、1.2は追加実装なしでそのままレビュー・完了とした(親コントローラーが`python -m unittest tools/test_find_missing_walkthrough_notes.py -v`を再実行し11件全pass・境界内であることをフレッシュな証拠として確認済み)。
+- タスク2.1(`link_walkthrough_note.py`)の実装過程で、`data/*.json`12ファイルのうち10ファイルがCRLF・2ファイル(`data/1_nintendo.json`, `data/8_sie.json`)のみLFであり、かつ10ファイルは末尾改行が無いことが判明した。design.mdのBatch/Job Contractの記述は「LF」を前提としているが、実データの実態と異なるため、`link_walkthrough_note.py`は元ファイルの生バイトから改行コード・末尾改行有無を判定して完全に復元する実装とした。SKILL.md執筆時(タスク3.x)にこの実態を踏まえる必要はない(SKILL.mdはHTML生成規則の文書であり、JSONの改行コードには言及しないため)が、design.mdの当該記述はいずれ実態に合わせて更新すべき申し送り事項として記録する。
   - _Boundary: game_notes/SKILL.md_
