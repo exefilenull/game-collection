@@ -167,3 +167,91 @@ summary { cursor: pointer; }
 ## 5. プロバイダ非依存の前提
 
 本ドキュメントはClaude Codeに限らず、どのAIエージェント・どのAIプロバイダのツールでも読んで従える手順として書かれている。手順の実行に特定のAI製品固有のツール名・API・拡張機能を前提とする記述は含めない。必要なのは、ハード名とゲームタイトルを手がかりに攻略情報を調査できる能力と、上記の構成規則に従ってテキストファイル(HTML)を書き出せる能力のみである。
+
+---
+
+## 6. 対象抽出手順(`find_missing_walkthrough_notes.py`)
+
+攻略メモがまだ無いレコード(プレイ状況が「未プレイ」以外で、かつ`walkthrough_note_path`が未設定)を洗い出すには、リポジトリルートで以下を実行する。
+
+```
+python tools/find_missing_walkthrough_notes.py
+```
+
+- 引数は無い。`data/`ディレクトリを相対パスで参照するため、必ずリポジトリルートから実行すること
+- `data/`配下の全カテゴリJSONファイルを読み取り専用で走査するだけであり、書き込みは一切行わない(何度実行しても副作用はない)
+- 標準出力に、対象レコード1件につき1行のJSON(JSON Lines形式)が出力される。各行は次の3キーを持つ:
+
+```json
+{"file": "data/8_sie.json", "hardware": "PlayStation4", "soft_title": "バイオハザード7 レジデント イービル☑"}
+```
+
+  - `file`: そのレコードが属する`data/*.json`のパス。次章のカテゴリ名は、このファイルをテキストとして開き、先頭付近にある`"category"`キーの値(例: `data/8_sie.json`なら`"SIE"`、`data/1_nintendo.json`なら`"任天堂"`)を読み取って得る。`find_missing_walkthrough_notes.py`自体は`category`の値を出力に含めないため、出力を読んだ側(AIエージェント)が`file`から`category`を引く必要がある
+  - `hardware`: `data/*.json`内の`hardware_name`オブジェクトのキー名(例: `PlayStation4`)。生成先ディレクトリ名・`link_walkthrough_note.py`の`--hardware`引数にそのまま使う
+  - `soft_title`: レコードの`soft_title`の値そのもの(末尾の`☑`等の記号を含む完全な文字列)。ファイル名を作る際の元データであり、`link_walkthrough_note.py`の`--title`引数にはこの値をそのまま(記号込みで)渡す(7章・8章参照)
+- `soft_title`キーが欠落した不正なレコードに遭遇した場合は、対象一覧には含めず、標準エラー出力に`Warning: skipping record without 'soft_title' in ...`という警告を出してスキャンを継続する。この警告は無視してよく、スキャン全体が失敗したわけではない(終了コードは0のまま)
+- 対象レコードが1件も無い場合は標準出力が空になる。これはエラーではなく、生成すべき攻略メモが現時点で無いことを意味する正常な状態である
+
+---
+
+## 7. 生成先ディレクトリ・ファイルパス規則
+
+生成した攻略メモHTMLは、以下の規則で配置する。
+
+```
+game_notes/{category}/{hardware}/{title}.html
+```
+
+- `{category}`: 6章で説明したとおり、対象レコードの`file`(`data/*.json`)を開いて読み取る先頭の`"category"`キーの値をそのまま使う(例: `SIE`, `任天堂`, `Microsoft`)
+- `{hardware}`: 対象抽出の出力行にある`hardware`の値をそのまま使う(例: `PlayStation4`)
+- `{title}`: 対象抽出の出力行にある`soft_title`から、末尾に付いている個人的な記号(`☑`など。「収集済み」を示す私的なチェックマークであり、ゲームタイトルの一部ではない)を取り除いた文字列
+  - 記号を取り除いた結果、Windowsのファイル名で使用できない文字(`\ / : * ? " < > |`)が末尾以外に残る場合は、既存実例にならい全角の対応する文字に置き換える(例: 半角`?`→全角`？`)
+
+既存実例で確認できる具体例(いずれも既にリポジトリに存在するファイル):
+
+| `data/*.json`の`category` | `hardware` | `soft_title`(抽出時点) | 実際の配置パス |
+|---|---|---|---|
+| `SIE` (`data/8_sie.json`) | `PlayStation2` | `塊魂☑` | `game_notes/SIE/PlayStation2/塊魂.html` |
+| `Microsoft` (`data/5_microsoft.json`) | `XboxOne` | `デッドライジング3☑` | `game_notes/Microsoft/XboxOne/デッドライジング3.html` |
+| `任天堂` (`data/1_nintendo.json`) | `ファミリーコンピュータ` | `ロックマン3 Dr.ワイリーの最期!?☑` | `game_notes/任天堂/ファミリーコンピュータ/ロックマン3 Dr.ワイリーの最期!？.html`(半角`?`が全角`？`に置き換わっている) |
+
+いずれも、`soft_title`の末尾の`☑`を除いた文字列がそのままファイル名(拡張子`.html`を付与)になっていることが分かる。この`{title}`は、8章で説明する`link_walkthrough_note.py`の`--path`引数に渡す値の一部にもなる(`--path`にはこの規則で組み立てた完全なパスをそのまま渡す)。
+
+---
+
+## 8. 紐付け手順(`link_walkthrough_note.py`)
+
+攻略メモHTMLを7章の規則で配置し終えたら、対応するレコードの`walkthrough_note_path`を更新するために以下を実行する。
+
+```
+python tools/link_walkthrough_note.py \
+  --file data/8_sie.json \
+  --hardware PlayStation2 \
+  --title "塊魂☑" \
+  --path "game_notes/SIE/PlayStation2/塊魂.html"
+```
+
+- 4つの引数はすべて必須:
+  - `--file`: 対象レコードが属する`data/*.json`のパス(6章の`file`の値をそのまま使う)
+  - `--hardware`: ハード名(6章の`hardware`の値をそのまま使う)
+  - `--title`: `soft_title`と完全一致する文字列(末尾の`☑`等の記号を省略せず、6章の`soft_title`の値をそのまま渡す。記号を落とすと該当レコードが見つからずエラーになる)
+  - `--path`: 7章の規則で組み立てた配置先パス(そのまま`walkthrough_note_path`に書き込まれる)
+- 実行結果は標準出力に1行で報告される。主なパターン:
+  - 成功時: `Linked: hardware='PlayStation2' title='塊魂☑' in data/8_sie.json -> game_notes/SIE/PlayStation2/塊魂.html`(終了コード0)
+  - **既に`walkthrough_note_path`が設定済みのレコードに対して実行した場合**: `Skipped (already linked): hardware=... title=... in ... already has walkthrough_note_path=...`と報告して**スキップする(上書きしない)**。これはエラーではなく正常終了(終了コード0)であり、生成処理(HTMLの再作成)も一切行われない。同じレコードに対して本コマンドを何度実行しても結果は変わらない(冪等)
+  - 該当レコードが0件、または2件以上見つかった場合: `Error: ...`をエラー出力に出し、何も書き込まずに終了コード1で終了する(該当ファイルは変更されない)
+- 書き込みは対象`data/*.json`ファイル全体をその場で上書きする形で行われるが、既存フォーマット(UTF-8, 非ASCIIエスケープ無し, インデント2スペース, 元ファイルの改行コード・末尾改行有無)を保つため、他のレコード・他のフィールドは変化しない
+
+---
+
+## 9. 全体の流れ(6〜8章と1〜5章のつながり)
+
+本ドキュメントの1〜5章(HTML構成・改行規則・カラーコード規則・文体模倣・プロバイダ非依存の前提)は生成物の"体裁"を定義するものであり、6〜8章(対象抽出・配置・紐付け)は生成物を"どのレコードに対して・どこに・どうやって反映するか"を定義するものである。両者を合わせた一連の作業の流れは以下のとおり。
+
+1. **対象抽出**(6章): `python tools/find_missing_walkthrough_notes.py`を実行し、攻略メモが無いレコードの一覧(JSON Lines)を得る
+2. **調査・HTML作成**(1〜5章): 一覧の各レコードについて、`hardware`とタイトル(`soft_title`から末尾の記号を除いたもの)を手がかりに攻略情報を調査し、1〜5章の構成規則・改行規則・カラーコード規則・文体模倣指針に従ってHTMLファイルを作成する
+3. **配置**(7章): 作成したHTMLファイルを`game_notes/{category}/{hardware}/{title}.html`に配置する
+4. **紐付け**(8章): `python tools/link_walkthrough_note.py --file ... --hardware ... --title ... --path ...`を実行し、対応するレコードの`walkthrough_note_path`を更新する
+5. **確認**: 必要であれば`python tools/find_missing_walkthrough_notes.py`を再実行し、紐付けが完了したレコードが一覧から消えていることを確認する(既に`walkthrough_note_path`が設定されたレコードは対象抽出の出力に現れなくなるため、二重生成が発生しない)
+
+複数レコードを処理する場合は、1で得た一覧の各行について2〜4を繰り返す。

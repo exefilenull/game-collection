@@ -47,7 +47,7 @@
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5, 4.1, 4.4_
   - _Boundary: game_notes/SKILL.md_
 
-- [ ] 3.2 対象抽出・配置紐付け手順セクションの作成
+- [x] 3.2 対象抽出・配置紐付け手順セクションの作成
   - `find_missing_walkthrough_notes.py`の実行方法と出力(JSON Lines)の読み方を説明する
   - 生成先のディレクトリ・ファイルパス規則(`game_notes/{category}/{hardware}/{title}.html`)を説明する
   - `link_walkthrough_note.py`の実行方法(4引数)と、既に紐付け済みのレコードはスキップされる(生成処理をしない)ことを説明する
