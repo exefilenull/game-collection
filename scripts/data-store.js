@@ -104,6 +104,27 @@
         });
     }
 
+    /**
+     * タイトル文字列がクエリ文字列を部分一致で含むかどうかを判定する
+     * (大文字小文字を区別しない、正規表現を一切使用しない)。
+     *
+     * クエリが空文字列の場合は「絞り込み条件なし」を意味するため常にtrueを返す
+     * (design.md Service Interface Postconditions参照)。
+     * 呼び出し元は事前に文字列化する必要はなく、内部でString()化してから比較する。
+     *
+     * @param {string} title
+     * @param {string} query
+     * @returns {boolean}
+     */
+    function matchesTitle(title, query) {
+        var normalizedQuery = String(query == null ? '' : query).toLowerCase();
+        if (normalizedQuery === '') {
+            return true;
+        }
+        var normalizedTitle = String(title == null ? '' : title).toLowerCase();
+        return normalizedTitle.includes(normalizedQuery);
+    }
+
     var DataStoreModule = {
         // fetchAllCategoryData() の返り値と同じ順序のファイルパス一覧。
         // 呼び出し元(hardware_detail.html等)が保存先ファイルパス(sourceJsonFile)を
@@ -112,6 +133,7 @@
         fetchAllCategoryData: fetchAllCategoryData,
         saveToGitHub: saveToGitHub,
         escapeHtml: escapeHtml,
+        matchesTitle: matchesTitle,
     };
 
     // ブラウザ(グローバル公開) / Node(require経由のテスト等)の両方に対応
