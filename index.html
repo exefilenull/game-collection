@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>ゲームコレクション</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/data-store.js"></script>
     <style>
         body {
             color:cornsilk;
@@ -71,6 +72,13 @@
 <body>
     <h1>ゲームコレクション</h1>
 
+    <div class="search-container" id="search-controls">
+        <label for="search-keyword-input">タイトル検索:</label>
+        <input type="text" id="search-keyword-input" placeholder="タイトルの一部を入力">
+    </div>
+
+    <div id="search-results" style="display:none;"></div>
+
     <div style="width:100%; max-width:1000px; margin:auto;">
         <canvas id="allChart"></canvas>
     </div>
@@ -124,6 +132,11 @@
             "Tomy": ['#99FFCC', '#ccc']        // Tomyの色
         };
 
+        // 全ハード横断検索の対象データ(タイトル・所属ハード名・所属カテゴリ名の配列)。
+        // ページ読み込み時に既存のPromise.all(fetch...)完了後、1度だけ構築される。
+        // 検索入力欄への結果描画・イベント配線は別タスク(2.2)で行う。
+        let searchIndex = [];
+
         document.addEventListener("DOMContentLoaded", () => {
             const jsonFiles = [
                 'data/1_nintendo.json', 
@@ -150,9 +163,31 @@
                     // カテゴリ毎データ
                     const combinedData = mergeData(jsonDataArray);
                     displayCharts(combinedData, allData.totalCount);
+
+                    // 全ハード横断検索の対象データを構築(検索入力への配線は2.2で行う)
+                    searchIndex = buildSearchIndex(jsonDataArray);
                 })
                 .catch(error => console.error('Error loading JSON:', error));
         });
+
+        // 検索対象データ(タイトル・所属ハード名・所属カテゴリ名)のフラット配列を構築する
+        function buildSearchIndex(jsonDataArray) {
+            const entries = [];
+
+            jsonDataArray.forEach(data => {
+                Object.entries(data.hardware_name).forEach(([hardwareName, games]) => {
+                    games.forEach(game => {
+                        entries.push({
+                            title: game.soft_title,
+                            hardware: hardwareName,
+                            category: data.category
+                        });
+                    });
+                });
+            });
+
+            return entries;
+        }
 
         // 全体集計
         function calculateAll(jsonDataArray) {
