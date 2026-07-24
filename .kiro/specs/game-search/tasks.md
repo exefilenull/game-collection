@@ -45,7 +45,7 @@
   - _Boundary: IndexPage_
   - _Depends: 2.1, 2.2_
 
-- [ ] 4.2 (P) ハード内検索の受け入れシナリオ実行と既存機能の回帰確認を行う
+- [x] 4.2 (P) ハード内検索の受け入れシナリオ実行と既存機能の回帰確認を行う
   - design.mdのTesting Strategyに列挙されたハード内検索の全シナリオ(UI表示、リアルタイム絞り込み、該当なし表示、空欄時の挙動、既存絞り込み有効時の操作可否)を実行する
   - 既存の収集状況(新品/中古)・収集不要・クリア済み・お気に入りの表示編集・並び替え・絞り込みと「GitHubに保存」ボタンの活性化条件・保存対象データが変更前と同じ挙動であることを回帰確認する
   - ブラウザのdevtoolsのネットワークタブで、検索操作時に`data/*.json`以外の追加リクエストが発生しないことを確認する
@@ -58,3 +58,6 @@
 ## Implementation Notes
 - 本プロジェクトには`package.json`・テストランナーが存在しないため、各タスクの検証は`node --check`によるJS構文確認とブラウザでの手動確認シナリオ(design.mdのTesting Strategy参照)で行う。
 - 2.xグループ(index.html)と3.xグループ(hardware_detail.html)は編集対象ファイルが異なり、いずれも1.1完了後は互いに独立して着手できるため、2.1と3.1を並行タスクとしている。ただし各グループ内の2.1→2.2、3.1→3.2はそれぞれ同一ファイルを対象とする逐次タスクである。
+- 4.1/4.2の受け入れシナリオ検証は、ブラウザ自動化ツールが利用できない環境のため、実際のindex.html/hardware_detail.htmlのインラインscriptをNodeの`vm.runInContext`で実行し、実データ(data/*.json)・実DataStoreModuleに対して検証する手法で行った(使い捨てのハーネスファイルはリポジトリ外の一時領域に作成し、検証後に破棄。本番ファイルへの変更は無し)。
+- 4.1検証で発見(未修正、本specのスコープ外): `data/1_nintendo.json`(1件)・`data/5_microsoft.json`(1件)・`data/8_sie.json`(12件)に`soft_title`キーが不正な形式(コロン付きキー名等)になっているレコードが計14件存在する。`matchesTitle`/`escapeHtml`のnullガードにより検索・表示ともクラッシュはしないが、データ内容自体の不備であり`data/*.json`のスキーマ変更を伴わない本specのBoundary外。将来的なデータクリーンアップ候補として記録のみ。
+- 4.2検証で確認: `markChanged()`は`collected_new`/`collected_old`の変更を検知しない(GitHub保存ボタンが収集状況のみの変更では活性化されない)という既存の未修正課題が引き続き存在するが、これは本spec(game-search)が原因ではなく、`roadmap.md` Phase 3の別項目(`github-save-collection-status-fix`、直接実装候補・未着手)として既に切り出し済みの既知事項であることをgit履歴から確認した。
