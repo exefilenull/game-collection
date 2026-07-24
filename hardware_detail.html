@@ -277,6 +277,7 @@
         const filterClearedSelect = document.getElementById('filter-cleared-select');
         const filterDontCollectCheckbox = document.getElementById('filter-dontcollect-checkbox');
         const filterFavoriteCheckbox = document.getElementById('filter-favorite-checkbox');
+        const searchKeywordInput = document.getElementById('search-keyword-input');
 
         if (saveBtn) saveBtn.disabled = true;
 
@@ -339,11 +340,19 @@
             });
         }
 
-        // currentGames(真実の源)から絞り込み→並び替え済みのビューを生成してテーブルを再描画する
+        // 検索キーワード入力欄の値でタイトル部分一致絞り込みを行う(絞り込み→検索→並び替えの順、design.md参照)。
+        // 検索キーワードはPreferenceStoreに保存せず、入力要素の値を都度読み取るだけのモジュールスコープ処理とする(3.5)
+        function applySearch(games) {
+            const query = searchKeywordInput ? searchKeywordInput.value : '';
+            return games.filter(game => DataStoreModule.matchesTitle(game.soft_title, query));
+        }
+
+        // currentGames(真実の源)から絞り込み→検索→並び替え済みのビューを生成してテーブルを再描画する
         // (イベントもdisplayTable内で再バインドされる)。currentGames自体は変更しない
         function renderView() {
             const filteredView = applyFilters(currentGames);
-            const view = applySort(filteredView);
+            const searchedView = applySearch(filteredView);
+            const view = applySort(searchedView);
 
             displayTable(view);
 
@@ -380,6 +389,12 @@
         if (filterClearedSelect) filterClearedSelect.addEventListener('change', handlePreferenceControlChange);
         if (filterDontCollectCheckbox) filterDontCollectCheckbox.addEventListener('change', handlePreferenceControlChange);
         if (filterFavoriteCheckbox) filterFavoriteCheckbox.addEventListener('change', handlePreferenceControlChange);
+
+        // 検索欄はrenderView()のみを呼び、handlePreferenceControlChange()(PreferenceStore.saveを伴う)は呼ばない(3.5)。
+        // 既存の絞り込みコントロールの状態に関わらず常に操作可能(無効化ロジックを追加しない、2.7)
+        if (searchKeywordInput) searchKeywordInput.addEventListener('input', () => {
+            renderView();
+        });
 
         document.addEventListener("DOMContentLoaded", () => {
             if (!hardwareName) {
