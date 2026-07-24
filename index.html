@@ -134,8 +134,11 @@
 
         // 全ハード横断検索の対象データ(タイトル・所属ハード名・所属カテゴリ名の配列)。
         // ページ読み込み時に既存のPromise.all(fetch...)完了後、1度だけ構築される。
-        // 検索入力欄への結果描画・イベント配線は別タスク(2.2)で行う。
         let searchIndex = [];
+
+        // 現在の検索キーワード(メモリ上の変数にのみ保持し、ブラウザストレージには
+        // 書き込まない。リロードで破棄される。Requirements: 3.4)
+        let currentQuery = '';
 
         document.addEventListener("DOMContentLoaded", () => {
             const jsonFiles = [
@@ -164,11 +167,56 @@
                     const combinedData = mergeData(jsonDataArray);
                     displayCharts(combinedData, allData.totalCount);
 
-                    // 全ハード横断検索の対象データを構築(検索入力への配線は2.2で行う)
+                    // 全ハード横断検索の対象データを構築
                     searchIndex = buildSearchIndex(jsonDataArray);
                 })
                 .catch(error => console.error('Error loading JSON:', error));
+
+            // 検索キーワード入力欄の配線
+            const searchKeywordInput = document.getElementById('search-keyword-input');
+            searchKeywordInput.addEventListener('input', (event) => {
+                currentQuery = event.target.value;
+                renderSearchResults(currentQuery);
+            });
         });
+
+        // 検索キーワードによる絞り込み結果を計算する純粋関数。
+        // クエリが空文字列の場合はDataStoreModule.matchesTitleを呼ばずに
+        // 「結果一覧を表示しない」ことを表すshow:falseを返す
+        // (research.mdのDesign Decision「matchesTitleの空クエリ時の挙動」参照)。
+        function computeSearchResults(entries, query) {
+            if (query === '') {
+                return { show: false, matches: [] };
+            }
+            const matches = entries.filter(entry => DataStoreModule.matchesTitle(entry.title, query));
+            return { show: true, matches: matches };
+        }
+
+        // 検索結果一覧のHTML文字列を構築する。
+        // タイトル・ハード名・カテゴリ名にはDataStoreModule.escapeHtmlを必ず適用し、
+        // XSSを防止する(design.md Implementation Notes / research.md Risks参照)。
+        function renderSearchResultsHtml(result) {
+            if (!result.show) {
+                return '';
+            }
+            if (result.matches.length === 0) {
+                return '<p>該当するゲームがありません</p>';
+            }
+            return result.matches.map(entry => {
+                // 既存のグラフラベル生成(displayCharts内)と同じリンク規約を再利用する
+                const href = `hardware_detail.html?category=${encodeURIComponent(entry.category)}&hardware=${encodeURIComponent(entry.hardware)}`;
+                return `<p><a href="${href}">${DataStoreModule.escapeHtml(entry.title)}</a>`
+                    + `　(${DataStoreModule.escapeHtml(entry.hardware)} / ${DataStoreModule.escapeHtml(entry.category)})</p>`;
+            }).join('');
+        }
+
+        // 検索結果一覧のDOM描画(表示/非表示の切り替えとinnerHTML再構築)を行う
+        function renderSearchResults(query) {
+            const result = computeSearchResults(searchIndex, query);
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.style.display = result.show ? '' : 'none';
+            resultsContainer.innerHTML = renderSearchResultsHtml(result);
+        }
 
         // 検索対象データ(タイトル・所属ハード名・所属カテゴリ名)のフラット配列を構築する
         function buildSearchIndex(jsonDataArray) {
